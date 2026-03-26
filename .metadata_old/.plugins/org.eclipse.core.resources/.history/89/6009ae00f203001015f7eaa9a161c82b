@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="CourseReport" pageWidth="842" pageHeight="595" columnWidth="782" leftMargin="30" rightMargin="30" topMargin="30" bottomMargin="30" uuid="6058253f-288e-45ce-82b8-25863c47c5db">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="treinamento"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="566"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="420"/>
+	<style name="HeaderFont" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="ContentFont" fontName="Arial" fontSize="10"/>
+	<parameter name="CourseTitle" class="java.lang.String"/>
+	<parameter name="CargaHoraria" class="java.lang.String"/>
+	<parameter name="Registro" class="java.lang.String"/>
+	<parameter name="Validade" class="java.lang.String"/>
+	<queryString language="JSON">
+		<![CDATA[Posgrad.Disciplinas]]>
+	</queryString>
+	<field name="Disciplina" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Disciplina"/>
+		<fieldDescription><![CDATA[Disciplina]]></fieldDescription>
+	</field>
+	<field name="Professor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Professor"/>
+		<fieldDescription><![CDATA[Professor]]></fieldDescription>
+	</field>
+	<field name="Titulacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Titulacao"/>
+		<fieldDescription><![CDATA[Titulacao]]></fieldDescription>
+	</field>
+	<field name="Carga" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="Carga"/>
+		<fieldDescription><![CDATA[Carga]]></fieldDescription>
+	</field>
+	<field name="Frequencia" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Frequencia"/>
+		<fieldDescription><![CDATA[Frequencia]]></fieldDescription>
+	</field>
+	<field name="Conceito" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Conceito"/>
+		<fieldDescription><![CDATA[Conceito]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="30">
+			<staticText>
+				<reportElement x="0" y="0" width="250" height="20" uuid="69dfc0c4-fec3-4b5f-81d5-52896d124317"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Disciplina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="260" y="0" width="60" height="20" uuid="86655552-7b09-43b6-b21b-5b316a7da3c7"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Carga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="0" width="60" height="20" uuid="f29267f0-7049-46fb-a8da-3b8e2dbb7351"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nota]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="0" width="200" height="20" uuid="51d6c3eb-8b0d-4a3e-8b94-2b092f528a32"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Professor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="610" y="0" width="150" height="20" uuid="5396527d-4d2f-4c8e-8c2a-28a7180f7174"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Titulação]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25">
+			<textField>
+				<reportElement x="0" y="0" width="250" height="20" uuid="cd1d4606-b8a9-40c8-aa15-f75189cd4101"/>
+				<textFieldExpression><![CDATA[$F{Disciplina}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="0" width="60" height="20" uuid="eb2e6249-9d97-404b-982e-8a4f4998ad05"/>
+			</textField>
+			<textField>
+				<reportElement x="330" y="0" width="60" height="20" uuid="932bf802-7777-435d-8495-94bd5b346d93"/>
+			</textField>
+			<textField>
+				<reportElement x="400" y="0" width="200" height="20" uuid="13ecc2b9-b14e-4bef-87bf-88c6b69379b9"/>
+			</textField>
+			<textField>
+				<reportElement x="610" y="0" width="150" height="20" uuid="a191d189-5346-4ebe-a6a3-c3742946e8b7"/>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="50">
+			<staticText>
+				<reportElement x="0" y="10" width="782" height="20" uuid="4630b346-97d8-42fd-afbc-4d84e634628f"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Certificado registrado sob nº $P{Registro}]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="782" height="20" uuid="531ec4b0-7a65-4f70-b330-f79697bf7cab"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Curso reconhecido conforme $P{Validade}]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

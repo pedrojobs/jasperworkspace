@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="disciplinas" pageWidth="555" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ea6dcef6-0b15-4631-becd-1b7c4dcb0868">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Local - JSON"/>
+	<queryString language="JSON">
+		<![CDATA[Extras.Disciplina.Disciplina]]>
+	</queryString>
+	<field name="CodigoDisciplina" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CodigoDisciplina"/>
+		<fieldDescription><![CDATA[CodigoDisciplina]]></fieldDescription>
+	</field>
+	<field name="NomeDisciplina" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NomeDisciplina"/>
+		<fieldDescription><![CDATA[NomeDisciplina]]></fieldDescription>
+	</field>
+	<field name="PeriodoLetivo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="PeriodoLetivo"/>
+		<fieldDescription><![CDATA[PeriodoLetivo]]></fieldDescription>
+	</field>
+	<field name="AnoLetivo" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="AnoLetivo"/>
+		<fieldDescription><![CDATA[AnoLetivo]]></fieldDescription>
+	</field>
+	<field name="SemestreLetivo" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="SemestreLetivo"/>
+		<fieldDescription><![CDATA[SemestreLetivo]]></fieldDescription>
+	</field>
+	<field name="CargaHorariaHoraAula" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CargaHoraria.CargaHoraria.HoraAula"/>
+		<fieldDescription><![CDATA[CargaHoraria]]></fieldDescription>
+	</field>
+	<field name="CargaHorariaHoraRelogio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CargaHoraria.CargaHoraria.HoraRelogio"/>
+		<fieldDescription><![CDATA[CargaHorariaHoraRelogio]]></fieldDescription>
+	</field>
+	<field name="Nota" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Nota"/>
+		<fieldDescription><![CDATA[Nota]]></fieldDescription>
+	</field>
+	<field name="NotaAteCem" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NotaAteCem"/>
+		<fieldDescription><![CDATA[NotaAteCem]]></fieldDescription>
+	</field>
+	<field name="Conceito" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Conceito"/>
+		<fieldDescription><![CDATA[Conceito]]></fieldDescription>
+	</field>
+	<field name="ConceitoRM" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ConceitoRM"/>
+		<fieldDescription><![CDATA[ConceitoRM]]></fieldDescription>
+	</field>
+	<field name="ConceitoEspecificoDoCurso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ConceitoEspecificoDoCurso"/>
+		<fieldDescription><![CDATA[ConceitoEspecificoDoCurso]]></fieldDescription>
+	</field>
+	<field name="AprovadoFormaIntegralizacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Aprovado.FormaIntegralizacao"/>
+		<fieldDescription><![CDATA[Aprovado.FormaIntegralizacao]]></fieldDescription>
+	</field>
+	<field name="AprovadoOutraFormaIntegralizacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Aprovado.OutraFormaIntegralizacao"/>
+		<fieldDescription><![CDATA[Aprovado.OutraFormaIntegralizacao]]></fieldDescription>
+	</field>
+	<field name="Pendente" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Pendente"/>
+		<fieldDescription><![CDATA[Pendente]]></fieldDescription>
+	</field>
+	<field name="Reprovado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Reprovado"/>
+		<fieldDescription><![CDATA[Reprovado]]></fieldDescription>
+	</field>
+	<field name="Docentes" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Docentes"/>
+		<fieldDescription><![CDATA[Docentes]]></fieldDescription>
+	</field>
+	<field name="ContadorSemestre" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ContadorSemestre"/>
+		<fieldDescription><![CDATA[ContadorSemestre]]></fieldDescription>
+	</field>
+	<variable name="groupCount" class="java.lang.Integer" incrementType="Group" incrementGroup="Periodo" calculation="Count">
+		<variableExpression><![CDATA[$V{groupCount} +1]]></variableExpression>
+		<initialValueExpression><![CDATA[1]]></initialValueExpression>
+	</variable>
+	<variable name="Variable_1" class="java.lang.Integer">
+		<variableExpression><![CDATA[$V{groupCount} + 1]]></variableExpression>
+		<initialValueExpression><![CDATA[1]]></initialValueExpression>
+	</variable>
+	<group name="Periodo" isReprintHeaderOnEachPage="true" keepTogether="true">
+		<groupExpression><![CDATA[$F{PeriodoLetivo}]]></groupExpression>
+		<groupHeader>
+			<band height="21">
+				<textField>
+					<reportElement key="" mode="Transparent" x="0" y="0" width="319" height="20" backcolor="#E6E6E6" uuid="3739f65d-f825-42e9-b873-fad2eb541e78">
+						<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+						<paragraph firstLineIndent="5"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Disciplinas da "+$F{SemestreLetivo}+ "° Série"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="319" y="0" width="69" height="20" uuid="ad2e451b-fc74-4c23-83de-c76e42c3be8a"/>
+					<box>
+						<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Período Letivo	]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="388" y="0" width="51" height="20" uuid="440b1ca0-d89b-4885-8224-537d31ac150f"/>
+					<box>
+						<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Nota]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="439" y="0" width="40" height="20" uuid="f99aa3b9-36c8-4fe2-b5c9-a77b6fd35cfe"/>
+					<box>
+						<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Carga Horaria]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="479" y="0" width="76" height="20" uuid="15ea12e0-7c78-4c40-93c2-3ab7713f4e7c"/>
+					<box>
+						<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Situação]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<detail>
+		<band height="18" splitType="Prevent">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="0" y="0" width="90" height="15" uuid="3c8ccb42-03af-408e-a9c2-2800d79c078c">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="7"/>
+					<paragraph firstLineIndent="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CodigoDisciplina}+" - "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="90" y="0" width="229" height="15" uuid="8649b749-4cb1-4526-98ab-1924e9864813"/>
+				<box topPadding="0" leftPadding="5">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NomeDisciplina}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="439" y="0" width="40" height="15" uuid="c4cc3afb-43ad-4332-b18e-a6a6a380daa6"/>
+				<box padding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[!$F{CargaHorariaHoraAula}.replaceAll("[^\\d.,]", "").isEmpty() ? 
+    $F{CargaHorariaHoraAula}.replaceAll("[^\\d.,]", "").replaceAll("\\.", ",") : 
+!$F{CargaHorariaHoraRelogio}.replaceAll("[^\\d.,]", "").isEmpty() ? 
+    $F{CargaHorariaHoraRelogio}.replaceAll("[^\\d.,]", "").replaceAll("\\.", ",") : 
+""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="479" y="0" width="76" height="15" uuid="4f71cbfd-11e8-4089-8b9a-f3b68cf31210"/>
+				<box padding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{AprovadoFormaIntegralizacao} != null ? $F{AprovadoFormaIntegralizacao} : $F{AprovadoOutraFormaIntegralizacao} != null ? $F{AprovadoOutraFormaIntegralizacao} : $F{Pendente} != null ? "Pendente" : $F{Reprovado} != null ? "Reprovado" : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="388" y="0" width="51" height="15" uuid="613a7191-a961-49fc-9dcc-240023b45ada"/>
+				<box padding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nota} != null ? String.format($F{Nota}).replace('.', ',') :
+$F{NotaAteCem} != null ? String.format($F{NotaAteCem}).replace('.', ',') :
+$F{Conceito} != null ? $F{Conceito} :
+$F{ConceitoRM} != null ? $F{ConceitoRM} :
+$F{ConceitoEspecificoDoCurso} != null ? $F{ConceitoEspecificoDoCurso} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="319" y="0" width="69" height="15" uuid="34abb52a-7659-4904-8ea2-253ee6605003"/>
+				<box padding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PeriodoLetivo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

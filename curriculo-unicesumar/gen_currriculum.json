@@ -1,0 +1,1086 @@
+{
+    "Modelo": "Unicesumar",
+    "CodigoCurriculo": "14",
+    "DataCurriculo": "2025-09-25",
+    "MinutosRelogioDaHoraAula": "60",
+    "DadosCurso": {
+      "NomeCurso": "Matemática",
+      "CodigoCursoEMEC": "1292570",
+      "Habilitacao": [
+        {
+          "Habilitacao": {
+            "NomeHabilitacao": "Licenciatura em Matematica",
+            "DataHabilitacao": "2018-09-28"
+          }
+        }
+      ],
+      "Autorizacao": {
+        "Tipo": "Resolução",
+        "Numero": "22",
+        "Data": "2018-09-28",
+        "VeiculoPublicacao": "",
+        "DataPublicacao": "2013-09-05",
+        "SecaoPublicacao": "",
+        "PaginaPublicacao": "",
+        "NumeroDOU": "",
+        "InformacoesTramitacaoEMEC": {
+          "NumeroProcesso": "",
+          "TipoProcesso": "",
+          "DataCadastro": "",
+          "DataProtocolo": ""
+        }
+      },
+      "Reconhecimento": {
+        "Tipo": "Portaria",
+        "Numero": "92",
+        "Data": "2023-10-26",
+        "VeiculoPublicacao": "",
+        "DataPublicacao": "2017-02-14",
+        "SecaoPublicacao": "",
+        "PaginaPublicacao": "",
+        "NumeroDOU": "",
+        "InformacoesTramitacaoEMEC": {
+          "NumeroProcesso": "",
+          "TipoProcesso": "",
+          "DataCadastro": "",
+          "DataProtocolo": ""
+        }
+      },
+      "RenovacaoReconhecimento": {
+        "Tipo": "Portaria",
+        "Numero": "155",
+        "Data": "2023-06-21",
+        "VeiculoPublicacao": "DOU",
+        "DataPublicacao": "2023-06-22",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "237",
+        "NumeroDOU": "117",
+        "InformacoesTramitacaoEMEC": {
+          "NumeroProcesso": "",
+          "TipoProcesso": "",
+          "DataCadastro": "",
+          "DataProtocolo": ""
+        }
+      }
+    },
+    "IesEmissora": {
+      "Nome": "UNIVERSIDADE CESUMAR - UNICESUMAR",
+      "CodigoMEC": "1196",
+      "CNPJ": "79265617000199",
+      "Endereco": {
+        "Logradouro": "AVENIDA GUEDNER",
+        "Numero": "1610",
+        "Complemento": "",
+        "Bairro": "JARDIM ACLIMACAO",
+        "CodigoMunicipio": "4115200",
+        "NomeMunicipio": "Maringá",
+        "UF": "PR",
+        "CEP": "87050900"
+      },
+      "Credenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "367",
+        "Data": "2020-03-27",
+        "VeiculoPublicacao": "",
+        "DataPublicacao": "2020-03-31",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "51",
+        "NumeroDOU": "62"
+      },
+      "Recredenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "367",
+        "Data": "2020-03-27",
+        "VeiculoPublicacao": "",
+        "DataPublicacao": "2020-03-31",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "51",
+        "NumeroDOU": "62",
+        "InformacoesTramitacaoEMEC": {
+          "NumeroProcesso": "",
+          "TipoProcesso": "",
+          "DataCadastro": "",
+          "DataProtocolo": ""
+        }
+      },
+      "RenovacaoDeRecredenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "367",
+        "Data": "2020-03-27",
+        "VeiculoPublicacao": "",
+        "DataPublicacao": "2020-03-31",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "51",
+        "NumeroDOU": "62",
+        "InformacoesTramitacaoEMEC": {
+          "NumeroProcesso": "",
+          "TipoProcesso": "",
+          "DataCadastro": "",
+          "DataProtocolo": ""
+        }
+      },
+      "Mantenedora": {
+        "RazaoSocial": "VITRU BRASIL EMPREENDIMENTOS, PARTICIPAÇÕES E COMÉRCIO S.A",
+        "CNPJ": "20512706000140",
+        "Endereco": {
+          "Logradouro": "RODOVIA JOSÉ CARLOS DAUX",
+          "Numero": "5500",
+          "Complemento": "",
+          "Bairro": "SACO GRANDE",
+          "CodigoMunicipio": "4205407",
+          "NomeMunicipio": "Florianópolis",
+          "UF": "SC",
+          "CEP": "88032005"
+        }
+      }
+    },
+    "Etiquetas": [
+      {
+        "Codigo": "ob",
+        "Nome": "Obrigatória",
+        "AplicadoAutomaticamenteUnidadesNaoPertencentesAoCurriculo": "Sim"
+      },
+      {
+        "Codigo": "op",
+        "Nome": "Optativa"
+      },
+      {
+        "Codigo": "extra",
+        "Nome": "Extracurricular",
+        "AplicadoAutomaticamenteUnidadesNaoPertencentesAoCurriculo": "Sim"
+      }
+    ],
+    "Areas": [],
+    "EstruturaCurricular": [
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER020-003",
+        "Nome": "GO - PROJETO DE VIDA",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Ementa": "",
+        "Fase": "1",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-042",
+        "Nome": "FUNDAMENTOS SOCIOLÓGICOS E ANTROPOLÓGICOS DA EDUCAÇÃO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "1",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-043",
+        "Nome": "POLÍTICAS EDUCACIONAIS E ORGANIZAÇÃO DA EDUCAÇÃO BÁSICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "1",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER020-004",
+        "Nome": "GO -  IDENTIFICAÇÃO DE OPORTUNIDADES",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Ementa": "",
+        "Fase": "2",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-044",
+        "Nome": "FUNDAMENTOS HISTÓRICOS E FILOSÓFICOS DA EDUCAÇÃO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "2",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-045",
+        "Nome": "DIDÁTICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "2",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-001",
+        "Nome": "INTRODUÇÃO AO CÁLCULO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "3",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER020-005",
+        "Nome": "GO -  PREPARAÇÃO PARA OPORTUNIDADES",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Ementa": "",
+        "Fase": "3",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-058",
+        "Nome": "PRÁTICA DE ENSINO: CONCEPÇÃO E ORGANIZAÇÃO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "3",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-002",
+        "Nome": "PRÉ-CÁLCULO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "4",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-003",
+        "Nome": "ÁLGEBRA LINEAR E VETORIAL",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "4",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER020-006",
+        "Nome": "GO -  OPORTUNIDADES E RESULTADOS",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "4",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-004",
+        "Nome": "HISTÓRIA DA MATEMÁTICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "5",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-046",
+        "Nome": "PSICOLOGIA DA EDUCAÇÃO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "5",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-052",
+        "Nome": "FORMAÇÃO SOCIOCULTURAL E ÉTICA I",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "5",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-005",
+        "Nome": "GEOMETRIA COM CONSTRUÇÕES GEOMÉTRICAS",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "6",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-006",
+        "Nome": "GEOMETRIA ANALÍTICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "6",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-053",
+        "Nome": "FORMAÇÃO SOCIOCULTURAL E ÉTICA II",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "6",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-007",
+        "Nome": "PRÁTICA DE ENSINO: NOVAS TECNOLOGIAS E JOGOS DIDÁTICOS",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "7",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-008",
+        "Nome": "LÓGICA MATEMÁTICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "7",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-009",
+        "Nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "8",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-010",
+        "Nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "8",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Estágio",
+        "Codigo": "EGRAD-MAT100-020",
+        "Nome": "ESTÁGIO SUPERVISIONADO: CONCEPÇÃO E ORGANIZAÇÃO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "8",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-012",
+        "Nome": "ESTATÍSTICA E PROBABILIDADE",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "9",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Estágio",
+        "Codigo": "EGRAD-MAT100-013",
+        "Nome": "ESTÁGIO SUPERVISIONADO: ENSINO FUNDAMENTAL",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "9",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-017",
+        "Nome": "PRÁTICA DE ENSINO: ETNOMATEMÁTICA E HISTÓRIA DA MATEMÁTICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "9",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-015",
+        "Nome": "PRÁTICA DE ENSINO: MODELAGEM MATEMÁTICA E RESOLUÇÃO DE PROBLEMAS",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "10",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-NGER100-057",
+        "Nome": "LIBRAS",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "10",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Estágio",
+        "Codigo": "EGRAD-NGER100-060",
+        "Nome": "ESTÁGIO SUPERVISIONADO: ENSINO MÉDIO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "10",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-016",
+        "Nome": "ANÁLISE MATEMÁTICA",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "11",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Estágio",
+        "Codigo": "EGRAD-MAT100-018",
+        "Nome": "ESTÁGIO SUPERVISIONADO: PROJETO NO ENSINO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "11",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-019",
+        "Nome": "CÁLCULO DIFERENCIAL E INTEGRAL III",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "11",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-011",
+        "Nome": "CÁLCULO NUMÉRICO",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "12",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-MAT100-014",
+        "Nome": "ESTRUTURAS ALGÉBRICAS",
+        "CargaHorariaEmHoraAula": "100",
+        "CargaHorariaEmHoraRelogio": "100",
+        "Ementa": "",
+        "Fase": "12",
+        "Equivalencias": "",
+        "PreRequisitos": "",
+        "Etiquetas": [
+          {
+            "Codigo": "ob",
+            "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+          }
+        ],
+        "Areas": []
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-DTR020-006",
+        "Nome": "ESTUDO CONTEMPORÂNEO E TRANSVERSAL: ADMINISTRAÇÃO DE CONFLITO",
+        "Fase": "Rol de Disciplinas Optativas",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Etiquetas": [
+          {
+            "Codigo": "op",
+            "CargaHorariaEmHoraAula": "20",
+            "CargaHorariaEmHoraRelogio": "20"
+          }
+        ]
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-DTR020-002",
+        "Nome": "ESTUDO CONTEMPORÂNEO E TRANSVERSAL: INDÚSTRIA E TRANSFORMAÇÃO DIGITAL",
+        "Fase": "Rol de Disciplinas Optativas",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Etiquetas": [
+          {
+            "Codigo": "op",
+            "CargaHorariaEmHoraAula": "20",
+            "CargaHorariaEmHoraRelogio": "20"
+          }
+        ]
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-DTR020-001",
+        "Nome": "ESTUDO CONTEMPORÂNEO E TRANSVERSAL: INOVAÇÃO E PENSAMENTO CRIATIVO",
+        "Fase": "Rol de Disciplinas Optativas",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Etiquetas": [
+          {
+            "Codigo": "op",
+            "CargaHorariaEmHoraAula": "20",
+            "CargaHorariaEmHoraRelogio": "20"
+          }
+        ]
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-DTR020-005",
+        "Nome": "ESTUDO CONTEMPORÂNEO E TRANSVERSAL: INTELIGÊNCIA EMOCIONAL",
+        "Fase": "Rol de Disciplinas Optativas",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Etiquetas": [
+          {
+            "Codigo": "op",
+            "CargaHorariaEmHoraAula": "20",
+            "CargaHorariaEmHoraRelogio": "20"
+          }
+        ]
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-DTR020-003",
+        "Nome": "ESTUDO CONTEMPORÂNEO E TRANSVERSAL: LEITURA DE IMAGENS, GRÁFICOS E MAPAS",
+        "Fase": "Rol de Disciplinas Optativas",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Etiquetas": [
+          {
+            "Codigo": "op",
+            "CargaHorariaEmHoraAula": "20",
+            "CargaHorariaEmHoraRelogio": "20"
+          }
+        ]
+      },
+      {
+        "Tipo": "Disciplina",
+        "Codigo": "EGRAD-DTR020-004",
+        "Nome": "ESTUDO CONTEMPORÂNEO E TRANSVERSAL: PROPRIEDADE INTELECTUAL",
+        "Fase": "Rol de Disciplinas Optativas",
+        "CargaHorariaEmHoraAula": "20",
+        "CargaHorariaEmHoraRelogio": "20",
+        "Etiquetas": [
+          {
+            "Codigo": "op",
+            "CargaHorariaEmHoraAula": "20",
+            "CargaHorariaEmHoraRelogio": "20"
+          }
+        ]
+      },
+      {
+        "Tipo": "Atividade Complementar",
+        "Codigo": "ACO",
+        "Nome": "Atividade Complementar",
+        "CargaHorariaEmHoraRelogio": "200"
+      }
+    ],
+    "EstruturaAtividadesComplementares": [
+      {
+        "Codigo": "Ensino",
+        "Nome": "Atividades de Ensino",
+        "LimiteCargaHorariaEmHoraRelogio": "200",
+        "Atividades": [
+          {
+            "Codigo": "100000",
+            "Nome": "Atividades de bolsista/estágios não obrigatórios sejam remunerados ou não.",
+            "Descricao": "Atividades de bolsista/estágios não obrigatórios sejam remunerados ou não",
+            "LimiteCargaHorariaEmHoraRelogio": "60"
+          },
+          {
+            "Codigo": "100001",
+            "Nome": "Visitas técnicas, saídas a campo.",
+            "Descricao": "Visitas técnicas, saídas a campo",
+            "LimiteCargaHorariaEmHoraRelogio": "15"
+          },
+          {
+            "Codigo": "100002",
+            "Nome": "Participação em projetos de iniciação científica.",
+            "Descricao": "Participação em projetos de iniciação científica",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100003",
+            "Nome": "Participação em grupo de estudo para aprofundamento de temática específica.",
+            "Descricao": "Participação em grupo de estudo para aprofundamento de temática específica, orientado e acompanhado por tutor externo/docente",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100004",
+            "Nome": "Participação em projetos de extensão, de assistência e/ou atendimento, abertos à comunidade.",
+            "Descricao": "Participação em projetos de extensão, de assistência e/ou atendimento, abertos à comunidade",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100005",
+            "Nome": "Exercício de cargos de representação estudantil ou comunitário.",
+            "Descricao": "Exercício de cargos de representação estudantil ou comunitário",
+            "LimiteCargaHorariaEmHoraRelogio": "10"
+          },
+          {
+            "Codigo": "100006",
+            "Nome": "Realização de estágio não obrigatório.",
+            "Descricao": "Realização de estágio não obrigatório",
+            "LimiteCargaHorariaEmHoraRelogio": "60"
+          },
+          {
+            "Codigo": "100007",
+            "Nome": "Participação em feira, na qualidade de expositor.",
+            "Descricao": "Participação em feira, na qualidade de expositor",
+            "LimiteCargaHorariaEmHoraRelogio": "10"
+          },
+          {
+            "Codigo": "100008",
+            "Nome": "Participação em eventos (exemplos: seminários, congressos, palestras, semanas temáticas... ).",
+            "Descricao": "Participação em eventos (exemplos: seminários, congressos, palestras, semanas temáticas, semana universitária, conferência, jornada, fórum, etc. )",
+            "LimiteCargaHorariaEmHoraRelogio": "35"
+          },
+          {
+            "Codigo": "100009",
+            "Nome": "Oficinas.",
+            "Descricao": "Oficinas",
+            "LimiteCargaHorariaEmHoraRelogio": "35"
+          },
+          {
+            "Codigo": "100010",
+            "Nome": "Participação regular em cursos de formação continuada na área de formação (Licenciaturas).",
+            "Descricao": "Participação regular em cursos de formação continuada na área de formação (Licenciaturas)",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100011",
+            "Nome": "Participação regular em cursos de formação continuada (Bacharelados, Tecnólogos e Pedagogia).",
+            "Descricao": "Participação regular em cursos de formação continuada na área de formação (Bacharelados, Tecnólogos e Pedagogia)",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100012",
+            "Nome": "Participação regular em cursos de formação complementar e afins.",
+            "Descricao": "Participação regular em cursos de formação complementar e afins",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100013",
+            "Nome": "Idioma ou informática.",
+            "Descricao": "Idioma ou informática",
+            "LimiteCargaHorariaEmHoraRelogio": "40"
+          },
+          {
+            "Codigo": "100014",
+            "Nome": "Ministrante de curso.",
+            "Descricao": "Ministrante de curso",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100015",
+            "Nome": "Participação na Organização de eventos na área acadêmica e afins.",
+            "Descricao": "Participação na Organização de eventos na área acadêmica e afins",
+            "LimiteCargaHorariaEmHoraRelogio": "10"
+          },
+          {
+            "Codigo": "100016",
+            "Nome": "Resumo de trabalho em evento.",
+            "Descricao": "Resumo de trabalho em evento",
+            "LimiteCargaHorariaEmHoraRelogio": "25"
+          },
+          {
+            "Codigo": "100017",
+            "Nome": "Publicação de artigo científico/acadêmico em periódico especializado, com comissão editorial.",
+            "Descricao": "Publicação de artigo científico/acadêmico em periódico especializado, com comissão editorial",
+            "LimiteCargaHorariaEmHoraRelogio": "20"
+          },
+          {
+            "Codigo": "100018",
+            "Nome": "Autoria ou coautoria.",
+            "Descricao": "Autoria ou coautoria de capítulo de livro. Apresentação oral de trabalhos, exposição de mostras e condução de oficinas",
+            "LimiteCargaHorariaEmHoraRelogio": "35"
+          },
+          {
+            "Codigo": "100019",
+            "Nome": "Outros.",
+            "Descricao": "Outros",
+            "LimiteCargaHorariaEmHoraRelogio": "60"
+          },
+          {
+            "Codigo": "100020",
+            "Nome": "Outros.",
+            "Descricao": "Outros",
+            "LimiteCargaHorariaEmHoraRelogio": "60"
+          }
+        ]
+      }
+    ],
+    "CriterioIntegralizacaoRotulos": [
+      {
+        "Codigo": "C1",
+        "UnidadeCurricular": "Disciplina",
+        "Etiqueta": [
+          "ob"
+        ],
+        "CargasHorariasCriterio": {
+          "CargaHorariaMinima": "2680",
+          "CargaHorariaMaxima": "2680",
+          "CargaHorariaParaTotal": "2680"
+        }
+      },
+      {
+        "Codigo": "C2",
+        "UnidadeCurricular": "Estágio",
+        "Etiqueta": [
+          "ob"
+        ],
+        "CargasHorariasCriterio": {
+          "CargaHorariaMinima": "400",
+          "CargaHorariaMaxima": "400",
+          "CargaHorariaParaTotal": "400"
+        }
+      },
+      {
+        "Codigo": "CACO",
+        "UnidadeCurricular": "Atividade Complementar",
+        "CargasHorariasCriterio": {
+          "CargaHorariaMinima": "200",
+          "CargaHorariaMaxima": "200",
+          "CargaHorariaParaTotal": "200"
+        }
+      }
+    ],
+    "CriterioIntegralizacaoTotal": "3280",
+    "ResponsavelCurriculo": {
+      "Nome": "Érica Rodrigues Carloto Pereira",
+      "Cargo": "Secretaria Acadêmica"
+    },
+    "UrlCurriculo": "https://www.unicesumar.edu.br/valida-diploma",
+    "Certificates": {
+      "Curriculo": [
+        {
+          "Nome": "Érica Rodrigues Carloto Pereira",
+          "CertificateHash": "202302279452d806eb3a15d317a1c21bded6551710ea9e8c7f73ddd079c1bfc508566493"
+        }
+      ],
+      "Institucional": {
+        "Nome": "Cesumar Centro de Ensino Superior de Maringa Ltda - Unicesumar",
+        "CertificateHash": "2025040196f876bea98613238b7c64def80b50e99c015ec3752752f9566b9b3dd9bc3fd2"
+      }
+    }
+  }

@@ -1,0 +1,1253 @@
+{
+  "CurriculoEscolar": {
+    "infCurriculoEscolar": {
+      "_versao": "1.05",
+      "_ambiente": "Homologação",
+      "CodigoCurriculo": "1",
+      "DataCurriculo": "2024-06-11",
+      "MinutosRelogioDaHoraAula": "50",
+      "DadosCurso": {
+        "NomeCurso": "Direito",
+        "CodigoCursoEMEC": "1425117",
+        "Habilitacao": [
+          {
+          "Habilitacao": {
+            "NomeHabilitacao": "Bacharel em Direito",
+            "DataHabilitacao": "2017-10-10"
+       }
+      }
+        ],
+        "Autorizacao": {
+          "Tipo": "Resolução",
+          "Numero": "2",
+          "Data": "2002-08-26",
+          "VeiculoPublicacao": "CONSAD/UNIT",
+          "DataPublicacao": "2002-08-26"
+        },
+        "Reconhecimento": {
+          "Tipo": "Portaria",
+          "Numero": "52",
+          "Data": "2006-05-26",
+          "VeiculoPublicacao": "DOU",
+          "DataPublicacao": "2006-05-29",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "21",
+          "NumeroDOU": "101"
+        },
+        "RenovacaoReconhecimento": {
+          "Tipo": "Portaria",
+          "Numero": "111",
+          "Data": "2021-02-04",
+          "VeiculoPublicacao": "DOU",
+          "DataPublicacao": "2021-02-05",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "136",
+          "NumeroDOU": "25"
+        }
+      },
+      "IesEmissora": {
+        "Nome": "Universidade Tiradentes",
+      "CodigoMEC": "398",
+      "CNPJ": "13013263000187",
+      "Endereco": {
+        "Logradouro": "Av. Murilo Dantas, 300",
+        "Numero": "300",
+        "Bairro": "Farolândia",
+        "CodigoMunicipio": "2800308",
+        "NomeMunicipio": "Aracaju",
+        "UF": "SE",
+        "CEP": "49032490"
+        },
+        "Credenciamento": {
+          "Tipo": "Decreto",
+          "Numero": "70818",
+          "Data": "1972-07-11",
+          "VeiculoPublicacao": "DOU",
+          "DataPublicacao": "1972-07-17",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "6065"
+        },
+        "Recredenciamento": {
+          "Tipo": "Portaria",
+          "Numero": "107",
+          "Data": "2021-02-24",
+          "VeiculoPublicacao": "DOU",
+          "DataPublicacao": "2021-02-25",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "150",
+          "NumeroDOU": "37"
+        },
+        "Mantenedora": {
+          "RazaoSocial": "Sociedade de Educação Tiradentes S.A",
+        "CNPJ": "13013263000187",
+        "Endereco": {
+          "Logradouro": "Av. Murilo Dantas, 300",
+          "Bairro": "Farolândia",
+          "CodigoMunicipio": "2800308",
+          "NomeMunicipio": "Aracaju",
+          "UF": "SE",
+          "CEP": "49032490"
+          }
+        }
+      },
+      "infEtiquetas": {
+        "Etiqueta": [
+          {
+            "Etiqueta": {
+              "Codigo": "ob",
+              "Nome": "Obrigatória"
+            }
+          },
+          {
+            "Etiqueta": {
+              "Codigo": "op",
+              "Nome": "Optativa"
+            }
+          },
+          {
+            "Etiqueta": {
+              "Codigo": "extra",
+              "Nome": "Extracurricular",
+              "AplicadoAutomaticamenteUnidadesNaoPertencentesAoCurriculo": "Sim"
+            }
+          }
+        ]
+      },
+      "infAreas": "$$$VAZIO$$$",
+      "infEstruturaCurricular": {
+        "UnidadeCurricular": [
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI02",
+              "Nome": "Bases Biológicas do Comportamento",
+              "CargaHorariaEmHoraRelogio": "33.33",
+              "Fase": "1",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI03",
+              "Nome": "Entrevista e Observação em Psicologia",
+              "CargaHorariaEmHoraRelogio": "33.33",
+              "Fase": "1",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "ob",
+                      "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+                    }
+                  }
+                ]
+              },
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "10862"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "18021"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI04",
+              "Nome": "Estatística Aplicada a Psicologia",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "1",
+             "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                     "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI05",
+              "Nome": "História da Psicologia",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "1",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                     "CargaHorariaEmHoraAula": "100",
+            "CargaHorariaEmHoraRelogio": "100"
+                    }
+                  }
+                ]
+              },
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "18020"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "EAB101",
+              "Nome": "Homem, Cultura e Sociedade",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Etiquetas": [
+                {
+                  "Codigo": "extra",
+                  "CargaHorariaEmHoraAula": "80",
+                  "CargaHorariaEmHoraRelogio": "80"
+                }
+              ],
+              "Fase": "1"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI06",
+              "Nome": "Psicologia, Ciência  e Profissão",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "1",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "10745"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI100",
+              "Nome": "Desenvolvimento Humano I",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "2"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "EAB108",
+              "Nome": "Ética, Política e Sociedade",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "2",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              },
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "12436"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "FIL16"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI101",
+              "Nome": "Neuroanatomofisiologia",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "2"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI102",
+              "Nome": "Processos Psicológicos Básicos I",
+              "CargaHorariaEmHoraRelogio": "33.33",
+              "Fase": "2","Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI103",
+              "Nome": "Psicologia e Políticas Públicas",
+              "CargaHorariaEmHoraRelogio": "33.33",
+              "Fase": "2"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI104",
+              "Nome": "Psicologia Social I",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "2"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI105",
+              "Nome": "Desenvolvimento Humano II",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "3"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI106",
+              "Nome": "Matrizes do Pensamento em Psicologia: Behaviorismo",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "3"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI107",
+              "Nome": "Medidas e Avaliação em Psicologia I",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "3"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "EAB113",
+              "Nome": "Metodologia Científica",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "3",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              },
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "11337"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "11339"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "11870"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "FIL10"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "FIL90"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI108",
+              "Nome": "Metodologia de Pesquisa Quantitativa",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "3"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI109",
+              "Nome": "Processos Psicológicos Básicos II",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "3"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI110",
+              "Nome": "Psicologia Social II",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "3"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI112",
+              "Nome": "Formação Integral em Saúde",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "4",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI12",
+              "Nome": "Psicofarmacologia",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "4"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI123",
+              "Nome": "Aconselhamento e Orientação em Psicologia",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "4"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI128",
+              "Nome": "Matrizes do Pensamento em Psicologia: Cognitivo Comportamental",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "4"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI129",
+              "Nome": "Psicologia Organizacional e do Trabalho I",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "4"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "18544",
+              "Nome": "Contexto Histórico e Filosofia da Educação",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "4"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "18027",
+              "Nome": "Análise Experimental do Comportamento",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "5",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "PSI111"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI120",
+              "Nome": "Psicologia e Comunidade",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "5"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "75448",
+              "Nome": "Psicopatologia Geral",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "5"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI134",
+              "Nome": "Psicologia e Necessidades Especiais",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "5"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI135",
+              "Nome": "Psicologia Organizacional e do Trabalho II",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "5"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "CEX141",
+              "Nome": "LIBRAS - Língua Brasileira de Sinais",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "5",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "EAB158"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI119",
+              "Nome": "Metodologia da Pesquisa Qualitativa",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "6"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "18028",
+              "Nome": "Estágio Básico I",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "6"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI127",
+              "Nome": "Ética e Profissão",
+              "CargaHorariaEmHoraRelogio": "36.67",
+              "Fase": "6",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "11116"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI136",
+              "Nome": "Teorias e Técnicas Psicoterápicas",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "6"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "105470",
+              "Nome": "Intervenções com Famílias na Contemporaneidade",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "6"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI140",
+              "Nome": "Didática",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "6",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "EDU18"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "18033",
+              "Nome": "Teorias Psicológicas: Psicanálise I",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "6"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "18036",
+              "Nome": "Teorias e Técnicas de Grupo",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "7"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "18037",
+              "Nome": "Teorias Psicológicas: Existencialismo",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "7"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "18034",
+              "Nome": "Psicologia Escolar e Educacional",
+              "CargaHorariaEmHoraRelogio": "55",
+              "Fase": "7"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "PSI131",
+              "Nome": "Estágio Básico II",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "7",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "10464"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "11973"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI141",
+              "Nome": "Psicologia Hospitalar",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "7"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI125",
+              "Nome": "Educação, Sociedade e Práxis Educativa",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "7"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "PSI132",
+              "Nome": "Estágio Licenciatura I",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "7"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI130",
+              "Nome": "Medidas e Avaliação em Psicologia II",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "8"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI164",
+              "Nome": "Práticas Psicopedagógicas",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "8"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "18035",
+              "Nome": "Estágio Básico III",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "8"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI154",
+              "Nome": "Orientação Profissional",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "8"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "17828",
+              "Nome": "Direitos Humanos e Cidadania",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "8",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "13168"
+                        },
+                        {
+                          "CodigoUnidadeEquivalente": "DIR155"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI133",
+              "Nome": "Políticas Públicas na Educação Básica",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "8",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "14234"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "10914",
+              "Nome": "Estágio Licenciatura II",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "8"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "104471",
+              "Nome": "Clínica Ampliada e Intervenção em Psicologia",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "9"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI143",
+              "Nome": "Diagnóstico e Intervenção em Saúde",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "9"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "PSI145",
+              "Nome": "Estágio Licenciatura III",
+              "CargaHorariaEmHoraRelogio": "66.67",
+              "Fase": "9"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "PSI146",
+              "Nome": "Estágio na Ênfase I",
+              "CargaHorariaEmHoraRelogio": "150",
+              "Fase": "9"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI14",
+              "Nome": "Medidas e Avaliação em Psicologia III",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "9"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI148",
+              "Nome": "Prática Pedagógica Interdisciplinar - Escola e Sociedade",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "9"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "17922",
+              "Nome": "Saúde Coletiva e Políticas Públicas em Saúde",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "10",
+              "Equivalencias": {
+                "UnidadesCurricularesEquivalente": [
+                  {
+                    "UnidadesCurricularesEquivalente": {
+                      "CodigoUnidadeEquivalente": [
+                        {
+                          "CodigoUnidadeEquivalente": "NUT116"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "17805",
+              "Nome": "Clínica com Crianças e Adolescentes",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "10"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "PSI152",
+              "Nome": "Estágio na Ênfase II",
+              "CargaHorariaEmHoraRelogio": "150",
+              "Fase": "10"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI150",
+              "Nome": "Educação e Tecnologias",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "10"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI155",
+              "Nome": "Tópicos Especiais em Psicologia",
+              "CargaHorariaEmHoraRelogio": "73.33",
+              "Fase": "10"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Estágio",
+              "Codigo": "PSI151",
+              "Nome": "Estágio Licenciatura IV",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "10"
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "CEX141",
+              "Nome": "LIBRAS - Língua Brasileira de Sinais",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "Rol de Disciplinas Optativas",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI158",
+              "Nome": "Psicologia Jurídica",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "Rol de Disciplinas Optativas",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI157",
+              "Nome": "Psicologia e Dependência Química",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "Rol de Disciplinas Optativas",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Disciplina",
+              "Codigo": "PSI156",
+              "Nome": "Temas Contemporâneos em Psicologia",
+              "CargaHorariaEmHoraRelogio": "50",
+              "Fase": "Rol de Disciplinas Optativas",
+              "Etiquetas": {
+                "Etiqueta": [
+                  {
+                    "Etiqueta": {
+                      "Codigo": "op",
+                      "CargaHorariaEmHoraRelogio": "50"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "UnidadeCurricular": {
+              "Tipo": "Atividade Complementar",
+              "Codigo": "ACO",
+              "Nome": "Atividade Complementar",
+              "CargaHorariaEmHoraRelogio": "83.33"
+            }
+          }
+        ]
+      },
+      "infEstruturaAtividadesComplementares": {
+        "Categoria": [
+          {
+            "Categoria": {
+              "Codigo": "Ensino",
+              "Nome": "Atividades de Ensino",
+              "LimiteCargaHorariaEmHoraRelogio": "100",
+              "Atividades": {
+                "Atividade": [
+                  {
+                    "Atividade": {
+                      "Codigo": "56",
+                      "Nome": "Atividades Laborais",
+                      "Descricao": "Atividades laborais, incluídas as de bolsistas ou estagiário, com carga horária igual ao superior a 20 horas semanais, relacionadas ao respectivo curso, com no mínimo seis meses comprovados",
+                      "LimiteCargaHorariaEmHoraRelogio": "16.67"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "57",
+                      "Nome": "Projetos e programas de pesquisa",
+                      "Descricao": "Projetos e programas de pesquisa",
+                      "LimiteCargaHorariaEmHoraRelogio": "33.33"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "58",
+                      "Nome": "Monitorias",
+                      "Descricao": "Monitorias",
+                      "LimiteCargaHorariaEmHoraRelogio": "33.33"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "59",
+                      "Nome": "Projetos e programas de extensão",
+                      "Descricao": "Projetos e programas de extensão",
+                      "LimiteCargaHorariaEmHoraRelogio": "33.33"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "60",
+                      "Nome": "Eventos técnicos-científicos",
+                      "Descricao": "Eventos técnicos-científicos",
+                      "LimiteCargaHorariaEmHoraRelogio": "50"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "61",
+                      "Nome": "Disciplinas de outros cursos",
+                      "Descricao": "Disciplinas de outros cursos",
+                      "LimiteCargaHorariaEmHoraRelogio": "50"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "63",
+                      "Nome": "Participação discente em órgão colegiado",
+                      "Descricao": "Participação discente em órgão colegiado",
+                      "LimiteCargaHorariaEmHoraRelogio": "25"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "64",
+                      "Nome": "Publicação de textos em revista cientifica ou apresentação de trabalho em evento científico",
+                      "Descricao": "Publicação de textos em revista cientifica ou apresentação de trabalho em evento científico",
+                      "LimiteCargaHorariaEmHoraRelogio": "16.67"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "65",
+                      "Nome": "Visitas técnicas",
+                      "Descricao": "Visitas técnicas",
+                      "LimiteCargaHorariaEmHoraRelogio": "6.67"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "67",
+                      "Nome": "Atividades de responsabilidade Social e Ambiental promovidas pela própria IES",
+                      "Descricao": "Atividades de responsabilidade Social e Ambiental promovidas pela própria IES",
+                      "LimiteCargaHorariaEmHoraRelogio": "25"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "68",
+                      "Nome": "Cursos diversos com aderência à área da graduação",
+                      "Descricao": "Cursos diversos com aderência à área da graduação",
+                      "LimiteCargaHorariaEmHoraRelogio": "66.67"
+                    }
+                  },
+                  {
+                    "Atividade": {
+                      "Codigo": "69",
+                      "Nome": "Participação, como ouvinte, em defesa de monografias",
+                      "Descricao": "Participação, como ouvinte, em defesa de monografias",
+                      "LimiteCargaHorariaEmHoraRelogio": "25"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "infCriteriosIntegralizacao": {
+        "CriterioIntegralizacaoRotulos": [
+          {
+            "CriterioIntegralizacaoRotulos": {
+              "Codigo": "C1",
+              "UnidadeCurricular": "Disciplina",
+              "CargasHorariasCriterio": {
+                "CargaHorariaMinima": "3226.6",
+                "CargaHorariaMaxima": "3226.6",
+                "CargaHorariaParaTotal": "3226.6"
+              }
+            }
+          },
+          {
+            "CriterioIntegralizacaoRotulos": {
+              "Codigo": "C2",
+              "UnidadeCurricular": "Estágio",
+              "CargasHorariasCriterio": {
+                "CargaHorariaMinima": "750.02",
+                "CargaHorariaMaxima": "750.02",
+                "CargaHorariaParaTotal": "750.02"
+              }
+            }
+          },
+          {
+            "CriterioIntegralizacaoRotulos": {
+              "Codigo": "CACO",
+              "UnidadeCurricular": "Atividade Complementar",
+              "CargasHorariasCriterio": {
+                "CargaHorariaMinima": "100",
+                "CargaHorariaMaxima": "100",
+                "CargaHorariaParaTotal": "100"
+              }
+            }
+          }
+        ],
+        "CriterioIntegralizacaoExpressao": [
+          {
+            "CriterioIntegralizacaoExpressao": {
+              "Codigo": "C10",
+              "Expressao": {
+                "Soma": {
+                  "Codigo": [
+                    {
+                      "Codigo": "C1"
+                    },
+                    {
+                      "Codigo": "C2"
+                    },
+                    {
+                      "Codigo": "CACO"
+                    }
+                  ]
+                }
+              },
+              "CargasHorariasCriterio": {
+                "CargaHorariaMinima": "4076.62",
+                "CargaHorariaMaxima": "4076.62",
+                "CargaHorariaParaTotal": "4076.62"
+              }
+            }
+          }
+        ]
+      },
+      "SegurancaCurriculo": {
+        "CodigoValidacao": "398.71a0405587b6b016734b6f347dcb8a395e1ffb36ed4f753386f8f9dea8a12b8e"
+      },
+      "InformacoesAdicionais": "Apostilamento: Bacharel em Direito."
+    },
+    "_xmlns": "http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd"
+  },
+  "hashCarimbo": "29b9442a742436b30a933a1313b70c7436c761c33594f6522e06001740fe4e47",
+  "ResponsavelCurriculo": {
+    "Nome": "Angela Sanches Peres Leal",
+    "Cargo": "Gerente do Departamento de Assuntos Acadêmicos e Financeiros"
+  },
+  "UrlCurriculo": "https://www.unit.br",
+  "codigoValidacao": "1777.398.71a0405587b6b016734b6f347dcb8a395e1ffb36ed4f753386f8f9dea8a12b8e"
+}

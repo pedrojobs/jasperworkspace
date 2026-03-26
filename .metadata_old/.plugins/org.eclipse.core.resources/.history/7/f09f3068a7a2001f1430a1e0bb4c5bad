@@ -1,0 +1,3396 @@
+{
+  "infHistoricoEscolar": {
+    "Aluno": {
+      "ID": "004201908321",
+      "Nome": "Paloma Guida Navarro",
+      "NomeSocial": "Patricia Guida Navarro",
+      "Sexo": "F",
+      "Nacionalidade": "Brasileira",
+      "Naturalidade": {
+        "CodigoMunicipio": "3509502",
+        "NomeMunicipio": "Cachoeiro do Itapemirim",
+        "UF": "SP"
+      },
+      "CPF": "27884634805",
+      "RG": {
+        "Numero": "29339166",
+        "OrgaoExpedidor": "SSP",
+        "UF": "SP"
+      },
+      "DataNascimento": "1978-06-11"
+    },
+    "DadosCurso": {
+      "NomeCurso": "PSICOLOGIA",
+      "CodigoCursoEMEC": "120991",
+      "Autorizacao": {
+        "Tipo": "Portaria",
+        "Numero": "1106",
+        "Data": "2008-12-19"
+      },
+      "Reconhecimento": {
+        "Tipo": "Portaria",
+        "Numero": "616",
+        "Data": "2014-10-30"
+      }
+    },
+    "IesEmissora": {
+      "Nome": "Universidade São Francisco",
+      "CodigoMEC": "670",
+      "CNPJ": "33495870000138",
+      "Endereco": {
+        "Logradouro": "Rua Waldemar César da Silveira",
+        "Numero": "105",
+        "Bairro": "Vila Cura D'ars (Swift)",
+        "CodigoMunicipio": "3509502",
+        "NomeMunicipio": "Cachoeiro do Itapemirim",
+        "UF": "SP",
+        "CEP": "13045510"
+      },
+      "Credenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "821",
+        "Data": "1985-10-24",
+        "DataPublicacao": "1985-10-24",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "15824"
+      },
+      "Recredenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "1223",
+        "Data": "2013-12-18",
+        "DataPublicacao": "2013-12-18",
+        "SecaoPublicacao": "246",
+        "PaginaPublicacao": "1"
+      },
+      "Mantenedora": {
+        "RazaoSocial": "Universidade São Francisco",
+        "CNPJ": "33495870000138",
+        "Endereco": {
+          "Logradouro": "Av. São Francisco de Assis",
+          "Numero": "218",
+          "Bairro": "Cidade Universitária",
+          "CodigoMunicipio": "3507605",
+          "NomeMunicipio": "Bragança Paulista",
+          "UF": "SP",
+          "CEP": "12916900"
+        }
+      }
+    },
+    "HistoricoEscolar": {
+      "CodigoCurriculo": "0010-B",
+      "ElementosHistorico": {
+        "Disciplina": [
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR04030",
+              "NomeDisciplina": "DESENVOLVIMENTO INFANTIL (GR03122 - DESENVOLVIMENTO INFANTIL - CH 72)",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "7.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Bruna Braga Silva",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0123762492320522",
+                      "CPF": "94387052287"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR04285",
+              "NomeDisciplina": "EPISTEMOLOGIA E HISTÓRIA DA PSICOLOGIA (GR03123 - EPISTEMOLOGIA E HISTÓRIA DA PSICOLOGIA - CH 72)",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Vitor Pequeno",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9306020217546706",
+                      "CPF": "06019965937"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ED00092",
+              "NomeDisciplina": "ESTUDO DO SER HUMANO CONTEMPORÂNEO",
+              "PeriodoLetivo": "2019/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR04194",
+              "NomeDisciplina": "PRÁTICA PROFISSIONAL EXTENSIONISTA: PERSPECTIVAS EM PSICOLOGIA (GR03125 - PRÁTICA PROFISSIONAL: CIÊNCIA E PROFISSÃO - CH 144)",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "144"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Eduardo Vicente Bilbão",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/2384188451358222",
+                      "CPF": "22765380821"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR04211",
+              "NomeDisciplina": "PROCESSOS PSICOLÓGICOS (GR03124 - PROCESSOS PSICOLÓGICOS BÁSICOS - CH 72)",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "7.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Bruna Braga Silva",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0123762492320522",
+                      "CPF": "94387052287"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02968",
+              "NomeDisciplina": "ANATOMIA",
+              "PeriodoLetivo": "2019/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03126",
+              "NomeDisciplina": "DESENVOLVIMENTO DA ADOLESCÊNCIA E VIDA ADULTA",
+              "PeriodoLetivo": "2019/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.4",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Ester Cecília Fernandes Baptistella",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9035341898871181",
+                      "CPF": "07881572809"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02967",
+              "NomeDisciplina": "FISIOLOGIA",
+              "PeriodoLetivo": "2019/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ED00093",
+              "NomeDisciplina": "INICIAÇÃO À PESQUISA CIENTÍFICA",
+              "PeriodoLetivo": "2019/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03127",
+              "NomeDisciplina": "TEORIAS DA PERSONALIDADE",
+              "PeriodoLetivo": "2019/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Fernanda Luzia Lopes",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/2260370051174352",
+                      "CPF": "28171831850"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03129",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO BÁSICO EM TÉCNICAS DE OBSERVAÇÃO E ENTREVISTA",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Fernando Marcio Cortelo",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9957808329127956",
+                      "CPF": "22005290823"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ED00094",
+              "NomeDisciplina": "ÉTICA E CIDADANIA",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03026",
+              "NomeDisciplina": "NEUROANATOMIA E NEUROFISIOLOGIA",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "7.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Lilian Calili Camargo",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/1754382174168214",
+                      "CPF": "25055126809"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03130",
+              "NomeDisciplina": "PRÁTICA PROFISSIONAL: ANÁLISE DO COMPORTAMENTO",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "144"
+                  }
+                }
+              ],
+              "Nota": "9.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03128",
+              "NomeDisciplina": "PSICOLOGIA SOCIAL",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "7.9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Mirna Yamazato Koda",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9864369359939335",
+                      "CPF": "16374565819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ED00095",
+              "NomeDisciplina": "DIREITOS HUMANOS",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Marco Antonio Zago de Castilho",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/9028302497881506",
+                      "CPF": "40234595850"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03131",
+              "NomeDisciplina": "MÉTODOS QUANTITATIVOS E ANÁLISE DE DADOS",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Felipe Valentini",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5411545382717339",
+                      "CPF": "00447557084"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03133",
+              "NomeDisciplina": "PRÁTICA PROFISSIONAL: AVALIAÇÃO PSICOLÓGICA E MEDIDAS DE INTELIGÊNCIA",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "144"
+                  }
+                }
+              ],
+              "Nota": "9.9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Fernando Longuim Pegoraro",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/0829813300152884",
+                      "CPF": "32809939896"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03132",
+              "NomeDisciplina": "PSICOLOGIA ESCOLAR",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Ester Cecília Fernandes Baptistella",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9035341898871181",
+                      "CPF": "07881572809"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02969",
+              "NomeDisciplina": "SAÚDE PÚBLICA",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Renata Cristofani Martins",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/8085508477709473",
+                      "CPF": "29990375895"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ED00096",
+              "NomeDisciplina": "EMPREENDEDORISMO",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Alessandre Oliveira Ferreira",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3619491609635558",
+                      "CPF": "10991017862"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03135",
+              "NomeDisciplina": "NEUROPSICOLOGIA",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Fernando Longuim Pegoraro",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/0829813300152884",
+                      "CPF": "32809939896"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03137",
+              "NomeDisciplina": "PRÁTICA PROFISSIONAL: AVALIAÇÃO DA PERSONALIDADE E TÉCNICAS PROJETIVAS",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "144"
+                  }
+                }
+              ],
+              "Nota": "9.1",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Nelson Hauck Filho",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/1621284100545324",
+                      "CPF": "01083396021"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03136",
+              "NomeDisciplina": "PSICOLOGIA COMUNITÁRIA E INSTITUCIONAL",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flavia Ribeiro",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/4038533045531303",
+                      "CPF": "17810681869"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03134",
+              "NomeDisciplina": "PSICOPATOLOGIA GERAL",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Fernando Marcio Cortelo",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9957808329127956",
+                      "CPF": "22005290823"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ED00099",
+              "NomeDisciplina": "DESENVOLVIMENTO PESSOAL E PROFISSIONAL",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "André Emílio Mozer",
+                      "Titulacao": "Especialização",
+                      "Lattes": "http://lattes.cnpq.br/1510004925199008",
+                      "CPF": "12664920898"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03138",
+              "NomeDisciplina": "ESTUDOS PSICOSSOCIAIS DAS DEFICIÊNCIAS E INCLUSÃO",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Ana Cristina Vizelli",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/5860000666525496",
+                      "CPF": "13801527808"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02976",
+              "NomeDisciplina": "PSICOLOGIA DA SAÚDE",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Renan de Morais Afonso",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0858509223020455",
+                      "CPF": "37327170898"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03140",
+              "NomeDisciplina": "PSICOLOGIA ORGANIZACIONAL E DO TRABALHO",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.2",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Priscilla Perla Tartarotti Von Zuben Campos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3821819410306703",
+                      "CPF": "25678278894"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03139",
+              "NomeDisciplina": "PSICOPATOLOGIA INFANTIL",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Fernando Longuim Pegoraro",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/0829813300152884",
+                      "CPF": "32809939896"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03144",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICOLOGIA ESCOLAR",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Guilherme Siqueira Arinelli",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9719711764122153",
+                      "CPF": "40030276802"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03145",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICOLOGIA ORGANIZACIONAL E DO TRABALHO",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Lucilene Tofoli",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9594356091808894",
+                      "CPF": "11924289865"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02560",
+              "NomeDisciplina": "PSICOTERAPIA COGNITIVO-COMPORTAMENTAL (GR03141 - TEORIAS E TÉCNICAS COGNITIVO-COMPORTAMENTAIS - CH 72)",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Walmor de Almeida Nogueira Largura",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6072035612399661",
+                      "CPF": "17393122871"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02562",
+              "NomeDisciplina": "PSICOTERAPIA HUMANISTA (GR03142 - TEORIAS E TÉCNICAS FENOMENOLÓGICAS-EXISTENCIAIS - CH 72)",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Ramila Isa de Alencar Alkimim Ferrari",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/7864713401643910",
+                      "CPF": "34810779807"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03143",
+              "NomeDisciplina": "TEORIAS E TÉCNICAS PSICANALÍTICAS",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Cláudia Márcia Ambrosio Archanjo",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/0030466145328781",
+                      "CPF": "13789020842"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03150",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICODIAGNÓSTICO",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Fernanda Otoni da Silva",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/1514920347067465",
+                      "CPF": "08751541661"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03149",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICOLOGIA COMUNITÁRIA E SAÚDE",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.5",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Rodrigo Fernando Presotto",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/4008210129032169",
+                      "CPF": "22527773893"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02543",
+              "NomeDisciplina": "PROCESSOS E INTERVENÇÕES GRUPAIS (GR03147 - PROCESSOS E INTERVENÇÕES GRUPAIS - CH 72)",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "6.4",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Cláudia Márcia Ambrosio Archanjo",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/0030466145328781",
+                      "CPF": "13789020842"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03146",
+              "NomeDisciplina": "PSICOFARMACOLOGIA",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Thiago de Oliveira Santos Mansur",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0010649505364001",
+                      "CPF": "22257154835"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR02561",
+              "NomeDisciplina": "PSICOTERAPIA DA INFÂNCIA E DA ADOLESCÊNCIA (GR03148 - PSICOTERAPIA NA INFÂNCIA E ADOLESCÊNCIA - CH 72)",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03154",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO I",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.5",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Thiago Lusvardi",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6320713555680216",
+                      "CPF": "34127841842"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03155",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO II",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.2",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Mirna Yamazato Koda",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9864369359939335",
+                      "CPF": "16374565819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03152",
+              "NomeDisciplina": "NEUROCIÊNCIA COGNITIVA E REABILITAÇÃO",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Ricardo Franco de Lima",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5855284833059924",
+                      "CPF": "29784882809"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03153",
+              "NomeDisciplina": "PRÁTICA PROFISSIONAL: SEMINÁRIOS EM PSICOLOGIA",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "144"
+                  }
+                }
+              ],
+              "Nota": "9.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Walmor de Almeida Nogueira Largura",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6072035612399661",
+                      "CPF": "17393122871"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03151",
+              "NomeDisciplina": "PSICOLOGIA JURÍDICA",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.4",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Natasha Contro de Souza",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/9034880225196470",
+                      "CPF": "41832261808"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03159",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO III",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.2",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Analia Martins Cosac Quelho",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/7508839357437636",
+                      "CPF": "04031695187"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03160",
+              "NomeDisciplina": "ESTÁGIO SUPERVISIONADO IV",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Mirna Yamazato Koda",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9864369359939335",
+                      "CPF": "16374565819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03158",
+              "NomeDisciplina": "OPTATIVA",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03156",
+              "NomeDisciplina": "PSICOGERONTOLOGIA",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "8.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Nayane Martoni Piovezan",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/7716473816117522",
+                      "CPF": "33225979899"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GR03157",
+              "NomeDisciplina": "TRABALHO DE CONCLUSÃO DE CURSO",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "10.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Antonio Richard Carias",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9708945373164974",
+                      "CPF": "41316103889"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OP0258",
+              "NomeDisciplina": "PSICOLOGIA DO ESPORTE",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "72"
+                  }
+                }
+              ],
+              "Nota": "9.0",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Evandro Morais Peixoto",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/1872961522740682",
+                      "CPF": "35565855888"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "AtividadeComplementar": [
+          {
+            "AtividadeComplementar": {
+              "CodigoAtividadeComplementar": "AC",
+              "DataInicio": "2019-11-18",
+              "DataFim": "2023-12-13",
+              "TipoAtividadeComplementar": "Atividades complementares",
+              "CargaHorariaEmHoraRelogio": [
+                {
+                  "CargaHorariaEmHoraRelogio": {
+                    "__text": "115"
+                  }
+                }
+              ],
+              "DocentesResponsaveisPelaValidacao": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Flávia Helena Zanetti Farah",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                      "CPF": "16831567819"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "SituacaoDiscente": [
+          {
+            "SituacaoDiscente": {
+              "PeriodoLetivo": "2023/2",
+              "Formado": {
+                "DataConclusaoCurso": "2023-12-21",
+                "DataColacaoGrau": "2024-02-01",
+                "DataExpedicaoDiploma": "2024-02-27"
+              }
+            }
+          }
+        ]
+      },
+      "DataEmissaoHistorico": "2024-09-23",
+      "HoraEmissaoHistorico": "17:23:57",
+      "SituacaoAtualDiscente": {
+        "PeriodoLetivo": "2023/2",
+        "Formado": {
+          "DataConclusaoCurso": "2023-12-21",
+          "DataColacaoGrau": "2024-02-01",
+          "DataExpedicaoDiploma": "2024-02-27"
+        }
+      },
+      "ENADE": {
+        "NaoHabilitado": [
+          {
+            "NaoHabilitado": {
+              "Condicao": "Concluinte",
+              "Edicao": "2022",
+              "Motivo": "Estudante não habilitado ao Enade em razão do calendário do ciclo avaliativo"
+            }
+          }
+        ]
+      },
+      "CargaHorariaCursoIntegralizada": {
+        "HoraRelogio": "4060"
+      },
+      "CargaHorariaCurso": {
+        "HoraRelogio": "4060"
+      },
+      "IngressoCurso": {
+        "Data": "2019-05-15",
+        "FormaAcesso": "Vestibular"
+      }
+    },
+    "SegurancaHistorico": {
+      "CodigoValidacao": "670.b10701ef6fd9f913d8c4a047bff3f2cc75b776e0388cbda7466858b5f1e94789"
+    },
+    "InformacoesAdicionais": "TRANCAMENTOS: Não há informações de Trancamento Currículo aprovado pela Resolução CONSEPE 64/2018..Introdução à Língua Brasileira de Sinais - LIBRAS, optativa nos termos do Decreto nº 5626, art. 3º, § 2º.As disciplinas com situação Dispensado referem-se as disciplinas cursadas, nesta mesma instituição de ensino, no curso de Direito, sob o RA 41917 e do curso de Ciências Biológicas da Pontifícia Universidade Católica de Campinas. Transferência(s) do Aluno(a) : Não há informações de Transferência para esse aluno.",
+    "_versao": "1.05",
+    "_ambiente": "Homologação"
+  },
+  "Extras": {
+    "TituloConferido": {
+      "Titulo": "Bacharel"
+    },
+    "CargaHorariaExigidaAtividadeComplementar": "100",
+    "CargaHorariaAtividadeComplementarCumprida": 115,
+    "CargaHorariaDisciplinasCursadas": 4032,
+    "CargaHorariaDisciplinasExigidas": 3960,
+    "ResponsavelHistorico": "Eduardo Manuel Bartalini Gallego",
+    "CargoResponsavelHistorico": "Coordenador do Núcleo de Registro e Controle Acadêmico",
+    "Urlhistorico": "http://dsv.diplomas.usf",
+    "Disciplina": [
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR04030",
+          "NomeDisciplina": "DESENVOLVIMENTO INFANTIL (GR03122 - DESENVOLVIMENTO INFANTIL - CH 72)",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "7.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Bruna Braga Silva",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0123762492320522",
+                  "CPF": "94387052287"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "1° Semestre",
+          "SemestreLetivo": "1° Semestre",
+          "Cabecalho": "1° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR04285",
+          "NomeDisciplina": "EPISTEMOLOGIA E HISTÓRIA DA PSICOLOGIA (GR03123 - EPISTEMOLOGIA E HISTÓRIA DA PSICOLOGIA - CH 72)",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Vitor Pequeno",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9306020217546706",
+                  "CPF": "06019965937"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "1° Semestre",
+          "SemestreLetivo": "1° Semestre",
+          "Cabecalho": "1° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ED00092",
+          "NomeDisciplina": "ESTUDO DO SER HUMANO CONTEMPORÂNEO",
+          "PeriodoLetivo": "2019/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "1° Semestre",
+          "SemestreLetivo": "1° Semestre",
+          "Cabecalho": "1° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR04194",
+          "NomeDisciplina": "PRÁTICA PROFISSIONAL EXTENSIONISTA: PERSPECTIVAS EM PSICOLOGIA (GR03125 - PRÁTICA PROFISSIONAL: CIÊNCIA E PROFISSÃO - CH 144)",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "144"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Eduardo Vicente Bilbão",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/2384188451358222",
+                  "CPF": "22765380821"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "1° Semestre",
+          "SemestreLetivo": "1° Semestre",
+          "Cabecalho": "1° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR04211",
+          "NomeDisciplina": "PROCESSOS PSICOLÓGICOS (GR03124 - PROCESSOS PSICOLÓGICOS BÁSICOS - CH 72)",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "7.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Bruna Braga Silva",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0123762492320522",
+                  "CPF": "94387052287"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "1° Semestre",
+          "SemestreLetivo": "1° Semestre",
+          "Cabecalho": "1° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02968",
+          "NomeDisciplina": "ANATOMIA",
+          "PeriodoLetivo": "2019/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2° Semestre",
+          "SemestreLetivo": "2° Semestre",
+          "Cabecalho": "2° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03126",
+          "NomeDisciplina": "DESENVOLVIMENTO DA ADOLESCÊNCIA E VIDA ADULTA",
+          "PeriodoLetivo": "2019/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.4",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Ester Cecília Fernandes Baptistella",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9035341898871181",
+                  "CPF": "07881572809"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2° Semestre",
+          "SemestreLetivo": "2° Semestre",
+          "Cabecalho": "2° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02967",
+          "NomeDisciplina": "FISIOLOGIA",
+          "PeriodoLetivo": "2019/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2° Semestre",
+          "SemestreLetivo": "2° Semestre",
+          "Cabecalho": "2° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ED00093",
+          "NomeDisciplina": "INICIAÇÃO À PESQUISA CIENTÍFICA",
+          "PeriodoLetivo": "2019/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2° Semestre",
+          "SemestreLetivo": "2° Semestre",
+          "Cabecalho": "2° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03127",
+          "NomeDisciplina": "TEORIAS DA PERSONALIDADE",
+          "PeriodoLetivo": "2019/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Fernanda Luzia Lopes",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/2260370051174352",
+                  "CPF": "28171831850"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2° Semestre",
+          "SemestreLetivo": "2° Semestre",
+          "Cabecalho": "2° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03129",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO BÁSICO EM TÉCNICAS DE OBSERVAÇÃO E ENTREVISTA",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Fernando Marcio Cortelo",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9957808329127956",
+                  "CPF": "22005290823"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "3° Semestre",
+          "SemestreLetivo": "3° Semestre",
+          "Cabecalho": "3° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ED00094",
+          "NomeDisciplina": "ÉTICA E CIDADANIA",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "3° Semestre",
+          "SemestreLetivo": "3° Semestre",
+          "Cabecalho": "3° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03026",
+          "NomeDisciplina": "NEUROANATOMIA E NEUROFISIOLOGIA",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "7.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Lilian Calili Camargo",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/1754382174168214",
+                  "CPF": "25055126809"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "3° Semestre",
+          "SemestreLetivo": "3° Semestre",
+          "Cabecalho": "3° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03130",
+          "NomeDisciplina": "PRÁTICA PROFISSIONAL: ANÁLISE DO COMPORTAMENTO",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "144"
+              }
+            }
+          ],
+          "Nota": "9.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "3° Semestre",
+          "SemestreLetivo": "3° Semestre",
+          "Cabecalho": "3° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03128",
+          "NomeDisciplina": "PSICOLOGIA SOCIAL",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "7.9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Mirna Yamazato Koda",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9864369359939335",
+                  "CPF": "16374565819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "3° Semestre",
+          "SemestreLetivo": "3° Semestre",
+          "Cabecalho": "3° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ED00095",
+          "NomeDisciplina": "DIREITOS HUMANOS",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Marco Antonio Zago de Castilho",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/9028302497881506",
+                  "CPF": "40234595850"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "4° Semestre",
+          "SemestreLetivo": "4° Semestre",
+          "Cabecalho": "4° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03131",
+          "NomeDisciplina": "MÉTODOS QUANTITATIVOS E ANÁLISE DE DADOS",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Felipe Valentini",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5411545382717339",
+                  "CPF": "00447557084"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "4° Semestre",
+          "SemestreLetivo": "4° Semestre",
+          "Cabecalho": "4° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03133",
+          "NomeDisciplina": "PRÁTICA PROFISSIONAL: AVALIAÇÃO PSICOLÓGICA E MEDIDAS DE INTELIGÊNCIA",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "144"
+              }
+            }
+          ],
+          "Nota": "9.9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Fernando Longuim Pegoraro",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/0829813300152884",
+                  "CPF": "32809939896"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "4° Semestre",
+          "SemestreLetivo": "4° Semestre",
+          "Cabecalho": "4° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03132",
+          "NomeDisciplina": "PSICOLOGIA ESCOLAR",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Ester Cecília Fernandes Baptistella",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9035341898871181",
+                  "CPF": "07881572809"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "4° Semestre",
+          "SemestreLetivo": "4° Semestre",
+          "Cabecalho": "4° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02969",
+          "NomeDisciplina": "SAÚDE PÚBLICA",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Renata Cristofani Martins",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/8085508477709473",
+                  "CPF": "29990375895"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "4° Semestre",
+          "SemestreLetivo": "4° Semestre",
+          "Cabecalho": "4° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ED00096",
+          "NomeDisciplina": "EMPREENDEDORISMO",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Alessandre Oliveira Ferreira",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3619491609635558",
+                  "CPF": "10991017862"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "5° Semestre",
+          "SemestreLetivo": "5° Semestre",
+          "Cabecalho": "5° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03135",
+          "NomeDisciplina": "NEUROPSICOLOGIA",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Fernando Longuim Pegoraro",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/0829813300152884",
+                  "CPF": "32809939896"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "5° Semestre",
+          "SemestreLetivo": "5° Semestre",
+          "Cabecalho": "5° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03137",
+          "NomeDisciplina": "PRÁTICA PROFISSIONAL: AVALIAÇÃO DA PERSONALIDADE E TÉCNICAS PROJETIVAS",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "144"
+              }
+            }
+          ],
+          "Nota": "9.1",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Nelson Hauck Filho",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/1621284100545324",
+                  "CPF": "01083396021"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "5° Semestre",
+          "SemestreLetivo": "5° Semestre",
+          "Cabecalho": "5° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03136",
+          "NomeDisciplina": "PSICOLOGIA COMUNITÁRIA E INSTITUCIONAL",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flavia Ribeiro",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/4038533045531303",
+                  "CPF": "17810681869"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "5° Semestre",
+          "SemestreLetivo": "5° Semestre",
+          "Cabecalho": "5° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03134",
+          "NomeDisciplina": "PSICOPATOLOGIA GERAL",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Fernando Marcio Cortelo",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9957808329127956",
+                  "CPF": "22005290823"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "5° Semestre",
+          "SemestreLetivo": "5° Semestre",
+          "Cabecalho": "5° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ED00099",
+          "NomeDisciplina": "DESENVOLVIMENTO PESSOAL E PROFISSIONAL",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "André Emílio Mozer",
+                  "Titulacao": "Especialização",
+                  "Lattes": "http://lattes.cnpq.br/1510004925199008",
+                  "CPF": "12664920898"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "6° Semestre",
+          "SemestreLetivo": "6° Semestre",
+          "Cabecalho": "6° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03138",
+          "NomeDisciplina": "ESTUDOS PSICOSSOCIAIS DAS DEFICIÊNCIAS E INCLUSÃO",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Ana Cristina Vizelli",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/5860000666525496",
+                  "CPF": "13801527808"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "6° Semestre",
+          "SemestreLetivo": "6° Semestre",
+          "Cabecalho": "6° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02976",
+          "NomeDisciplina": "PSICOLOGIA DA SAÚDE",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Renan de Morais Afonso",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0858509223020455",
+                  "CPF": "37327170898"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "6° Semestre",
+          "SemestreLetivo": "6° Semestre",
+          "Cabecalho": "6° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03140",
+          "NomeDisciplina": "PSICOLOGIA ORGANIZACIONAL E DO TRABALHO",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.2",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Priscilla Perla Tartarotti Von Zuben Campos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3821819410306703",
+                  "CPF": "25678278894"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "6° Semestre",
+          "SemestreLetivo": "6° Semestre",
+          "Cabecalho": "6° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03139",
+          "NomeDisciplina": "PSICOPATOLOGIA INFANTIL",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Fernando Longuim Pegoraro",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/0829813300152884",
+                  "CPF": "32809939896"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "6° Semestre",
+          "SemestreLetivo": "6° Semestre",
+          "Cabecalho": "6° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03144",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICOLOGIA ESCOLAR",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Guilherme Siqueira Arinelli",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9719711764122153",
+                  "CPF": "40030276802"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "7° Semestre",
+          "SemestreLetivo": "7° Semestre",
+          "Cabecalho": "7° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03145",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICOLOGIA ORGANIZACIONAL E DO TRABALHO",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Lucilene Tofoli",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9594356091808894",
+                  "CPF": "11924289865"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "7° Semestre",
+          "SemestreLetivo": "7° Semestre",
+          "Cabecalho": "7° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02560",
+          "NomeDisciplina": "PSICOTERAPIA COGNITIVO-COMPORTAMENTAL (GR03141 - TEORIAS E TÉCNICAS COGNITIVO-COMPORTAMENTAIS - CH 72)",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Walmor de Almeida Nogueira Largura",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6072035612399661",
+                  "CPF": "17393122871"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "7° Semestre",
+          "SemestreLetivo": "7° Semestre",
+          "Cabecalho": "7° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02562",
+          "NomeDisciplina": "PSICOTERAPIA HUMANISTA (GR03142 - TEORIAS E TÉCNICAS FENOMENOLÓGICAS-EXISTENCIAIS - CH 72)",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Ramila Isa de Alencar Alkimim Ferrari",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/7864713401643910",
+                  "CPF": "34810779807"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "7° Semestre",
+          "SemestreLetivo": "7° Semestre",
+          "Cabecalho": "7° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03143",
+          "NomeDisciplina": "TEORIAS E TÉCNICAS PSICANALÍTICAS",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Cláudia Márcia Ambrosio Archanjo",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/0030466145328781",
+                  "CPF": "13789020842"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "7° Semestre",
+          "SemestreLetivo": "7° Semestre",
+          "Cabecalho": "7° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03150",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICODIAGNÓSTICO",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Fernanda Otoni da Silva",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/1514920347067465",
+                  "CPF": "08751541661"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "8° Semestre",
+          "SemestreLetivo": "8° Semestre",
+          "Cabecalho": "8° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03149",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO EM PSICOLOGIA COMUNITÁRIA E SAÚDE",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.5",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Rodrigo Fernando Presotto",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/4008210129032169",
+                  "CPF": "22527773893"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "8° Semestre",
+          "SemestreLetivo": "8° Semestre",
+          "Cabecalho": "8° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02543",
+          "NomeDisciplina": "PROCESSOS E INTERVENÇÕES GRUPAIS (GR03147 - PROCESSOS E INTERVENÇÕES GRUPAIS - CH 72)",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "6.4",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Cláudia Márcia Ambrosio Archanjo",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/0030466145328781",
+                  "CPF": "13789020842"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "8° Semestre",
+          "SemestreLetivo": "8° Semestre",
+          "Cabecalho": "8° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03146",
+          "NomeDisciplina": "PSICOFARMACOLOGIA",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Thiago de Oliveira Santos Mansur",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0010649505364001",
+                  "CPF": "22257154835"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "8° Semestre",
+          "SemestreLetivo": "8° Semestre",
+          "Cabecalho": "8° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR02561",
+          "NomeDisciplina": "PSICOTERAPIA DA INFÂNCIA E DA ADOLESCÊNCIA (GR03148 - PSICOTERAPIA NA INFÂNCIA E ADOLESCÊNCIA - CH 72)",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "8° Semestre",
+          "SemestreLetivo": "8° Semestre",
+          "Cabecalho": "8° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03154",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO I",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.5",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Thiago Lusvardi",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6320713555680216",
+                  "CPF": "34127841842"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "9° Semestre",
+          "SemestreLetivo": "9° Semestre",
+          "Cabecalho": "9° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03155",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO II",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.2",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Mirna Yamazato Koda",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9864369359939335",
+                  "CPF": "16374565819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "9° Semestre",
+          "SemestreLetivo": "9° Semestre",
+          "Cabecalho": "9° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03152",
+          "NomeDisciplina": "NEUROCIÊNCIA COGNITIVA E REABILITAÇÃO",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Ricardo Franco de Lima",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5855284833059924",
+                  "CPF": "29784882809"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "9° Semestre",
+          "SemestreLetivo": "9° Semestre",
+          "Cabecalho": "9° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03153",
+          "NomeDisciplina": "PRÁTICA PROFISSIONAL: SEMINÁRIOS EM PSICOLOGIA",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "144"
+              }
+            }
+          ],
+          "Nota": "9.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Walmor de Almeida Nogueira Largura",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6072035612399661",
+                  "CPF": "17393122871"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "9° Semestre",
+          "SemestreLetivo": "9° Semestre",
+          "Cabecalho": "9° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03151",
+          "NomeDisciplina": "PSICOLOGIA JURÍDICA",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.4",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Natasha Contro de Souza",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/9034880225196470",
+                  "CPF": "41832261808"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "9° Semestre",
+          "SemestreLetivo": "9° Semestre",
+          "Cabecalho": "9° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03159",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO III",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.2",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Analia Martins Cosac Quelho",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/7508839357437636",
+                  "CPF": "04031695187"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "10° Semestre",
+          "SemestreLetivo": "10° Semestre",
+          "Cabecalho": "10° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03160",
+          "NomeDisciplina": "ESTÁGIO SUPERVISIONADO IV",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Mirna Yamazato Koda",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9864369359939335",
+                  "CPF": "16374565819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "10° Semestre",
+          "SemestreLetivo": "10° Semestre",
+          "Cabecalho": "10° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03158",
+          "NomeDisciplina": "OPTATIVA",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Flávia Helena Zanetti Farah",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5066398241234904",
+                  "CPF": "16831567819"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "10° Semestre",
+          "SemestreLetivo": "10° Semestre",
+          "Cabecalho": "10° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03156",
+          "NomeDisciplina": "PSICOGERONTOLOGIA",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "8.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Nayane Martoni Piovezan",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/7716473816117522",
+                  "CPF": "33225979899"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "10° Semestre",
+          "SemestreLetivo": "10° Semestre",
+          "Cabecalho": "10° Semestre"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GR03157",
+          "NomeDisciplina": "TRABALHO DE CONCLUSÃO DE CURSO",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "10.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Antonio Richard Carias",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9708945373164974",
+                  "CPF": "41316103889"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "10° Semestre",
+          "SemestreLetivo": "10° Semestre",
+          "Cabecalho": "10° Semestre"
+        }
+      }
+    ],
+    "Optativas": [
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OP0258",
+          "NomeDisciplina": "PSICOLOGIA DO ESPORTE",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "72"
+              }
+            }
+          ],
+          "Nota": "9.0",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Evandro Morais Peixoto",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/1872961522740682",
+                  "CPF": "35565855888"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "20° Semestre",
+          "SemestreLetivo": "20° Semestre",
+          "Cabecalho": "20° Semestre",
+          "Optativa": true
+        }
+      }
+    ],
+    "LogoIes": "iVBORw0KGgoAAAANSUhEUgAAAOUAAAChCAMAAAAP3oheAAAC91BMVEUAAAAAZDcAazUAcDQAcDYAcTUAcDUAcTUAcTUAcjUAcjUAcjUAcTUAcjUAcjUAczUAcjUAcjUAczUAczUAcjUAcTUAcjQAczQAcjUAcjUAcjYAcjUAcjUAcjUAcjUAcjUAczUAcjUAcjUAczUAcjUAcjUAcjUAczUAcjUAczUAcjUAcjQAcjUAcjUAcjUAczUAcjUAcjUAcjUAcjUAczUAcjUAcjUAcjUAcjUAcjUAcjYAcjYAcjUAcjUAczYAczUAcjUAcjUAczUAczUAcjUAczYAcjUAcjYAcjUAcjUAcjUAcjUAczUAcjUAcjUAcjUAcjUAczUAcjYAczUAcjUAcjUAczUAczUAcjUAcjUAczYAcjUAczUAczUAczUAczYAczUAczUAczUAczUAczUAcjUAczUAczUAczYAczUAczUAcjUAczUAczUAcjUAcjUAczUAczUAczUAczUAczYAczYAcjUAcjUAcjUAczUAczUAcjUAcjUAczUAcjUAczUAczUAcjUAcjUAcjUAczYAczUAczUAczUAczUAczUAcjUAcjUAczUAczYAczUAczYAczYAcjUAczUAczUAcjUAczYAcjUAczUAcjUAczYAczUAczUAcjUAczUAczUAczUAcjUAcjUAcjUAczUAczYAczYAczUAczUAczYAczUAczYAczYAczUAczUAczYAczYAczYAczUAczYAczUAczYAczYAczYAczUAczUAcjUAczYAczYAcjUAcjUAczYAczYAczYAczYAczYAczYAczYAczUAcjUAczYAczYAczUAcjUAczUAczYAczYAczYAczYAczYAczYAczUAczYAczUAczYAczYAczYAczYAczYAczYAczYAczYAczYAczYAczUAczYAcjYAcjUAcjUAczYAczYAczYAczYAczYAcjYAczYAcjUAcjUAcjUAczYAcjUAcjUAcTUAcjYAcDMAdDMAcTMAbzAAbikAdjcAcjYAcjUAczUAczb6Y9t7AAAA+XRSTlMAAgUEAwYHCAkKCwwNDg8QERITFBUWFxYYGRobHB0eICEiIyQlJicoKSorLC0uLzAxMjM0NTY3OTo7Ozw9Pj9AQUJDREZHSUpLTE1OT1BRU1RVV1hZWltc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"
+  }
+}

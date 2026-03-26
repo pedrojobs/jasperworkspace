@@ -1,0 +1,137 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="Manifesto_assinante" language="java" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="9d61cc93-340e-4bdf-bdc5-c8415f618e21">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto_Dados"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.report.description" value=""/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.53:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_dev"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/uniasselvi/manifesto_assinaturas/Manifesto_assinante_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/uniasselvi/manifesto_assinaturas/Manifesto_assinante"/>
+	<query language="json"><![CDATA[]]></query>
+	<field name="name" class="java.lang.String">
+		<description><![CDATA[name]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.name"/>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<description><![CDATA[identifier]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.identifier"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<description><![CDATA[email]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.email"/>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<description><![CDATA[signedOn]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signedOn"/>
+	</field>
+	<field name="type" class="java.lang.String">
+		<description><![CDATA[type]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.type"/>
+	</field>
+	<field name="signatureType" class="java.lang.String">
+		<description><![CDATA[signatureType]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signatureType"/>
+	</field>
+	<field name="certificatevalidityEnd" class="java.lang.String">
+		<description><![CDATA[assinante.certificate.validityEnd]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.certificate.validityEnd"/>
+	</field>
+	<field name="ipAddress" class="java.lang.String">
+		<description><![CDATA[ipAddress]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.ipAddress"/>
+	</field>
+	<field name="status" class="java.lang.String">
+		<description><![CDATA[status]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="status"/>
+	</field>
+	<field name="documentid" class="java.lang.String">
+		<description><![CDATA[document.id]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="document.id"/>
+	</field>
+	<field name="documentname" class="java.lang.String">
+		<description><![CDATA[document.name]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="document.name"/>
+	</field>
+	<field name="documenthash" class="java.lang.String">
+		<description><![CDATA[document.hash]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="document.hash"/>
+	</field>
+	<field name="documentcompletedOn" class="java.lang.String">
+		<description><![CDATA[document.completedOn]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="document.completedOn"/>
+	</field>
+	<field name="assinantelatitude" class="java.lang.String">
+		<description><![CDATA[assinante.latitude]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.latitude"/>
+	</field>
+	<field name="assinantelongitude" class="java.lang.String">
+		<description><![CDATA[assinante.longitude]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.longitude"/>
+	</field>
+	<field name="assinanteprecisao" class="java.lang.String">
+		<description><![CDATA[assinante.precisao]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.precisao"/>
+	</field>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="842" splitType="Stretch">
+			<element kind="image" uuid="e0ffe62f-5052-46df-bea0-c4f3dc325d78" x="40" y="69" width="118" height="118">
+				<expression><![CDATA["ICP.png"]]></expression>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="staticText" uuid="203ca24c-430c-4e44-abcb-2f7c8e80ec3c" x="180" y="90" width="250" height="93" fontName="SansSerif" fontSize="26.0" bold="false" hTextAlign="Center">
+				<text><![CDATA[MANIFESTO DE ASSINATURAS]]></text>
+			</element>
+			<element kind="component" uuid="b116a2e0-e530-4bbe-bf89-9f7a656bf122" x="440" y="69" width="114" height="114">
+				<component kind="barcode4j:QRCode" errorCorrectionLevel="H">
+					<codeExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/"+$F{documenthash}]]></codeExpression>
+				</component>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="98db7332-ce2c-4579-8d95-ecc9778f4c49" x="92" y="209" width="430" height="30" fontName="SansSerif" fontSize="18.0" textAdjust="ScaleFont" hTextAlign="Center">
+				<expression><![CDATA["Código validação: 5SPCP-S6SYH-SR29T-9C8K5"]]></expression>
+			</element>
+			<element kind="staticText" uuid="e418d64e-ebfc-44dc-b93d-4bd6528c7ac7" x="40" y="300" width="515" height="49" fontSize="13.0" hTextAlign="Left">
+				<text><![CDATA[Esse documento foi assinado pelos seguintes signatários nas datas indicadas (Fuso
+horário de Brasília):]]></text>
+			</element>
+			<element kind="textField" uuid="421caae4-4540-4e4c-af35-680cba63fcc2" x="147" y="259" width="320" height="31" fontSize="16.0" hTextAlign="Center">
+				<expression><![CDATA["Tipo de assinatura: " +$F{signatureType}]]></expression>
+			</element>
+			<element kind="image" uuid="38b5809c-6c38-43c6-a6c7-22167b98b166" mode="Opaque" x="480" y="115" width="34" height="23">
+				<expression><![CDATA["C:\\Users\\pedro\\JaspersoftWorkspace\\Curriculo-Uniasselvi\\logo_uniasselvi1.png"]]></expression>
+				<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="staticText" uuid="d7f3dac6-7104-41b7-b8ea-b0ac9e348c0c" x="41" y="661" width="510" height="36" fontSize="12.0">
+				<text><![CDATA[Ou acesse a consulta de documentos assinados disponível no link abaixo e informe
+o código de validação:]]></text>
+			</element>
+			<element kind="textField" uuid="35a9d29b-87dc-4851-9d22-a7f4f9c610bf" x="41" y="624" width="510" height="20" forecolor="#0000FF" markup="html" fontSize="12.0" textAdjust="ScaleFont" hTextAlign="Left">
+				<paragraph firstLineIndent="10"/>
+				<expression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/5SPCP-S6SYH-SR29T-9C8K5"]]></expression>
+				<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+			</element>
+			<element kind="textField" uuid="34f4b644-88c5-489a-9a29-655fe7d45d8c" x="41" y="718" width="510" height="20" forecolor="#0000FF" markup="html" fontSize="9.0" hTextAlign="Center">
+				<paragraph firstLineIndent="10"/>
+				<expression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/"]]></expression>
+				<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+			</element>
+			<element kind="subreport" uuid="8b1fc277-aaeb-4240-8fc2-57d111f349b1" x="20" y="368" width="560" height="200" usingCache="false">
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("")]]></dataSourceExpression>
+				<expression><![CDATA["Assinantes.jrxml"]]></expression>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</detail>
+</jasperReport>

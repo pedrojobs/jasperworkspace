@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="intercambio" pageWidth="555" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="dac5b8b7-777f-4f8c-8250-7de0197c814a">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Historico-JSON.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="PeriodoLetivo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="PeriodoLetivo"/>
+		<fieldDescription><![CDATA[PeriodoLetivo]]></fieldDescription>
+	</field>
+	<field name="IntercambioInternacionalInstituicao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IntercambioInternacional.Instituicao"/>
+		<fieldDescription><![CDATA[IntercambioInternacional.Instituicao]]></fieldDescription>
+	</field>
+	<field name="IntercambioInternacionalPais" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IntercambioInternacional.Pais"/>
+		<fieldDescription><![CDATA[IntercambioInternacional.Pais]]></fieldDescription>
+	</field>
+	<field name="IntercambioInternacionalNomeProgramaIntercambio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IntercambioInternacional.NomeProgramaIntercambio"/>
+		<fieldDescription><![CDATA[IntercambioInternacional.NomeProgramaIntercambio]]></fieldDescription>
+	</field>
+	<field name="IntercambioNacionalInstituicao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IntercambioNacional.Instituicao"/>
+		<fieldDescription><![CDATA[IntercambioNacional.Instituicao]]></fieldDescription>
+	</field>
+	<field name="IntercambioNacionalPais" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IntercambioNacional.Pais"/>
+		<fieldDescription><![CDATA[IntercambioNacional.Pais]]></fieldDescription>
+	</field>
+	<field name="IntercambioNacionalIntercambioNacional.NomeProgramaIntercambio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IntercambioNacional.NomeProgramaIntercambio"/>
+		<fieldDescription><![CDATA[IntercambioNacional.NomeProgramaIntercambio]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="36" splitType="Prevent">
+			<staticText>
+				<reportElement mode="Transparent" x="0" y="0" width="554" height="18" backcolor="#E6E6E6" uuid="01509834-2b5f-4430-970e-c1114ffe0eee"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INTERCÂMBIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="0" y="18" width="100" height="18" backcolor="#E6E6E6" uuid="171118b2-354d-45cf-a3c4-c57450c4b689"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PERÍODO LETIVO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="100" y="18" width="150" height="18" backcolor="#E6E6E6" uuid="4d8530ae-3d46-4fc8-a25d-9f0d50a67e82"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INSTITUIÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="250" y="18" width="120" height="18" backcolor="#E6E6E6" uuid="8ec5e3f8-931c-4503-a8d1-556e432087da"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PAÍS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="370" y="18" width="184" height="18" backcolor="#E6E6E6" uuid="aa811121-a596-4188-a36e-dd263fc93f0b"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOME DO PROGRAMA DE INTERCÂMBIO]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="20" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{IntercambioInternacionalInstituicao} != null || $F{IntercambioInternacionalPais} != null || $F{IntercambioInternacionalNomeProgramaIntercambio} != null || $F{IntercambioNacionalInstituicao} != null || $F{IntercambioNacionalPais} != null || $F{IntercambioNacionalIntercambioNacional.NomeProgramaIntercambio} != null]]></printWhenExpression>
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="aa7d4fe4-ddf9-4cf3-8553-477ae08a54e6"/>
+				<box padding="3">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{PeriodoLetivo} != null ? $F{PeriodoLetivo} : " - "]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="100" y="0" width="150" height="20" uuid="5266dd68-021c-4c6d-bfc6-3818f48d205b"/>
+				<box padding="3">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{IntercambioInternacionalInstituicao} != null ? $F{IntercambioInternacionalInstituicao} : $F{IntercambioNacionalInstituicao} != null ? $F{IntercambioNacionalInstituicao} : " - "]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="250" y="0" width="120" height="20" uuid="d3507e0f-4e5a-45d7-8167-82a74375978c"/>
+				<box padding="3">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{IntercambioInternacionalPais} != null ? $F{IntercambioInternacionalPais} : $F{IntercambioNacionalPais} != null ? $F{IntercambioNacionalPais} : " - "]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="370" y="0" width="184" height="20" uuid="4d17e8e1-165b-45d5-b57c-dd17bf72b446"/>
+				<box padding="3">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{IntercambioInternacionalNomeProgramaIntercambio} != null ? $F{IntercambioInternacionalNomeProgramaIntercambio} : $F{IntercambioNacionalIntercambioNacional.NomeProgramaIntercambio} != null ? $F{IntercambioNacionalIntercambioNacional.NomeProgramaIntercambio} : " - "]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="declaracao_dinamica_json" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="baf0ef67-aad4-4a6c-8a25-c0c380c3d111">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="certificado 1"/>
+	<property name="net.sf.jasperreports.default.font.name" value="SansSerif"/>
+	<queryString language="json">
+		<![CDATA[Diploma.Diplomado]]>
+	</queryString>
+	<field name="Tipo_doc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Tipo_doc"/>
+	</field>
+	<field name="ID" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ID"/>
+	</field>
+	<field name="Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Nome"/>
+	</field>
+	<field name="CPF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CPF"/>
+	</field>
+	<field name="RGNumero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="RGNumero"/>
+	</field>
+	<field name="OrgaoExpedidor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="OrgaoExpedidor"/>
+	</field>
+	<field name="UFRG" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UFRG"/>
+	</field>
+	<field name="Sexo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Sexo"/>
+	</field>
+	<field name="DataNascimento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataNascimento"/>
+	</field>
+	<field name="DataInicio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataInicio"/>
+	</field>
+	<field name="DataFim" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataFim"/>
+	</field>
+	<field name="DataConclusao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataConclusao"/>
+	</field>
+	<field name="NomeCurso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NomeCurso"/>
+	</field>
+	<field name="Modalidade" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Modalidade"/>
+	</field>
+	<field name="IesEmissoraNome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNome"/>
+	</field>
+	<field name="IesEmissoraEndereco" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraEndereco"/>
+	</field>
+	<field name="IesEmissoraNomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNomeMunicipio"/>
+	</field>
+	<field name="HoraAula" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CargaHorariaCurso.HoraAula"/>
+	</field>
+	<field name="TextoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="TextoCredenciamento"/>
+	</field>
+	<field name="UrlValidacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UrlValidacao"/>
+	</field>
+	<field name="Responsavel1Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Responsavel1Nome"/>
+	</field>
+	<field name="Responsavel1Cargo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Responsavel1Cargo"/>
+	</field>
+	<field name="Responsavel2Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Responsavel2Nome"/>
+	</field>
+	<field name="Responsavel2Cargo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Responsavel2Cargo"/>
+	</field>
+	<variable name="vTipoUpper" class="java.lang.String">
+		<variableExpression><![CDATA[$F{Tipo_doc} == null ? "PADRAO" : $F{Tipo_doc}.trim().toUpperCase()]]></variableExpression>
+		<initialValueExpression><![CDATA["PADRAO"]]></initialValueExpression>
+	</variable>
+	<variable name="vTitulo" class="java.lang.String">
+		<variableExpression><![CDATA["MATRICULA".equals($V{vTipoUpper}) ? "Declaração de Matrícula" :
+            ("CONCLUSAO".equals($V{vTipoUpper}) ? "Declaração de Conclusão" :
+            ("VINCULO".equals($V{vTipoUpper}) ? "Declaração de Vínculo Acadêmico" : "Declaração"))]]></variableExpression>
+		<initialValueExpression><![CDATA["Declaração"]]></initialValueExpression>
+	</variable>
+	<variable name="vDataInicioFmt" class="java.lang.String">
+		<variableExpression><![CDATA[($F{DataInicio} != null && $F{DataInicio}.trim().length() >= 10)
+            ? $F{DataInicio}.substring(8,10) + "/" + $F{DataInicio}.substring(5,7) + "/" + $F{DataInicio}.substring(0,4)
+            : ""]]></variableExpression>
+	</variable>
+	<variable name="vDataFimFmt" class="java.lang.String">
+		<variableExpression><![CDATA[($F{DataFim} != null && $F{DataFim}.trim().length() >= 10)
+            ? $F{DataFim}.substring(8,10) + "/" + $F{DataFim}.substring(5,7) + "/" + $F{DataFim}.substring(0,4)
+            : ""]]></variableExpression>
+	</variable>
+	<variable name="vDataConclusaoFmt" class="java.lang.String">
+		<variableExpression><![CDATA[($F{DataConclusao} != null && $F{DataConclusao}.trim().length() >= 10)
+            ? $F{DataConclusao}.substring(8,10) + "/" + $F{DataConclusao}.substring(5,7) + "/" + $F{DataConclusao}.substring(0,4)
+            : ""]]></variableExpression>
+	</variable>
+	<variable name="vDataRodape" class="java.lang.String">
+		<variableExpression><![CDATA[("CONCLUSAO".equals($V{vTipoUpper}) && $F{DataConclusao} != null && $F{DataConclusao}.trim().length() >= 10)
+            ? $V{vDataConclusaoFmt}
+            : new java.text.SimpleDateFormat("dd/MM/yyyy").format(new java.util.Date())]]></variableExpression>
+	</variable>
+	<background>
+		<band height="802">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<image>
+				<reportElement x="21" y="10" width="565" height="779" uuid="2961b34c-068c-4e5e-839d-e8e4acd18209">
+					<property name="com.jaspersoft.layout.grid.x" value="-1"/>
+					<property name="com.jaspersoft.layout.grid.y" value="0"/>
+					<property name="com.jaspersoft.layout.grid.weight.x" value="1.0"/>
+					<property name="com.jaspersoft.layout.grid.weight.y" value="1.0"/>
+					<property name="com.jaspersoft.layout.grid.rowspan" value="1"/>
+					<property name="com.jaspersoft.layout.grid.colspan" value="1"/>
+					<property name="com.jaspersoft.layout.grid.weight.fixed" value="false"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/pedro/JaspersoftWorkspace/Certificado de Conclusão de Curso/moldura_final.png"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="130">
+			<textField isBlankWhenNull="true">
+				<reportElement x="67" y="40" width="475" height="20" uuid="77d161c2-e0a4-48a9-8c95-3db8a87ec12f"/>
+				<textElement textAlignment="Center">
+					<font size="11" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TextoCredenciamento} == null ? "" : $F{TextoCredenciamento}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="67" y="70" width="475" height="35" uuid="83ca6519-d702-40f6-b6ec-4d02a28f86af"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{vTitulo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="67" y="110" width="475" height="20" uuid="98bc51ab-feb6-4d91-8c73-cae76df1c130"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Declaramos, para os devidos fins, que"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="514">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<reportElement x="55" y="10" width="485" height="150" uuid="724a7f41-2b91-42d4-9d4f-b9f44fd5a4b8"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="styled">
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold='true'>" + ($F{Nome} == null ? "" : $F{Nome}) + "</style>" +
+                    ($F{CPF} == null || $F{CPF}.trim().isEmpty() ? "" : ", CPF nº " + $F{CPF}) +
+                    (
+                        "MATRICULA".equals($V{vTipoUpper})
+                        ?
+                        ", encontra-se regularmente matriculado(a) no curso de <style isBold='true'>" + ($F{NomeCurso} == null ? "" : $F{NomeCurso}) + "</style>" +
+                        (($F{Modalidade} != null && !$F{Modalidade}.trim().isEmpty()) ? ", na modalidade " + $F{Modalidade} : "") +
+                        (($V{vDataInicioFmt} != null && !$V{vDataInicioFmt}.isEmpty()) ? ", com início em " + $V{vDataInicioFmt} : "") +
+                        (($V{vDataFimFmt} != null && !$V{vDataFimFmt}.isEmpty()) ? " e previsão de término em " + $V{vDataFimFmt} : "") +
+                        "."
+                        :
+                        (
+                            "CONCLUSAO".equals($V{vTipoUpper})
+                            ?
+                            ", concluiu o curso de <style isBold='true'>" + ($F{NomeCurso} == null ? "" : $F{NomeCurso}) + "</style>" +
+                            (($F{Modalidade} != null && !$F{Modalidade}.trim().isEmpty()) ? ", na modalidade " + $F{Modalidade} : "") +
+                            (($F{HoraAula} != null && !$F{HoraAula}.trim().isEmpty()) ? ", com carga horária de " + $F{HoraAula} + " horas" : "") +
+                            (($V{vDataConclusaoFmt} != null && !$V{vDataConclusaoFmt}.isEmpty()) ? ", em " + $V{vDataConclusaoFmt} : "") +
+                            "."
+                            :
+                            ", possui vínculo acadêmico com a instituição <style isBold='true'>" + ($F{IesEmissoraNome} == null ? "" : $F{IesEmissoraNome}) + "</style>" +
+                            (($F{NomeCurso} != null && !$F{NomeCurso}.trim().isEmpty()) ? " no curso de <style isBold='true'>" + $F{NomeCurso} + "</style>" : "") +
+                            (($F{Modalidade} != null && !$F{Modalidade}.trim().isEmpty()) ? ", modalidade " + $F{Modalidade} : "") +
+                            (($V{vDataInicioFmt} != null && !$V{vDataInicioFmt}.isEmpty()) ? ", desde " + $V{vDataInicioFmt} : "") +
+                            "."
+                        )
+                    )]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="160" width="485" height="50" uuid="2ffdf60b-4b45-49a6-9982-a951d387d1d7"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{IesEmissoraEndereco} == null || $F{IesEmissoraEndereco}.trim().isEmpty())
+                    ? ""
+                    : "Documento emitido por " + ($F{IesEmissoraNome} == null ? "" : $F{IesEmissoraNome}) + ", localizada em " + $F{IesEmissoraEndereco} + "."]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="80" y="240" width="150" height="1" uuid="16dfcc65-f251-4bf8-80ad-530a2556e6fe"/>
+			</line>
+			<line>
+				<reportElement x="365" y="240" width="150" height="1" uuid="ddf2a909-c5a3-423e-9da5-8c4ddabf6f17"/>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="60" y="245" width="190" height="40" uuid="ba79b273-f4f3-4c01-8780-55cc72f594e0"/>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Responsavel1Nome} == null ? "" : $F{Responsavel1Nome}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="60" y="285" width="190" height="25" uuid="eb75dc5b-750f-460f-b7cb-f70015cb9883"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Responsavel1Cargo} == null ? "" : $F{Responsavel1Cargo}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="345" y="245" width="190" height="40" uuid="237fb948-b99a-46ae-9d4d-f75316679d83"/>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Responsavel2Nome} == null ? "" : $F{Responsavel2Nome}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="345" y="285" width="190" height="25" uuid="8492c8dc-1820-4f67-a5d8-6ad1ab1ec3d7"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Responsavel2Cargo} == null ? "" : $F{Responsavel2Cargo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="55" y="350" width="485" height="22" uuid="1cb2cd2f-c485-490e-a4b8-4e20fbff41b6"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{IesEmissoraNomeMunicipio} == null ? "" : $F{IesEmissoraNomeMunicipio}) + ", " + $V{vDataRodape}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="385" width="485" height="25" uuid="6efbb3e1-f0b0-4723-afce-d2a0c6a2ddd8"/>
+				<textElement textAlignment="Center">
+					<font size="9" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{UrlValidacao} == null ? "" : $F{UrlValidacao}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="55" y="424" width="487" height="18" uuid="c2e559ea-f667-4aa0-a58b-4e211f9c646f"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ID: " + ($F{ID} == null ? "" : $F{ID})]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

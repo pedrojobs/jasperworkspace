@@ -1,0 +1,19 @@
+# Jasper compiled
+*.jasper
+
+# Eclipse / Jaspersoft
+.metadata/
+.settings/
+bin/
+target/
+.project
+.classpath
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# Windows
+Thumbs.db
+Desktop.ini

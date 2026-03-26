@@ -1,0 +1,91 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="assinante_subreport" language="java" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="608c926d-de22-4e2d-90fb-a38873e3b32a">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<query language="json"><![CDATA[assinante]]></query>
+	<field name="name" class="java.lang.String">
+		<description><![CDATA[name]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.name"/>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<description><![CDATA[identifier]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.identifier"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<description><![CDATA[email]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.email"/>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<description><![CDATA[signedOn]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signedOn"/>
+	</field>
+	<field name="type" class="java.lang.String">
+		<description><![CDATA[type]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="tassinante.type"/>
+	</field>
+	<field name="signatureType" class="java.lang.String">
+		<description><![CDATA[signatureType]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signatureType"/>
+	</field>
+	<field name="subjectName" class="java.lang.String">
+		<description><![CDATA[subjectName]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.subjectName"/>
+	</field>
+	<field name="issuerName" class="java.lang.String">
+		<description><![CDATA[issuerName]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.issuerName"/>
+	</field>
+	<field name="serialNumber" class="java.lang.String">
+		<description><![CDATA[serialNumber]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.serialNumber"/>
+	</field>
+	<field name="validityStart" class="java.lang.String">
+		<description><![CDATA[validityStart]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="validityStart"/>
+	</field>
+	<field name="validityEnd" class="java.lang.String">
+		<description><![CDATA[validityEnd]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.validityEnd"/>
+	</field>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<element kind="textField" uuid="4799c68c-792b-4b8b-b77e-c697bd220d41" x="18" y="0" width="201" height="26">
+				<expression><![CDATA[$F{name}]]></expression>
+			</element>
+			<element kind="textField" uuid="55065658-01a8-4f4d-9a32-ed81afa012df" x="398" y="0" width="174" height="26">
+				<expression><![CDATA[ new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(
+      new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX").parse(
+          $F{signedOn}.replace("[","").replace("]","").replace("\"","")
+      )
+  )
+]]></expression>
+			</element>
+			<element kind="textField" uuid="8e212b09-27d5-4dba-902e-327bbaa52ab1" x="219" y="0" width="179" height="26">
+				<expression><![CDATA[" (CPF ***."
++ $F{identifier}.substring(3,6)
++ "."
++ $F{identifier}.substring(6,9)
++ "-"
++ $F{identifier}.substring(9,11)]]></expression>
+			</element>
+			<element kind="image" uuid="83986d35-3b0c-43ff-a85c-9c82ed45bbd0" x="0" y="1" width="17" height="23">
+				<expression><![CDATA["valido.png"]]></expression>
+			</element>
+			<element kind="frame" uuid="760d1f98-4fd1-4a87-b47f-3b9e3c5a0bee" x="0" y="1" width="17" height="23"/>
+			<element kind="frame" uuid="b78757c0-6d38-4cff-8bec-f4d762e05e63" x="18" y="0" width="200" height="26"/>
+			<element kind="frame" uuid="436f73ca-7a31-4bab-bb0e-754b7eeb085b" x="218" y="0" width="180" height="26"/>
+			<element kind="frame" uuid="214610f5-ce8e-4dfd-8367-5e0ff52cfc66" x="398" y="0" width="174" height="26">
+				<element kind="frame" uuid="b5e61484-1d08-4248-a664-0ac07b39b4b0" x="-398" y="0" width="572" height="26"/>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="declaracao_residencia_medica" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="36" bottomMargin="36" uuid="c3c2f0c9-5c91-4b58-9d69-ffb5f23efb0c">
+	<property name="net.sf.jasperreports.default.locale" value="pt_BR"/>
+	<style name="Base" fontName="SansSerif" fontSize="12" pdfFontName="Helvetica"/>
+	<style name="Small" style="Base" fontSize="10"/>
+	<style name="Title" style="Base" fontSize="24" isBold="true"/>
+	<style name="Center" style="Base" hTextAlign="Center" hImageAlign="Center"/>
+	<style name="CenterTitle" style="Title" hTextAlign="Center" hImageAlign="Center" vTextAlign="Middle" vImageAlign="Middle"/>
+	<style name="SigName" style="Base" hTextAlign="Center" hImageAlign="Center" fontSize="12" isBold="true"/>
+	<style name="SigCargo" style="Small" hTextAlign="Center" hImageAlign="Center"/>
+	<parameter name="NomeAluno" class="java.lang.String"/>
+	<parameter name="RegistroAcademico" class="java.lang.String"/>
+	<parameter name="CPFAluno" class="java.lang.String"/>
+	<parameter name="ProgramaResidencia" class="java.lang.String"/>
+	<parameter name="InstituicaoOferta" class="java.lang.String"/>
+	<parameter name="ParecerNumero" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="ProcessoNumero" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="DataParecerAprovacao" class="java.util.Date" isForPrompting="false"/>
+	<parameter name="DataInicioPrograma" class="java.util.Date"/>
+	<parameter name="DataFimPrograma" class="java.util.Date"/>
+	<parameter name="DataDeclaracao" class="java.util.Date"/>
+	<parameter name="CidadeDeclaracao" class="java.lang.String"/>
+	<parameter name="NomeAssinante" class="java.lang.String"/>
+	<parameter name="CargoAssinante" class="java.lang.String"/>
+	<parameter name="UnidadeAssinante" class="java.lang.String"/>
+	<parameter name="GrupoInstitucional" class="java.lang.String"/>
+	<parameter name="EnderecoLinha" class="java.lang.String"/>
+	<parameter name="LogoSuperior" class="java.lang.Object" isForPrompting="false"/>
+	<parameter name="LogoInferior" class="java.lang.Object" isForPrompting="false"/>
+	<variable name="TextoParecer" class="java.lang.String">
+		<variableExpression><![CDATA[{
+              String parecer = ($P{ParecerNumero}==null || $P{ParecerNumero}.trim().isEmpty())? "" : (" com programa Recredenciado pela Comissão Nacional de Residência Médica-MEC, sob parecer " + $P{ParecerNumero});
+              String processo = ($P{ProcessoNumero}==null || $P{ProcessoNumero}.trim().isEmpty())? "" : (", processo " + $P{ProcessoNumero});
+              String dtParecer = "";
+              if ($P{DataParecerAprovacao} != null) {
+                  java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("d 'de' MMMM 'de' yyyy", new java.util.Locale("pt","BR"));
+                  dtParecer = ", aprovado em " + sdf.format($P{DataParecerAprovacao});
+              }
+              return parecer + processo + dtParecer + ".";
+            }]]></variableExpression>
+	</variable>
+	<variable name="DataInicioFmt" class="java.lang.String">
+		<variableExpression><![CDATA[$P{DataInicioPrograma} == null ? "" : new java.text.SimpleDateFormat("d 'de' MMMM 'de' yyyy", new java.util.Locale("pt","BR")).format($P{DataInicioPrograma})]]></variableExpression>
+	</variable>
+	<variable name="DataFimFmt" class="java.lang.String">
+		<variableExpression><![CDATA[$P{DataFimPrograma} == null ? "" : new java.text.SimpleDateFormat("d 'de' MMMM 'de' yyyy", new java.util.Locale("pt","BR")).format($P{DataFimPrograma})]]></variableExpression>
+	</variable>
+	<variable name="DataDeclFmt" class="java.lang.String">
+		<variableExpression><![CDATA[$P{DataDeclaracao} == null ? "" : new java.text.SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new java.util.Locale("pt","BR")).format($P{DataDeclaracao})]]></variableExpression>
+	</variable>
+	<pageHeader>
+		<band height="80">
+			<textField>
+				<reportElement style="CenterTitle" x="0" y="50" width="555" height="30" uuid="5a6b8b28-3c69-46d6-8c1d-740cba75a6e1"/>
+				<textFieldExpression><![CDATA["DECLARAÇÃO"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="125" y="0" width="305" height="30" uuid="c51ec359-571a-4d21-92ac-d349ac4cb9f5"/>
+				<textElement textAlignment="Center">
+					<font size="22"/>
+				</textElement>
+				<text><![CDATA[DECLARAÇÃO]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="220" splitType="Immediate">
+			<textField textAdjust="StretchHeight">
+				<reportElement style="Base" x="0" y="0" width="555" height="110" uuid="db719953-1913-4f44-85a7-7c73795dd7c5"/>
+				<textFieldExpression><![CDATA["Declaro que " + $P{NomeAluno} + ($P{RegistroAcademico} != null && !$P{RegistroAcademico}.trim().isEmpty() ? " - Registro acadêmico: " + $P{RegistroAcademico} : "") +
+($P{CPFAluno} != null && !$P{CPFAluno}.trim().isEmpty() ? ", CPF: " + $P{CPFAluno} : "") +
+ " - concluiu a " + $P{NomeCurso} + ", oferecida pelo " + $P{IESEmissora} +
+"com programa Recredenciado pela Comissão Nacional de Residência Médica-MEC, sob parecer 625/2019, processo 2019-108, aprovado em  30 de maio de 2019."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement style="Base" x="0" y="120" width="555" height="40" uuid="cba1b8e7-1bd4-4b8b-87e7-b384820ba45d"/>
+				<textFieldExpression><![CDATA["Período de realização do programa de estudos: " +
+                    ($V{DataInicioFmt}==null?"":$V{DataInicioFmt}) +
+                    " a " +
+                    ($V{DataFimFmt}==null?"":$V{DataFimFmt}) + "."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight" pattern="">
+				<reportElement style="Base" x="0" y="170" width="555" height="25" uuid="6c86df84-2a47-4d02-9b59-69d650034657"/>
+				<textFieldExpression><![CDATA[$P{CidadeDeclaracao} + ", " + $V{DataDeclFmt} + "."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="160">
+			<line>
+				<reportElement x="170" y="30" width="215" height="1" uuid="2ad9a116-b8fd-4f0c-8bb9-72edb00b3881"/>
+			</line>
+			<textField textAdjust="StretchHeight">
+				<reportElement style="SigName" x="0" y="35" width="555" height="20" uuid="5b7d67d3-5ed7-4090-91a0-5dbf3f55b179"/>
+				<textFieldExpression><![CDATA[$P{NomeAssinante}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement style="SigCargo" x="0" y="55" width="555" height="16" uuid="1fbe5401-dd3e-4d36-87d8-28976b94fec5"/>
+				<textFieldExpression><![CDATA[$P{CargoAssinante}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement style="SigCargo" x="0" y="71" width="555" height="16" uuid="ae4f084f-bd04-457c-8c3d-975d8868415c"/>
+				<textFieldExpression><![CDATA[$P{UnidadeAssinante}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement style="SigCargo" x="0" y="87" width="555" height="16" uuid="e7c1df34-5dc6-4c0e-b9e2-9e3a7cf77841"/>
+				<textFieldExpression><![CDATA[$P{GrupoInstitucional}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="420" y="15" width="120" height="60" uuid="cba0fc7e-e4cd-4b4b-a640-729896e64af4"/>
+				<text><![CDATA[ ]]></text>
+			</staticText>
+			<textField textAdjust="StretchHeight">
+				<reportElement style="Small" x="0" y="130" width="435" height="20" uuid="dfaae91c-0d43-4e2e-b0ce-0ccd251ebc75"/>
+				<textFieldExpression><![CDATA[$P{EnderecoLinha}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

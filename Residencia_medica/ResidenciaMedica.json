@@ -1,0 +1,24 @@
+{
+  "Diploma": {
+                    "Diplomado": {
+                    "ID": "456123",
+                    "Nome": "Andreia Martins de Freitas Ribeiro",
+                    "Sexo": "F",
+                    "NomeMunicipio": "Belo Horizonte",
+                    "UF": "MG",
+                    "NomeMunicipioEstrangeiro": "Buenos Aires",
+                    "CPF": "01234567890",
+                    "RGNumero": "12345678",
+                    "UFRG": "MG",
+                    "OrgaoExpedidor": "SSP",
+                    "DataNascimento": "1967-12-02", 
+                    "DataInicio": "2018-12-20",
+                    "DataFim": "2020-12-20",
+                    "DataConclusao": "2021-12-15",
+                    "NomeCurso": "RESIDÊNCIA MÉDICA EM ORTOPEDIA E TRAUMATOLOGIA",
+                    "IesEmissoraNome": "Universidade de Ciências Médicas Safeduc",
+                    "IesEmissoraEndereco": "Rua São Cosme de cima",
+                    "IesEmissoraNomeMunicipio": "Belo Horizonte" 
+                }
+            } 
+  }

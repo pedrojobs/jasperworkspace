@@ -1,0 +1,64 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="ManifestoAssinantes_subreport" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="11111111-1111-1111-1111-111111111111">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto_Dados"/>
+	<query language="JSON"><![CDATA[assinantes.assinante]]></query>
+	<field name="name" class="java.lang.String">
+		<description><![CDATA[name]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.name"/>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<description><![CDATA[identifier]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.identifier"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<description><![CDATA[email]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.email"/>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<description><![CDATA[signedOn]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.signedOn"/>
+	</field>
+	<field name="type" class="java.lang.String">
+		<description><![CDATA[type]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="type"/>
+	</field>
+	<field name="signatureType" class="java.lang.String">
+		<description><![CDATA[signatureType]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="signatureType"/>
+	</field>
+	<field name="subjectName" class="java.lang.String">
+		<description><![CDATA[subjectName]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="subjectName"/>
+	</field>
+	<field name="issuerName" class="java.lang.String">
+		<description><![CDATA[issuerName]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="issuerName"/>
+	</field>
+	<field name="serialNumber" class="java.lang.String">
+		<description><![CDATA[serialNumber]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="serialNumber"/>
+	</field>
+	<field name="validityStart" class="java.lang.String">
+		<description><![CDATA[validityStart]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="validityStart"/>
+	</field>
+	<field name="validityEnd" class="java.lang.String">
+		<description><![CDATA[validityEnd]]></description>
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.validityEnd"/>
+	</field>
+	<detail>
+		<band height="60" splitType="Stretch">
+			<element kind="textField" uuid="df979191-20fc-4eae-98af-003852ab88e2" mode="Opaque" x="17" y="0" width="542" height="60">
+				<expression><![CDATA[$F{name} + " (CPF ***" + $F{identifier}.substring(3,9) + "-" + $F{identifier}.substring(9) + ") em " + new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(
+      new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX").parse(
+          $F{signedOn}.replace("[","").replace("]","").replace("\"","")
+      )
+  )
++ " - Assinatura realizada por meio do certificado ICP-Brasil"]]></expression>
+			</element>
+			<element kind="image" uuid="5e1b5df3-0118-44c0-aad4-9d6cad658829" x="0" y="0" width="17" height="23">
+				<expression><![CDATA["valido.png"]]></expression>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

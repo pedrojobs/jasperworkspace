@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>escola</name>
+  <driver>com.mysql.jdbc.Driver</driver>
+  <username>josper</username>
+  <password>C]5e4CRyEA_TNqD2</password>
+  <url>jdbc:mysql://localhost/escola</url>
+  <database></database>
+  <savePassword>true</savePassword>
+  <serverAddress></serverAddress>
+</jdbcDataAdapter>

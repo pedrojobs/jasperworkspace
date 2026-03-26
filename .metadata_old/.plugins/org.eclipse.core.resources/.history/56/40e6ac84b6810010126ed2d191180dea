@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Manifesto_assinatura" language="javascript" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="c1ae4c09-853a-4f3a-ab23-c4bd0d40372f">
+	<property name="net.sf.jasperreports.export.pdfa.enabled" value="true"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto_Dados"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<detail>
+		<band height="842">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport isUsingCache="false">
+				<reportElement x="30" y="309" width="530" height="331" uuid="b0010397-2149-4041-819c-a0e8d895f217"/>
+				<subreportParameter name="net.sf.jasperreports.json.source">
+					<subreportParameterExpression><![CDATA[]]></subreportParameterExpression>
+				</subreportParameter>
+				<dataSourceExpression><![CDATA[$P{REPORT_DATA_SOURCE}.subDataSource("assinantes.assinante")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["assinantes.jrxml"]]></subreportExpression>
+			</subreport>
+			<image>
+				<reportElement x="30" y="40" width="108" height="103" uuid="50bf93d6-efaa-4672-9050-900de4d39cb5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["ICP.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="172" y="50" width="250" height="93" uuid="92547bbb-248a-4664-beb8-038cd898abdd"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MANIFESTO DE ASSINATURAS]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="459" y="40" width="101" height="99" uuid="571c8401-0418-4567-ba45-ac93142fdd38">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/"]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="84" y="163" width="430" height="30" uuid="1a6b8fbf-802c-401d-a924-b075279bc70f"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Código validação: 5SPCP-S6SYH-SR29T-9C8K5"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="239" width="550" height="49" uuid="c8f5bec1-f3d6-4f1e-ad35-c79a91ed501f"/>
+				<textElement textAlignment="Left">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Esse documento foi assinado pelos seguintes signatários nas datas indicadas (Fuso
+horário de Brasília):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="203" width="320" height="31" uuid="664d0373-8176-4ca7-851b-ce478f98634f"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tipo de assinatura: Avançada" ]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement mode="Opaque" x="492" y="80" width="34" height="23" uuid="e2709c41-bb20-488b-a5fb-e97951f4a9dd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:\\Users\\pedro\\JaspersoftWorkspace\\Curriculo-Uniasselvi\\logo_uniasselvi1.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="40" y="650" width="510" height="20" uuid="d927e022-e716-4581-a9c3-54d4c3620b99"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Para verificar as assinaturas, acesse o link direto de validação deste documento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="728" width="510" height="36" uuid="b4d12444-706e-4c34-be40-e2420547b8d0"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Ou acesse a consulta de documentos assinados disponível no link abaixo e informe
+o código de validação:]]></text>
+			</staticText>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="40" y="691" width="510" height="20" forecolor="#0000FF" uuid="1ec9faba-e174-4ff7-ae4b-40973291f45e">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" markup="html">
+					<font size="12"/>
+					<paragraph firstLineIndent="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/5SPCP-S6SYH-SR29T-9C8K5"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="785" width="510" height="20" forecolor="#0000FF" uuid="1aa1d1fb-43b4-4217-9bb1-caff4e817ea7">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" markup="html">
+					<font size="9"/>
+					<paragraph firstLineIndent="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>Certificado de Pós</name>
+  <dataFile type="repositoryDataLocation">
+    <location>C:\Users\pedro\Downloads\Diploma pós Graduação.json</location>
+  </dataFile>
+  <selectExpression/>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>false</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

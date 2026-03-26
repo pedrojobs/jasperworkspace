@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>Treinamento</name>
+  <dataFile type="httpDataLocation">
+    <url>http://192.168.1.108:5000/diplomas</url>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>false</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

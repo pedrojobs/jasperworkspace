@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+    name="documentos_academicos_unificado"
+    pageWidth="595"
+    pageHeight="842"
+    columnWidth="515"
+    leftMargin="40"
+    rightMargin="40"
+    topMargin="30"
+    bottomMargin="30"
+    uuid="b2f15886-a221-4cc2-8a20-91a0ac0d95b1">
+
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="JSON Data Adapter"/>
+    <property name="net.sf.jasperreports.json.date.pattern" value="yyyy-MM-dd"/>
+
+    <queryString language="json"><![CDATA[Diploma.Diplomado]]></queryString>
+
+    <parameter name="DOCUMENT_TYPE" class="java.lang.String"/>
+    <parameter name="INSTITUICAO_SUBTITULO" class="java.lang.String"/>
+    <parameter name="SEMESTRE_ATUAL" class="java.lang.String"/>
+    <parameter name="PERIODO" class="java.lang.String"/>
+    <parameter name="CIDADE_UF_DATA" class="java.lang.String"/>
+    <parameter name="CODIGO_VERIFICACAO" class="java.lang.String"/>
+    <parameter name="URL_VALIDACAO" class="java.lang.String"/>
+    <parameter name="ASSINATURA_1_NOME" class="java.lang.String"/>
+    <parameter name="ASSINATURA_1_CARGO" class="java.lang.String"/>
+    <parameter name="ASSINATURA_2_NOME" class="java.lang.String"/>
+    <parameter name="ASSINATURA_2_CARGO" class="java.lang.String"/>
+    <parameter name="TEXTO_COMPLEMENTAR" class="java.lang.String"/>
+    <parameter name="OBSERVACOES" class="java.lang.String"/>
+
+    <field name="ID" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="ID"/>
+    </field>
+    <field name="Nome" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="Nome"/>
+    </field>
+    <field name="Sexo" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="Sexo"/>
+    </field>
+    <field name="NomeMunicipio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="NomeMunicipio"/>
+    </field>
+    <field name="UF" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="UF"/>
+    </field>
+    <field name="NomeMunicipioEstrangeiro" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="NomeMunicipioEstrangeiro"/>
+    </field>
+    <field name="CPF" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="CPF"/>
+    </field>
+    <field name="RGNumero" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="RGNumero"/>
+    </field>
+    <field name="UFRG" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="UFRG"/>
+    </field>
+    <field name="OrgaoExpedidor" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="OrgaoExpedidor"/>
+    </field>
+    <field name="DataNascimento" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="DataNascimento"/>
+    </field>
+    <field name="DataInicio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="DataInicio"/>
+    </field>
+    <field name="DataFim" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="DataFim"/>
+    </field>
+    <field name="DataConclusao" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="DataConclusao"/>
+    </field>
+    <field name="NomeCurso" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="NomeCurso"/>
+    </field>
+    <field name="Modalidade" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="Modalidade"/>
+    </field>
+    <field name="IesEmissoraNome" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNome"/>
+    </field>
+    <field name="IesEmissoraEndereco" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraEndereco"/>
+    </field>
+    <field name="IesEmissoraNomeMunicipio" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNomeMunicipio"/>
+    </field>
+    <field name="HoraAula" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="CargaHorariaCurso.HoraAula"/>
+    </field>
+
+    <background>
+        <band splitType="Stretch">
+            <rectangle>
+                <reportElement x="0" y="0" width="515" height="782" forecolor="#1F3357"  uuid="8f6b9300-d2af-410e-a0f9-2a6eea685ca9"/>
+                <graphicElement>
+                    <pen lineWidth="2.0"/>
+                </graphicElement>
+            </rectangle>
+            <rectangle>
+                <reportElement x="8" y="8" width="499" height="766" forecolor="#C9A96A"  uuid="4de34a77-a7e5-489f-b10d-17d6479bf762"/>
+                <graphicElement>
+                    <pen lineWidth="1.2"/>
+                </graphicElement>
+            </rectangle>
+            <ellipse>
+                <reportElement x="50" y="248" width="415" height="260" forecolor="#EFE8DB" uuid="d7a8f1b4-46f8-4657-a9c8-84cb71b9bf14"/>
+                <graphicElement>
+                    <pen lineWidth="0.0" lineColor="#FFFFFF"/>
+                </graphicElement>
+            </ellipse>
+        </band>
+    </background>
+
+    <title>
+        <band height="190" splitType="Stretch">
+            <frame>
+                <reportElement x="165" y="6" width="185" height="72" uuid="442ef645-f31d-4921-821e-0a921dbaf78d"/>
+                <rectangle>
+                    <reportElement x="48" y="0" width="88" height="60" backcolor="#1F3357" mode="Opaque"  uuid="e9bc5ff6-ca2d-4adb-b1b0-317fd08d0688"/>
+                    <graphicElement>
+                        <pen lineWidth="1.0" lineColor="#C9A96A"/>
+                    </graphicElement>
+                </rectangle>
+                <textField>
+                    <reportElement x="73" y="14" width="38" height="24" forecolor="#F3E8C7" uuid="5caad290-e718-417d-974c-8306002432f8"/>
+                    <textElement textAlignment="Center" verticalAlignment="Middle">
+                        <font size="22" isBold="true"/>
+                    </textElement>
+                    <textFieldExpression><![CDATA["📘"]]></textFieldExpression>
+                </textField>
+                <line>
+                    <reportElement x="12" y="58" width="40" height="1" forecolor="#C9A96A" uuid="eb52233c-6d33-4690-a330-4e6ff24f7aef"/>
+                </line>
+                <line>
+                    <reportElement x="132" y="58" width="40" height="1" forecolor="#C9A96A" uuid="48395ae8-e704-4c08-a164-cdf84799f90c"/>
+                </line>
+            </frame>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="57" y="82" width="401" height="34" forecolor="#223555" uuid="5b2704dd-5bf3-4d0d-ac9f-d4365b293551"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="24" isBold="true" pdfFontName="Helvetica-Bold"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{IesEmissoraNome} == null ? "UNIVERSIDADE" : $F{IesEmissoraNome}]]></textFieldExpression>
+            </textField>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="57" y="116" width="401" height="18" forecolor="#8D7D64" uuid="c9e3a0ad-b373-45e8-a426-5a3a6398f2d8"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="10"/>
+                </textElement>
+                <textFieldExpression><![CDATA[
+                    $P{INSTITUICAO_SUBTITULO} == null || $P{INSTITUICAO_SUBTITULO}.trim().isEmpty()
+                    ? $F{IesEmissoraEndereco} + " - " + $F{IesEmissoraNomeMunicipio}
+                    : $P{INSTITUICAO_SUBTITULO}
+                ]]></textFieldExpression>
+            </textField>
+
+            <textField>
+                <reportElement x="37" y="146" width="441" height="30" forecolor="#223555" uuid="a18bbd90-7833-469e-a92a-f86d74392746"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="20" isBold="true" pdfFontName="Helvetica-Bold"/>
+                </textElement>
+                <textFieldExpression><![CDATA[
+                    "DECLARACAO_MATRICULA".equals($P{DOCUMENT_TYPE}) ? "DECLARAÇÃO DE MATRÍCULA" :
+                    "DECLARACAO_CONCLUSAO".equals($P{DOCUMENT_TYPE}) ? "DECLARAÇÃO DE CONCLUSÃO" :
+                    "DECLARACAO_VINCULO".equals($P{DOCUMENT_TYPE}) ? "DECLARAÇÃO DE VÍNCULO ACADÊMICO" :
+                    "CERTIFICADO_CONCLUSAO_CURSO".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE CONCLUSÃO DE CURSO" :
+                    "CERTIFICADO_EXTENSAO".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE EXTENSÃO" :
+                    "CERTIFICADO_CURSO_LIVRE".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE CURSO LIVRE" :
+                    "CERTIFICADO_EVENTO".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE PARTICIPAÇÃO EM EVENTO ACADÊMICO" :
+                    "CERTIFICADO_MONITORIA".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE MONITORIA" :
+                    "CERTIFICADO_INICIACAO_CIENTIFICA".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE INICIAÇÃO CIENTÍFICA" :
+                    "CERTIFICADO_ESTAGIO".equals($P{DOCUMENT_TYPE}) ? "CERTIFICADO DE ESTÁGIO" :
+                    "DOCUMENTO ACADÊMICO"
+                ]]></textFieldExpression>
+            </textField>
+            <line>
+                <reportElement x="167" y="178" width="180" height="1" forecolor="#C9A96A" uuid="db1a7866-24bc-4b7e-a230-4301eb7a0e79"/>
+            </line>
+        </band>
+    </title>
+
+    <detail>
+        <band height="480" splitType="Stretch">
+            <textField>
+                <reportElement x="40" y="10" width="435" height="22" forecolor="#6F6458" uuid="46f0f6da-b647-4049-bce4-a376d11eabed"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="13"/>
+                </textElement>
+                <textFieldExpression><![CDATA[
+                    $P{DOCUMENT_TYPE} != null && $P{DOCUMENT_TYPE}.startsWith("DECLARACAO")
+                    ? "Declaramos para os devidos fins que"
+                    : "Certificamos que"
+                ]]></textFieldExpression>
+            </textField>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="35" y="42" width="445" height="30" forecolor="#223555" uuid="47f39a0a-27cb-4a42-b920-b0ad6334ec3c"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="18" isBold="true" pdfFontName="Helvetica-Bold"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{Nome}]]></textFieldExpression>
+            </textField>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="147" y="74" width="220" height="18" forecolor="#6F6458" uuid="8a87c683-63b7-4519-a54e-7cf3c7be04d9"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="11"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{CPF} == null ? "" : "CPF nº " + $F{CPF}]]></textFieldExpression>
+            </textField>
+
+            <textField isStretchWithOverflow="true" isBlankWhenNull="true">
+                <reportElement x="45" y="102" width="425" height="60" forecolor="#5E5348" uuid="9e3e62a2-9bd0-4847-85f6-b12d53642963"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="13"/>
+                </textElement>
+                <textFieldExpression><![CDATA[
+                    "DECLARACAO_MATRICULA".equals($P{DOCUMENT_TYPE})
+                    ? "encontra-se regularmente matriculado(a) no curso de"
+                    : "DECLARACAO_CONCLUSAO".equals($P{DOCUMENT_TYPE})
+                    ? "concluiu integralmente os requisitos acadêmicos do curso de"
+                    : "DECLARACAO_VINCULO".equals($P{DOCUMENT_TYPE})
+                    ? "encontra-se devidamente matriculado(a) e com vínculo ativo no curso de"
+                    : "CERTIFICADO_EVENTO".equals($P{DOCUMENT_TYPE})
+                    ? "participou do evento acadêmico"
+                    : "CERTIFICADO_MONITORIA".equals($P{DOCUMENT_TYPE})
+                    ? "atuou com aproveitamento no programa de monitoria vinculado a"
+                    : "CERTIFICADO_INICIACAO_CIENTIFICA".equals($P{DOCUMENT_TYPE})
+                    ? "participou do projeto de iniciação científica"
+                    : "CERTIFICADO_ESTAGIO".equals($P{DOCUMENT_TYPE})
+                    ? "cumpriu as atividades de estágio vinculadas a"
+                    : "participou e concluiu com êxito o curso de"
+                ]]></textFieldExpression>
+            </textField>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="35" y="156" width="445" height="34" forecolor="#223555" uuid="54c8fc9b-f055-4300-98b4-6a2d0f0c8983"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="19" isBold="true" pdfFontName="Helvetica-Bold"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{NomeCurso}]]></textFieldExpression>
+            </textField>
+
+            <frame>
+                <reportElement x="63" y="202" width="389" height="138" uuid="717824b8-e69d-4c32-a9f7-f78b829613eb"/>
+
+                <textField isBlankWhenNull="true">
+                    <reportElement x="6" y="0" width="377" height="16" forecolor="#6F6458" uuid="377671be-3f34-4bf0-84c4-f8e3bf150ac8"/>
+                    <textElement><font size="11"/></textElement>
+                    <textFieldExpression><![CDATA[$F{ID} == null ? "" : "• Matrícula/ID nº: " + $F{ID}]]></textFieldExpression>
+                </textField>
+
+                <textField isBlankWhenNull="true">
+                    <reportElement x="6" y="22" width="377" height="16" forecolor="#6F6458" uuid="53970abc-d71f-4871-8f4a-1508edcbab49"/>
+                    <textElement><font size="11"/></textElement>
+                    <textFieldExpression><![CDATA[$F{Modalidade} == null ? "" : "• Modalidade: " + $F{Modalidade}]]></textFieldExpression>
+                </textField>
+
+                <textField isBlankWhenNull="true">
+                    <reportElement x="6" y="44" width="377" height="16" forecolor="#6F6458" uuid="744379e4-7898-4f45-9813-ac8440afc2bf"/>
+                    <textElement><font size="11"/></textElement>
+                    <textFieldExpression><![CDATA[$P{SEMESTRE_ATUAL} == null ? "" : "• Semestre Atual: " + $P{SEMESTRE_ATUAL}]]></textFieldExpression>
+                </textField>
+
+                <textField isBlankWhenNull="true">
+                    <reportElement x="6" y="66" width="377" height="16" forecolor="#6F6458" uuid="eb8c5e3d-f925-49f7-94e0-6f16b92f1b64"/>
+                    <textElement><font size="11"/></textElement>
+                    <textFieldExpression><![CDATA[$P{PERIODO} == null ? "" : "• Período: " + $P{PERIODO}]]></textFieldExpression>
+                </textField>
+
+                <textField isBlankWhenNull="true">
+                    <reportElement x="6" y="88" width="377" height="16" forecolor="#6F6458" uuid="b3c5fa5e-4b7f-44cf-9af0-4208a930698d"/>
+                    <textElement><font size="11"/></textElement>
+                    <textFieldExpression><![CDATA[$F{DataInicio} == null ? "" : "• Data de Ingresso/Início: " + $F{DataInicio}]]></textFieldExpression>
+                </textField>
+
+                <textField isBlankWhenNull="true">
+                    <reportElement x="6" y="110" width="377" height="16" forecolor="#6F6458" uuid="4030a86d-f906-4117-a942-ab9d2fe21977"/>
+                    <textElement><font size="11"/></textElement>
+                    <textFieldExpression><![CDATA[$F{HoraAula} == null ? "" : "• Carga Horária Total: " + $F{HoraAula} + " horas" ]]></textFieldExpression>
+                </textField>
+            </frame>
+
+            <textField isStretchWithOverflow="true" isBlankWhenNull="true">
+                <reportElement x="45" y="346" width="425" height="46" forecolor="#6F6458" uuid="07c88d68-3a55-4f70-8f01-1f9da249ec04"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"><font size="11"/></textElement>
+                <textFieldExpression><![CDATA[
+                    $P{TEXTO_COMPLEMENTAR} != null && !$P{TEXTO_COMPLEMENTAR}.trim().isEmpty()
+                    ? $P{TEXTO_COMPLEMENTAR}
+                    : (
+                        $F{DataInicio} != null || $F{DataFim} != null || $F{DataConclusao} != null
+                        ? "Período de realização: "
+                          + ($F{DataInicio} == null ? "" : $F{DataInicio})
+                          + (($F{DataInicio} != null && $F{DataFim} != null) ? " a " : "")
+                          + ($F{DataFim} == null ? "" : $F{DataFim})
+                          + ($F{DataConclusao} == null ? "" : " • Data de conclusão: " + $F{DataConclusao})
+                        : ""
+                    )
+                ]]></textFieldExpression>
+            </textField>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="45" y="404" width="425" height="22" forecolor="#6F6458" uuid="83d1277f-35a3-4c8b-b8ad-f1fe4f72792c"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"><font size="12"/></textElement>
+                <textFieldExpression><![CDATA[
+                    $P{CIDADE_UF_DATA} != null && !$P{CIDADE_UF_DATA}.trim().isEmpty()
+                    ? $P{CIDADE_UF_DATA}
+                    : ($F{NomeMunicipio} == null ? "" : $F{NomeMunicipio} + "/" + $F{UF})
+                ]]></textFieldExpression>
+            </textField>
+
+            <textField isBlankWhenNull="true">
+                <reportElement x="45" y="436" width="425" height="34" forecolor="#8A7C67" uuid="790a7f9d-f728-4f2b-a386-bef1503d7745"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"><font size="9"/></textElement>
+                <textFieldExpression><![CDATA[
+                    $P{OBSERVACOES} != null && !$P{OBSERVACOES}.trim().isEmpty()
+                    ? $P{OBSERVACOES}
+                    : ($F{RGNumero} == null ? "" : "RG: " + $F{RGNumero} + ($F{OrgaoExpedidor} == null ? "" : " - " + $F{OrgaoExpedidor}) + ($F{UFRG} == null ? "" : "/" + $F{UFRG}))
+                ]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+
+    <pageFooter>
+        <band height="102" splitType="Stretch">
+            <line>
+                <reportElement x="42" y="35" width="120" height="1" forecolor="#8A7C67" uuid="b5a47df8-d257-44db-af03-9336ad49c6db"/>
+            </line>
+            <line>
+                <reportElement x="196" y="35" width="120" height="1" forecolor="#8A7C67" uuid="b5b8d916-20d0-4245-bb37-77fd6f65e56a"/>
+            </line>
+            <rectangle>
+                <reportElement x="402" y="2" width="54" height="54" forecolor="#444444" uuid="f3d5d63c-6608-4af1-aadd-6b0f41cf58eb"/>
+                <graphicElement><pen lineWidth="1.0" lineColor="#444444"/></graphicElement>
+            </rectangle>
+            <textField isBlankWhenNull="true">
+                <reportElement x="32" y="38" width="140" height="16" forecolor="#223555" uuid="49a6af74-3161-42d4-aab4-6653c7cc5588"/>
+                <textElement textAlignment="Center"><font size="10" isBold="true"/></textElement>
+                <textFieldExpression><![CDATA[$P{ASSINATURA_1_NOME}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="32" y="56" width="140" height="14" forecolor="#8A7C67" uuid="1826da87-5d6d-43e5-86a0-ffbe3981e851"/>
+                <textElement textAlignment="Center"><font size="9"/></textElement>
+                <textFieldExpression><![CDATA[$P{ASSINATURA_1_CARGO}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="186" y="38" width="140" height="16" forecolor="#223555" uuid="f61e78fc-eedd-4586-b071-9621bff9347c"/>
+                <textElement textAlignment="Center"><font size="10" isBold="true"/></textElement>
+                <textFieldExpression><![CDATA[$P{ASSINATURA_2_NOME}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="186" y="56" width="140" height="14" forecolor="#8A7C67" uuid="db15d1ef-6080-45aa-9193-fb5d825c437a"/>
+                <textElement textAlignment="Center"><font size="9"/></textElement>
+                <textFieldExpression><![CDATA[$P{ASSINATURA_2_CARGO}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="342" y="62" width="140" height="14" forecolor="#6F6458" uuid="9ca9bfbe-7c0a-4ce3-85b8-ef955d8f5f17"/>
+                <textElement textAlignment="Right"><font size="8"/></textElement>
+                <textFieldExpression><![CDATA[$P{CODIGO_VERIFICACAO} == null ? "" : "Código de verificação: " + $P{CODIGO_VERIFICACAO}]]></textFieldExpression>
+            </textField>
+            <textField isBlankWhenNull="true">
+                <reportElement x="312" y="78" width="170" height="14" forecolor="#6F6458" uuid="f6df78fa-e4d0-4dfd-a906-c6e5424caf6b"/>
+                <textElement textAlignment="Right"><font size="8"/></textElement>
+                <textFieldExpression><![CDATA[$P{URL_VALIDACAO} == null ? "" : "Validar em: " + $P{URL_VALIDACAO}]]></textFieldExpression>
+            </textField>
+        </band>
+    </pageFooter>
+</jasperReport>

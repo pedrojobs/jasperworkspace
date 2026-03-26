@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="modelo_curriculo" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="80aee1de-70b2-46a8-9ff9-69c089d9e9a5">
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="407"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="583"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Curriculo-JSON.xml"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.53:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_dev"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/uniasselvi/Curriculo/Modelo_Curriculo_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/uniasselvi/Curriculo/Modelo_Curriculo"/>
+	<property name="com.jaspersoft.studio.report.description" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Curriculo"/>
+	<parameter name="p_id" class="java.lang.String" evaluationTime="Early">
+		<property name="net.sf.jasperreports.http.data.url.parameter" value="p_id"/>
+	</parameter>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="CodigoCurriculo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.CodigoCurriculo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.CodigoCurriculo]]></fieldDescription>
+	</field>
+	<field name="DataCurriculo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DataCurriculo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DataCurriculo]]></fieldDescription>
+	</field>
+	<field name="MinutosRelogioDaHoraAula" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.MinutosRelogioDaHoraAula"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.MinutosRelogioDaHoraAula]]></fieldDescription>
+	</field>
+	<field name="NomeParaAreas" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.NomeParaAreas"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.NomeParaAreas]]></fieldDescription>
+	</field>
+	<field name="DadosCurso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_NomeCurso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.NomeCurso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.NomeCurso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_CodigoCursoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.CodigoCursoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.CodigoCursoEMEC]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.Tipo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.Tipo]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.Numero]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.Data"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.Data]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_VeiculoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.VeiculoPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_DataPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.DataPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.DataPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_SecaoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.SecaoPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_PaginaPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.PaginaPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_NumeroDOU" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.NumeroDOU"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.NumeroDOU]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_InformacoesTramitacaoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_NumeroProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.NumeroProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.NumeroProcesso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_TipoProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.TipoProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.TipoProcesso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_DataCadastro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.DataCadastro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.DataCadastro]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_DataProtocolo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.DataProtocolo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Autorizacao.InformacoesTramitacaoEMEC.DataProtocolo]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.Tipo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.Tipo]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.Numero]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.Data"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.Data]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_VeiculoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.VeiculoPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_DataPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.DataPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.DataPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_SecaoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.SecaoPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_PaginaPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.PaginaPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_NumeroDOU" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.NumeroDOU"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.NumeroDOU]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_NumeroProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.NumeroProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.NumeroProcesso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_TipoProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.TipoProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.TipoProcesso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_DataCadastro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.DataCadastro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.DataCadastro]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_DataProtocolo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.DataProtocolo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.Reconhecimento.InformacoesTramitacaoEMEC.DataProtocolo]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.Tipo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.Tipo]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.Numero]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.Data"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.Data]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_VeiculoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.VeiculoPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_DataPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.DataPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.DataPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_SecaoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.SecaoPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_PaginaPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.PaginaPublicacao]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_NumeroDOU" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.NumeroDOU"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.NumeroDOU]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_NumeroProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.NumeroProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.NumeroProcesso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_TipoProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.TipoProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.TipoProcesso]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_DataCadastro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.DataCadastro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.DataCadastro]]></fieldDescription>
+	</field>
+	<field name="DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_DataProtocolo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.DataProtocolo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.DadosCurso.RenovacaoReconhecimento.InformacoesTramitacaoEMEC.DataProtocolo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Nome"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Nome]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_CodigoMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.CodigoMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.CodigoMEC]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_CNPJ" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.CNPJ"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.CNPJ]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_Logradouro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Logradouro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Logradouro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Numero]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_Complemento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Complemento"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Complemento]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_Bairro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Bairro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.Bairro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_CodigoMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.CodigoMunicipio"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.CodigoMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_NomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.NomeMunicipio"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.NomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_UF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.UF"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.UF]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Endereco_CEP" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.CEP"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Endereco.CEP]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.Tipo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.Tipo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.Numero]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.Data"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.Data]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_VeiculoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.VeiculoPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_DataPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.DataPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.DataPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_SecaoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.SecaoPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_PaginaPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.PaginaPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_NumeroDOU" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.NumeroDOU"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.NumeroDOU]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_InformacoesTramitacaoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_NumeroProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.NumeroProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.NumeroProcesso]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_TipoProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.TipoProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.TipoProcesso]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_DataCadastro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.DataCadastro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.DataCadastro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_DataProtocolo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.DataProtocolo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Credenciamento.InformacoesTramitacaoEMEC.DataProtocolo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.Tipo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.Tipo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.Numero]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.Data"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.Data]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_VeiculoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.VeiculoPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_DataPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.DataPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.DataPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_SecaoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.SecaoPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_PaginaPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.PaginaPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_NumeroDOU" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.NumeroDOU"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.NumeroDOU]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_NumeroProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.NumeroProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.NumeroProcesso]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_TipoProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.TipoProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.TipoProcesso]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_DataCadastro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.DataCadastro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.DataCadastro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_DataProtocolo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.DataProtocolo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Recredenciamento.InformacoesTramitacaoEMEC.DataProtocolo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.Tipo"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.Tipo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.Numero]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.Data"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.Data]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_VeiculoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.VeiculoPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_DataPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.DataPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.DataPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_SecaoPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.SecaoPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_PaginaPublicacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.PaginaPublicacao]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_NumeroDOU" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.NumeroDOU"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.NumeroDOU]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_NumeroProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.NumeroProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.NumeroProcesso]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_TipoProcesso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.TipoProcesso"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.TipoProcesso]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_DataCadastro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.DataCadastro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.DataCadastro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_DataProtocolo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.DataProtocolo"/>
+		<fieldDescription><![CDATA[IesEmissora.RenovacaoRecredenciamento.InformacoesTramitacaoEMEC.DataProtocolo]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_RazaoSocial" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.RazaoSocial"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.RazaoSocial]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_CNPJ" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.CNPJ"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.CNPJ]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_Logradouro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Logradouro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Logradouro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_Numero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Numero"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Numero]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_Bairro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Bairro"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Bairro]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_Complemento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Complemento"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.Complemento]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_CodigoMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.CodigoMunicipio"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.CodigoMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_NomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.NomeMunicipio"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.NomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_UF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.UF"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.UF]]></fieldDescription>
+	</field>
+	<field name="IesEmissora_Mantenedora_Endereco_CEP" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.CEP"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.IesEmissora.Mantenedora.Endereco.CEP]]></fieldDescription>
+	</field>
+	<field name="Etiqueta" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.infEtiquetas.Etiqueta"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.infEtiquetas.Etiqueta]]></fieldDescription>
+	</field>
+	<field name="Area" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.infAreas.Area"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.infAreas.Area]]></fieldDescription>
+	</field>
+	<field name="UnidadeCurricular" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.infEstruturaCurricular.UnidadeCurricular"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.infEstruturaCurricular.UnidadeCurricular]]></fieldDescription>
+	</field>
+	<field name="Categoria" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.infEstruturaAtividadesComplementares.Categoria"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.infEstruturaAtividadesComplementares.Categoria]]></fieldDescription>
+	</field>
+	<field name="CriterioIntegralizacaoRotulos" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoRotulos"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoRotulos]]></fieldDescription>
+	</field>
+	<field name="CriterioIntegralizacaoExpressao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoExpressao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoExpressao]]></fieldDescription>
+	</field>
+	<field name="SegurancaCurriculo_CodigoValidacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.SegurancaCurriculo.CodigoValidacao"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.SegurancaCurriculo.CodigoValidacao]]></fieldDescription>
+	</field>
+	<field name="InformacoesAdicionais" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar.InformacoesAdicionais"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar.InformacoesAdicionais]]></fieldDescription>
+	</field>
+	<field name="ResponsavelCurriculo_Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ResponsavelCurriculo.Nome"/>
+		<fieldDescription><![CDATA[ResponsavelCurriculo.Nome]]></fieldDescription>
+	</field>
+	<field name="ResponsavelCurriculo_Cargo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ResponsavelCurriculo.Cargo"/>
+		<fieldDescription><![CDATA[ResponsavelCurriculo.Cargo]]></fieldDescription>
+	</field>
+	<field name="UrlCurriculo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UrlCurriculo"/>
+		<fieldDescription><![CDATA[UrlCurriculo]]></fieldDescription>
+	</field>
+	<field name="ambiente" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CurriculoEscolar.infCurriculoEscolar._ambiente"/>
+		<fieldDescription><![CDATA[CurriculoEscolar.infCurriculoEscolar._ambiente]]></fieldDescription>
+	</field>
+	<field name="CriterioIntegralizacaoTotal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CriterioIntegralizacaoTotal"/>
+		<fieldDescription><![CDATA[CriterioIntegralizacaoTotal]]></fieldDescription>
+	</field>
+	<background>
+		<band height="802" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{ambiente}.equals("Homologação") || $F{ambiente}.equals("Homologa\u00e7\u00e3o")]]></printWhenExpression>
+			<staticText>
+				<reportElement mode="Transparent" x="63" y="112" width="428" height="56" forecolor="#808080" uuid="3bdd5d67-94f0-457f-8477-b1d0438d7bc9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font fontName="Serif" size="30" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[DOCUMENTO INVÁLIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="63" y="272" width="428" height="56" forecolor="#808080" uuid="3bdd5d67-94f0-457f-8477-b1d0438d7bc9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font fontName="Serif" size="30" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[DOCUMENTO INVÁLIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="63" y="432" width="428" height="56" forecolor="#808080" uuid="3bdd5d67-94f0-457f-8477-b1d0438d7bc9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font fontName="Serif" size="30" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[DOCUMENTO INVÁLIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="63" y="594" width="428" height="56" forecolor="#808080" uuid="3bdd5d67-94f0-457f-8477-b1d0438d7bc9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font fontName="Serif" size="30" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[DOCUMENTO INVÁLIDO]]></text>
+			</staticText>
+		</band>
+	</background>
+	<pageHeader>
+		<band height="94">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER} == 1]]></printWhenExpression>
+			<image>
+				<reportElement x="0" y="0" width="115" height="67" uuid="00760319-83b7-4c72-bde8-6a507a100a80"/>
+				<imageExpression><![CDATA["logo_uniasselvi1.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement key="Aluno(a)" x="260" y="-9" width="295" height="27" uuid="4276c03f-1790-418c-93bb-5daa8c1af938">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IesEmissora_Nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement key="Aluno(a)" x="140" y="8" width="415" height="27" uuid="03470128-ef9f-43b0-8f26-bdc8ca3688c7">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IesEmissora_Mantenedora_RazaoSocial}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement key="Aluno(a)" x="140" y="24" width="415" height="27" uuid="05736976-3850-4091-921b-6e4262d7816f">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="5" topPadding="10" leftPadding="4" bottomPadding="4" rightPadding="4">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(
+    // Se houver informações de Renovação de Recredenciamento, imprime esses campos
+    $F{IesEmissora_RenovacaoRecredenciamento_Tipo} != null ?
+        $F{IesEmissora_RenovacaoRecredenciamento_Tipo} + " n° " + $F{IesEmissora_RenovacaoRecredenciamento_Numero} + " de " +
+        (
+            $F{IesEmissora_RenovacaoRecredenciamento_Data} != null ?
+                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_RenovacaoRecredenciamento_Data})) :
+                ""
+        ) +
+        (
+            $F{IesEmissora_RenovacaoRecredenciamento_VeiculoPublicacao} != null ?
+                ", " + $F{IesEmissora_RenovacaoRecredenciamento_VeiculoPublicacao} :
+                ""
+        ) +
+        (
+            $F{IesEmissora_RenovacaoRecredenciamento_NumeroDOU} != null ?
+                ", n° " + $F{IesEmissora_RenovacaoRecredenciamento_NumeroDOU} :
+                ""
+        ) +
+        (
+            $F{IesEmissora_RenovacaoRecredenciamento_SecaoPublicacao} != null ?
+                ", Seção " + $F{IesEmissora_RenovacaoRecredenciamento_SecaoPublicacao} :
+                ""
+        ) +
+        (
+            $F{IesEmissora_RenovacaoRecredenciamento_PaginaPublicacao} != null ?
+                ", Página n° " + $F{IesEmissora_RenovacaoRecredenciamento_PaginaPublicacao} :
+                ""
+        )  +
+        (
+            $F{IesEmissora_RenovacaoRecredenciamento_DataPublicacao} != null ?
+                " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_RenovacaoRecredenciamento_DataPublicacao})) :
+                ""
+        )
+    // Se não houver informações de Renovação de Recredenciamento, verifica informações de Tramitação EMEC de Renovação de Recredenciamento
+    :
+    (
+        $F{IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_NumeroProcesso} != null ?
+        		"Tipo do Processo: " + $F{IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_TipoProcesso} +
+                ", Número do Processo: " + $F{IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_NumeroProcesso} +
+                ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_DataCadastro})) +
+                ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_RenovacaoRecredenciamento_InformacoesTramitacaoEMEC_DataProtocolo})) :
+            // Se não houver informações de Renovação de Recredenciamento ou Tramitação EMEC de Renovação de Recredenciamento, verifica informações de Recredenciamento
+            (
+                $F{IesEmissora_Recredenciamento_Tipo} != null ?
+                    $F{IesEmissora_Recredenciamento_Tipo} + " n° " + $F{IesEmissora_Recredenciamento_Numero} + " de " +
+                    (
+                        $F{IesEmissora_Recredenciamento_Data} != null ?
+                            new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Recredenciamento_Data})) :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissora_Recredenciamento_VeiculoPublicacao} != null ?
+                            ", " + $F{IesEmissora_Recredenciamento_VeiculoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissora_Recredenciamento_NumeroDOU} != null ?
+                            ", n° " + $F{IesEmissora_Recredenciamento_NumeroDOU} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissora_Recredenciamento_SecaoPublicacao} != null ?
+                            ", Seção " + $F{IesEmissora_Recredenciamento_SecaoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissora_Recredenciamento_PaginaPublicacao} != null ?
+                            ", Página n° " + $F{IesEmissora_Recredenciamento_PaginaPublicacao} :
+                            ""
+                    )   +
+                    (
+                        $F{IesEmissora_Recredenciamento_DataPublicacao} != null ?
+                            " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Recredenciamento_DataPublicacao})) :
+                            ""
+                    ) 
+                // Se não houver informações de Renovação de Recredenciamento, Tramitação EMEC de Renovação de Recredenciamento, Recredenciamento ou Tramitação EMEC de Recredenciamento, verifica informações de Credenciamento
+                :
+                        // Se houver informações de tramitação de Recredenciamento, imprime essas informações
+                        $F{IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_NumeroProcesso} != null ?
+                        	 "Tipo do Processo: " + $F{IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_TipoProcesso} +
+                            ", Número do Processo: " + $F{IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_NumeroProcesso} +
+                            ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_DataCadastro})) +
+                            ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Recredenciamento_InformacoesTramitacaoEMEC_DataProtocolo}))
+            
+                    :
+                    $F{IesEmissora_Credenciamento_Tipo} != null ?
+                        $F{IesEmissora_Credenciamento_Tipo} + " n° " + $F{IesEmissora_Credenciamento_Numero} + " de " +
+                        (
+                            $F{IesEmissora_Credenciamento_Data} != null ?
+                                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Credenciamento_Data})) :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissora_Credenciamento_VeiculoPublicacao} != null ?
+                                ", " + $F{IesEmissora_Credenciamento_VeiculoPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissora_Credenciamento_NumeroDOU} != null ?
+                                ", n° " + $F{IesEmissora_Credenciamento_NumeroDOU} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissora_Credenciamento_SecaoPublicacao} != null ?
+                                ", Seção " + $F{IesEmissora_Credenciamento_SecaoPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissora_Credenciamento_PaginaPublicacao} != null ?
+                                ", Página n° " + $F{IesEmissora_Credenciamento_PaginaPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissora_Credenciamento_DataPublicacao} != null ?
+                                " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Credenciamento_DataPublicacao})) :
+                                ""
+                        ) 
+                        :
+                  
+                            // Se houver informações de tramitação de Credenciamento, imprime essas informações
+                            $F{IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_NumeroProcesso} != null ?
+                            	"Tipo do Processo: " + $F{IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_TipoProcesso} +
+                                ", Número do Processo: " + $F{IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_NumeroProcesso} +
+                                ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_DataCadastro})) +
+                                ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissora_Credenciamento_InformacoesTramitacaoEMEC_DataProtocolo})) :
+                                ""
+                    
+                )
+        )
+    )
++ "."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement key="Aluno(a)" x="70" y="44" width="485" height="26" uuid="62a5e631-2611-49c6-94e4-301db056d875">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box padding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{IesEmissora_Mantenedora_Endereco_Logradouro} != null ? $F{IesEmissora_Mantenedora_Endereco_Logradouro} : "") +
+($F{IesEmissora_Mantenedora_Endereco_Numero} != null ? ", n° " + $F{IesEmissora_Mantenedora_Endereco_Numero} : "") +
+($F{IesEmissora_Mantenedora_Endereco_Complemento} != null ? ", " + $F{IesEmissora_Mantenedora_Endereco_Complemento} : "") +
+($F{IesEmissora_Mantenedora_Endereco_Bairro}!= null ? ", " +$F{IesEmissora_Mantenedora_Endereco_Bairro} : "") +
+($F{IesEmissora_Mantenedora_Endereco_CEP} != null ? " - CEP: " + $F{IesEmissora_Mantenedora_Endereco_CEP}.substring(0, 2) + "." + $F{IesEmissora_Mantenedora_Endereco_CEP}.substring(2, 5) + "-" + $F{IesEmissora_Mantenedora_Endereco_CEP}.substring(5) : "")+ " - " +$F{IesEmissora_Mantenedora_Endereco_NomeMunicipio}+"/"+$F{IesEmissora_Mantenedora_Endereco_UF}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="95">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement key="Aluno(a)" x="454" y="13" width="60" height="27" uuid="5fb640fd-9e02-48b0-a126-c50ddcac5977">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{MinutosRelogioDaHoraAula} != null ? $F{MinutosRelogioDaHoraAula} : ""]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement key="Aluno(a)" x="90" y="43" width="464" height="22" uuid="0790b58e-1da4-4bd8-b802-b1c34b20d09d">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box topPadding="7" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(
+    $F{DadosCurso_Autorizacao_Tipo} != null ? $F{DadosCurso_Autorizacao_Tipo} +" n° " +  $F{DadosCurso_Autorizacao_Numero} + " de " +
+        ($F{DadosCurso_Autorizacao_Data} != null ? new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Autorizacao_Data})) : "") +
+        ($F{DadosCurso_Autorizacao_VeiculoPublicacao} != null ? ", " + $F{DadosCurso_Autorizacao_VeiculoPublicacao} : "") +
+        ($F{DadosCurso_Autorizacao_NumeroDOU} != null ? " n° " + $F{DadosCurso_Autorizacao_NumeroDOU} : "") +
+        ($F{DadosCurso_Autorizacao_SecaoPublicacao} != null ? ", Seção " + $F{DadosCurso_Autorizacao_SecaoPublicacao} : "") +
+        ($F{DadosCurso_Autorizacao_PaginaPublicacao} != null ? ", Página n° " + $F{DadosCurso_Autorizacao_PaginaPublicacao} : "") +
+        ($F{DadosCurso_Autorizacao_DataPublicacao} != null ? " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Autorizacao_DataPublicacao})) : "") : "") +
+(
+    $F{DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_NumeroProcesso} != null ? "Número do Processo: " + $F{DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_NumeroProcesso} +
+        ", Tipo do Processo: " + $F{DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_TipoProcesso} +
+        ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_DataCadastro})) +
+        ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Autorizacao_InformacoesTramitacaoEMEC_DataProtocolo})) : ""
+) + "."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement key="Aluno(a)" x="85" y="26" width="154" height="26" uuid="4493112a-811d-4400-b00e-b4dbfdbda7a9">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DadosCurso_CodigoCursoEMEC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement key="Aluno(a)" x="274" y="24" width="260" height="27" uuid="1e4f739e-1155-435f-9ae1-1c274ffb875b">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DataCurriculo} != null ?
+        new SimpleDateFormat("MMMM yyyy", new Locale("pt", "BR")).format(
+            new SimpleDateFormat("yyyy-MM-dd").parse($F{DataCurriculo})
+        ) :
+        ""]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement key="Aluno(a)" x="160" y="59" width="395" height="25" uuid="9509c3e8-f449-44a4-b1ce-f2a9014d81c3">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box padding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(
+    // Se houver informações de Renovação de Reconhecimento, imprime esses campos
+    $F{DadosCurso_RenovacaoReconhecimento_Tipo} != null ?
+        $F{DadosCurso_RenovacaoReconhecimento_Tipo} +"  n°  " +  $F{DadosCurso_RenovacaoReconhecimento_Numero} + " de " +
+        (
+            $F{DadosCurso_RenovacaoReconhecimento_Data} != null ?
+                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_RenovacaoReconhecimento_Data})) :
+                ""
+        ) +
+        (
+            $F{DadosCurso_RenovacaoReconhecimento_VeiculoPublicacao} != null ?
+                ", " + $F{DadosCurso_RenovacaoReconhecimento_VeiculoPublicacao} :
+                ""
+        ) +
+        (
+            $F{DadosCurso_RenovacaoReconhecimento_DataPublicacao} != null ?
+                ", Data de Publicação: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_RenovacaoReconhecimento_DataPublicacao})) :
+                ""
+        ) +
+        (
+            $F{DadosCurso_RenovacaoReconhecimento_SecaoPublicacao} != null ?
+                ", Seção " + $F{DadosCurso_RenovacaoReconhecimento_SecaoPublicacao} :
+                ""
+        ) +
+        (
+            $F{DadosCurso_RenovacaoReconhecimento_PaginaPublicacao} != null ?
+                ", Página n° " + $F{DadosCurso_RenovacaoReconhecimento_PaginaPublicacao} :
+                ""
+        ) +
+        (
+            $F{DadosCurso_RenovacaoReconhecimento_NumeroDOU} != null ?
+                ", Número DOU " + $F{DadosCurso_RenovacaoReconhecimento_NumeroDOU} :
+                ""
+        )
+    // Se não houver informações de Renovação de Reconhecimento, verifica informações de Tramitação EMEC de Renovação de Reconhecimento
+    :
+    (
+        $F{DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_NumeroProcesso} != null ?
+            "Número do Processo: " + $F{DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_NumeroProcesso} +
+            ", Tipo do Processo: " + $F{DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_TipoProcesso} +
+            ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_DataCadastro})) +
+            ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_RenovacaoReconhecimento_InformacoesTramitacaoEMEC_DataProtocolo})) :
+            // Se não houver informações de Renovação de Reconhecimento ou Tramitação EMEC de Renovação de Reconhecimento, verifica informações de Reconhecimento
+            (
+                $F{DadosCurso_Reconhecimento_Tipo} != null ?
+                    $F{DadosCurso_Reconhecimento_Tipo} + "  n°  " + $F{DadosCurso_Reconhecimento_Numero} + " de " +
+                    (
+                        $F{DadosCurso_Reconhecimento_Data} != null ?
+                            new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Reconhecimento_Data})) :
+                            ""
+                    ) +
+                    (
+                        $F{DadosCurso_Reconhecimento_VeiculoPublicacao} != null ?
+                            ", " + $F{DadosCurso_Reconhecimento_VeiculoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{DadosCurso_Reconhecimento_DataPublicacao} != null ?
+                            ", Data de Publicação: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Reconhecimento_DataPublicacao})) :
+                            ""
+                    ) +
+                    (
+                        $F{DadosCurso_Reconhecimento_SecaoPublicacao} != null ?
+                            ", Seção " + $F{DadosCurso_Reconhecimento_SecaoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{DadosCurso_Reconhecimento_PaginaPublicacao} != null ?
+                            ", Página n° " + $F{DadosCurso_Reconhecimento_PaginaPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{DadosCurso_Reconhecimento_NumeroDOU} != null ?
+                            ", Número DOU " + $F{DadosCurso_Reconhecimento_NumeroDOU} :
+                            ""
+                    )
+                // Se não houver informações de Renovação de Reconhecimento, Tramitação EMEC de Renovação de Reconhecimento ou Reconhecimento, verifica informações de Tramitação EMEC de Reconhecimento
+                :
+                (
+                    $F{DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_NumeroProcesso} != null ?
+                        "Número do Processo: " + $F{DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_NumeroProcesso} +
+                        ", Tipo do Processo: " + $F{DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_TipoProcesso} +
+                        ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_DataCadastro})) +
+                        ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DadosCurso_Reconhecimento_InformacoesTramitacaoEMEC_DataProtocolo})) :
+                        // Se não houver informações de Renovação de Reconhecimento, Tramitação EMEC de Renovação de Reconhecimento, Reconhecimento ou Tramitação EMEC de Reconhecimento, imprime uma string vazia
+                        ""
+                )
+            )
+    )
+) + "."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="59" width="170" height="25" uuid="206ede74-4826-47ec-96ed-e4db6df044bf"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{DadosCurso_RenovacaoReconhecimento_Tipo}) != null ? "Renovação de reconhecimento do curso:" : "Reconhecimento do Curso:"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="45" width="110" height="20" uuid="a2cc0b5f-42ab-4334-9402-aa691e4c464d"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Autorização do Curso:]]></text>
+			</staticText>
+			<textField>
+				<reportElement key="Aluno(a)" x="292" y="13" width="56" height="28" uuid="df894d81-10ad-4f26-9bf2-f08fe546df14">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CodigoCurriculo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="211" y="17" width="98" height="20" uuid="f128cc87-c2a0-4ff8-b47a-9b8bf82aa424"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código do Currículo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="211" y="20" width="85" height="40" uuid="de898c8e-48ad-4a74-92cc-52b5ea41d992"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Data da Criação:]]></text>
+			</staticText>
+			<textField textAdjust="ScaleFont">
+				<reportElement key="Aluno(a)" x="64" y="14" width="173" height="26" uuid="cf19553d-5d7d-46d8-b7d4-24c063a3b2a4">
+					<property name="com.jaspersoft.studio.element.name" value="Aluno(a)"/>
+				</reportElement>
+				<box topPadding="9" leftPadding="5" bottomPadding="5" rightPadding="5">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DadosCurso_NomeCurso}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="18" width="80" height="19" uuid="54979336-363e-4dd9-9a56-e396a89d1606"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nome do Curso:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="26" width="108" height="30" uuid="cd26512a-5037-4bc7-b81b-808a5e264a57"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código Curso E-MEC:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="2" width="555" height="20" backcolor="#E6E6E6" uuid="b7f91190-461d-4b19-bd34-e39c7bdef920"/>
+				<box leftPadding="8">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CURRÍCULO ESCOLAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="346" y="18" width="124" height="20" uuid="d2734364-18ff-4635-b11e-523805a0b964"/>
+				<box padding="4">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Minutos Relógio horas/aula:]]></text>
+			</staticText>
+		</band>
+		<band height="55" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{Area} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="11" width="555" height="36" uuid="ee312f82-9f83-4011-aba6-b5e01aacd061"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("CurriculoEscolar.infCurriculoEscolar.infAreas.Area")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["Area.jrxml"]]></subreportExpression>
+			</subreport>
+			<textField>
+				<reportElement mode="Opaque" x="0" y="-10" width="555" height="21" backcolor="#E6E6E6" uuid="9bf24dff-bf13-4210-8809-97dffd2c7a61"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NomeParaAreas} != null && $F{Area} != null ? UPPER($F{NomeParaAreas} ) : $F{NomeParaAreas} == null && $F{Area} != null ? "ÁREA DE ESPECIALIZAÇÃO" : ""]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="39">
+			<printWhenExpression><![CDATA[$F{Etiqueta} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="-8" width="555" height="39" uuid="0431f778-60c5-4406-ac48-9674b49b69ef"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("CurriculoEscolar.infCurriculoEscolar.infEstruturaCurricular.UnidadeCurricular")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["Unidade_Curricular.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="41">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<printWhenExpression><![CDATA[$F{UnidadeCurricular} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="-8" width="555" height="40" uuid="075d6e67-b0e0-4fdf-aba7-222003f7c9d6"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("CurriculoEscolar.infCurriculoEscolar.infEstruturaAtividadesComplementares.Categoria")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["Atividade_Complementar.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="43">
+			<printWhenExpression><![CDATA[$F{Categoria} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="-8" width="555" height="42" uuid="d5577b64-202e-48ed-9119-6fbf3e53679d"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("CurriculoEscolar.infCurriculoEscolar.infEtiquetas.Etiqueta")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["Etiquetas.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="15">
+			<break>
+				<reportElement x="0" y="-1" width="99" height="1" uuid="61bfa3a7-ce1a-4252-a030-549e46df1960"/>
+			</break>
+		</band>
+		<band height="60">
+			<printWhenExpression><![CDATA[$F{CriterioIntegralizacaoRotulos} != null || $F{CriterioIntegralizacaoExpressao} != null]]></printWhenExpression>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="-1" width="555" height="16" backcolor="#E6E6E6" uuid="c09aea6f-39cb-41a0-9937-e750caca8b61"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CRITÉRIOS DE INTEGRALIZAÇÃO CURRICULAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="16" width="60" height="16" backcolor="#E6E6E6" uuid="e390ef28-45ff-4cbf-b361-05d9f2e19845"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CRITÉRIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="60" y="16" width="110" height="16" backcolor="#E6E6E6" uuid="fdf2c448-4b03-485e-8a9a-bdaf9228484f"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[UNIDADE CURRICULAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="170" y="16" width="230" height="16" backcolor="#E6E6E6" uuid="fa387e8d-3e88-4ffc-856b-57512d3b11e4"/>
+				<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EXPRESSÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="400" y="16" width="155" height="16" backcolor="#E6E6E6" uuid="bbd87f3b-be40-4bae-b5f2-7f2428c7fa30"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CARGA HORÁRIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="400" y="32" width="50" height="16" backcolor="#E6E6E6" uuid="872d3289-d3f5-4265-a3da-6713ffdaeba1"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MÍNIMO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="450" y="32" width="60" height="16" backcolor="#E6E6E6" uuid="ae77c759-d0a7-4a5a-a50b-4efa860373a5"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MÁXIMO]]></text>
+			</staticText>
+			<textField textAdjust="ScaleFont">
+				<reportElement stretchType="ContainerBottom" mode="Opaque" x="510" y="32" width="45" height="16" backcolor="#E6E6E6" uuid="2f4832d7-8ce7-4d5e-ac82-9479ccc95358"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["P/TOTAL"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<subreport>
+				<reportElement x="0" y="-12" width="555" height="25" isRemoveLineWhenBlank="true" uuid="c7108422-9c11-48b2-a43e-d84fc2bcb6c9"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoRotulos")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["Rotulos_Criterio_Integralizacao.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="20">
+			<printWhenExpression><![CDATA[$F{CriterioIntegralizacaoExpressao} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="-12" width="555" height="20" isRemoveLineWhenBlank="true" uuid="34ae0496-d2a5-4aa2-99e6-3546aea0a44c"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoExpressao")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["Expressao_Criterio_Integralizacao.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="20">
+			<printWhenExpression><![CDATA[$F{CriterioIntegralizacaoRotulos} != null || $F{CriterioIntegralizacaoExpressao} != null]]></printWhenExpression>
+			<textField textAdjust="ScaleFont">
+				<reportElement stretchType="ContainerBottom" x="510" y="-12" width="45" height="20" uuid="1bfad528-c8af-4ee1-b57b-e5e6fc2007d5"/>
+				<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CriterioIntegralizacaoTotal} != null ? $F{CriterioIntegralizacaoTotal} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ContainerBottom" x="0" y="-12" width="510" height="20" uuid="ef366135-ba83-4775-9092-c16adeb77b1a"/>
+				<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Carga Total"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="75" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{InformacoesAdicionais} != null]]></printWhenExpression>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="0" y="-12" width="555" height="53" uuid="50991d69-3adb-488e-a30a-37ddc766d03b"/>
+				<box padding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" markup="none"/>
+				<textFieldExpression><![CDATA["OBSERVAÇÕES:\n\n" + ($F{InformacoesAdicionais} != null ? $F{InformacoesAdicionais}.replaceAll(" {4}", "\n") : "Sem informações adicionais.")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="232">
+			<textField textAdjust="ScaleFont">
+				<reportElement x="265" y="187" width="279" height="32" uuid="9adcb6f3-ee72-47c1-aa19-740a1c6fc4a0"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{SegurancaCurriculo_CodigoValidacao} != null ? "Código de validação:\n" + $F{UrlCurriculo} + "\n" + $F{SegurancaCurriculo_CodigoValidacao} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="132" width="180" height="30" uuid="30c6e734-7658-48a4-a5a9-93459330f498"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ResponsavelCurriculo_Nome} != null ? $F{ResponsavelCurriculo_Nome} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="162" width="180" height="30" uuid="1bcddf3a-9574-46c2-a5f2-206b71abf00f"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ResponsavelCurriculo_Cargo} != null ? $F{ResponsavelCurriculo_Cargo} : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="25" width="292" height="30" uuid="62b897dd-47de-4bf6-b261-fc0d1f61c040"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{IesEmissora_Endereco_NomeMunicipio} + ", " + 
+(
+    $F{DataCurriculo} != null ?
+        new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(
+            new SimpleDateFormat("yyyy-MM-dd").parse($F{DataCurriculo})
+        ) :
+        ""
+)
++ "."]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="350" y="79" width="110" height="109" uuid="6e82c4fb-1ee5-484d-be29-b51db0bb2e2e">
+					<property name="com.jaspersoft.studio.unit.margin" value="pixel"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA[$F{UrlCurriculo} + $F{SegurancaCurriculo_CodigoValidacao}]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField>
+				<reportElement x="50" y="102" width="180" height="30" uuid="07aa61df-8fda-401c-900b-bdce34640065"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ResponsavelCurriculo_Nome} != null || $F{ResponsavelCurriculo_Cargo} != null ? "Assinatura realizada por meio\nde certificado ICP-Brasil" : ""]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="40">
+			<textField>
+				<reportElement x="447" y="-3" width="60" height="30" uuid="787a7ab5-d33d-4f2b-947e-69b1e6a1b3a1"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Página " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="507" y="-3" width="43" height="30" uuid="f2c4ba29-1fff-41a7-a4ab-558150a9eb03"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[" de " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

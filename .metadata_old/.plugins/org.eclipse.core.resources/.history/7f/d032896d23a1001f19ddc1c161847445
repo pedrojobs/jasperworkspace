@@ -1,0 +1,271 @@
+{
+    "Design": {
+         "Urldiploma": "https://diplomas.saocamilo-sp.br/",
+        "Logo": "",
+        "2via": false,
+        "3assinantes": true,
+       "3assinatura": "Monica Gomes AbelSecretária Geral",
+        "SemVerso": false,
+       "Instituicao": "SaoCamilo",
+        "Disciplinas": false,
+        "Frente": {
+            "Credenciamento": "",
+            "Tsuperior": "",
+            "Grau": "",
+           "Tinferior": "O Reitor CENTRO UNIVERSITÁIO SÃO CAMILO - SÃO PAULO, no uso de suas atribuições e tendo em vista a conclusão do Curso de Medicina em 15 de dezembro de 2021, e a colação de grau em 10 de maio de 2021, confere o título de<div class=\"txt_curso\">Médica</div>a<div class=\"nome\">Ana Carla Silva</div>nacionalidade brasileira, natural do Estado de São Paulo, nascida a 02 de dezembro de 1967RG n° 11111111 PCMG, e outorga-lhe o presente diploma,a fim de que possa gozar de todos os direitos e prerrogativas legais.",
+           "Responsavel": "THIAGO ALEXANDRE HAYAKAWA",
+           "Funcao": "Vice-Reitor no exercício da Reitoria"
+        },
+        "Verso": {
+            "Titulo": "",
+             "Texto": "Reitor: Prof. Me. João Batista Gomes de Lima  Pró-Reitor Acadêmico: Prof. Dr. Carlos Ferrara Junior  Secretária Geral: Monica Gomes Abel Curso de $$$curso$$$$$$auxRenov$$$",
+             "Credenciamento": "CENTRO UNIVERSITÁRIO SÃO CAMILO - SÃO PAULO  UNIAO SOCIAL CAMILIANA Credenciado pela Portaria nº $$$numeroCredEmi$$$ de $$$dataCredEmi$$$, publicada no $$$veiculoPubCredEmi$$$ de $$$dataPubCredEmi$$$, seção $$$secaoPubCredEmi$$$  - página $$$pagPubCredEmi$$$. Diploma registrado sob nº $$$numSequenciaDip$$$, livro $$$livroReg$$$, folha $$$folhaReg$$$.  Processo nº $$$numProc$$$,  Por delegação de competência do Ministério da Educação, nos termos da Lei nº  9.394, de 20 de dezembro de 1996, e do Decreto 9.235 de 15 de dezembro de  2017 Artigo 99 § 2º, página14 publicado no D.O.U. nº 241 de 18 de dezembro  de 2017, seção 01.  $$$municipioReg$$$, $$$diaReg$$$ de $$$mesReg$$$ de $$$anoReg$$$.  Elaine de Freitas Carrion  Assistente de Processos Acadêmicos II  Setor de Registro de Diplomas  Ato de Delegação 029/2019  Monica Gomes Abel  Secretária Geral",
+             "Registro": "",
+            "Box3": {
+                "Titulo": "dsfsdf",
+                "Texto": "adfasd"
+            },
+           "Responsavel": "Elaine de Freitas Carrion",
+             "Funcao": "Seção de Registro de Diplomas"
+        }
+    },
+    "Certificates": {
+        "Decano": {
+            "Nome": "Carlos Ferrara Junior",
+            "CertificateHash": "",
+            "Signature": {
+                "Certificate": "",
+                "Key": ""
+            },
+            "Chain": [
+                "",
+                "",
+                ""
+            ],
+            "Crls": [
+                "",
+                ""
+            ]
+        },
+        "Reitor": {
+            "Nome": "João Batista Gomes de Lima"
+       
+        }
+      
+    },
+    "Diploma": {
+        "infDiploma": {
+            "DadosDiploma": {
+                   "Diplomado": {
+                    "ID": "SPGR008526",
+                    "Nome": "Guilherme Nunes Onaga",
+                    "Sexo": "M",
+                    "Nacionalidade": "Brasileira",
+                    "Naturalidade": {
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "São Paulo",
+                        "UF": "SP"
+                    },
+                    "CPF": "01234567890",
+                    "RG": {
+                        "Numero": "526925401",
+                        "OrgaoExpedidor": "SSP",
+                        "UF": "SP"
+                    },
+                    "DataNascimento": "1999-10-24"
+                },
+                "DataConclusao": "2023-11-28",
+                "DadosCurso": {
+                    "NomeCurso": "MEDICINA",
+                    "CodigoCursoEMEC": "100958",
+                   "Habilitacao": "MEDICINA",
+                    "DataHabilitacao": "2023-11-28",
+                    "Modalidade": "Presencial",
+                    "TituloConferido": {
+                        "Titulo": "Bacharel"
+                    },
+                    "GrauConferido": "Bacharelado",
+                    "EnderecoCurso": {
+                        "Logradouro": "RAUL POMPEIA",
+                        "Numero": "144",
+                        "Bairro": "POMPÉIA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "São Paulo",
+                   "UF": "SP",
+                        "CEP": "05025010"
+                    },
+                    "Autorizacao": {
+                        "Tipo": "Parecer",
+                        "Numero": "1153",
+                        "Data": "1922-01-11",
+                        "VeiculoPublicacao": "DOU",
+                        "DataPublicacao": "2022-01-11",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "25",
+                        "NumeroDOU": "12345"
+                    },
+                    "Reconhecimento": {
+                        "Tipo": "Portaria",
+                        "Numero": "68",
+                        "Data": "2013-02-15",
+                        "VeiculoPublicacao": "Diário Oficial da União",
+                        "DataPublicacao": "2013-02-19",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "56",
+                        "NumeroDOU": "33"
+                    },
+                    "RenovacaoReconhecimento": {
+                        "Tipo": "Portaria",
+                        "Numero": "657",
+                        "Data": "2018-09-28",
+                        "VeiculoPublicacao": "Diário Oficial da União",
+                        "DataPublicacao": "2018-10-01",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "17",
+                        "NumeroDOU": "189"
+                    }
+                },
+                "IesEmissora": {
+                    "Nome": "CENTRO UNIVERSITÁRIO SÃO CAMILO - SÃO PAULO",
+                    "CodigoMEC": "737",
+                    "CNPJ": "58250689001245",
+                    "Endereco": {
+                        "Logradouro": "AV. NAZARÉ",
+                        "Numero": "1501",
+                        "Bairro": "IPIRANGA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "SÃO PAULO",
+                   "UF": "SP",
+                        "CEP": "04263200"
+                    },
+                    "Credenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "1109",
+                        "Data": "2015-11-27",
+                        "VeiculoPublicacao": "DIÁRIO OFICIAL DA UNIÃO",
+                        "DataPublicacao": "2015-11-30",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "20",
+                        "NumeroDOU": "1109",
+                        "InformacoesTramitacaoEMEC": {
+                            "NumeroProcesso": " ",
+                            "TipoProcesso": "",
+                            "DataCadastro": "",
+                            "DataProtocolo": ""
+                        }
+                    },
+                    "Recredenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "545",
+                        "Data": "2015-06-03",
+                        "VeiculoPublicacao": "Diário Oficial da União",
+                        "DataPublicacao": "2015-06-05",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "16",
+                        "NumeroDOU": "545",
+                        "InformacoesTramitacaoEMEC": {
+                            "NumeroProcesso": "",
+                            "TipoProcesso": "",
+                            "DataCadastro": "",
+                            "DataProtocolo": ""
+                        }
+                    },
+                    "Mantenedora": {
+                        "RazaoSocial": "UNIAO SOCIAL CAMILIANA",
+                        "CNPJ": "58250689000192",
+                        "Endereco": {
+                            "Logradouro": "AVENIDA POMPEIA",
+                            "Numero": "888",
+                            "Bairro": "POMPEIA",
+                            "CodigoMunicipio": "3550308",
+                            "NomeMunicipio": "SAO PAULO",
+                      "UF": "SP",
+                            "CEP": "05022000"
+                        }
+                    }
+                },
+                "_id": ""
+            },
+            "DadosRegistro": {
+                "IesRegistradora": {
+                    "Nome": "CENTRO UNIVERSITÁRIO SO CAMILO - SÃO PAULO",
+                    "CodigoMEC": "737",
+                    "CNPJ": "58250689001245",
+                    "Endereco": {
+                        "Logradouro": "AV. NAZARÉ",
+                        "Numero": "1501",
+                        "Bairro": "IPIRANGA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "SÃO PAULO",
+                   "UF": "SP",
+                        "CEP": "04263200"
+                    },
+                    "Credenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "1109",
+                        "Data": "2015-11-27",
+                        "VeiculoPublicacao": "DIÁRIO OFICIAL DA UNIÃO",
+                        "DataPublicacao": "2015-11-30",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "20",
+                        "NumeroDOU": "1109"
+                    },
+                    "Recredenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "545",
+                        "Data": "2015-06-03",
+                        "VeiculoPublicacao": "Diário Oficial da União",
+                        "DataPublicacao": "2015-06-05",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "16",
+                        "NumeroDOU": "545"
+                    },
+                    "Mantenedora": {
+                        "RazaoSocial": "UNIAO SOCIAL CAMILIANA",
+                        "CNPJ": "58250689000192",
+                        "Endereco": {
+                            "Logradouro": "AVENIDA POMPEIA",
+                            "Numero": "888",
+                            "Bairro": "POMPEIA",
+                            "CodigoMunicipio": "3550308",
+                            "NomeMunicipio": "SAO PAULO",
+                      "UF": "SP",
+                            "CEP": "05022000"
+                        }
+                    }
+                },
+                "LivroRegistro": {
+                    "LivroRegistro": "SPLRD00001",
+                    "NumeroRegistro": "123456",
+                    "NumeroFolhaDoDiploma": "2789",
+                    "NumeroSequenciaDoDiploma": "25120",
+                    "ProcessoDoDiploma": "2024.1.008526.1",
+                    "DataColacaoGrau": "2023-12-07",
+                    "DataExpedicaoDiploma": "2024-02-05",
+                    "DataRegistroDiploma": "2024-03-25",
+                    "ResponsavelRegistro": {
+                        "Nome": "Monica Gomes Abel",
+                        "CPF": "15395541802",
+                        "IDouNumeroMatricula": "sp-ecarrion"
+                    }
+                },
+                "IdDocumentacaoAcademica": "",
+                "Seguranca": {
+                    "CodigoValidacao": ""
+                },
+                "_id": ""
+            },
+            "_id": "",
+            "_versao": "1.05",
+            "_ambiente": "Homologa\u00e7\u00e3o"
+        },
+        "_xmlns": "http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd",
+        "_xmlns:ds": "http://www.w3.org/2000/09/xmldsig#"
+    },
+    "LivroRegistroTermo": "L28.GRA",
+    "FolhaRegistroTermo": "8",
+    "NumeroRegistroTermo": "8",
+    "DataRegistroTermo": "2021-02-05",
+    "SecaoReconhecimentoCurso": "1",
+    "PaginaSecaoReconhecimentoCurso": "128"
+  }

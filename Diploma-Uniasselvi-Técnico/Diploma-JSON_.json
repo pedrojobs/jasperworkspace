@@ -1,0 +1,301 @@
+{
+  "Certificates": {
+  "Decano": {
+    "Nome": "Érica Rodrigues Carloto Pereira",
+    "CertificateHash": "202302279452d806eb3a15d317a1c21bded6551710ea9e8c7f73ddd079c1bfc508566493"
+  },
+  "Reitor": {
+    "Nome": "Valdecir Antonio Simão",
+    "CertificateHash": "202501314680d878820cde685b4e993dcf21bd169242409fec1ddb3dd7c45a16d50b242a"
+  },
+  "Institucional": {
+    "Nome": "Sociedade Educacional Leonardo da Vinci LTDA",
+    "CertificateHash": "20250506513fae333c74307e4fc523f5d9555697369c44d69503f77a3212290ee17c81c0"
+  },
+  "Registradora": {
+    "Nome": "Sociedade Educacional Leonardo da Vinci LTDA",
+    "CertificateHash": "20250506513fae333c74307e4fc523f5d9555697369c44d69503f77a3212290ee17c81c0"
+  }
+},
+"Diploma": {
+   "Obs2via": "diploma emitido conforme legislação vigente",
+     "Extras": {
+      "Obs2via": "diploma emitido conforme legislação vigente"
+     },
+  "infDiploma": {
+       "DadosDiploma": {
+      "Diplomado": {
+        "ID": "3318547",
+        "Nome": "Douglas Keid Stümer Santos",
+        "Sexo": "M",
+        "Nacionalidade": "Brasileira",
+        "Naturalidade": {
+          "CodigoMunicipio": "4314902",
+          "NomeMunicipio": "Porto Alegre",
+          "UF": "RS"
+        },
+        "CPF": "83300384087",
+        "RG": {
+          "Numero": "2123123396",
+          "UF": "RS",
+          "OrgaoExpedidor": "SSP"
+        },
+        "DataNascimento": "2001-06-05"
+      },
+      "DataConclusao": "2021-12-29",
+      "DadosCurso": {
+        "NomeCurso": "Recursos Humanos",
+        "CodigoCursoEMEC": "",
+        "NomeHabilitacao": "Técnico em Recursos Humanos",
+        "Modalidade": "EAD",
+        "TituloConferido": {
+          "Titulo": "Técnico"
+        },
+        "GrauConferido": "Técnico",
+        "EnderecoCurso": {
+          "Logradouro": "RUA DOUTOR PEDRINHO",
+          "Numero": "79",
+          "Complemento": "",
+          "Bairro": "RIO MORTO",
+          "CodigoMunicipio": "4207502",
+          "NomeMunicipio": "Indaial",
+          "UF": "SC",
+          "CEP": "89082262"
+        },
+        "Autorizacao": {
+          "Tipo": "Portaria",
+          "Numero": "524",
+          "Data": "2020-09-30",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "2020-10-01",
+          "SecaoPublicacao": "",
+          "PaginaPublicacao": "",
+          "NumeroDOU": "",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        },
+        "Reconhecimento": {
+          "Tipo": "Portaria",
+          "Numero": "524",
+          "Data": "2020-09-30",
+          "VeiculoPublicacao": "DOU",
+          "DataPublicacao": "2020-10-01",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "764",
+          "NumeroDOU": "524",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        },
+        "RenovacaoReconhecimento": {
+          "Tipo": "Portaria",
+          "Numero": "27",
+          "Data": "2023-06-15",
+          "VeiculoPublicacao": "DOU",
+          "DataPublicacao": "2023-06-19",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "15",
+          "NumeroDOU": "27",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        }
+      },
+      "IesEmissora": {
+        "Nome": "Centro Universitário Leonardo da Vinci",
+        "CodigoMEC": "1472",
+        "CNPJ": "01894432000156",
+        "Endereco": {
+          "Logradouro": "RUA DOUTOR PEDRINHO",
+          "Numero": "79",
+          "Complemento": "",
+          "Bairro": "RIO MORTO",
+          "CodigoMunicipio": "4207502",
+          "NomeMunicipio": "Indaial",
+          "UF": "SC",
+          "CEP": "89082262"
+        },
+        "Credenciamento": {
+          "Tipo": "Portaria",
+          "Numero": "1265",
+          "Data": "1998-11-12",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "1998-11-16",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "3",
+          "NumeroDOU": ""
+        },
+        "Recredenciamento": {
+          "Tipo": "Portaria",
+          "Numero": "763",
+          "Data": "2020-09-18",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "2020-09-21",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "119",
+          "NumeroDOU": "",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        },
+        "RenovacaoDeRecredenciamento": {
+          "Tipo": "",
+          "Numero": "",
+          "Data": "",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "",
+          "SecaoPublicacao": "",
+          "PaginaPublicacao": "",
+          "NumeroDOU": "",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        },
+        "Mantenedora": {
+          "RazaoSocial": "Sociedade Educacional Leonardo da Vinci S/S Ltda",
+          "CNPJ": "01894432000407",
+          "Endereco": {
+            "Logradouro": "RUA DOUTOR PEDRINHO",
+            "Numero": "79",
+            "Complemento": "",
+            "Bairro": "RIO MORTO",
+            "CodigoMunicipio": "4207502",
+            "NomeMunicipio": "Indaial",
+            "UF": "SC",
+            "CEP": "89082262"
+          }
+        }
+      }
+    },
+    "DadosRegistro": {
+      "IesRegistradora": {
+        "Nome": "Centro Universitário Leonardo da Vinci",
+        "CodigoMEC": "1472",
+        "CNPJ": "01894432000156",
+        "Endereco": {
+          "Logradouro": "RUA DOUTOR PEDRINHO",
+          "Numero": "79",
+          "Complemento": "",
+          "Bairro": "RIO MORTO",
+          "CodigoMunicipio": "4207502",
+          "NomeMunicipio": "Indaial",
+          "UF": "SC",
+          "CEP": "89082262"
+        },
+        "Credenciamento": {
+          "Tipo": "Portaria",
+          "Numero": "1265",
+          "Data": "1998-11-12",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "1998-11-16",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "3",
+          "NumeroDOU": ""
+        },
+        "Recredenciamento": {
+          "Tipo": "Portaria",
+          "Numero": "763",
+          "Data": "2020-09-18",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "2020-09-21",
+          "SecaoPublicacao": "1",
+          "PaginaPublicacao": "119",
+          "NumeroDOU": "",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        },
+        "RenovacaoDeRecredenciamento": {
+          "Tipo": "",
+          "Numero": "",
+          "Data": "",
+          "VeiculoPublicacao": "",
+          "DataPublicacao": "",
+          "SecaoPublicacao": "",
+          "PaginaPublicacao": "",
+          "NumeroDOU": "",
+          "InformacoesTramitacaoEMEC": {
+            "NumeroProcesso": "",
+            "TipoProcesso": "",
+            "DataCadastro": "",
+            "DataProtocolo": ""
+          }
+        },
+        "Mantenedora": {
+          "RazaoSocial": "Sociedade Educacional Leonardo da Vinci S/S Ltda",
+          "CNPJ": "01894432000407",
+          "Endereco": {
+            "Logradouro": "RUA DOUTOR PEDRINHO",
+            "Numero": "79",
+            "Complemento": "",
+            "Bairro": "RIO MORTO",
+            "CodigoMunicipio": "4207502",
+            "NomeMunicipio": "Indaial",
+            "UF": "SC",
+            "CEP": "89082262"
+          }
+        }
+      },
+      "LivroRegistro": {
+        "LivroRegistro": "E-001",
+        "NumeroFolhaDoDiploma": "13",
+        "NumeroSequenciaDoDiploma": "1450455",
+        "ProcessoDoDiploma": "13",
+        "DataColacaoGrau": "2022-03-10",
+        "DataExpedicaoDiploma": "2022-03-10",
+        "DataRegistroDiploma": "2022-03-10",
+        "ResponsavelRegistro": {
+          "Nome": "Érica Rodrigues Carloto Pereira",
+          "CPF": "08152356743",
+          "IDouNumeroMatricula": "100022501"
+        }
+      }
+    }
+  }
+},
+"Design": {
+  "2via": "",
+  "Logo": "",
+  "Urldiploma": "https://homologmkt.asselvi.net.br/institucional/diploma-digital",
+  "Frente": {
+    "Responsavel": "Valdecir Antonio Simão",
+    "Funcao": "Reitor",
+    "DataConclusao": "2021-12-29",
+    "Credenciamento": "<br />Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119.",
+    "Tsuperior": "O Reitor do Centro Universitário Leonardo da Vinci, no uso <br /> de suas atribuições e tendo em vista a conclusão do Curso Técnico em ",
+    "Grau": " com eixo tecnológico Gestão e Negócios e carga horaria de 800 horas ",
+    "Tinferior": "de nacionalidade Brasileira, natural  do Estado do Rio Grande do Sul, RG número 2123123396 SSP/RS,<br />nascido a 05 de junho de 2001, outorgando-lhe o presente Diploma de nível técnico <br />a fim de que possa gozar de todos os direitos e prerrogativas legais."
+  },
+  "Verso": {
+    "Titulo": "Curso Técnico em <b>Recursos Humanos</b> <br> com carga horária de 800 horas",
+    "Texto": "Recredenciado pela Portaria Nº 27, de 15 de junho de 2023, publicada no DOU de 19 de junho de 2023, seção 1, páginas 1 a 5.<br>",
+    "Box3": {
+      "Titulo": "<b>Registro SISTEC</b>",
+      "Texto": "<br><br><b>Código Validação: 87726/100867558CM</b><br><br>Para consulta da validade acesse o site https://sistec.mec.gov.br/validadenacional/"
+    },
+    "Credenciamento": "Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119.",
+    "Registro": "Gerência Acadêmica<br />Seção de Registro de Diploma",
+    "Responsavel": "Érica Rodrigues Carloto Pereira",
+    "Funcao": "Responsável pelo registro"
+  }
+}
+}

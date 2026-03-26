@@ -1,0 +1,11 @@
+| Campo no Jasper                | Descrição                                  
+| ------------------------------ | ------------------------------------------ 
+| `$F{Nome}`                     | Nome completo do aluno                     
+| `$F{ID}`                       | Registro acadêmico                         
+| `$F{CPF}`                      | CPF do aluno                               
+| `$F{NomeCurso}`                | Nome do curso concluído                    
+| `$F{IesEmissoraNome}`          | Nome da instituição que ofereceu o curso   
+| `$F{DataConclusao}`            | Data de conclusão/aprovação do programa    
+| `$F{DataInicio}`               | Data de início do programa                 
+| `$F{DataFim}`                  | Data de término do programa                
+| `$F{IesEmissoraNomeMunicipio}` | Cidade onde está localizada a IES emissora  

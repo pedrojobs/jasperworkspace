@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ManifestoAssinaturas" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b1e9b0a1-66a5-4c5e-97ac-1a0e9f8b1234">
+	<field name="document" class="java.util.Map"/>
+	<field name="signers" class="java.util.Collection"/>
+	<title>
+		<band height="60">
+			<staticText>
+				<reportElement x="0" y="10" width="555" height="30" uuid="c5706a5c-e320-42a6-99ce-5eca79ee3075"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Manifesto de Assinaturas]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="100" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="0" y="0" width="555" height="15" uuid="333df12c-e2d0-448d-a41a-de2ffea3b7d5"/>
+				<textFieldExpression><![CDATA["Documento: " + $F{document}.get("name")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="555" height="15" uuid="d9dae9d4-f219-4264-8856-0106fdb0de64"/>
+				<textFieldExpression><![CDATA["Hash: " + $F{document}.get("hash")]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="120">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="120" uuid="dfea69c9-2cd6-4689-b37d-506f62d1ae11"/>
+				<textField>
+					<reportElement x="0" y="0" width="200" height="15" uuid="74e9df6d-1632-40a9-b9e7-00dcde768d38"/>
+					<textFieldExpression><![CDATA["Nome: " + $F{name}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="20" width="200" height="15" uuid="f87999ba-d9b4-45ee-bbf4-7932af2fac6e"/>
+					<textFieldExpression><![CDATA["CPF: " + $F{identifier}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="250" y="0" width="200" height="15" uuid="c6539f47-25c0-4e38-a87f-63ca9c621fe0"/>
+					<textFieldExpression><![CDATA["E-mail: " + $F{email}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="250" y="20" width="200" height="15" uuid="3021d812-8f16-4e90-8e41-5c80f292f75c"/>
+					<textFieldExpression><![CDATA["Assinado em: " + new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format($F{signedOn})]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="40" width="200" height="15" uuid="fef27159-a98a-4b68-9f91-837493f7f06e"/>
+					<textFieldExpression><![CDATA["Tipo: " + $F{signatureType}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="250" y="40" width="200" height="15" uuid="f55a28c2-94db-47c3-9b99-8c8ec2f38287"/>
+					<textFieldExpression><![CDATA["Status: " + $F{status}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="60" width="555" height="15" uuid="9bcf7e39-0ca8-49dd-ab52-a7b800aba4cf"/>
+					<textFieldExpression><![CDATA["Certificado: " + $F{certificate}.get("subjectName")]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="0" y="100" width="555" height="1" uuid="0d13a1c7-f9fe-45a6-af69-a7d2157a57c7"/>
+				</line>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

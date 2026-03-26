@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="diploma" pageWidth="844" pageHeight="595" orientation="Landscape" columnWidth="844" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="2a104da4-4eb0-4f41-a17c-9530244f9d71">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="treinamento"/>
+	<property name="com.jaspersoft.studio.report.description" value=""/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="595" splitType="Stretch">
+			<textField textAdjust="StretchHeight">
+				<reportElement x="86" y="180" width="658" height="39" uuid="957ae33a-7738-4f27-a706-0261224fd42e"/>
+				<textElement textAlignment="Center" markup="styled">
+					<font fontName="Texto" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[O Diretor do Centro de Educação Tecnológica República, localizado na BR 101, KM 202, n° 303,
+autorizado através do Parecer do CEE/SC N° 001/2004 ao Parecer do CEE/SC N° 263/2019, certifica que]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="220" width="690" height="110" forecolor="#FA2420" uuid="a2157a01-0c79-4a9f-af75-9701c5663e9e"/>
+				<textElement textAlignment="Center" verticalAlignment="Top" markup="styled">
+					<font fontName="Edwardian Script ITC" size="82" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[Diploma]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="78" y="400" width="690" height="72" uuid="506c332f-72ba-4ac9-9829-4445f66d2cf1"/>
+				<textElement textAlignment="Center" markup="styled">
+					<font fontName="Texto" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DiplomadoNacionalidade} + ", natural do Estado " +
+($F{NaturalidadeUF}.equals("AC") ? "do Acre" :
+$F{NaturalidadeUF}.equals("AL") ? "de Alagoas" :
+$F{NaturalidadeUF}.equals("AP") ? "do Amapá" :
+$F{NaturalidadeUF}.equals("AM") ? "do Amazonas" :
+$F{NaturalidadeUF}.equals("BA") ? "da Bahia" :
+$F{NaturalidadeUF}.equals("CE") ? "do Ceará" :
+$F{NaturalidadeUF}.equals("DF") ? "do Distrito Federal" :
+$F{NaturalidadeUF}.equals("ES") ? "do Espírito Santo" :
+$F{NaturalidadeUF}.equals("GO") ? "de Goiás" :
+$F{NaturalidadeUF}.equals("MA") ? "do Maranhão" :
+$F{NaturalidadeUF}.equals("MT") ? "do Mato Grosso" :
+$F{NaturalidadeUF}.equals("MS") ? "do Mato Grosso do Sul" :
+$F{NaturalidadeUF}.equals("MG") ? "de Minas Gerais" :
+$F{NaturalidadeUF}.equals("PA") ? "do Pará" :
+$F{NaturalidadeUF}.equals("PB") ? "da Paraíba" :
+$F{NaturalidadeUF}.equals("PR") ? "do Paraná" :
+$F{NaturalidadeUF}.equals("PE") ? "de Pernambuco" :
+$F{NaturalidadeUF}.equals("PI") ? "do Piauí" :
+$F{NaturalidadeUF}.equals("RJ") ? "do Rio de Janeiro" :
+$F{NaturalidadeUF}.equals("RN") ? "do Rio Grande do Norte" :
+$F{NaturalidadeUF}.equals("RS") ? "do Rio Grande do Sul" :
+$F{NaturalidadeUF}.equals("RO") ? "de Rondônia" :
+$F{NaturalidadeUF}.equals("RR") ? "de Roraima" :
+$F{NaturalidadeUF}.equals("SC") ? "de Santa Catarina" :
+$F{NaturalidadeUF}.equals("SP") ? "de São Paulo" :
+$F{NaturalidadeUF}.equals("SE") ? "de Sergipe" :
+$F{NaturalidadeUF}.equals("TO") ? "do Tocantins" :
+"") + // Caso a UF não esteja listada
+($F{DiplomadoSexo}.equals("M") ? ",\n nascido a " : ", nascida a ") + 
+new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DiplomadoDataNascimento})) +
+($F{DiplomadoCPF} != null ? ",CPF nº " + $F{DiplomadoCPF} + " " : $F{DiplomadoOutroDocTipo} != null ? "\n" + $F{DiplomadoOutroDocTipo} + ": " + $F{DiplomadoOutroDocIdentificador} : "") +
+"\ne outorga-lhe o presente diploma, a fim de que possa gozar de todos os direitos e prerrogativas legais. \n\n\n" + $F{IesEmissoraEnderecoNomeMunicipio} + ", " +
+new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DataExpedicaoDiploma})) + "."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="91" y="541" width="660" height="18" uuid="97d77ea4-b512-446d-928d-2d05c8a2d317"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom" markup="styled">
+					<font fontName="Texto" size="13" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["https://www.ceter.com.br/secretaria-academica - Código de Validação:" + $F{CodigoValidacao}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="180" y="80" width="450" height="29" uuid="f57682d6-a634-40ad-9a74-ee838f9cf5bf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="17" isBold="true"/>
+				</textElement>
+				<text><![CDATA[REPÚBLICA FEDERATIVA DO BRASIL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="156" y="140" width="551" height="31" uuid="2845fb70-b933-4d26-97be-fc9455bb8e5a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ceter - Centro Educação Técnologica Repuclica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="311" y="110" width="188" height="19" uuid="1f2e6c45-53cf-45d6-9140-ec41f700ea2e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Estado de Santa Catarina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="455" width="201" height="30" uuid="c2b0e2aa-b8d1-45b8-bda5-553737e71d46"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kátia Padilha dos Santos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="515" y="455" width="201" height="30" uuid="f27c528a-6cbb-423d-ac57-59345e20a439"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ademar Rodrigues Meireles]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="119" y="455" width="200" height="30" uuid="9e82887e-14fe-4eac-9ab4-9f294b626341"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Secretária Acadêmica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="515" y="455" width="200" height="30" uuid="809c58f2-e437-48ea-8b19-0bfaf9ccac2c"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Diretor]]></text>
+			</staticText>
+			<image>
+				<reportElement x="46" y="60" width="110" height="111" uuid="35b653a0-030d-487d-ba39-f04a72185c6e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/pedro/Desktop/SAFEDUC/Design Diplomas/CETER/brasao400.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="676" y="65" width="110" height="100" uuid="2d628db7-8f16-43a3-b597-f0df5a0db794">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/pedro/Desktop/SAFEDUC/Design Diplomas/CETER/ordem400.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement isPrintRepeatedValues="false" mode="Transparent" x="0" y="3" width="842" height="592" uuid="b6c5ce3c-8321-456f-9096-2d5a4692f7b9"/>
+				<imageExpression><![CDATA["C:/Users/pedro/Desktop/SAFEDUC/Design Diplomas/CETER/diploma_frente.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="0" y="595" width="849" height="595" uuid="cab8832c-3941-490f-b6f2-7c6088040d8a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/pedro/Desktop/SAFEDUC/Design Diplomas/CETER/diploma_verso.png"]]></imageExpression>
+			</image>
+		</band>
+		<band height="595">
+			<textField textAdjust="StretchHeight">
+				<reportElement x="58" y="79" width="489" height="58" uuid="1658d1b7-dc45-44ca-a647-4d342e7d8e88"/>
+				<box padding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" markup="styled">
+					<font fontName="Texto" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IesEmissoraNome} + "\nCNPJ: " + String.format("%s.%s.%s/%s-%s", $F{IesEmissoraCNPJ}.substring(0, 2), $F{IesEmissoraCNPJ}.substring(2, 5), $F{IesEmissoraCNPJ}.substring(5, 8), $F{IesEmissoraCNPJ}.substring(8, 12), $F{IesEmissoraCNPJ}.substring(12)) + "\n" +
+
+(
+    // Se houver informações de Renovação de Recredenciamento, imprime esses campos
+    $F{IesEmissoraRenovacaoDeRecredenciamentoTipo} != null ?
+        "Renovação de Recredenciamento: " + $F{IesEmissoraRenovacaoDeRecredenciamentoTipo} + " n° " + $F{IesEmissoraRenovacaoDeRecredenciamentoNumero} + " de " +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoData} != null ?
+                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoData})) :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoVeiculoPublicacao} != null ?
+                ", " + $F{IesEmissoraRenovacaoDeRecredenciamentoVeiculoPublicacao} :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoNumeroDOU} != null ?
+                ", n° " + $F{IesEmissoraRenovacaoDeRecredenciamentoNumeroDOU} :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoSecaoPublicacao} != null ?
+                ", Seção " + $F{IesEmissoraRenovacaoDeRecredenciamentoSecaoPublicacao} :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoPaginaPublicacao} != null ?
+                ", Página n° " + $F{IesEmissoraRenovacaoDeRecredenciamentoPaginaPublicacao} :
+                ""
+        )  +
+        (
+           $F{IesEmissoraRenovacaoDeRecredenciamentoDataPublicacao} != null ?
+                " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoDataPublicacao})) :
+                ""
+        )
+    // Se não houver informações de Renovação de Recredenciamento, verifica informações de Tramitação EMEC de Renovação de Recredenciamento
+    :
+    (
+       $F{IesEmissoraRenovacaoDeRecredenciamentoNumProcessoEMEC}!= null ?
+        		"Renovação de Recredenciamento:\n" + "Tipo do Processo: " + $F{IesEmissoraRenovacaoDeRecredenciamentoTipoProcessoEMEC} +
+                ", Número do Processo: " + $F{IesEmissoraRenovacaoDeRecredenciamentoNumProcessoEMEC} +
+                ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoDataCadastroEMEC})) +
+                ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoDataProtocoloEMEC})) :
+            // Se não houver informações de Renovação de Recredenciamento ou Tramitação EMEC de Renovação de Recredenciamento, verifica informações de Recredenciamento
+            (
+                $F{IesEmissoraRecredenciamentoTipo} != null ?
+                    "Recredenciamento: " + $F{IesEmissoraRecredenciamentoTipo} + " n° " + $F{IesEmissoraRecredenciamentoNumero} + " de " +
+                    (
+                        $F{IesEmissoraRecredenciamentoData} != null ?
+                            new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoData})) :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoVeiculoPublicacao} != null ?
+                            ", " + $F{IesEmissoraRecredenciamentoVeiculoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoNumeroDOU} != null ?
+                            ", n° " + $F{IesEmissoraRecredenciamentoNumeroDOU} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoSecaoPublicacao} != null ?
+                            ", Seção " + $F{IesEmissoraRecredenciamentoSecaoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoPaginaPublicacao} != null ?
+                            ", Página n° " + $F{IesEmissoraRecredenciamentoPaginaPublicacao} :
+                            ""
+                    )   +
+                    (
+                        $F{IesEmissoraRecredenciamentoDataPublicacao} != null ?
+                            " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoDataPublicacao})) :
+                            ""
+                    ) 
+                // Se não houver informações de Renovação de Recredenciamento, Tramitação EMEC de Renovação de Recredenciamento, Recredenciamento ou Tramitação EMEC de Recredenciamento, verifica informações de Credenciamento
+                :
+                        // Se houver informações de tramitação de Recredenciamento, imprime essas informações
+                        $F{IesEmissoraRecredenciamentoNumProcessoEMEC} != null ?
+                        	"Recredenciamento:\n" +  "Tipo do Processo: " + $F{IesEmissoraRecredenciamentoTipoProcessoEMEC} +
+                            ", Número do Processo: " + $F{IesEmissoraRecredenciamentoNumProcessoEMEC} +
+                            ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoDataCadastroEMEC})) +
+                            ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoDataProtocoloEMEC}))
+            
+                    :
+                    $F{IesEmissoraCredenciamentoTipo} != null ?
+                        "Credenciamento: " + $F{IesEmissoraCredenciamentoTipo} + " n° " + $F{IesEmissoraCredenciamentoNumero} + " de " +
+                        (
+                            $F{IesEmissoraCredenciamentoData} != null ?
+                                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoData})) :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoVeiculoPublicacao} != null ?
+                                ", " + $F{IesEmissoraCredenciamentoVeiculoPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoNumeroDOU} != null ?
+                                ", n° " + $F{IesEmissoraCredenciamentoNumeroDOU} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoSecaoPublicacao} != null ?
+                                ", Seção " + $F{IesEmissoraCredenciamentoSecaoPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoPaginaPublicacao} != null ?
+                                ", Página n° " + $F{IesEmissoraCredenciamentoPaginaPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoDataPublicacao} != null ?
+                                " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoDataPublicacao})) :
+                                ""
+                        ) 
+                        :
+                  
+                            // Se houver informações de tramitação de Credenciamento, imprime essas informações
+                            $F{IesEmissoraCredenciamentoNumProcessoEMEC}!= null ?
+                            	"Credenciamento:\n" + "Tipo do Processo: " + $F{IesEmissoraCredenciamentoTipoProcessoEMEC} +
+                                ", Número do Processo: " + $F{IesEmissoraCredenciamentoNumProcessoEMEC} +
+                                ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoDataCadastroEMEC})) +
+                                ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoDataProtocoloEMEC})) :
+                                ""
+                    
+                )
+        )
+    )]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="58" y="244" width="489" height="183" uuid="a71baa04-38e1-4217-ad1a-9d0307dc4802"/>
+				<box padding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" markup="styled">
+					<font fontName="Texto" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IesEmissoraNome} + "\nCNPJ: " + String.format("%s.%s.%s/%s-%s", $F{IesEmissoraCNPJ}.substring(0, 2), $F{IesEmissoraCNPJ}.substring(2, 5), $F{IesEmissoraCNPJ}.substring(5, 8), $F{IesEmissoraCNPJ}.substring(8, 12), $F{IesEmissoraCNPJ}.substring(12)) + "\n" +
+
+(
+    // Se houver informações de Renovação de Recredenciamento, imprime esses campos
+    $F{IesEmissoraRenovacaoDeRecredenciamentoTipo} != null ?
+        "Renovação de Recredenciamento: " + $F{IesEmissoraRenovacaoDeRecredenciamentoTipo} + " n° " + $F{IesEmissoraRenovacaoDeRecredenciamentoNumero} + " de " +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoData} != null ?
+                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoData})) :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoVeiculoPublicacao} != null ?
+                ", " + $F{IesEmissoraRenovacaoDeRecredenciamentoVeiculoPublicacao} :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoNumeroDOU} != null ?
+                ", n° " + $F{IesEmissoraRenovacaoDeRecredenciamentoNumeroDOU} :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoSecaoPublicacao} != null ?
+                ", Seção " + $F{IesEmissoraRenovacaoDeRecredenciamentoSecaoPublicacao} :
+                ""
+        ) +
+        (
+            $F{IesEmissoraRenovacaoDeRecredenciamentoPaginaPublicacao} != null ?
+                ", Página n° " + $F{IesEmissoraRenovacaoDeRecredenciamentoPaginaPublicacao} :
+                ""
+        )  +
+        (
+           $F{IesEmissoraRenovacaoDeRecredenciamentoDataPublicacao} != null ?
+                " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoDataPublicacao})) :
+                ""
+        )
+    // Se não houver informações de Renovação de Recredenciamento, verifica informações de Tramitação EMEC de Renovação de Recredenciamento
+    :
+    (
+       $F{IesEmissoraRenovacaoDeRecredenciamentoNumProcessoEMEC}!= null ?
+        		"Renovação de Recredenciamento:\n" + "Tipo do Processo: " + $F{IesEmissoraRenovacaoDeRecredenciamentoTipoProcessoEMEC} +
+                ", Número do Processo: " + $F{IesEmissoraRenovacaoDeRecredenciamentoNumProcessoEMEC} +
+                ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoDataCadastroEMEC})) +
+                ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRenovacaoDeRecredenciamentoDataProtocoloEMEC})) :
+            // Se não houver informações de Renovação de Recredenciamento ou Tramitação EMEC de Renovação de Recredenciamento, verifica informações de Recredenciamento
+            (
+                $F{IesEmissoraRecredenciamentoTipo} != null ?
+                    "Recredenciamento: " + $F{IesEmissoraRecredenciamentoTipo} + " n° " + $F{IesEmissoraRecredenciamentoNumero} + " de " +
+                    (
+                        $F{IesEmissoraRecredenciamentoData} != null ?
+                            new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoData})) :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoVeiculoPublicacao} != null ?
+                            ", " + $F{IesEmissoraRecredenciamentoVeiculoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoNumeroDOU} != null ?
+                            ", n° " + $F{IesEmissoraRecredenciamentoNumeroDOU} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoSecaoPublicacao} != null ?
+                            ", Seção " + $F{IesEmissoraRecredenciamentoSecaoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{IesEmissoraRecredenciamentoPaginaPublicacao} != null ?
+                            ", Página n° " + $F{IesEmissoraRecredenciamentoPaginaPublicacao} :
+                            ""
+                    )   +
+                    (
+                        $F{IesEmissoraRecredenciamentoDataPublicacao} != null ?
+                            " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoDataPublicacao})) :
+                            ""
+                    ) 
+                // Se não houver informações de Renovação de Recredenciamento, Tramitação EMEC de Renovação de Recredenciamento, Recredenciamento ou Tramitação EMEC de Recredenciamento, verifica informações de Credenciamento
+                :
+                        // Se houver informações de tramitação de Recredenciamento, imprime essas informações
+                        $F{IesEmissoraRecredenciamentoNumProcessoEMEC} != null ?
+                        	"Recredenciamento:\n" +  "Tipo do Processo: " + $F{IesEmissoraRecredenciamentoTipoProcessoEMEC} +
+                            ", Número do Processo: " + $F{IesEmissoraRecredenciamentoNumProcessoEMEC} +
+                            ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoDataCadastroEMEC})) +
+                            ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraRecredenciamentoDataProtocoloEMEC}))
+            
+                    :
+                    $F{IesEmissoraCredenciamentoTipo} != null ?
+                        "Credenciamento: " + $F{IesEmissoraCredenciamentoTipo} + " n° " + $F{IesEmissoraCredenciamentoNumero} + " de " +
+                        (
+                            $F{IesEmissoraCredenciamentoData} != null ?
+                                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoData})) :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoVeiculoPublicacao} != null ?
+                                ", " + $F{IesEmissoraCredenciamentoVeiculoPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoNumeroDOU} != null ?
+                                ", n° " + $F{IesEmissoraCredenciamentoNumeroDOU} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoSecaoPublicacao} != null ?
+                                ", Seção " + $F{IesEmissoraCredenciamentoSecaoPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoPaginaPublicacao} != null ?
+                                ", Página n° " + $F{IesEmissoraCredenciamentoPaginaPublicacao} :
+                                ""
+                        ) +
+                        (
+                            $F{IesEmissoraCredenciamentoDataPublicacao} != null ?
+                                " de " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoDataPublicacao})) :
+                                ""
+                        ) 
+                        :
+                  
+                            // Se houver informações de tramitação de Credenciamento, imprime essas informações
+                            $F{IesEmissoraCredenciamentoNumProcessoEMEC}!= null ?
+                            	"Credenciamento:\n" + "Tipo do Processo: " + $F{IesEmissoraCredenciamentoTipoProcessoEMEC} +
+                                ", Número do Processo: " + $F{IesEmissoraCredenciamentoNumProcessoEMEC} +
+                                ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoDataCadastroEMEC})) +
+                                ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{IesEmissoraCredenciamentoDataProtocoloEMEC})) :
+                                ""
+                    
+                )
+        )
+    )
++ "." + 
+
+"\nSecretaria Acadêmica\nSeção de Registro de Diplomas\nDiploma registrado sob o n° <u>"+ $F{NumeroRegistroDiploma} + "</u>\nLivro <u>" + $F{LivroRegistroDiploma} + "</u> folha n° <u>" + $F{NumeroFolhaDiploma} + "</u>.\n\n\n" +
+
+$F{IesEmissoraEnderecoNomeMunicipio} + ", " + 
+(
+   $F{DataRegistroDiploma} != null ?
+        new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(
+            new SimpleDateFormat("yyyy-MM-dd").parse($F{DataRegistroDiploma})
+        ) :
+        ""
+)
++ ".\n\n\n" + "<i>Assinatura realizada por meio \nde certificado ICP-Brasil</i>\n" + $F{ResponsavelRegistroNome} + "\nSecretária de Registro"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="59" y="162" width="489" height="58" uuid="ee980691-e30f-4d50-9380-5131fc1545f7"/>
+				<box padding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" markup="styled">
+					<font fontName="Texto" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Curso de " + $F{DadosCursoNomeCurso} + "\n\n" +
+
+(
+    // Se houver informações de Renovação de Reconhecimento, imprime esses campos
+    $F{CursoRenovacaoReconhecimentoTipo} != null ?
+        "Renovação de Reconhecimento: " + $F{CursoRenovacaoReconhecimentoTipo} + " n° " + $F{CursoRenovacaoReconhecimentoNumero} + " de " +
+        (
+            $F{CursoRenovacaoReconhecimentoData} != null ?
+                new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoRenovacaoReconhecimentoData})) :
+                ""
+        ) +
+        (
+            $F{CursoRenovacaoReconhecimentoVeiculoPublicacao} != null ?
+                ", " + $F{CursoRenovacaoReconhecimentoVeiculoPublicacao} :
+                ""
+        ) +
+        (
+            $F{CursoRenovacaoReconhecimentoDataPublicacao} != null ?
+                ", Data de Publicação: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoRenovacaoReconhecimentoDataPublicacao})) :
+                ""
+        ) +
+        (
+            $F{CursoRenovacaoReconhecimentoSecaoPublicacao} != null ?
+                ", Seção " + $F{CursoRenovacaoReconhecimentoSecaoPublicacao} :
+                ""
+        ) +
+        (
+            $F{CursoRenovacaoReconhecimentoPaginaPublicacao} != null ?
+                ", Página n° " + $F{CursoRenovacaoReconhecimentoPaginaPublicacao} :
+                ""
+        ) +
+        (
+            $F{CursoRenovacaoReconhecimentoNumeroDOU} != null ?
+                ", Número DOU " + $F{CursoRenovacaoReconhecimentoNumeroDOU} :
+                ""
+        )
+    // Se não houver informações de Renovação de Reconhecimento, verifica informações de Tramitação EMEC de Renovação de Reconhecimento
+    :
+    (
+        $F{CursoRenovacaoReconhecimentoNumProcessoEMEC} != null ?
+            "Tramitação da Renovação de Reconhecimento: \n" + "Número do Processo: " + $F{CursoRenovacaoReconhecimentoNumProcessoEMEC} +
+            ", Tipo do Processo: " + $F{CursoRenovacaoReconhecimentoTipoProcessoEMEC} +
+            ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoRenovacaoReconhecimentoDataCadastroEMEC})) +
+            ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoRenovacaoReconhecimentoDataProtocoloEMEC})) :
+            // Se não houver informações de Renovação de Reconhecimento ou Tramitação EMEC de Renovação de Reconhecimento, verifica informações de Reconhecimento
+            (
+                $F{CursoReconhecimentoTipo} != null ?
+                    "Reconhecimento: " + $F{CursoReconhecimentoTipo} + " n° " + $F{CursoReconhecimentoNumero} + " de " +
+                    (
+                        $F{CursoReconhecimentoData} != null ?
+                            new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoReconhecimentoData})) :
+                            ""
+                    ) +
+                    (
+                        $F{CursoReconhecimentoVeiculoPublicacao} != null ?
+                            ", " + $F{CursoReconhecimentoVeiculoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{CursoReconhecimentoDataPublicacao} != null ?
+                            ", Data de Publicação: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoReconhecimentoDataPublicacao})) :
+                            ""
+                    ) +
+                    (
+                        $F{CursoReconhecimentoSecaoPublicacao} != null ?
+                            ", Seção " + $F{CursoReconhecimentoSecaoPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{CursoReconhecimentoPaginaPublicacao} != null ?
+                            ", Página n° " + $F{CursoReconhecimentoPaginaPublicacao} :
+                            ""
+                    ) +
+                    (
+                        $F{CursoReconhecimentoNumeroDOU} != null ?
+                            ", Número DOU " + $F{CursoReconhecimentoNumeroDOU} :
+                            ""
+                    )
+                // Se não houver informações de Renovação de Reconhecimento, Tramitação EMEC de Renovação de Reconhecimento ou Reconhecimento, verifica informações de Tramitação EMEC de Reconhecimento
+                :
+                (
+                    $F{CursoReconhecimentoNumProcessoEMEC} != null ?
+                        "Tramitação de Reconhecimento: \n" + "Número do Processo: " + $F{CursoReconhecimentoNumProcessoEMEC} +
+                        ", Tipo do Processo: " + $F{CursoReconhecimentoTipoProcessoEMEC} +
+                        ", Data de Cadastro: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoReconhecimentoDataCadastroEMEC})) +
+                        ", Data de Protocolo: " + new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{CursoReconhecimentoDataProtocoloEMEC})) :
+                        // Se não houver informações de Renovação de Reconhecimento, Tramitação EMEC de Renovação de Reconhecimento, Reconhecimento ou Tramitação EMEC de Reconhecimento, imprime uma string vazia
+                        ""
+                )
+            )
+    )
+) + "."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

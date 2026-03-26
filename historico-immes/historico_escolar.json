@@ -1,0 +1,3528 @@
+{
+  "infHistoricoEscolar": {
+    "Aluno": {
+      "ID": "2582824",
+      "Nome": "Ana Karine Oliveira do Rêgo",
+      "Sexo": "F",
+      "Nacionalidade": "Brasileira",
+      "Naturalidade": {
+        "CodigoMunicipio": "2708006",
+        "NomeMunicipio": "Santana Do Ipanema",
+        "UF": "AL"
+      },
+      "CPF": "14277264425",
+      "RG": {
+        "Numero": "42278171",
+        "OrgaoExpedidor": "SESP",
+        "UF": "AL"
+      },
+      "DataNascimento": "2001-12-02"
+    },
+    "DadosCurso": {
+      "NomeCurso": "Matemática",
+      "CodigoCursoEMEC": "99952",
+      "Habilitacao": [
+        {
+          "Habilitacao": {
+            "NomeHabilitacao": "Licenciatura em Matemática",
+            "DataHabilitacao": "2023-12-14"
+          }
+        }
+      ],
+      "Autorizacao": {
+        "Tipo": "Resolução",
+        "Numero": "52006",
+        "Data": "2006-03-24",
+        "VeiculoPublicacao": "Resolução Institucional",
+        "DataPublicacao": "2006-03-24"
+      },
+      "Reconhecimento": {
+        "Tipo": "Portaria",
+        "Numero": "293",
+        "Data": "2016-07-07",
+        "VeiculoPublicacao": "DOU",
+        "DataPublicacao": "2016-07-08",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "12",
+        "NumeroDOU": "12"
+      },
+      "RenovacaoReconhecimento": {
+        "Tipo": "Portaria",
+        "Numero": "913",
+        "Data": "2018-12-27",
+        "VeiculoPublicacao": "DOU",
+        "DataPublicacao": "2018-12-28",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "134135",
+        "NumeroDOU": "249"
+      }
+    },
+    "IesEmissora": {
+      "Nome": "Centro Universitário Leonardo da Vinci",
+      "CodigoMEC": "1472",
+      "CNPJ": "01894432000156",
+      "Endereco": {
+        "Logradouro": "RUA DOUTOR PEDRINHO",
+        "Numero": "79",
+        "Bairro": "RIO MORTO",
+        "CodigoMunicipio": "4207502",
+        "NomeMunicipio": "Indaial",
+        "UF": "SC",
+        "CEP": "89082262"
+      },
+      "Credenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "1265",
+        "Data": "1998-11-12",
+        "DataPublicacao": "1998-11-16",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "3"
+      },
+      "Recredenciamento": {
+        "Tipo": "Portaria",
+        "Numero": "763",
+        "Data": "2020-09-18",
+        "DataPublicacao": "2020-09-21",
+        "SecaoPublicacao": "1",
+        "PaginaPublicacao": "119"
+      },
+      "Mantenedora": {
+        "RazaoSocial": "Sociedade Educacional Leonardo da Vinci S/S Ltda",
+        "CNPJ": "01894432000156",
+        "Endereco": {
+          "Logradouro": "RUA DOUTOR PEDRINHO",
+          "Numero": "79",
+          "Bairro": "RIO MORTO",
+          "CodigoMunicipio": "4207502",
+          "NomeMunicipio": "Indaial",
+          "UF": "SC",
+          "CEP": "89082262"
+        }
+      }
+    },
+    "HistoricoEscolar": {
+      "CodigoCurriculo": "32",
+      "ElementosHistorico": {
+        "Disciplina": [
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "GTU100",
+              "NomeDisciplina": "Perspectivas Profissionais",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Neli Miglioli Sabadin",
+                      "Titulacao": "Mestrado",
+                      "CPF": "82682526934"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "HID10",
+              "NomeDisciplina": "Sociedade, Educação e Cultura",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.5",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Carlos Odilon da Costa",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/4035757971270461",
+                      "CPF": "52812740906"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "LEE23",
+              "NomeDisciplina": "Contexto Histórico-Filosófico da Educação",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Kevin Daniel dos Santos Leyser",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9680800839563218",
+                      "CPF": "04088614950"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "HID14",
+              "NomeDisciplina": "Psicologia da Educação e da Aprendizagem",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.05",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Grazielle Jenske",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9021396855352620",
+                      "CPF": "05012634977"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PED99",
+              "NomeDisciplina": "Políticas Educacionais",
+              "PeriodoLetivo": "2020/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.1",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Mônica Maria Baruffi",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/7116337092958766",
+                      "CPF": "61275050972"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "FIL13",
+              "NomeDisciplina": "Metodologia Científica",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "10",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Kleber Renan de Souza Santos",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/7710662933681863",
+                      "CPF": "32325877809"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "EDU02",
+              "NomeDisciplina": "Educação e Diversidade",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Walter Marcos Knaesel Birkner",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/8521471198048138",
+                      "CPF": "53869893915"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "EDU04",
+              "NomeDisciplina": "Educação Inclusiva",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.5",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Marlei Adriana Beyer Floriani",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/8811448119013322",
+                      "CPF": "00471748978"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT52",
+              "NomeDisciplina": "Língua Brasileira de Sinais - Libras",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "10",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Adriana Prado Santana Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/4303362085851673",
+                      "CPF": "13388759812"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "LEF107",
+              "NomeDisciplina": "Prática Interdisciplinar: Introdução à Pesquisa",
+              "PeriodoLetivo": "2020/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "40",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Carlos Odilon da Costa",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/4035757971270461",
+                      "CPF": "52812740906"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD03",
+              "NomeDisciplina": "Introdução ao Cálculo",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.4",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Jaqueline Luiza Horbach",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/4068486180802351",
+                      "CPF": "05949519922"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PED66",
+              "NomeDisciplina": "Teorias e Práticas do Currículo",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Jessiel Odilon Junglos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/4596864231125167",
+                      "CPF": "08905750966"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT50",
+              "NomeDisciplina": "Geometria",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD02",
+              "NomeDisciplina": "Trigonometria e Números Complexos",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "7.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Rafael Roza",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                      "CPF": "89960122972"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD113",
+              "NomeDisciplina": "Prática Interdisciplinar: Fatos Históricos sobre Geometria e Trigonometria",
+              "PeriodoLetivo": "2021/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "7.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Leonardo Garcia dos Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                      "CPF": "05673329938"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "ADG08",
+              "NomeDisciplina": "Comunicação e Linguagem",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Raquel da Silva Yee",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/8746765622954988",
+                      "CPF": "04194104900"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD13",
+              "NomeDisciplina": "Álgebra Linear e Vetorial",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.1",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Carlos Pitzer",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                      "CPF": "05642751905"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD101",
+              "NomeDisciplina": "Cálculo Diferencial e Integral I",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.5",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Carlos Pitzer",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                      "CPF": "05642751905"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT20",
+              "NomeDisciplina": "Geometria Analítica",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Leonardo Garcia dos Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                      "CPF": "05673329938"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17578",
+              "NomeDisciplina": "Estudo Transversal",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Brigitte Grossmann Cairus",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/5866514544830663",
+                      "CPF": "81504403991"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD114",
+              "NomeDisciplina": "Prática Interdisciplinar: Aplicações de Álgebra Linear e Geometria Analítica",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "7.6",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD103",
+              "NomeDisciplina": "Cálculo Diferencial e Integral II",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.05",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Leonardo Garcia dos Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                      "CPF": "05673329938"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT99",
+              "NomeDisciplina": "Estatística",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.35",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Rafael Roza",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                      "CPF": "89960122972"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT24",
+              "NomeDisciplina": "Probabilidade e Estatística",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Rafael Roza",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                      "CPF": "89960122972"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD14",
+              "NomeDisciplina": "Metodologia do Ensino da Matemática",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17579",
+              "NomeDisciplina": "Estudo Transversal I",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Marcelo Martins",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/1561481558146878",
+                      "CPF": "99931842920"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD115",
+              "NomeDisciplina": "Prática Interdisciplinar: Ferramentas de Cálculo em Probabilidade e Estatística",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.86",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "TE2015",
+              "NomeDisciplina": "Tópicos Especiais",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.45",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Kleber Renan de Souza Santos",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/7710662933681863",
+                      "CPF": "32325877809"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD105",
+              "NomeDisciplina": "Cálculo Diferencial e Integral III",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.05",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Carlos Pitzer",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                      "CPF": "05642751905"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT19",
+              "NomeDisciplina": "Fundamentos e História da Matemática",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Rosangela Pytlowanciw",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/4046728370432763",
+                      "CPF": "07893642980"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD17",
+              "NomeDisciplina": "Estruturas Algébricas",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "7.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Carlos Pitzer",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                      "CPF": "05642751905"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17600",
+              "NomeDisciplina": "Estudo Transversal II",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "10",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Cleide Jane Gruber Merizio",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0503451863245565",
+                      "CPF": "52021963934"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17601",
+              "NomeDisciplina": "Estudo Transversal III",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Valeria Becher Trentin",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/7140239742733129",
+                      "CPF": "02197990918"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD116",
+              "NomeDisciplina": "Prática Interdisciplinar: História da Matemática dos Séculos XIX e XX",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.86",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Aline Fernanda Bileski de Lisboa",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/7277984088423816",
+                      "CPF": "08157394945"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "LED107",
+              "NomeDisciplina": "Licenciatura em Foco",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.45",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luíza Nunes Marques",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0168423203748440",
+                      "CPF": "02721329006"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD107",
+              "NomeDisciplina": "Cálculo Diferencial e Integral IV",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.2",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Leonardo Garcia dos Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                      "CPF": "05673329938"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD108",
+              "NomeDisciplina": "Aritmética e Teoria dos Números",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "7.8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luiz Carlos Pitzer",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                      "CPF": "05642751905"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT27",
+              "NomeDisciplina": "Análise Matemática",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.7",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Leonardo Garcia dos Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                      "CPF": "05673329938"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17602",
+              "NomeDisciplina": "Estudo Transversal IV",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Luíza Nunes Marques",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0168423203748440",
+                      "CPF": "02721329006"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17603",
+              "NomeDisciplina": "Estudo Transversal V",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Fabiana Roeder",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/4096281471354877",
+                      "CPF": "93646380934"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD117",
+              "NomeDisciplina": "Prática Interdisciplinar: Elementos de Aritmética e Teoria dos Números",
+              "PeriodoLetivo": "2023/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.16",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Aline Fernanda Bileski de Lisboa",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/7277984088423816",
+                      "CPF": "08157394945"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD27",
+              "NomeDisciplina": "Projeto de Ensino",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.28",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Taíse Ceolin",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/2003505290585417",
+                      "CPF": "01684689058"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT28",
+              "NomeDisciplina": "Cálculo Numérico",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.5",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Rafael Roza",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                      "CPF": "89960122972"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAT23",
+              "NomeDisciplina": "Lógica Matemática",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "80",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.2",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD110",
+              "NomeDisciplina": "Educação e Novas Tecnologias Aplicadas ao Ensino da Matemática",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.3",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Sabine Schweder",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/7781514727125108",
+                      "CPF": "05845973988"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD111",
+              "NomeDisciplina": "Educação Financeira",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "8.75",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Leonardo Garcia dos Santos",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                      "CPF": "05673329938"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17604",
+              "NomeDisciplina": "Estudo Transversal VI",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Lili de Souza",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/7037268718534658",
+                      "CPF": "44062885972"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17605",
+              "NomeDisciplina": "Estudo Transversal VII",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Estelamaris Reif",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/6390486120909447",
+                      "CPF": "04413360940"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "17606",
+              "NomeDisciplina": "Estudo Transversal VIII",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "20",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "10",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Sheila Jeane Schulz Persike",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/7484141262505296",
+                      "CPF": "00623682907"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MAD118",
+              "NomeDisciplina": "Prática Interdisciplinar: Ferramentas Atuais para o Ensino da Matemática",
+              "PeriodoLetivo": "2023/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraRelogio": "60",
+                    "_etiqueta": "ob"
+                  }
+                }
+              ],
+              "Nota": "9.42",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Taíse Ceolin",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/2003505290585417",
+                      "CPF": "01684689058"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "AtividadeComplementar": [
+          {
+            "AtividadeComplementar": {
+              "CodigoAtividadeComplementar": "ACO",
+              "DataInicio": "2020-05-13",
+              "DataFim": "2023-12-14",
+              "TipoAtividadeComplementar": "Atividade Complementar",
+              "Descricao": "Atividades acadêmicas durante o período escolar",
+              "CargaHorariaEmHoraRelogio": [
+                {
+                  "CargaHorariaEmHoraRelogio": {
+                    "_etiqueta": "ob",
+                    "__text": "200"
+                  }
+                }
+              ],
+              "DocentesResponsaveisPelaValidacao": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Grazielle Jenske",
+                      "Titulacao": "Doutorado",
+                      "Lattes": "http://lattes.cnpq.br/9021396855352620",
+                      "CPF": "05012634977"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "Estagio": [
+          {
+            "Estagio": {
+              "CodigoUnidadeCurricular": "MAD15",
+              "DataInicio": "2023-02-27",
+              "DataFim": "2023-07-03",
+              "Descricao": "Estágio Curricular Obrigatório III",
+              "CargaHorariaEmHorasRelogio": [
+                {
+                  "CargaHorariaEmHorasRelogio": {
+                    "_etiqueta": "ob",
+                    "__text": "150"
+                  }
+                }
+              ],
+              "DocentesOrientadores": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Estagio": {
+              "CodigoUnidadeCurricular": "MAD08",
+              "DataInicio": "2022-02-21",
+              "DataFim": "2022-07-11",
+              "Descricao": "Estágio Curricular Obrigatório I",
+              "CargaHorariaEmHorasRelogio": [
+                {
+                  "CargaHorariaEmHorasRelogio": {
+                    "_etiqueta": "ob",
+                    "__text": "100"
+                  }
+                }
+              ],
+              "DocentesOrientadores": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Estagio": {
+              "CodigoUnidadeCurricular": "MAD11",
+              "DataInicio": "2022-08-08",
+              "DataFim": "2022-12-05",
+              "Descricao": "Estágio Curricular Obrigatório II",
+              "CargaHorariaEmHorasRelogio": [
+                {
+                  "CargaHorariaEmHorasRelogio": {
+                    "_etiqueta": "ob",
+                    "__text": "150"
+                  }
+                }
+              ],
+              "DocentesOrientadores": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "Manuela de Aviz Schulz",
+                      "Titulacao": "Mestrado",
+                      "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                      "CPF": "04234322903"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "DataEmissaoHistorico": "2024-08-29",
+      "HoraEmissaoHistorico": "14:00:37",
+      "SituacaoAtualDiscente": {
+        "PeriodoLetivo": "2023/2",
+        "Formado": {
+          "DataConclusaoCurso": "2023-12-14",
+          "DataColacaoGrau": "2024-01-29",
+          "DataExpedicaoDiploma": "2024-01-29"
+        }
+      },
+      "ENADE": {
+        "NaoHabilitado": [
+          {
+            "NaoHabilitado": {
+              "Condicao": "Concluinte",
+              "Edicao": "2023",
+              "OutroMotivo": "Estudante não habilitado ao ENADE em razão do calendário do ciclo avaliativo"
+            }
+          }
+        ]
+      },
+      "CargaHorariaCursoIntegralizada": {
+        "HoraRelogio": "3500"
+      },
+      "CargaHorariaCurso": {
+        "HoraRelogio": "3500"
+      },
+      "IngressoCurso": {
+        "Data": "2020-05-13",
+        "FormaAcesso": "Enem"
+      }
+    },
+    "SegurancaHistorico": {
+      "CodigoValidacao": "1472.434bc25a5dc2a11f2371ab708609650d6ee023adcdef1f44904c65b067774be8"
+    },
+    "_versao": "1.05",
+    "_ambiente": "Homologação"
+  },
+  "Extras": {
+    "TituloConferido": {
+      "Titulo": "Licenciado"
+    },
+    "CargaHorariaExigidaAtividadeComplementar": "200",
+    "CargaHorariaAtividadeComplementarCumprida": 200,
+    "CargaHorariaDisciplinasCursadas": "2900",
+    "CargaHorariaDisciplinasExigidas": "2900",
+    "CargaHorariaEstagioExigida": "400",
+    "CargaHorariaEstagioCumprida": "400",
+    "ResponsavelHistorico": "Érica Rodrigues Carloto Pereira",
+    "CargoResponsavelHistorico": "Secretaria Acadêmica",
+    "Urlhistorico": "https://homologmkt.asselvi.net.br/institucional/diploma-digital",
+    "Disciplina": [
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "GTU100",
+          "NomeDisciplina": "Perspectivas Profissionais",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Neli Miglioli Sabadin",
+                  "Titulacao": "Mestrado",
+                  "CPF": "82682526934"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "1º Fase",
+          "AnoLetivo": "1º Fase",
+          "SemestreLetivo": "1º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "HID10",
+          "NomeDisciplina": "Sociedade, Educação e Cultura",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.5",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Carlos Odilon da Costa",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/4035757971270461",
+                  "CPF": "52812740906"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "1º Fase",
+          "AnoLetivo": "1º Fase",
+          "SemestreLetivo": "1º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "LEE23",
+          "NomeDisciplina": "Contexto Histórico-Filosófico da Educação",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Kevin Daniel dos Santos Leyser",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9680800839563218",
+                  "CPF": "04088614950"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "1º Fase",
+          "AnoLetivo": "1º Fase",
+          "SemestreLetivo": "1º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "HID14",
+          "NomeDisciplina": "Psicologia da Educação e da Aprendizagem",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.05",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Grazielle Jenske",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/9021396855352620",
+                  "CPF": "05012634977"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "1º Fase",
+          "AnoLetivo": "1º Fase",
+          "SemestreLetivo": "1º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PED99",
+          "NomeDisciplina": "Políticas Educacionais",
+          "PeriodoLetivo": "2020/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.1",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Mônica Maria Baruffi",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/7116337092958766",
+                  "CPF": "61275050972"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "1º Fase",
+          "AnoLetivo": "1º Fase",
+          "SemestreLetivo": "1º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "FIL13",
+          "NomeDisciplina": "Metodologia Científica",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "10",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Kleber Renan de Souza Santos",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/7710662933681863",
+                  "CPF": "32325877809"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "2º Fase",
+          "AnoLetivo": "2º Fase",
+          "SemestreLetivo": "2º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "EDU02",
+          "NomeDisciplina": "Educação e Diversidade",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Walter Marcos Knaesel Birkner",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/8521471198048138",
+                  "CPF": "53869893915"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "2º Fase",
+          "AnoLetivo": "2º Fase",
+          "SemestreLetivo": "2º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "EDU04",
+          "NomeDisciplina": "Educação Inclusiva",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.5",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Marlei Adriana Beyer Floriani",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/8811448119013322",
+                  "CPF": "00471748978"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "2º Fase",
+          "AnoLetivo": "2º Fase",
+          "SemestreLetivo": "2º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT52",
+          "NomeDisciplina": "Língua Brasileira de Sinais - Libras",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "10",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Adriana Prado Santana Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/4303362085851673",
+                  "CPF": "13388759812"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "2º Fase",
+          "AnoLetivo": "2º Fase",
+          "SemestreLetivo": "2º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "LEF107",
+          "NomeDisciplina": "Prática Interdisciplinar: Introdução à Pesquisa",
+          "PeriodoLetivo": "2020/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "40",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Carlos Odilon da Costa",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/4035757971270461",
+                  "CPF": "52812740906"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "2º Fase",
+          "AnoLetivo": "2º Fase",
+          "SemestreLetivo": "2º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD03",
+          "NomeDisciplina": "Introdução ao Cálculo",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.4",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Jaqueline Luiza Horbach",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/4068486180802351",
+                  "CPF": "05949519922"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "3º Fase",
+          "AnoLetivo": "3º Fase",
+          "SemestreLetivo": "3º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PED66",
+          "NomeDisciplina": "Teorias e Práticas do Currículo",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Jessiel Odilon Junglos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/4596864231125167",
+                  "CPF": "08905750966"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "3º Fase",
+          "AnoLetivo": "3º Fase",
+          "SemestreLetivo": "3º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT50",
+          "NomeDisciplina": "Geometria",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Manuela de Aviz Schulz",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                  "CPF": "04234322903"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "3º Fase",
+          "AnoLetivo": "3º Fase",
+          "SemestreLetivo": "3º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD02",
+          "NomeDisciplina": "Trigonometria e Números Complexos",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "7.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Rafael Roza",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                  "CPF": "89960122972"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "3º Fase",
+          "AnoLetivo": "3º Fase",
+          "SemestreLetivo": "3º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD113",
+          "NomeDisciplina": "Prática Interdisciplinar: Fatos Históricos sobre Geometria e Trigonometria",
+          "PeriodoLetivo": "2021/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "7.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Leonardo Garcia dos Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                  "CPF": "05673329938"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "3º Fase",
+          "AnoLetivo": "3º Fase",
+          "SemestreLetivo": "3º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "ADG08",
+          "NomeDisciplina": "Comunicação e Linguagem",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Raquel da Silva Yee",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/8746765622954988",
+                  "CPF": "04194104900"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "4º Fase",
+          "AnoLetivo": "4º Fase",
+          "SemestreLetivo": "4º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD13",
+          "NomeDisciplina": "Álgebra Linear e Vetorial",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.1",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Carlos Pitzer",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                  "CPF": "05642751905"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "4º Fase",
+          "AnoLetivo": "4º Fase",
+          "SemestreLetivo": "4º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD101",
+          "NomeDisciplina": "Cálculo Diferencial e Integral I",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.5",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Carlos Pitzer",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                  "CPF": "05642751905"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "4º Fase",
+          "AnoLetivo": "4º Fase",
+          "SemestreLetivo": "4º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT20",
+          "NomeDisciplina": "Geometria Analítica",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Leonardo Garcia dos Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                  "CPF": "05673329938"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "4º Fase",
+          "AnoLetivo": "4º Fase",
+          "SemestreLetivo": "4º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17578",
+          "NomeDisciplina": "Estudo Transversal",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Brigitte Grossmann Cairus",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/5866514544830663",
+                  "CPF": "81504403991"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "4º Fase",
+          "AnoLetivo": "4º Fase",
+          "SemestreLetivo": "4º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD114",
+          "NomeDisciplina": "Prática Interdisciplinar: Aplicações de Álgebra Linear e Geometria Analítica",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "7.6",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Manuela de Aviz Schulz",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                  "CPF": "04234322903"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "4º Fase",
+          "AnoLetivo": "4º Fase",
+          "SemestreLetivo": "4º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD103",
+          "NomeDisciplina": "Cálculo Diferencial e Integral II",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.05",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Leonardo Garcia dos Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                  "CPF": "05673329938"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "5º Fase",
+          "AnoLetivo": "5º Fase",
+          "SemestreLetivo": "5º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT99",
+          "NomeDisciplina": "Estatística",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.35",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Rafael Roza",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                  "CPF": "89960122972"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "5º Fase",
+          "AnoLetivo": "5º Fase",
+          "SemestreLetivo": "5º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT24",
+          "NomeDisciplina": "Probabilidade e Estatística",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Rafael Roza",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                  "CPF": "89960122972"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "5º Fase",
+          "AnoLetivo": "5º Fase",
+          "SemestreLetivo": "5º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD14",
+          "NomeDisciplina": "Metodologia do Ensino da Matemática",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Manuela de Aviz Schulz",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                  "CPF": "04234322903"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "5º Fase",
+          "AnoLetivo": "5º Fase",
+          "SemestreLetivo": "5º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17579",
+          "NomeDisciplina": "Estudo Transversal I",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Marcelo Martins",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/1561481558146878",
+                  "CPF": "99931842920"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "5º Fase",
+          "AnoLetivo": "5º Fase",
+          "SemestreLetivo": "5º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD115",
+          "NomeDisciplina": "Prática Interdisciplinar: Ferramentas de Cálculo em Probabilidade e Estatística",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.86",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Manuela de Aviz Schulz",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                  "CPF": "04234322903"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "5º Fase",
+          "AnoLetivo": "5º Fase",
+          "SemestreLetivo": "5º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "TE2015",
+          "NomeDisciplina": "Tópicos Especiais",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.45",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Kleber Renan de Souza Santos",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/7710662933681863",
+                  "CPF": "32325877809"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD105",
+          "NomeDisciplina": "Cálculo Diferencial e Integral III",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.05",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Carlos Pitzer",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                  "CPF": "05642751905"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT19",
+          "NomeDisciplina": "Fundamentos e História da Matemática",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Rosangela Pytlowanciw",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/4046728370432763",
+                  "CPF": "07893642980"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD17",
+          "NomeDisciplina": "Estruturas Algébricas",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "7.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Carlos Pitzer",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                  "CPF": "05642751905"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17600",
+          "NomeDisciplina": "Estudo Transversal II",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "10",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Cleide Jane Gruber Merizio",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0503451863245565",
+                  "CPF": "52021963934"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17601",
+          "NomeDisciplina": "Estudo Transversal III",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Valeria Becher Trentin",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/7140239742733129",
+                  "CPF": "02197990918"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD116",
+          "NomeDisciplina": "Prática Interdisciplinar: História da Matemática dos Séculos XIX e XX",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.86",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Aline Fernanda Bileski de Lisboa",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/7277984088423816",
+                  "CPF": "08157394945"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "6º Fase",
+          "AnoLetivo": "6º Fase",
+          "SemestreLetivo": "6º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "LED107",
+          "NomeDisciplina": "Licenciatura em Foco",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.45",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luíza Nunes Marques",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0168423203748440",
+                  "CPF": "02721329006"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD107",
+          "NomeDisciplina": "Cálculo Diferencial e Integral IV",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.2",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Leonardo Garcia dos Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                  "CPF": "05673329938"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD108",
+          "NomeDisciplina": "Aritmética e Teoria dos Números",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "7.8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luiz Carlos Pitzer",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/8980483923685203",
+                  "CPF": "05642751905"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT27",
+          "NomeDisciplina": "Análise Matemática",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.7",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Leonardo Garcia dos Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                  "CPF": "05673329938"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17602",
+          "NomeDisciplina": "Estudo Transversal IV",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Luíza Nunes Marques",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0168423203748440",
+                  "CPF": "02721329006"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17603",
+          "NomeDisciplina": "Estudo Transversal V",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Fabiana Roeder",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/4096281471354877",
+                  "CPF": "93646380934"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD117",
+          "NomeDisciplina": "Prática Interdisciplinar: Elementos de Aritmética e Teoria dos Números",
+          "PeriodoLetivo": "2023/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.16",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Aline Fernanda Bileski de Lisboa",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/7277984088423816",
+                  "CPF": "08157394945"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "7º Fase",
+          "AnoLetivo": "7º Fase",
+          "SemestreLetivo": "7º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD27",
+          "NomeDisciplina": "Projeto de Ensino",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.28",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Taíse Ceolin",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/2003505290585417",
+                  "CPF": "01684689058"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT28",
+          "NomeDisciplina": "Cálculo Numérico",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.5",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Rafael Roza",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6738820660027708",
+                  "CPF": "89960122972"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAT23",
+          "NomeDisciplina": "Lógica Matemática",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "80",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.2",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Manuela de Aviz Schulz",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/3632130946165045",
+                  "CPF": "04234322903"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD110",
+          "NomeDisciplina": "Educação e Novas Tecnologias Aplicadas ao Ensino da Matemática",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.3",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Sabine Schweder",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/7781514727125108",
+                  "CPF": "05845973988"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD111",
+          "NomeDisciplina": "Educação Financeira",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "8.75",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Leonardo Garcia dos Santos",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/0902730954900208",
+                  "CPF": "05673329938"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17604",
+          "NomeDisciplina": "Estudo Transversal VI",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Lili de Souza",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/7037268718534658",
+                  "CPF": "44062885972"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17605",
+          "NomeDisciplina": "Estudo Transversal VII",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Estelamaris Reif",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/6390486120909447",
+                  "CPF": "04413360940"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "17606",
+          "NomeDisciplina": "Estudo Transversal VIII",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "20",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "10",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Sheila Jeane Schulz Persike",
+                  "Titulacao": "Mestrado",
+                  "Lattes": "http://lattes.cnpq.br/7484141262505296",
+                  "CPF": "00623682907"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MAD118",
+          "NomeDisciplina": "Prática Interdisciplinar: Ferramentas Atuais para o Ensino da Matemática",
+          "PeriodoLetivo": "2023/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraRelogio": "60",
+                "_etiqueta": "ob"
+              }
+            }
+          ],
+          "Nota": "9.42",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "Taíse Ceolin",
+                  "Titulacao": "Doutorado",
+                  "Lattes": "http://lattes.cnpq.br/2003505290585417",
+                  "CPF": "01684689058"
+                }
+              }
+            ]
+          },
+          "Cabecalho": "8º Fase",
+          "AnoLetivo": "8º Fase",
+          "SemestreLetivo": "8º Fase"
+        }
+      }
+    ]
+  }
+}

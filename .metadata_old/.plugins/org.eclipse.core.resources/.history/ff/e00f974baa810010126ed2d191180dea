@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="assinante" pageWidth="700" pageHeight="200" columnWidth="700" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="6058253f-288e-45ce-82b8-25863c47c5db">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto_Dados"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="566"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="420"/>
+	<property name="com.jaspersoft.studio.report.description" value=""/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<style name="HeaderFont" fontName="Arial" fontSize="12" isBold="true"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="assinante" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante"/>
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="identifier"/>
+		<fieldDescription><![CDATA[identifier]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="email"/>
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.signedOn"/>
+		<fieldDescription><![CDATA[signedOn]]></fieldDescription>
+	</field>
+	<field name="validityEnd" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinantes.assinante.validityEnd"/>
+		<fieldDescription><![CDATA[validityEnd]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="52">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="20" y="0" width="124" height="30" uuid="5948e70a-e832-4478-9ea4-d9f8c4bf8444"/>
+				<textFieldExpression><![CDATA[$F{assinante} == null ? "" : String.join(", ", $F{assinante})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="144" y="0" width="100" height="30" uuid="a0efca88-ec06-44c4-b3dc-c3e031722081"/>
+				<textFieldExpression><![CDATA[$F{identifier}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="244" y="0" width="100" height="30" uuid="232a8e65-6074-4a32-8f4c-a6101dfb5504"/>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="344" y="0" width="168" height="30" uuid="12337971-8e9a-4109-afb7-6e8fbebbab5e"/>
+				<textFieldExpression><![CDATA[$F{signedOn}]]></textFieldExpression>
+			</textField>
+			<frame borderSplitType="DrawBorders">
+				<reportElement x="20" y="0" width="492" height="30" uuid="1d595513-e288-4633-81be-7af12dbcc066"/>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

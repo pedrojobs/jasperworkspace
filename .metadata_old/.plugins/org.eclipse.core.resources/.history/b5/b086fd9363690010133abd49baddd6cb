@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Declaração" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="32349ace-2c78-43d0-9f54-37bb8c206f5d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ResidenciaMedica"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.97:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_homologacao"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/Tjh/residencia_medica/declaracao_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/Tjh/residencia_medica/declaracao"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Diploma-Json.xml"/>
+	<queryString language="JSON">
+		<![CDATA[Diploma.Diplomado]]>
+	</queryString>
+	<field name="ID" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.ID"/>
+		<fieldDescription><![CDATA[ID]]></fieldDescription>
+	</field>
+	<field name="Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.Nome"/>
+		<fieldDescription><![CDATA[Nome]]></fieldDescription>
+	</field>
+	<field name="Sexo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Sexo"/>
+		<fieldDescription><![CDATA[Sexo]]></fieldDescription>
+	</field>
+	<field name="NomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NomeMunicipio"/>
+		<fieldDescription><![CDATA[NomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="UF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UF"/>
+		<fieldDescription><![CDATA[UF]]></fieldDescription>
+	</field>
+	<field name="NomeMunicipioEstrangeiro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NomeMunicipioEstrangeiro"/>
+		<fieldDescription><![CDATA[NomeMunicipioEstrangeiro]]></fieldDescription>
+	</field>
+	<field name="CPF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.CPF"/>
+		<fieldDescription><![CDATA[CPF]]></fieldDescription>
+	</field>
+	<field name="RGNumero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="RGNumero"/>
+		<fieldDescription><![CDATA[RGNumero]]></fieldDescription>
+	</field>
+	<field name="UFRG" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UFRG"/>
+		<fieldDescription><![CDATA[UFRG]]></fieldDescription>
+	</field>
+	<field name="OrgaoExpedidor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="OrgaoExpedidor"/>
+		<fieldDescription><![CDATA[OrgaoExpedidor]]></fieldDescription>
+	</field>
+	<field name="DataNascimento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataNascimento"/>
+		<fieldDescription><![CDATA[DataNascimento]]></fieldDescription>
+	</field>
+	<field name="DataInicio" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.DataInicio"/>
+		<fieldDescription><![CDATA[DataInicio]]></fieldDescription>
+	</field>
+	<field name="DataFim" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.DataFim"/>
+		<fieldDescription><![CDATA[DataFim]]></fieldDescription>
+	</field>
+	<field name="DataConclusao" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.DataConclusao"/>
+		<fieldDescription><![CDATA[DataConclusao]]></fieldDescription>
+	</field>
+	<field name="NomeCurso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.NomeCurso"/>
+		<fieldDescription><![CDATA[NomeCurso]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.IesEmissoraNome"/>
+		<fieldDescription><![CDATA[IesEmissoraNome]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraEndereco" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraEndereco"/>
+		<fieldDescription><![CDATA[IesEmissoraEndereco]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNumero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNumero"/>
+		<fieldDescription><![CDATA[IesEmissoraNumero]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraBairro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraBairro"/>
+		<fieldDescription><![CDATA[IesEmissoraBairro]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraCodigoMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraCodigoMunicipio"/>
+		<fieldDescription><![CDATA[IesEmissoraCodigoMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.IesEmissoraNomeMunicipio"/>
+		<fieldDescription><![CDATA[IesEmissoraNomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraUF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraUF"/>
+		<fieldDescription><![CDATA[IesEmissoraUF]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraCEP" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraCEP"/>
+		<fieldDescription><![CDATA[IesEmissoraCEP]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraTipoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraTipoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraTipoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNumeroCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNumeroCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraNumeroCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraDataCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraDataCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraDataCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraVeiculoPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraVeiculoPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraVeiculoPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraDataPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraDataPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraDataPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraSecaoPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraSecaoPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraSecaoPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraPaginaPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraPaginaPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraPaginaPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNumeroDOUCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNumeroDOUCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraNumeroDOUCredenciamento]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="595" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="20" y="120" width="510" height="110" uuid="b3e089ef-67dc-4f27-87bf-3689460047b2"/>
+				<textElement textAlignment="Justified">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Declaro que " + $F{Nome} + " - Registro acadêmico: " + $F{ID} + ", CPF: " + $F{CPF} + 
+" - concluiu a " + $F{NomeCurso} + ", oferecida pelo " + $F{IesEmissoraNome}+
+" com programa Recredenciado pela Comissão Nacional de Residência Médica-MEC, sob parecer 625/2019, processo 2019-108, aprovado em " +
+($F{DataConclusao} != null ? 
+ new java.text.SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new java.util.Locale("pt", "BR")).format($F{DataConclusao}) 
+ : "data não informada")]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="20" y="240" width="510" height="40" uuid="4938876b-96c8-4087-8198-1cdf0c60f8a2"/>
+				<textFieldExpression><![CDATA["Período de realização do programa de estudos: " + 
+new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataInicio}) + 
+" a " + 
+new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataFim})]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="162" y="380" width="229" height="1" uuid="e6d5e14d-8812-4aaa-aa97-18edf708bdc6"/>
+			</line>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="20" y="287" width="415" height="20" uuid="285ffb3f-d9f2-4347-9571-515149df79b8"/>
+				<textFieldExpression><![CDATA[$F{IesEmissoraNomeMunicipio}.toLowerCase() + ", " + 
+new java.text.SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new java.util.Locale("pt", "BR")).format($F{DataConclusao})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="125" y="50" width="305" height="30" uuid="02cc8ec1-9111-47e0-91dd-95df530b92f6"/>
+				<textElement textAlignment="Center">
+					<font size="22"/>
+				</textElement>
+				<text><![CDATA[DECLARAÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="162" y="400" width="230" height="50" uuid="73b9af41-2b15-4845-8e7f-e432a81666d4"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Nome do responsavél
+Secretario(a) Acadêmico(a)
+Nome da instituição responsável]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="166" height="50" uuid="dc89d43e-3810-45fb-abfc-7a736b386bab"/>
+				<imageExpression><![CDATA["C:\\Users\\pedro\\JaspersoftWorkspace\\historico-USF\\logo_safeducColorida.png"]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>

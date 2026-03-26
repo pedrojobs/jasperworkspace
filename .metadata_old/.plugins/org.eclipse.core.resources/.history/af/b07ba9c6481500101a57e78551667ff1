@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4eb7d844-045b-42ef-a2a7-c69438b1011b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Exemplo_posgrad"/>
+	<queryString language="json">
+		<![CDATA[Posgrad]]>
+	</queryString>
+	<field name="Disciplinas" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Disciplinas"/>
+		<fieldDescription><![CDATA[Disciplinas]]></fieldDescription>
+	</field>
+	<field name="Cargahoraria" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Cargahoraria"/>
+		<fieldDescription><![CDATA[Cargahoraria]]></fieldDescription>
+	</field>
+	<field name="Tcc" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Tcc"/>
+		<fieldDescription><![CDATA[Tcc]]></fieldDescription>
+	</field>
+	<field name="Data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Data"/>
+		<fieldDescription><![CDATA[Data]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

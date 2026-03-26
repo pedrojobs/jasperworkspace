@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RelatorioAssinatura" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="12345678-1234-1234-1234-123456789abc">
+	<property name="net.sf.jasperreports.json.source" value="assinatura.json"/>
+	<property name="net.sf.jasperreports.json.query.executer.factory" value="net.sf.jasperreports.json.query.JsonQueryExecuterFactory"/>
+	<queryString language="json">
+		<![CDATA[/signers]]>
+	</queryString>
+	<field name="name" class="java.lang.String"/>
+	<field name="identifier" class="java.lang.String"/>
+	<field name="email" class="java.lang.String"/>
+	<field name="signedOn" class="java.lang.String"/>
+	<field name="signatureType" class="java.lang.String"/>
+	<field name="ipAddress" class="java.lang.String"/>
+	<field name="status" class="java.lang.String"/>
+	<field name="certificate.subjectName" class="java.lang.String"/>
+	<field name="certificate.issuerName" class="java.lang.String"/>
+	<field name="certificate.serialNumber" class="java.lang.String"/>
+	<title>
+		<band height="40">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="20" uuid="9cf980b6-9ebf-45b5-a59f-24727d82ebb3"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Relatório de Assinaturas"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="140">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="20" uuid="9505b4ba-2a22-46a2-933f-b318529a877a"/>
+				<textFieldExpression><![CDATA["Nome: " + $F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="555" height="20" uuid="86a7d089-aedf-46ac-a696-92d5f6a0a19c"/>
+				<textFieldExpression><![CDATA["CPF: " + $F{identifier}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="40" width="555" height="20" uuid="bda0be38-8024-491d-8a38-1ebdbc68acfc"/>
+				<textFieldExpression><![CDATA["Email: " + $F{email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="60" width="555" height="20" uuid="fc79141b-e290-4b40-9ca8-8d1a14016142"/>
+				<textFieldExpression><![CDATA["Data da Assinatura: " + $F{signedOn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="80" width="555" height="20" uuid="42332f5c-1788-411d-b36d-0f41ddb05217"/>
+				<textFieldExpression><![CDATA["Tipo: " + $F{signatureType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="100" width="555" height="20" uuid="383cfb0e-3ebf-4395-b850-034b61030f93"/>
+				<textFieldExpression><![CDATA["IP: " + $F{ipAddress}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="120" width="555" height="20" uuid="2878ca69-a048-4ce5-8d19-b62418bd66ad"/>
+				<textFieldExpression><![CDATA["Status: " + $F{status}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

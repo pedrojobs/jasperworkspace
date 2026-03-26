@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="estagio" pageWidth="555" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a8398ba5-c89c-481d-9e71-90cd6b4bbe91">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Local - JSON"/>
+	<queryString language="json">
+		<![CDATA[infHistoricoEscolar.HistoricoEscolar.ElementosHistorico.Estagio.Estagio]]>
+	</queryString>
+	<field name="CargaHorariaEmHorasRelogio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CargaHorariaEmHorasRelogio.CargaHorariaEmHorasRelogio.__text"/>
+		<fieldDescription><![CDATA[CargaHorariaEmHorasRelogio]]></fieldDescription>
+	</field>
+	<field name="CodigoUnidadeCurricular" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CodigoUnidadeCurricular"/>
+		<fieldDescription><![CDATA[CodigoUnidadeCurricular]]></fieldDescription>
+	</field>
+	<field name="Concedente.RazaoSocial" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Concedente.RazaoSocial"/>
+		<fieldDescription><![CDATA[Concedente.RazaoSocial]]></fieldDescription>
+	</field>
+	<field name="Concedente.NomeFantasia" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Concedente.NomeFantasia"/>
+		<fieldDescription><![CDATA[Concedente.NomeFantasia]]></fieldDescription>
+	</field>
+	<field name="Concedente.CNPJ" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Concedente.CNPJ"/>
+		<fieldDescription><![CDATA[Concedente.CNPJ]]></fieldDescription>
+	</field>
+	<field name="DataFim" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataFim"/>
+		<fieldDescription><![CDATA[DataFim]]></fieldDescription>
+	</field>
+	<field name="DataInicio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataInicio"/>
+		<fieldDescription><![CDATA[DataInicio]]></fieldDescription>
+	</field>
+	<field name="Descricao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Descricao"/>
+		<fieldDescription><![CDATA[Descricao]]></fieldDescription>
+	</field>
+	<field name="DocentesOrientadores" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DocentesOrientadores"/>
+		<fieldDescription><![CDATA[DocentesOrientadores]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="36" splitType="Prevent">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="18" width="60" height="18" backcolor="#E6E6E6" uuid="1891278c-68df-4b1c-9c98-d1bd9a3171ac"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CÓDIGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="60" y="18" width="314" height="18" backcolor="#E6E6E6" uuid="99168384-3795-4ddc-9863-3467a7500c2f"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DESCRIÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="374" y="18" width="70" height="18" backcolor="#E6E6E6" uuid="1f077964-072c-410e-b0f1-0a71db57ae75"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA INÍCIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="444" y="18" width="70" height="18" backcolor="#E6E6E6" uuid="802211a6-d1b0-476f-96bb-c0b7e0cbb51a"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA FIM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="514" y="18" width="40" height="18" backcolor="#E6E6E6" uuid="59675137-8571-4ee1-94e5-2a5272816ebf"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[C.H.²]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="554" height="18" backcolor="#E6E6E6" uuid="9d9028a0-f270-4de3-b412-87570b980f94"/>
+				<box padding="0">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ESTÁGIO]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="20" splitType="Prevent">
+			<textField>
+				<reportElement stretchType="ElementGroupHeight" x="514" y="0" width="40" height="20" uuid="f2817429-c89a-4fd7-b1ff-3edd23c7f462"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[!$F{CargaHorariaEmHorasRelogio}.replaceAll("[^\\d.,]", "").isEmpty() ? $F{CargaHorariaEmHorasRelogio}.replaceAll("[^\\d.,]", "").replaceAll("\\.", ",") : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ElementGroupHeight" x="0" y="0" width="60" height="20" uuid="b1c1e5b1-57e0-4da2-aa1c-f8c816e84cd2"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CodigoUnidadeCurricular}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ElementGroupHeight" x="444" y="0" width="70" height="20" uuid="cbe7e535-6f35-487e-a849-d82989a91faf"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DataFim}))]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement stretchType="ElementGroupHeight" x="374" y="0" width="70" height="20" uuid="74734696-f0ac-4ced-a763-0d86f74573a7"/>
+				<box topPadding="2">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd/MM/yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DataInicio}))]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ContainerHeight" x="60" y="0" width="314" height="20" uuid="9f89a51e-db19-4c99-986c-ef3388285d8f"/>
+				<box topPadding="2" leftPadding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{Descricao} != null ? $F{Descricao} : "") +
+($F{Concedente.CNPJ} != null ? "\n\nDOCENTE(S) ORIENTADOR(ES):" : "")]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<subreport overflowType="Stretch">
+				<reportElement stretchType="ContainerHeight" x="61" y="0" width="313" height="20" uuid="56d1a189-d2a9-47bb-ba70-b59f3a70c1e2"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("DocentesOrientadores.Docente.Docente")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["repo:estagio_docente.jrxml"]]></subreportExpression>
+			</subreport>
+			<frame>
+				<reportElement stretchType="ElementGroupHeight" x="0" y="0" width="554" height="20" uuid="1267419e-d84f-4e50-8ae8-4fd09b28bfac">
+					<property name="com.jaspersoft.studio.data.defaultdataadapter" value="JasperReports_Server\datasources\Historico_JSON.xml"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement stretchType="ElementGroupHeight" x="0" y="0" width="60" height="20" uuid="7faf36a9-a064-452e-8963-d7292137113b">
+					<property name="com.jaspersoft.studio.data.defaultdataadapter" value="JasperReports_Server\datasources\Historico_JSON.xml"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement stretchType="ElementGroupHeight" x="374" y="0" width="70" height="20" uuid="9f2874ba-d340-4ece-b0cc-870553aff6b0">
+					<property name="com.jaspersoft.studio.data.defaultdataadapter" value="JasperReports_Server\datasources\Historico_JSON.xml"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement stretchType="ElementGroupHeight" x="444" y="0" width="70" height="20" uuid="774d57fd-b75e-442c-a56f-72177b6385c1">
+					<property name="com.jaspersoft.studio.data.defaultdataadapter" value="JasperReports_Server\datasources\Historico_JSON.xml"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement stretchType="ElementGroupHeight" x="514" y="0" width="40" height="20" uuid="f92b0f30-4e85-456c-8625-2446cb058111"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

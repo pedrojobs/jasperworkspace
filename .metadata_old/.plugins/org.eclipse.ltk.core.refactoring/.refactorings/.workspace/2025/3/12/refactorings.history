@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from workspace&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     main_historico.jrxml&#x0D;&#x0A;     disciplina_complementar.jasper&#x0D;&#x0A;     disciplina_complementar.jrxml&#x0D;&#x0A;     disciplina_sem_agrupamento.jasper&#x0D;&#x0A;     disciplina_sem_agrupamento.jrxml" description="Delete elements" element1="/Historico-Modelo/main_historico.jrxml" element2="/Modelo-certificado-pós/disciplina_complementar.jrxml" element3="/Modelo-certificado-pós/disciplina_sem_agrupamento.jrxml" element4="/Modelo-certificado-pós/disciplina_complementar.jasper" element5="/Modelo-certificado-pós/disciplina_sem_agrupamento.jasper" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1742247103106" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Unidade_Curricular" pageWidth="555" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ea6dcef6-0b15-4631-becd-1b7c4dcb0868">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Curriculo_Unicesumar"/>
+	<queryString language="JSON">
+		<![CDATA[CurriculoEscolar.infCurriculoEscolar.infEstruturaCurricular.UnidadeCurricular]]>
+	</queryString>
+	<field name="Tipo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Tipo"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Tipo]]></fieldDescription>
+	</field>
+	<field name="Codigo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Codigo"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Codigo]]></fieldDescription>
+	</field>
+	<field name="Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Nome"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Nome]]></fieldDescription>
+	</field>
+	<field name="CargaHorariaEmHoraAula" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.CargaHorariaEmHoraAula"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.CargaHorariaEmHoraAula]]></fieldDescription>
+	</field>
+	<field name="CargaHorariaEmHoraRelogio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.CargaHorariaEmHoraRelogio"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.CargaHorariaEmHoraRelogio]]></fieldDescription>
+	</field>
+	<field name="Ementa_ItemEmenta" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Ementa.ItemEmenta"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Ementa.ItemEmenta]]></fieldDescription>
+	</field>
+	<field name="Fase" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Fase"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Fase]]></fieldDescription>
+	</field>
+	<field name="Equivalencias" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Equivalencias.UnidadesCurricularesEquivalente"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Equivalencias.UnidadesCurricularesEquivalente]]></fieldDescription>
+	</field>
+	<field name="PreRequisitos_Codigo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.PreRequisitos.CodigoDependencia"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.PreRequisitos.CodigoDependencia]]></fieldDescription>
+	</field>
+	<field name="Etiquetas_Etiqueta" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Etiquetas.Etiqueta"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Etiquetas.Etiqueta]]></fieldDescription>
+	</field>
+	<field name="Areas_Codigo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UnidadeCurricular.Areas.Area"/>
+		<fieldDescription><![CDATA[UnidadeCurricular.Areas.Area]]></fieldDescription>
+	</field>
+	<variable name="groupCount" class="java.lang.Integer" incrementType="Group" incrementGroup="Fase" calculation="Count">
+		<variableExpression><![CDATA[$V{groupCount} +1]]></variableExpression>
+		<initialValueExpression><![CDATA[1]]></initialValueExpression>
+	</variable>
+	<variable name="Variable_1" class="java.lang.Integer">
+		<variableExpression><![CDATA[$V{groupCount} + 1]]></variableExpression>
+		<initialValueExpression><![CDATA[1]]></initialValueExpression>
+	</variable>
+	<variable name="DISCIPLINAS_POR_FASE_COUNT" class="java.lang.Integer" resetType="Group" resetGroup="Fase" calculation="Count">
+		<variableExpression><![CDATA[$F{Codigo}]]></variableExpression>
+	</variable>
+	<variable name="Total de Hora-Aula da Fase" class="java.lang.Double" resetType="Group" resetGroup="Fase" calculation="Sum">
+		<variableExpression><![CDATA[($F{CargaHorariaEmHoraAula} != null && !$F{CargaHorariaEmHoraAula}.isEmpty() ? Double.parseDouble($F{CargaHorariaEmHoraAula}) : 0.0)]]></variableExpression>
+	</variable>
+	<variable name="Total de Hora-Relógio da Fase" class="java.lang.Double" resetType="Group" resetGroup="Fase" calculation="Sum">
+		<variableExpression><![CDATA[($F{CargaHorariaEmHoraRelogio} != null && !$F{CargaHorariaEmHoraRelogio}.isEmpty() ? Double.parseDouble($F{CargaHorariaEmHoraRelogio}) : 0.0)]]></variableExpression>
+	</variable>
+	<group name="Fase" isReprintHeaderOnEachPage="true" keepTogether="true">
+		<groupExpression><![CDATA[$F{Fase}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<textField>
+					<reportElement key="" mode="Opaque" x="0" y="0" width="277" height="15" backcolor="#FFFFFF" uuid="6cb5b339-9e43-468d-b391-16a840b08ea9">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{Fase} != null ? ($F{Fase}.matches("\\d+") ? $F{Fase} + "ª Série - Disciplina" : $F{Fase}) : "FORMAÇÃO COMPLEMENTAR"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement mode="Transparent" x="277" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="0a962263-3100-46cb-a11f-3a37b4733ff6">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Obrig.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="302" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="acd78d6b-1cc1-4186-a59f-fb2a193b6ddf">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Optat.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="327" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="6d545309-5a7a-4cc0-bf05-b363c176eda3">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Eleti.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="352" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="578983a3-dc96-460e-b635-e9c8ed6c1954">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ECT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="377" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="f4cbfe9b-740d-4037-9c1f-0d07d9cf179e">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[EAD]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="402" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="bf28bad8-1a17-4964-96f0-d882e2a2709f">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Aula Sem.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="427" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="6811b41c-aca6-4dfc-9040-181a1d65667d">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Carga Hor.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="452" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="f5bbaedd-ff84-492a-870f-b4e9761b2aa6">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[TEO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="477" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="d01e8b1a-868f-4956-91f8-366d98ed4002">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[PRA]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="502" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="913dafa5-54ce-474a-80c8-77aef48761ab">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[TUT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Transparent" x="527" y="0" width="25" height="15" backcolor="#E6E6E6" uuid="4e9c727a-3412-41a4-bb15-ce0c31aeaad3">
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+						<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="7" isBold="true"/>
+					</textElement>
+					<text><![CDATA[EST]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="15">
+				<staticText>
+					<reportElement mode="Transparent" x="0" y="0" width="150" height="15" backcolor="#E6E6E6" uuid="5f44e4f0-3512-41b2-ad88-2ffcdc150a35">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Quantidade de Disciplinas:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="150" y="0" width="50" height="15" uuid="a1046074-5e6d-4ea1-80be-0dc9dff7b6c9">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{DISCIPLINAS_POR_FASE_COUNT}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement mode="Transparent" x="300" y="0" width="150" height="15" backcolor="#E6E6E6" uuid="ab2c603c-4405-4c0d-9c7a-959edc642756">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box padding="0">
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Carga Horária na Série:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement x="450" y="0" width="105" height="15" uuid="e2ae7086-a380-4531-ab28-68652c533b9a">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.text.DecimalFormat("0").format($V{Total de Hora-Aula da Fase})]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<detail>
+		<band height="15" splitType="Prevent">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="0" y="-15" width="555" height="15" backcolor="#EBEBEB" uuid="f201011e-2022-4a0b-8080-808080808080">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[new Boolean($V{REPORT_COUNT}.intValue() % 2 != 0)]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ContainerBottom" x="0" y="-15" width="70" height="15" uuid="3c8ccb42-03af-408e-a9c2-2800d79c078c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Codigo}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ContainerBottom" x="70" y="-15" width="207" height="15" uuid="8649b749-4cb1-4526-98ab-1924e9864813">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="277" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000001">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Etiquetas_Etiqueta} != null && $F{Etiquetas_Etiqueta}.contains("OBRIGATORIA") ? "Sim" : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="302" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000002">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Etiquetas_Etiqueta} != null && $F{Etiquetas_Etiqueta}.contains("OPTATIVA") ? "Sim" : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="327" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000003">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Etiquetas_Etiqueta} != null && $F{Etiquetas_Etiqueta}.contains("ELETIVA") ? "Sim" : ""]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="352" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000004">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["0"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="377" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000005">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["0"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="402" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000006">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["0"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="427" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000007">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CargaHorariaEmHoraAula}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="452" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000008">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CargaHorariaEmHoraAula}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000009">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["0"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="502" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000010">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["0"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="527" y="-15" width="25" height="15" uuid="f0000000-0000-0000-0000-000000000011">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["0"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="16">
+			<printWhenExpression><![CDATA[$F{Ementa_ItemEmenta} != null]]></printWhenExpression>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ContainerBottom" x="2" y="-1" width="548" height="1" uuid="bc1dda2b-a2d0-4a7b-b787-33aa2bb21652">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box topPadding="5" leftPadding="60" bottomPadding="5" rightPadding="5">
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Ementa_ItemEmenta}.replaceAll("\\[\\{\"", "").replaceAll("\\{\"", "").replaceAll("\\},\"", "").replaceAll("\\}\"", "").replaceAll("\\}\\]", "").replaceAll("ItemEmenta\":", "").replaceAll("\"},", "").replaceAll("\"", "")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

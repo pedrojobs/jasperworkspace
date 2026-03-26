@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Manifesto_assinar" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7b0a2498-d2ef-4556-9a4a-3d3aa7178b66">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Ajustado"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="595" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="20" y="0" width="118" height="118" uuid="5cffc570-33de-4b6e-bd24-61e10e90b209">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["ICP.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="153" y="22" width="250" height="93" uuid="077aab63-371b-4c45-a2f5-3142db4f6e6d"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="26" isBold="false"/>
+				</textElement>
+				<text><![CDATA[MANIFESTO DE ASSINATURAS]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="420" y="0" width="116" height="116" uuid="5d4e7509-75b8-44fe-bff1-e1f93e6e40a2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA[$F{CodigoValidacao}]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="63" y="140" width="430" height="30" uuid="706b05eb-0438-47c5-8acd-1d7415c2f03c"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Código validação: 5SPCP-S6SYH-SR29T-9C8K5"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="133" y="190" width="290" height="30" uuid="a20f1d77-1a7b-4723-85f7-680ec1713553"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Tipo de assinatura: Avançada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="231" width="515" height="49" uuid="e8e41ce6-2052-4974-b1e6-11fcd16342cb"/>
+				<textElement textAlignment="Left">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Esse documento foi assinado pelos seguintes signatários nas datas indicadas (Fuso
+horário de Brasília):]]></text>
+			</staticText>
+			<image>
+				<reportElement x="21" y="288" width="17" height="23" uuid="44eb1665-dd4a-45f9-9d44-2ae3908954ea"/>
+				<imageExpression><![CDATA["valido.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="40" y="288" width="495" height="41" uuid="37c21d81-003c-477b-844e-87dda0261567"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Guilherme Leal (CPF ***. 093.136 -** ) em 20/08/2025 15:05 - Assinatura realizada por meio do certificado ICP-Brasil"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

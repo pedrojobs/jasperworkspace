@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="assinante_subreport" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="608c926d-de22-4e2d-90fb-a38873e3b32a">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.name"/>
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.identifier"/>
+		<fieldDescription><![CDATA[identifier]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.email"/>
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signedOn"/>
+		<fieldDescription><![CDATA[signedOn]]></fieldDescription>
+	</field>
+	<field name="type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="tassinante.type"/>
+		<fieldDescription><![CDATA[type]]></fieldDescription>
+	</field>
+	<field name="signatureType" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signatureType"/>
+		<fieldDescription><![CDATA[signatureType]]></fieldDescription>
+	</field>
+	<field name="subjectName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.subjectName"/>
+		<fieldDescription><![CDATA[subjectName]]></fieldDescription>
+	</field>
+	<field name="issuerName" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.issuerName"/>
+		<fieldDescription><![CDATA[issuerName]]></fieldDescription>
+	</field>
+	<field name="serialNumber" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.serialNumber"/>
+		<fieldDescription><![CDATA[serialNumber]]></fieldDescription>
+	</field>
+	<field name="validityStart" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="validityStart"/>
+		<fieldDescription><![CDATA[validityStart]]></fieldDescription>
+	</field>
+	<field name="validityEnd" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.validityEnd"/>
+		<fieldDescription><![CDATA[validityEnd]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField textAdjust="ScaleFont">
+				<reportElement x="60" y="10" width="467" height="41" uuid="44fb6d72-8b86-4807-bdb9-19da955bc0b5">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="13"/>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}
++ " (CPF ***."
++ $F{identifier}.substring(3,6)
++ "."
++ $F{identifier}.substring(6,9)
++ "-"
++ $F{identifier}.substring(9,11)
++ ") em "
++ new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(
+      new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX").parse(
+          $F{signedOn}.replace("[","").replace("]","").replace("\"","")
+      )
+  )
++ " - Assinatura realizada por meio do certificado ICP-Brasil"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="41" y="10" width="17" height="23" uuid="531d14a3-32f9-4bf4-b9cd-f46b59a71a18"/>
+				<imageExpression><![CDATA["valido.png"]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement x="60" y="10" width="467" height="41" uuid="a760a07d-8887-4bc0-8fd0-20f734bf7edd"/>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

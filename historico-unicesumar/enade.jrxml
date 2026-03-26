@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="enade" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e192193b-c5e0-4ec9-a2fb-5afa88457311">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Historico-JSON.xml"/>
+	<queryString language="json">
+		<![CDATA[DocumentoHistoricoEscolarFinal.infHistoricoEscolar.HistoricoEscolar.ENADE]]>
+	</queryString>
+	<field name="Habilitado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Habilitado"/>
+		<fieldDescription><![CDATA[Habilitado]]></fieldDescription>
+	</field>
+	<field name="Irregular" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Irregular"/>
+		<fieldDescription><![CDATA[Irregular]]></fieldDescription>
+	</field>
+	<field name="NaoHabilitado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NaoHabilitado"/>
+		<fieldDescription><![CDATA[NaoHabilitado]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="15" splitType="Prevent">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$F{Habilitado} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="0" width="555" height="15" uuid="e12ce554-5064-4aab-b562-cc9401423a3f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("Habilitado.Habilitado")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["enade_habilitado.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="15" splitType="Prevent">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$F{NaoHabilitado} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="-2" width="555" height="17" uuid="2eb87bd1-f24a-4303-afab-158398f6a53d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("NaoHabilitado.NaoHabilitado")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["enade_nao_habilitado.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="15" splitType="Prevent">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<printWhenExpression><![CDATA[$F{Irregular} != null]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="0" width="555" height="15" uuid="f0549324-4d41-41fe-bff4-7615bbc82143">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("Irregular.Irregular")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["enade_irregular.jrxml"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

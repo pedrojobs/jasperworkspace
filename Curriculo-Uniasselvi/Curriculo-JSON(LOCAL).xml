@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>Curriculo - JSON (LOCAL)</name>
+  <dataFile type="httpDataLocation">
+    <url>http://192.168.1.14:5000/curriculo</url>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

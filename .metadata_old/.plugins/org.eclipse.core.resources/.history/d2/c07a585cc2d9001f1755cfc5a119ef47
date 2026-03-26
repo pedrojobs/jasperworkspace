@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<folder exportedWithPermissions="true">
+    <parent>/reports/grupo_bom_jesus</parent>
+    <name>historico</name>
+    <label>historico</label>
+    <description></description>
+    <creationDate>2024-10-07T15:01:28.000-03:00</creationDate>
+    <updateDate>2024-10-07T15:01:28.000-03:00</updateDate>
+    <resource>Historico_JSON</resource>
+    <resource>modelo_historico</resource>
+</folder>

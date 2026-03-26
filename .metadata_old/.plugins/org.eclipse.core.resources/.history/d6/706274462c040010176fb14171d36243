@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="historico_verso" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="bca4d17b-6935-4918-a036-ff64f8ebc886">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="treinamento"/>
+	<queryString language="json">
+		<![CDATA[Posgrad.Disciplinas]]>
+	</queryString>
+	<field name="Disciplina" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Disciplina"/>
+		<fieldDescription><![CDATA[Disciplina]]></fieldDescription>
+	</field>
+	<field name="Professor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Professor"/>
+		<fieldDescription><![CDATA[Professor]]></fieldDescription>
+	</field>
+	<field name="Titulacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Titulacao"/>
+		<fieldDescription><![CDATA[Titulacao]]></fieldDescription>
+	</field>
+	<field name="Carga" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="Carga"/>
+		<fieldDescription><![CDATA[Carga]]></fieldDescription>
+	</field>
+	<field name="Frequencia" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="Frequencia"/>
+		<fieldDescription><![CDATA[Frequencia]]></fieldDescription>
+	</field>
+	<field name="Conceito" class="java.math.BigDecimal">
+		<property name="net.sf.jasperreports.json.field.expression" value="Conceito"/>
+		<fieldDescription><![CDATA[Conceito]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

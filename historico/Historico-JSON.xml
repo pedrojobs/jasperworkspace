@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>Historico - JSON</name>
+  <dataFile type="httpDataLocation">
+    <method>GET</method>
+    <url>https://certeduc.com:45344/getjasper</url>
+    <username></username>
+    <password></password>
+    <urlParameter>
+      <name>p_id</name>
+      <value>5a94f8fa0d18878ea5a34471c5179404c583215c57ba934e673e2b20bab9bab9</value>
+    </urlParameter>
+    <postParameter>
+      <name>ID_HISTORICO</name>
+      <value>Value</value>
+    </postParameter>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

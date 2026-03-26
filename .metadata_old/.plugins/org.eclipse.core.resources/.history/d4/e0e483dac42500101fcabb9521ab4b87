@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="texto_frente" pageWidth="740" pageHeight="145" orientation="Landscape" columnWidth="740" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="2dcbd0d3-4c35-4352-9165-22bb320fe254">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="treinamento"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="TIPO_INSTITUICAO" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="TIPO_INSTITUICAO"/>
+		<fieldDescription><![CDATA[TIPO_INSTITUICAO]]></fieldDescription>
+	</field>
+	<field name="FUNCAO_RESPONSAVEL" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="FUNCAO_RESPONSAVEL"/>
+		<fieldDescription><![CDATA[FUNCAO_RESPONSAVEL]]></fieldDescription>
+	</field>
+	<field name="TITULO_UNIVERSIDADE" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="TITULO_UNIVERSIDADE"/>
+		<fieldDescription><![CDATA[TITULO_UNIVERSIDADE]]></fieldDescription>
+	</field>
+	<field name="TEXTO_MANTENEDORA" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="TEXTO_MANTENEDORA"/>
+		<fieldDescription><![CDATA[TEXTO_MANTENEDORA]]></fieldDescription>
+	</field>
+	<field name="DataExpedicaoDiploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.DataExpedicaoDiploma"/>
+		<fieldDescription><![CDATA[DataExpedicaoDiploma]]></fieldDescription>
+	</field>
+	<field name="DiplomadoNome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Nome"/>
+		<fieldDescription><![CDATA[DiplomadoNome]]></fieldDescription>
+	</field>
+	<field name="DiplomadoNacionalidade" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Nacionalidade"/>
+		<fieldDescription><![CDATA[DiplomadoNacionalidade]]></fieldDescription>
+	</field>
+	<field name="NaturalidadeNomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Naturalidade.NomeMunicipio"/>
+		<fieldDescription><![CDATA[NaturalidadeNomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="NaturalidadeNomeMunicipioEstrangeiro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Naturalidade.NomeMunicipioEstrangeiro"/>
+		<fieldDescription><![CDATA[NaturalidadeNomeMunicipioEstrangeiro]]></fieldDescription>
+	</field>
+	<field name="DiplomadoDataNascimento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.DataNascimento"/>
+		<fieldDescription><![CDATA[DiplomadoDataNascimento]]></fieldDescription>
+	</field>
+	<field name="DadosCursoTituloConferido" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.TituloConferido.Titulo"/>
+		<fieldDescription><![CDATA[DadosCursoTituloConferido]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Nome"/>
+		<fieldDescription><![CDATA[IesEmissoraNome]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="145" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="0" y="0" width="740" height="145" uuid="c047ed54-7513-4e55-898b-72f959ec164c"/>
+				<box leftPadding="5" rightPadding="5"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle" markup="styled">
+					<font fontName="Texto" size="12" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["A Pró-reitora "
++ $F{IesEmissoraNome}
++ ", no uso de suas atribuições e tendo em vista o parecer favorável do Comitê Responsável, considera reconhecido o diploma de "
++$F{TIPO_INSTITUICAO}
++ ", conferido em "
++ new SimpleDateFormat("MMMM 'de' yyyy", new Locale("pt", "BR"))
+      .format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DataExpedicaoDiploma}))
++ " pela "
++ $F{TITULO_UNIVERSIDADE}
++ ", a "
++ $F{DiplomadoNome}
++ ", nacionalidade "
++ $F{DiplomadoNacionalidade}
++ ", natural de "
++ (
+    $F{NaturalidadeNomeMunicipio} != null 
+    && !$F{NaturalidadeNomeMunicipio}.trim().isEmpty()
+      ? $F{NaturalidadeNomeMunicipio}
+      : $F{NaturalidadeNomeMunicipioEstrangeiro}
+  )
++ ", nascido(a) em "
++ new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR"))
+      .format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DiplomadoDataNascimento}))
++ ", correspondente ao título de "
++ $F{DadosCursoTituloConferido}
++ ", com validade em todo território nacional, considerando o disposto no Art. 48, §3°, da Lei nº 9.394, de 20 de dezembro de 1996 e na Portaria Normativa nº 22, de 13 de dezembro de 2016, c/c Resolução CNE/CES nº 02, de 19 de dezembro de 2024."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

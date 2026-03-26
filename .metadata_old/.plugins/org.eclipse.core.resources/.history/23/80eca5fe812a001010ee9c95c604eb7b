@@ -1,0 +1,59 @@
+{
+  "Certificates":{
+        "Decano":{"Nome":"Érica Rodrigues Carloto Pereira","CertificateHash":"202302279452d806eb3a15d317a1c21bded6551710ea9e8c7f73ddd079c1bfc508566493"},
+        "Reitor":{"Nome":"Valdecir Antonio Simão","CertificateHash":"202501314680d878820cde685b4e993dcf21bd169242409fec1ddb3dd7c45a16d50b242a"},
+        "Institucional":{"Nome":"Sociedade Educacional Leonardo da Vinci LTDA","CertificateHash":"20220502e1e843cc00ea1827909f64e510985cbc979df91edc435d9c744e5e6f0ed7977e"},
+        "Registradora":{"Nome":"Sociedade Educacional Leonardo da Vinci LTDA","CertificateHash":"20220502e1e843cc00ea1827909f64e510985cbc979df91edc435d9c744e5e6f0ed7977e"}
+     },
+"Diploma":{
+        "infDiploma":{
+    "DadosDiploma":{
+"Diplomado":{"ID":"1624983","Nome":"Irismara Pinheiro da Silva","Sexo":"F","Nacionalidade":"Brasileira","Naturalidade":{"CodigoMunicipio":"1302603","NomeMunicipio":"Manaus","UF":"AM"},"CPF":"62100653253","RG":{"Numero":"12599620","UF":"","OrgaoExpedidor":"SSP"},"DataNascimento":"1976-04-11"},
+ "DataConclusao":"2020-05-20",
+  "DadosCurso":{"NomeCurso":"Neuropsicopedagogia","CodigoCursoEMEC":"4310","NomeHabilitacao":"Aperfeiçoamento  em Neuropsicopedagogia","Modalidade":"EAD","TituloConferido":{"OutroTitulo":"Aperfeiçoamento "},"GrauConferido":"Aperfeiçoamento ","EnderecoCurso":{"Logradouro":"AV. MANOEL SIMÃO","Numero":"Nº 260","Complemento":"","Bairro":"BAIRRO DAS NAÇÕES","CodigoMunicipio":"4207502","NomeMunicipio":"Indaial","UF":"SC","CEP":"89130000"},"Autorizacao":{"Tipo":"","Numero":"","Data":"","VeiculoPublicacao":"","DataPublicacao":"","SecaoPublicacao":"","PaginaPublicacao":"","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}},"Reconhecimento":{"Tipo":"","Numero":"","Data":"","VeiculoPublicacao":"","DataPublicacao":"","SecaoPublicacao":"","PaginaPublicacao":"","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}},"RenovacaoReconhecimento":{"Tipo":"","Numero":"","Data":"","VeiculoPublicacao":"","DataPublicacao":"","SecaoPublicacao":"","PaginaPublicacao":"","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}}},
+     "IesEmissora":{"Nome":"Centro Universitário Leonardo da Vinci","CodigoMEC":"1472","CNPJ":"01894432001209","Endereco":{"Logradouro":"AV. MANOEL SIMÃO","Numero":"Nº 260","Complemento":"","Bairro":"BAIRRO DAS NAÇÕES","CodigoMunicipio":"4207502","NomeMunicipio":"Indaial","UF":"SC","CEP":"89130000"},"Credenciamento":{"Tipo":"Portaria","Numero":"1265","Data":"1998-11-12","VeiculoPublicacao":"","DataPublicacao":"1998-11-16","SecaoPublicacao":"1","PaginaPublicacao":"3","NumeroDOU":""},"Recredenciamento":{"Tipo":"Portaria","Numero":"763","Data":"2020-09-18","VeiculoPublicacao":"","DataPublicacao":"2020-09-21","SecaoPublicacao":"1","PaginaPublicacao":"119","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}},"RenovacaoDeRecredenciamento":{"Tipo":"","Numero":"","Data":"","VeiculoPublicacao":"","DataPublicacao":"","SecaoPublicacao":"","PaginaPublicacao":"","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}},"Mantenedora":{"RazaoSocial":"Sociedade Educacional Leonardo da Vinci Ltda","CNPJ":"01894432000156","Endereco":{"Logradouro":"RUA DOUTOR PEDRINHO","Numero":"79","Complemento":"","Bairro":"RIO MORTO","CodigoMunicipio":"4207502","NomeMunicipio":"Indaial","UF":"SC","CEP":"89082262"}}}}
+          ,"DadosRegistro":{
+       "IesRegistradora":{"Nome":"Centro Universitário Leonardo da Vinci","CodigoMEC":"1472","CNPJ":"01894432001209","Endereco":{"Logradouro":"AV. MANOEL SIMÃO","Numero":"Nº 260","Complemento":"","Bairro":"BAIRRO DAS NAÇÕES","CodigoMunicipio":"4207502","NomeMunicipio":"Indaial","UF":"SC","CEP":"89130000"},"Credenciamento":{"Tipo":"Portaria","Numero":"1265","Data":"1998-11-12","VeiculoPublicacao":"","DataPublicacao":"1998-11-16","SecaoPublicacao":"1","PaginaPublicacao":"3","NumeroDOU":""},"Recredenciamento":{"Tipo":"Portaria","Numero":"763","Data":"2020-09-18","VeiculoPublicacao":"","DataPublicacao":"2020-09-21","SecaoPublicacao":"1","PaginaPublicacao":"119","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}},"RenovacaoDeRecredenciamento":{"Tipo":"","Numero":"","Data":"","VeiculoPublicacao":"","DataPublicacao":"","SecaoPublicacao":"","PaginaPublicacao":"","NumeroDOU":"","InformacoesTramitacaoEMEC":{"NumeroProcesso":"","TipoProcesso":"","DataCadastro":"","DataProtocolo":""}},"Mantenedora":{"RazaoSocial":"Sociedade Educacional Leonardo da Vinci Ltda","CNPJ":"01894432000156","Endereco":{"Logradouro":"RUA DOUTOR PEDRINHO","Numero":"79","Complemento":"","Bairro":"RIO MORTO","CodigoMunicipio":"4207502","NomeMunicipio":"Indaial","UF":"SC","CEP":"89082262"}}},
+      "LivroRegistro":{"LivroRegistro":"D-358","NumeroFolhaDoDiploma":"191","NumeroSequenciaDoDiploma":"151","ProcessoDoDiploma":"76670","DataColacaoGrau":"2020-05-20","DataExpedicaoDiploma":"2021-04-13","DataRegistroDiploma":"2021-04-13","ResponsavelRegistro":{"Nome":"Érica Rodrigues Carloto Pereira","CPF":"08152356743","IDouNumeroMatricula":"100022501"}}
+  }
+  }
+},
+  "Posgrad":{
+      "Disciplinas":[{"Disciplina":"Metodologia do Trabalho Científico","Professor":"Renata Silva","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"A","Situacao":"Aprovado","Nota":9.5}
+       ,{"Disciplina":"Neurociência: Evolução e Atualidade","Professor":"Otilia Lizete de Oliveira Martins Heinig","Titulacao":"Doutorado","Carga":"40","Frequencia":"F/S","Conceito":"C","Situacao":"Aprovado","Nota":7}
+       ,{"Disciplina":"Neurofisiologia","Professor":"Rodrigo Sartório","Titulacao":"Doutorado","Carga":"40","Frequencia":"F/S","Conceito":"C","Situacao":"Aprovado","Nota":7}
+       ,{"Disciplina":"Neuropsicopedagogia e o Desenvolvimento Humano","Professor":"Fernanda Germani de Oliveira Chiaratti","Titulacao":"Doutorado","Carga":"40","Frequencia":"F/S","Conceito":"C","Situacao":"Aprovado","Nota":7.5}
+       ,{"Disciplina":"Transtornos Globais do Desenvolvimento","Professor":"Ana Paula Fischer Hort","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"B","Situacao":"Aprovado","Nota":8}
+       ,{"Disciplina":"Teoria e Prática da Neuropsicopedagogia","Professor":"Cláudia Regina Pinto Michelli","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"A","Situacao":"Aprovado","Nota":9.5}
+       ,{"Disciplina":"Desenvolvimento Psicomotor","Professor":"Caroline Guimaraes Martins Valderramas","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"A","Situacao":"Aprovado","Nota":9.5}
+       ,{"Disciplina":"Letramentos Múltiplos na Alfabetização","Professor":"Nice Ewald Lenz","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"C","Situacao":"Aprovado","Nota":7.5}
+       ,{"Disciplina":"Matemática Significativa","Professor":"Shirlei Magali Vendrami","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"C","Situacao":"Aprovado","Nota":7.5}
+       ,{"Disciplina":"Trabalho de Conclusão de Curso - Relatório de Estágio","Professor":"Norberto Siegel","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"A","Situacao":"Aprovado","Nota":9.5}
+       ,{"Disciplina":"Metodologia do Ensino Superior","Professor":"Norberto Siegel","Titulacao":"Mestrado","Carga":"40","Frequencia":"F/S","Conceito":"C","Situacao":"Aprovado","Nota":7.5}
+      ]
+      ,"Cargahoraria":440
+      , "Tcc":{"Titulo":"DISTÚRBIOS DE APRENDIZAGEM E OS TRANSTORNOS DA EXPRESSÃO ESCRITA: DISLALIA E DISLEXIA","Conceito":"A","Nota":9.5}
+  , "Data":{"Inicio":"2018-12-15","Fim":"2020-05-20"}
+    },
+"Design":{
+    "2via":"", "Logo":""
+   , "Urldiploma":"https://homologmkt.asselvi.net.br/institucional/diploma-digital",
+  "Frente":{
+        "Responsavel":"Valdecir Antonio Simão"
+      , "Funcao":"Reitor"
+    , "DataConclusao":"2020-05-20"
+    , "Credenciamento":"<br />Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119."
+    , "Tsuperior":"O Reitor do Centro Universitário Leonardo Da Vinci, no uso de suas atribuições, tendo em vista a conclusão em 20 de Maio      de 2020, do curso de Aperfeiçoamento em Neuropsicopedagogia confere a"
+    , "Grau":"de <b>Aperfeiçoamento  em Neuropsicopedagogia</b> a"
+    , "Tinferior":"a outorga do presente certificado, a fim de que possa gozar de todos os direitos e prerrogativas legais.<br />"
+  },
+  "Verso":{
+     "Titulo":"Curso de Aperfeiçoamento em <b>Neuropsicopedagogia</b>"
+    , "Texto":"Gerência Acadêmica / Registro de Diplomas <br />O presente curso cumpriu as disposições da resolução Nº1, de 6 de abril de 2018."
+    , "Box3":{"Titulo":"","Texto":""}
+    , "Credenciamento":"Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119."
+    , "Registro":" Gerência Acadêmica<br />Seção de Registro de Diploma"
+      , "Responsavel":"Érica Rodrigues Carloto Pereira"
+      , "Funcao":"Responsável pelo registro"
+  }
+}}

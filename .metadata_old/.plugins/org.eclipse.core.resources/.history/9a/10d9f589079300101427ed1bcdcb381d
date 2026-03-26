@@ -1,0 +1,26 @@
+
+{
+  "assinantes": [
+   {
+      "assinante": "João da Silva",
+      "CPF": "98741678900",
+      "data": "2025-08-20T14:32:10Z"
+       },
+    {
+      "assinante": "Maria Oliveira",
+      "CPF": "98765432100",
+      "data": "2025-08-20T14:34:55Z"
+     },
+      {
+      "assinante": "Sebastião Clodoado",
+      "CPF": "54215432100",
+      "data": "2025-08-20T14:34:55Z"
+      }   
+   ],
+     "documento": [
+   {
+      "hash": "5SPCP-S6SYH-SR29T-9C8K5",
+      "url": "https://diplomadigital.uniasselvi.com.br/validate/"
+   }
+   ]    
+}

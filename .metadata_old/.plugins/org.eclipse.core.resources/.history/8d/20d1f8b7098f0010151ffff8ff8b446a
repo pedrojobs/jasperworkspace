@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="main_diploma_IMMES" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="842" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f831f12f-167d-40ef-951b-cd2e3643a998">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="334"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="657"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.97:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_homologacao"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/IMMES/Diploma_IMMES/main_diploma_IMMES_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/IMMES/Diploma_IMMES/main_diploma_IMMES"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="treinamento"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Diploma-JSON.xml"/>
+	<style name="Style1" mode="Opaque" markup="html" isBold="true"/>
+	<parameter name="p_id" class="java.lang.String" evaluationTime="Early">
+		<property name="net.sf.jasperreports.http.data.url.parameter" value="p_id"/>
+	</parameter>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="Certificates" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Certificates"/>
+		<fieldDescription><![CDATA[Certificates]]></fieldDescription>
+	</field>
+	<field name="DataRegistroTermo" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataRegistroTermo"/>
+		<fieldDescription><![CDATA[DataRegistroTermo]]></fieldDescription>
+	</field>
+	<field name="Design" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Design"/>
+		<fieldDescription><![CDATA[Design]]></fieldDescription>
+	</field>
+	<field name="Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma"/>
+		<fieldDescription><![CDATA[Diploma]]></fieldDescription>
+	</field>
+	<field name="FolhaRegistroTermo" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="FolhaRegistroTermo"/>
+		<fieldDescription><![CDATA[FolhaRegistroTermo]]></fieldDescription>
+	</field>
+	<field name="LivroRegistroTermo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="LivroRegistroTermo"/>
+		<fieldDescription><![CDATA[LivroRegistroTermo]]></fieldDescription>
+	</field>
+	<field name="NumeroRegistroTermo" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="NumeroRegistroTermo"/>
+		<fieldDescription><![CDATA[NumeroRegistroTermo]]></fieldDescription>
+	</field>
+	<field name="PaginaSecaoReconhecimentoCurso" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="PaginaSecaoReconhecimentoCurso"/>
+		<fieldDescription><![CDATA[PaginaSecaoReconhecimentoCurso]]></fieldDescription>
+	</field>
+	<field name="Posgrad" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Posgrad"/>
+		<fieldDescription><![CDATA[Posgrad]]></fieldDescription>
+	</field>
+	<field name="SecaoReconhecimentoCurso" class="java.lang.Integer">
+		<property name="net.sf.jasperreports.json.field.expression" value="SecaoReconhecimentoCurso"/>
+		<fieldDescription><![CDATA[SecaoReconhecimentoCurso]]></fieldDescription>
+	</field>
+	<field name="Nome_IES_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Nome"/>
+		<fieldDescription><![CDATA[Nome da IES emissora do diploma]]></fieldDescription>
+	</field>
+	<field name="Nome_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.NomeCurso"/>
+		<fieldDescription><![CDATA[Nome do curso do diplomado]]></fieldDescription>
+	</field>
+	<field name="Data_Conclusao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DataConclusao"/>
+		<fieldDescription><![CDATA[Data de cnclusão do curso]]></fieldDescription>
+	</field>
+	<field name="DataColacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.DataColacaoGrau"/>
+		<fieldDescription><![CDATA[Data de colação de grau do diplomado]]></fieldDescription>
+	</field>
+	<field name="Titulo_Conferido" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.TituloConferido.Titulo"/>
+		<fieldDescription><![CDATA[Titulo conferido ao diplomado]]></fieldDescription>
+	</field>
+	<field name="Nome_Diplomado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Nome"/>
+		<fieldDescription><![CDATA[Nome do diplomado]]></fieldDescription>
+	</field>
+	<field name="Data_Nascimento_Diplomado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.DataNascimento"/>
+		<fieldDescription><![CDATA[Data de nascimento do diplomado]]></fieldDescription>
+	</field>
+	<field name="Naturalidade_Diplomado_Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Naturalidade.NomeMunicipio"/>
+		<fieldDescription><![CDATA[Nome da naturalidade do diplomado]]></fieldDescription>
+	</field>
+	<field name="Naturalidade_Diplomado_UF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Naturalidade.UF"/>
+		<fieldDescription><![CDATA[UF da naturalidade do diplomado]]></fieldDescription>
+	</field>
+	<field name="Nacionalidade_Diplomado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.Nacionalidade"/>
+		<fieldDescription><![CDATA[Nacionalidade do diplomado]]></fieldDescription>
+	</field>
+	<field name="Numero_Identidade_Diplomado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.RG.Numero"/>
+		<fieldDescription><![CDATA[Documento de identidade do diplomado]]></fieldDescription>
+	</field>
+	<field name="Orgao_Expedidor_Identidade_Diplomado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.RG.OrgaoExpedidor"/>
+		<fieldDescription><![CDATA[Orgao expedidor da identidade do diplomado]]></fieldDescription>
+	</field>
+	<field name="UF_Identidade_Diplomado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.Diplomado.RG.UF"/>
+		<fieldDescription><![CDATA[UF da identidade do diplomado]]></fieldDescription>
+	</field>
+	<field name="Data_Emissao_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.DataExpedicaoDiploma"/>
+		<fieldDescription><![CDATA[Data de emissão do diploma]]></fieldDescription>
+	</field>
+	<field name="Endereco_Emissao_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.EnderecoCurso.NomeMunicipio"/>
+		<fieldDescription><![CDATA[Endereco de emissão do diploma]]></fieldDescription>
+	</field>
+	<field name="Codigo_Validacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.Seguranca.CodigoValidacao"/>
+		<fieldDescription><![CDATA[Código de Validação do diploma]]></fieldDescription>
+	</field>
+	<field name="Tipo_Credenciamento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.Tipo"/>
+		<fieldDescription><![CDATA[Tipo do credenciamento da emissora]]></fieldDescription>
+	</field>
+	<field name="Data_Credencimento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.Data"/>
+		<fieldDescription><![CDATA[Data de Credencimento da Emissora]]></fieldDescription>
+	</field>
+	<field name="Veiculo_Publicacao_Credenciamento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[Veiculo_Publicacao_Credenciamento_Emissora]]></fieldDescription>
+	</field>
+	<field name="Secao_Publicacao_Credenciamento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[Secao_Publicacao_Credenciamento_Emissora]]></fieldDescription>
+	</field>
+	<field name="Pagina_Publicacao_Credenciamento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[Pagina_Publicacao_Credenciamento_Emissora]]></fieldDescription>
+	</field>
+	<field name="Numero_DOU_Credenciamento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.NumeroDOU"/>
+		<fieldDescription><![CDATA[Numero_DOU_Credenciamento_Emissora]]></fieldDescription>
+	</field>
+	<field name="Numero_Credenciamento_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.Credenciamento.Numero"/>
+		<fieldDescription><![CDATA[Numero do Credenciamento da Emissora]]></fieldDescription>
+	</field>
+	<field name="CNPJ_IES_Emissora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.IesEmissora.CNPJ"/>
+		<fieldDescription><![CDATA[CNPJ_IES_Emissora]]></fieldDescription>
+	</field>
+	<field name="Grau_Conferido" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.GrauConferido"/>
+		<fieldDescription><![CDATA[Grau conferido ao aluno]]></fieldDescription>
+	</field>
+	<field name="Tipo_Reconhecimento_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Reconhecimento.Tipo"/>
+		<fieldDescription><![CDATA[Tipo da portaria de reconhecimento]]></fieldDescription>
+	</field>
+	<field name="Numero_Reconhecimento_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Reconhecimento.Numero"/>
+		<fieldDescription><![CDATA[Numero reconhecimento curso]]></fieldDescription>
+	</field>
+	<field name="Data_Reconhecimento_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Reconhecimento.Data"/>
+		<fieldDescription><![CDATA[Data de Reconhecimento do Curso]]></fieldDescription>
+	</field>
+	<field name="Pagina_Publicacao_Reconhecimento_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Reconhecimento.Pagina"/>
+		<fieldDescription><![CDATA[Pagina_Publicacao_Reconhecimento_Cursov]]></fieldDescription>
+	</field>
+	<field name="Data_Publicacao_Reconhecimento_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Reconhecimento.DataPublicacao"/>
+		<fieldDescription><![CDATA[Data_Publicacao_Reconhecimento_Curso]]></fieldDescription>
+	</field>
+	<field name="Tipo_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.Tipo"/>
+		<fieldDescription><![CDATA[Tipo_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="Numero_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.Numero"/>
+		<fieldDescription><![CDATA[Numero_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="Data_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.Data"/>
+		<fieldDescription><![CDATA[Data_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="VeiculoPublicacao_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.VeiculoPublicacao"/>
+		<fieldDescription><![CDATA[VeiculoPublicacao_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="SecaoPublicacao_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.SecaoPublicacao"/>
+		<fieldDescription><![CDATA[SecaoPublicacao_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="PaginaPublicacao_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.PaginaPublicacao"/>
+		<fieldDescription><![CDATA[PaginaPublicacao_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="NumeroDOU_Autorizacao_Curso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosDiploma.DadosCurso.Autorizacao.NumeroDOU"/>
+		<fieldDescription><![CDATA[NumeroDOU_Autorizacao_Curso]]></fieldDescription>
+	</field>
+	<field name="Nome_IES_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Nome"/>
+		<fieldDescription><![CDATA[Nome_IES_Registradora]]></fieldDescription>
+	</field>
+	<field name="CNPJ_IES_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.CNPJ"/>
+	</field>
+	<field name="Tipo_Credenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Credenciamento.Tipo"/>
+	</field>
+	<field name="Numero_Credenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Credenciamento.Numero"/>
+	</field>
+	<field name="Data_Credenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Credenciamento.Data"/>
+	</field>
+	<field name="DataPublicacao_Credenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Credenciamento.DataPublicacao"/>
+	</field>
+	<field name="SecaoPublicacao_Credenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Credenciamento.SecaoPublicacao"/>
+	</field>
+	<field name="PaginaPublicacao_Credenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Credenciamento.PaginaPublicacao"/>
+	</field>
+	<field name="Tipo_Recredenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Recredenciamento.Tipo"/>
+	</field>
+	<field name="Numero_Recredenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Recredenciamento.Numero"/>
+	</field>
+	<field name="Data_Recredenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Recredenciamento.Data"/>
+	</field>
+	<field name="DataPublicacao_Recredenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Recredenciamento.DataPublicacao"/>
+	</field>
+	<field name="SecaoPublicacao_Recredenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Recredenciamento.SecaoPublicacao"/>
+	</field>
+	<field name="PaginaPublicacao_Recredenciamento_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Recredenciamento.PaginaPublicacao"/>
+	</field>
+	<field name="Nome_Mantenedora_IES_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Mantenedora.Nome"/>
+	</field>
+	<field name="CNPJ_Mantenedora_IES_Registradora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.IesRegistradora.Mantenedora.CNPJ"/>
+	</field>
+	<field name="Livro_Registro_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.LivroRegistro"/>
+	</field>
+	<field name="Numero_Registro_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.NumeroRegistro"/>
+	</field>
+	<field name="Numero_Folha_Registro_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.NumeroFolhaDoDiploma"/>
+	</field>
+	<field name="Numero_Sequencia_Do_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.NumeroSequenciaDoDiploma"/>
+	</field>
+	<field name="Numero_Processo_Do_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.ProcessoDoDiploma"/>
+	</field>
+	<field name="Data_Colacao_Grau" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.DataColacaoGrau"/>
+	</field>
+	<field name="Data_Expedicao_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.DataExpedicaoDiploma"/>
+	</field>
+	<field name="Data_Registro_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.DataRegistroDiploma"/>
+	</field>
+	<field name="Nome_Responsavel_Registro_Diploma" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.ResponsavelRegistro.Nome"/>
+	</field>
+	<field name="CPF_Resposavel_Registro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.LivroRegistro.ResponsavelRegistro.CPF"/>
+	</field>
+	<field name="CodigoValidacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.infDiploma.DadosRegistro.Seguranca.CodigoValidacao"/>
+		<fieldDescription><![CDATA[CodigoValidacao]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="595" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement mode="Opaque" x="0" y="0" width="842" height="595" uuid="7e00b1c5-271f-415f-adac-5c21e4dc2f79"/>
+				<imageExpression><![CDATA["diploma.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="117" y="100" width="73" height="76" uuid="ee63e9e3-8c2c-4646-8898-ec4a43f371f9"/>
+				<imageExpression><![CDATA["National_Seal_of_Brazil.svg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="202" y="152" width="439" height="40" uuid="1cf45fa1-ee5e-43b4-963c-d2f31b4bdbed"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Chivo" size="35" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIPLOMA]]></text>
+			</staticText>
+			<image>
+				<reportElement x="630" y="80" width="129" height="129" uuid="0553878a-e7bd-4f25-8eb5-7979ca614c58"/>
+				<imageExpression><![CDATA["logotipo-immes-01.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="191" y="124" width="460" height="28" forecolor="#4E734F" uuid="c88208b8-f2b3-4c28-8916-95aa3e850fa7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Chivo" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nome_IES_Emissora}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="Style1" isPrintRepeatedValues="false" x="117" y="220" width="608" height="179" backcolor="rgba(255, 255, 255, 0.0)" uuid="968c8680-3a5b-4e83-9591-bc69810bbf8e"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="14" isBold="false" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["A Diretora Geral do "+ $F{Nome_IES_Emissora} + ", no uso de suas atribuições Legais e tendo em vista a conclusão do Curso de <b>"+$F{Nome_Curso} +
+"</b> no dia <b>" + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Conclusao})) +
+"</b>, e a Colação de Grau realizada em <b>" + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DataColacao})) +
+"</b> confere o titulo de <b>" + $F{Titulo_Conferido}.toUpperCase() + " EM " + $F{Nome_Curso}+ "</b> a <b>" + $F{Nome_Diplomado}.toUpperCase()+
+"</b>, nascida a <b>" + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Nascimento_Diplomado})) +
+"</b>, nacionalidade <b>" + $F{Nacionalidade_Diplomado}.toUpperCase() +
+"</b>, natural de <b>" +$F{Naturalidade_Diplomado_Nome}.toUpperCase() +"-"+$F{Naturalidade_Diplomado_UF} +
+"</b>, Cédula de Identidade n° <b>" +$F{Numero_Identidade_Diplomado}+ "</b>, expedida por <b>"+ $F{Orgao_Expedidor_Identidade_Diplomado} + "-" +$F{UF_Identidade_Diplomado}+
+"</b>, e outorga-lhe o presente Diploma, a fim de que possa gozar de todos os direitos e prerrogativas legais."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="117" y="410" width="200" height="80" uuid="d5d70e5d-9aa7-477c-bab3-a73154455dbf"/>
+				<textElement textAlignment="Center" markup="html"/>
+				<textFieldExpression><![CDATA["<i>Assinatura realizada por meio<br>de certificado ICP-Brasil</i><br><br>Maria do Carmo de Carvalho Pereira<br>Diretora Geral"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="525" y="410" width="200" height="80" uuid="a2ebbb36-f751-4203-b160-325850f388d2"/>
+				<textElement textAlignment="Center" markup="html"/>
+				<textFieldExpression><![CDATA["<i>Assinatura realizada por meio<br>de certificado ICP-Brasil</i><br><br>Jaqueline Loura  dos Santos Mescouto<br>Diretora Acadêmica"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="500" width="821" height="30" uuid="3ae67b1c-deb8-4136-9d77-c07d0c60d8f8"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["https://diplomas.certeduc.edu.br\nCodigo de Validação: "+$F{Codigo_Validacao}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="595">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="20" y="25" width="310" height="185" uuid="92097f00-1d49-4537-80e9-69e26b93edfd"/>
+				<box padding="5">
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["<b>" + $F{Nome_IES_Emissora} + "</b><br>" + 
+"<b>CNPJ: " + $F{CNPJ_IES_Emissora} + "</b><br><br><br>" +
+"<p> Credenciamento: " + $F{Tipo_Credenciamento_Emissora} +  " n°: " + $F{Numero_Credenciamento_Emissora} + 
+", de " + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Credencimento_Emissora})) + 
+", <br>D.O.U nº "+ $F{Numero_DOU_Credenciamento_Emissora} + " Seção: " + $F{Secao_Publicacao_Credenciamento_Emissora} + ", pág: " + $F{Pagina_Publicacao_Credenciamento_Emissora} +
+", de: " + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Credencimento_Emissora})) + 
+
+"<br><br><b>" +$F{Grau_Conferido}.toUpperCase() + " EM " + $F{Nome_Curso} + "</b><br><br>" +
+"Curso reconhecido pela " + $F{Tipo_Reconhecimento_Curso} + " n° " + $F{Numero_Reconhecimento_Curso} +
+" de " + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Reconhecimento_Curso})) + 
+", D.O.U nº "+ $F{Numero_DOU_Credenciamento_Emissora} + " Seção: " + $F{Secao_Publicacao_Credenciamento_Emissora} + ", pág: " + $F{Pagina_Publicacao_Reconhecimento_Curso} +
+", de: " + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Publicacao_Reconhecimento_Curso}))]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="25" width="310" height="185" uuid="6e743bce-a816-43e6-a420-cf9efd0c1a3c"/>
+				<box padding="5">
+					<pen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Justified" markup="html"/>
+				<textFieldExpression><![CDATA["<b>" + $F{Nome_IES_Registradora} + "</b><br>" + 
+"<b>CNPJ: " + $F{CNPJ_IES_Registradora} + "</b><br><br><br>" +
+"Credenciamento: " + $F{Tipo_Credenciamento_Registradora} +  ", n°: " + $F{Numero_Credenciamento_Registradora} + 
+" , de " + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Credenciamento_Registradora})) + 
+", <br>D.O.U nº "+ $F{Numero_Credenciamento_Registradora} + " Seção: " + $F{SecaoPublicacao_Credenciamento_Registradora} + ", pág: " +$F{PaginaPublicacao_Credenciamento_Registradora}  +
+", de " + new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{DataPublicacao_Credenciamento_Registradora})) + 
+
+"<br><br>Diploma registrado sob o n°:" +$F{Numero_Registro_Diploma}  + " Livro: " + $F{Livro_Registro_Diploma} + " Fls. " +  $F{Numero_Folha_Registro_Diploma} + " em " +
+new SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new Locale("pt", "BR")).format(new SimpleDateFormat("yyyy-MM-dd").parse($F{Data_Registro_Diploma})) + ". Processo n°: " + $F{Numero_Processo_Do_Diploma} +
+", " + "Art. 48, § 1°, da Lei n° 9394, de 20/12/1996, DOU 23/12/1996."]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="651" y="410" width="118" height="118" uuid="b0ad9875-d310-486b-8588-fb74ddb43b35">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA["https://diplomadigital.certeduc.com/04159727000177/" +"/?id=" + $F{CodigoValidacao}]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

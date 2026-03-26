@@ -1,0 +1,187 @@
+{
+    "diplomas": [
+        {
+            "email": "arianne.rodrigues@souunit.com.br",
+            "celular": "79998302877",
+            "SecaoReconhecimentoCurso": "1",
+            "PaginaSecaoReconhecimentoCurso": "14",
+            "Extras": {},
+            "Diploma": {
+                "infDiploma": {
+                    "DadosDiploma": {
+                        "Diplomado": {
+                            "ID": "1192111181",
+                            "Nome": "Arianne Rodrigues dos Santos",
+                            "Sexo": "F",
+                            "Nacionalidade": "Brasileira",
+                            "Naturalidade": {
+                                "CodigoMunicipio": "2802908",
+                                "NomeMunicipio": "Itabaiana",
+                                "UF": "SE"
+                            },
+                            "CPF": "05883667570",
+                            "RG": {
+                                "Numero": "35125160",
+                                "OrgaoExpedidor": "SSP",
+                                "UF": "SE"
+                            },
+                            "DataNascimento": "1994-10-22"
+                        },
+                        "DataConclusao": "2025-04-15",
+                        "DadosCurso": {
+                            "NomeCurso": "Direito",
+                            "CodigoCursoEMEC": "87400",
+                            "Modalidade": "Presencial",
+                            "TituloConferido": {
+                                "Titulo": "Bacharel"
+                            },
+                            "GrauConferido": "Bacharelado",
+                            "EnderecoCurso": {
+                                "Logradouro": "Rua José Paulo Santana, 1254",
+                                "Bairro": "Sítio Porto",
+                                "CodigoMunicipio": "2802908",
+                                "NomeMunicipio": "Itabaiana",
+                                "UF": "SE",
+                                "CEP": "49500000"
+                            },
+                            "Autorizacao": {
+                                "Tipo": "Resolução",
+                                "Numero": "8",
+                                "Data": "2004-12-21",
+                                "VeiculoPublicacao": "CONSAD/UNIT",
+                                "DataPublicacao": "2004-12-21"
+                            },
+                            "Reconhecimento": {
+                                "Tipo": "Portaria",
+                                "Numero": "413",
+                                "Data": "2016-08-26",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2016-08-29",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "14",
+                                "NumeroDOU": "166"
+                            },
+                            "RenovacaoReconhecimento": {
+                                "Tipo": "Portaria",
+                                "Numero": "388",
+                                "Data": "2024-08-13",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2024-08-14",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "73",
+                                "NumeroDOU": "156"
+                            }
+                        },
+                        "IesEmissora": {
+                            "Nome": "Universidade Tiradentes",
+                            "CodigoMEC": "398",
+                            "CNPJ": "13013263000187",
+                            "Endereco": {
+                                "Logradouro": "Av. Murilo Dantas, 300",
+                                "Numero": "300",
+                                "Bairro": "Farolândia",
+                                "CodigoMunicipio": "2800308",
+                                "NomeMunicipio": "Aracaju",
+                                "UF": "SE",
+                                "CEP": "49032490"
+                            },
+                            "Credenciamento": {
+                                "Tipo": "Decreto",
+                                "Numero": "70818",
+                                "Data": "1972-07-11",
+                                "DataPublicacao": "1972-07-17",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "6065"
+                            },
+                            "Recredenciamento": {
+                                "Tipo": "Portaria",
+                                "Numero": "107",
+                                "Data": "2021-02-24",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2021-02-25",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "150",
+                                "NumeroDOU": "37"
+                            },
+                            "Mantenedora": {
+                                "RazaoSocial": "Sociedade de Educação Tiradentes S.A",
+                                "CNPJ": "13013263000187",
+                                "Endereco": {
+                                    "Logradouro": "Av. Murilo Dantas, 300",
+                                    "Numero": "300",
+                                    "Bairro": "Farolândia",
+                                    "CodigoMunicipio": "2800308",
+                                    "NomeMunicipio": "Aracaju",
+                                    "UF": "SE",
+                                    "CEP": "49032490"
+                                }
+                            }
+                        }
+                    },
+                    "DadosRegistro": {
+                        "IesRegistradora": {
+                            "Nome": "Universidade Tiradentes",
+                            "CodigoMEC": "398",
+                            "CNPJ": "13013263000187",
+                            "Endereco": {
+                                "Logradouro": "Av. Murilo Dantas, 300",
+                                "Numero": "300",
+                                "Bairro": "Farolândia",
+                                "CodigoMunicipio": "2800308",
+                                "NomeMunicipio": "Aracaju",
+                                "UF": "SE",
+                                "CEP": "49032490"
+                            },
+                            "Credenciamento": {
+                                "Tipo": "Decreto",
+                                "Numero": "70818",
+                                "Data": "2021-02-24",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "1972-07-17",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "6065"
+                            },
+                            "Recredenciamento": {
+                                "Tipo": "Portaria",
+                                "Numero": "107",
+                                "Data": "2021-02-24",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2021-02-25",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "150",
+                                "NumeroDOU": "37"
+                            },
+                            "Mantenedora": {
+                                "RazaoSocial": "Sociedade de Educação Tiradentes S.A",
+                                "CNPJ": "13013263000187",
+                                "Endereco": {
+                                    "Logradouro": "Av. Murilo Dantas, 300",
+                                    "Numero": "300",
+                                    "Bairro": "Farolândia",
+                                    "CodigoMunicipio": "2800308",
+                                    "NomeMunicipio": "Aracaju",
+                                    "UF": "SE",
+                                    "CEP": "49032490"
+                                }
+                            }
+                        },
+                        "LivroRegistro": {
+                            "LivroRegistro": "372",
+                            "NumeroFolhaDoDiploma": "1",
+                            "NumeroSequenciaDoDiploma": "30802",
+                            "ProcessoDoDiploma": "27152",
+                            "DataColacaoGrau": "2025-04-30",
+                            "DataExpedicaoDiploma": "2025-05-16",
+                            "DataRegistroDiploma": "2025-05-16",
+                            "ResponsavelRegistro": {
+                                "Nome": "Rosivânia Sales de Santana Silva",
+                                "CPF": "66334268520",
+                                "IDouNumeroMatricula": "13818634858"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,4190 @@
+{
+  "infHistoricoEscolar": {
+    "Aluno": {
+      "ID": "202120083",
+      "Nome": "RAFAELLA MARQUES VIANA",
+      "Sexo": "F",
+      "Nacionalidade": "Brasileira",
+      "Naturalidade": {
+        "CodigoMunicipio": "2304400",
+        "NomeMunicipio": "Fortaleza",
+        "UF": "CE"
+      },
+      "CPF": "12273533403",
+      "RG": {
+        "Numero": "537607947",
+        "OrgaoExpedidor": "MD",
+        "UF": "PE"
+      },
+      "DataNascimento": "1997-09-27"
+    },
+    "DadosCurso": {
+      "NomeCurso": "Medicina",
+      "CodigoCursoEMEC": "1051587",
+      "Habilitacao": [
+        {
+          "Habilitacao": {
+            "NomeHabilitacao": "Médica",
+            "DataHabilitacao": "2022-12-27"
+          }
+        }
+      ],
+      "Autorizacao": {
+                "Tipo": "Decreto",
+                "Numero": "84733",
+                "Data": "1980-05-26",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "1980-05-27",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "10440"
+      },
+      "Reconhecimento": {
+        "Tipo": "Portaria",
+                "Numero": "417",
+                "Data": "1983-10-06",
+        "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "1983-10-07",
+        "SecaoPublicacao": "1",
+                "PaginaPublicacao": "17206"
+            },
+            "RenovacaoReconhecimento": {
+                "Tipo": "Portaria",
+                "Numero": "212",
+                "Data": "2020-06-25",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "2020-07-07",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "131",
+                "NumeroDOU": "128"
+      }
+    },
+    "IesEmissora": {
+      "Nome": "FACULDADE NOVA ROMA - RECIFE",
+      "CodigoMEC": "4700",
+      "CNPJ": "13013263000187",
+      "Endereco": {
+        "Logradouro": "RUA PADRE CARAPUCEIRO",
+        "Numero": "590",
+        "Bairro": "Boa Viagem",
+        "CodigoMunicipio": "2611606",
+        "NomeMunicipio": "RECIFE",
+        "UF": "PE",
+        "CEP": "51020280"
+      },
+      "Credenciamento": {
+                "Tipo": "Decreto",
+                "Numero": "70818",
+                "Data": "1972-07-11",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "1972-07-17",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "6065"
+      },
+      "Recredenciamento": {
+        "Tipo": "Portaria",
+                "Numero": "107",
+                "Data": "2021-02-24",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "2021-02-25",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "150",
+                "NumeroDOU": "37"
+      },
+      "Mantenedora": {
+        "RazaoSocial": "GRUPO ROMA EDUCACIONAL - FACULDADE NOVA ROMA",
+        "CNPJ": "06302344000131",
+        "Endereco": {
+          "Logradouro": "RUA BENFICA",
+          "Numero": "352",
+          "Bairro": "Madalena",
+          "CodigoMunicipio": "2611606",
+          "NomeMunicipio": "RECIFE",
+          "UF": "PE",
+          "CEP": "50720001"
+        }
+      }
+    },
+    "HistoricoEscolar": {
+      "CodigoCurriculo": "18",
+      "ElementosHistorico": {
+        "Disciplina": [
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "CI0023",
+              "NomeDisciplina": "Contabilidade Introdutória",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "FLAVIO RODRIGO LEAL TUNICO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03731519429"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "CPT001",
+              "NomeDisciplina": "Ciência Política e Teoria do Estado",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DA0004",
+              "NomeDisciplina": "Direito Administrativo I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DA0005",
+              "NomeDisciplina": "Direito Administrativo II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DA00092",
+              "NomeDisciplina": "Direito Ambiental",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "9.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANNE CRISTINE SILVA CABRAL",
+                      "Titulacao": "Mestrado",
+                      "CPF": "00769392431"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC00001",
+              "NomeDisciplina": "Direito Civil I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.30",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC00002",
+              "NomeDisciplina": "Direito Civil II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.70",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC00003",
+              "NomeDisciplina": "Direito Civil III",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.70",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC00004",
+              "NomeDisciplina": "Direito Civil IV",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.10",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC0002",
+              "NomeDisciplina": "Direito Constitucional I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.40",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC0003",
+              "NomeDisciplina": "Direito Constitucional II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC0004",
+              "NomeDisciplina": "Direito Constitucional III",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Validado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DC0008",
+              "NomeDisciplina": "Direito do Consumidor",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "36"
+                  }
+                }
+              ],
+              "Nota": "8.25",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "BRUNO JOSE XAVIER MARTINS",
+                      "Titulacao": "Especialização",
+                      "CPF": "05340805450"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DCA010",
+              "NomeDisciplina": "Direito da Criança e do Adolescente",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "MARTORELLI DANTAS DA SILVA",
+                      "Titulacao": "Doutorado",
+                      "CPF": "34519009472"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DCP007",
+              "NomeDisciplina": "Direito Processual Civil III",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.70",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DCV02",
+              "NomeDisciplina": "Direito Civil V",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DCVI02",
+              "NomeDisciplina": "Direito Civil VI",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "BRUNO JOSE XAVIER MARTINS",
+                      "Titulacao": "Especialização",
+                      "CPF": "05340805450"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DE0003",
+              "NomeDisciplina": "Direito Empresarial I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANTONIO CESAR DA SILVEIRA NETO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "00997816465"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DE00052",
+              "NomeDisciplina": "Direito Empresarial III",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "8.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Validado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DF0006",
+              "NomeDisciplina": "Direito Financeiro",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DH010",
+              "NomeDisciplina": "Direitos Humanos",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "7.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DIP00042",
+              "NomeDisciplina": "Direito Internacional Privado",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "8.30",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DIP0042",
+              "NomeDisciplina": "Direito Internacional Público",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "8.30",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DP0002",
+              "NomeDisciplina": "Direito Penal I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "5.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DP0003",
+              "NomeDisciplina": "Direito Penal II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.80",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DP0004",
+              "NomeDisciplina": "Direito Penal III",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.70",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DP0005",
+              "NomeDisciplina": "Direito Penal IV",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DPC005",
+              "NomeDisciplina": "Direito Processual Civil I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.30",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DPC006",
+              "NomeDisciplina": "Direito Processual Civil II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.40",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "PATRICIA FREIRE DE PAIVA CARVALHO",
+                      "Titulacao": "Doutorado",
+                      "CPF": "03304055436"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DPC008",
+              "NomeDisciplina": "Direito Processual Civil IV",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DPP005",
+              "NomeDisciplina": "Direito Processual Penal I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DPP006",
+              "NomeDisciplina": "Direito Processual Penal II",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANDRE ANTUNES GOUVEIA",
+                      "Titulacao": "Mestrado",
+                      "CPF": "62278908472"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DPT0009",
+              "NomeDisciplina": "Direito Processual do Trabalho",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03615221427"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DT0006",
+              "NomeDisciplina": "Direito do Trabalho I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DT0007",
+              "NomeDisciplina": "Direito do Trabalho II",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03615221427"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DTI0007",
+              "NomeDisciplina": "Direito Tributário I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.80",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DTII0008",
+              "NomeDisciplina": "Direito Tributário II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "EGO0009",
+              "NomeDisciplina": "Ética Geral e Profissional",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "YANNE KATT TELES RODRIGUES ALVES",
+                      "Titulacao": "Especialização",
+                      "CPF": "04371857450"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "FE0002",
+              "NomeDisciplina": "Fundamentos de Economia",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "36"
+                  }
+                }
+              ],
+              "Nota": "7.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "FGD001",
+              "NomeDisciplina": "Filosofia Geral e do Direito",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.70",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "IED001",
+              "NomeDisciplina": "Introdução ao Estudo do Direito I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "IED002",
+              "NomeDisciplina": "Introdução ao Estudo do Direito II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "6.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "IP0022",
+              "NomeDisciplina": "Introdução à Psicologia",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "7.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "LPT001",
+              "NomeDisciplina": "Leitura, Produção Textual, Linguagem e Arg. Jurídica",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MPJ0023",
+              "NomeDisciplina": "Metodologia da Pesquisa Jurídica",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "7.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "MARIA CARMEN ARAUJO E CASTRO CHAVES",
+                      "Titulacao": "Mestrado",
+                      "CPF": "00948506407"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "MTII0008",
+              "NomeDisciplina": "Metodologia II",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "6.75",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "MARIA CARMEN ARAUJO E CASTRO CHAVES",
+                      "Titulacao": "Mestrado",
+                      "CPF": "00948506407"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OI0009",
+              "NomeDisciplina": "Optativa I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "6.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OII00092",
+              "NomeDisciplina": "Optativa II",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "8.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OPIII010",
+              "NomeDisciplina": "Optativa III",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "7.30",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OPIV010",
+              "NomeDisciplina": "Optativa IV",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OPV010",
+              "NomeDisciplina": "Optativa V",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "OSDP0009",
+              "NomeDisciplina": "Ordem Social e Direito Previdenciário",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03615221427"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PC0009",
+              "NomeDisciplina": "Processo Constitucional",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.80",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PDP0008",
+              "NomeDisciplina": "Prática Direito Público",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "HELDER FELIPE OLIVEIRA CORREIA",
+                      "Titulacao": "Mestrado",
+                      "CPF": "07229243483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PJCII007",
+              "NomeDisciplina": "Prática Jurídica Cível II",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "BRUNO JOSE XAVIER MARTINS",
+                      "Titulacao": "Especialização",
+                      "CPF": "05340805450"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PJMA06",
+              "NomeDisciplina": "Prática Jurídica Mediação e Arbritagem",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "PATRICIA FREIRE DE PAIVA CARVALHO",
+                      "Titulacao": "Doutorado",
+                      "CPF": "03304055436"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PJP008",
+              "NomeDisciplina": "Prática Juridica Penal",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "MARTORELLI DANTAS DA SILVA",
+                      "Titulacao": "Doutorado",
+                      "CPF": "34519009472"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PJSII006",
+              "NomeDisciplina": "Prática Jurídica Cívil I",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.90",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "FABIANA LEITE DOMINGUES DA SILVA",
+                      "Titulacao": "Mestrado",
+                      "CPF": "02265951455"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "PJTA09",
+              "NomeDisciplina": "Prática Juridica Trabalhista e Administrativa",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.25",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03615221427"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "RC0007",
+              "NomeDisciplina": "Responsabilidade Civil",
+              "PeriodoLetivo": "2022/1",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "36"
+                  }
+                }
+              ],
+              "Nota": "8.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "BRUNO JOSE XAVIER MARTINS",
+                      "Titulacao": "Especialização",
+                      "CPF": "05340805450"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "SAJ02",
+              "NomeDisciplina": "Socio Antropologia Jurídica",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "TCC0092",
+              "NomeDisciplina": "Trabalho de Conclusão de Curso I",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "10.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "MUSSA HISSA HAZIN",
+                      "Titulacao": "Mestrado",
+                      "CPF": "04303524417"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "TCC0102",
+              "NomeDisciplina": "Trabalho de Conclusão de Curso II",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "40"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "MUSSA HISSA HAZIN",
+                      "Titulacao": "Mestrado",
+                      "CPF": "04303524417"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "TGP004",
+              "NomeDisciplina": "Teoria Geral do Processo",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "5.80",
+              "Aprovado": {
+                "FormaIntegralizacao": "Aproveitado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "03356534483"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "DFPP004",
+              "NomeDisciplina": "Direitos Fundamentais da Pessoa e da Personalidade",
+              "PeriodoLetivo": "2021/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "9.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "SILVIO LATACHE DE ANDRADE LIMA",
+                      "Titulacao": "Especialização",
+                      "CPF": "08603176418"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "TE003",
+              "NomeDisciplina": "Empresarial Internacional",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "8.50",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "TIBERIO DE PAULA PEDROSA MONTEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "02211902448"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Disciplina": {
+              "CodigoDisciplina": "SCM05",
+              "NomeDisciplina": "Societário e Contratos Mercantis",
+              "PeriodoLetivo": "2022/2",
+              "CargaHoraria": [
+                {
+                  "CargaHoraria": {
+                    "HoraAula": "72"
+                  }
+                }
+              ],
+              "Nota": "7.00",
+              "Aprovado": {
+                "FormaIntegralizacao": "Cursado"
+              },
+              "Docentes": {
+                "Docente": [
+                  {
+                    "Docente": {
+                      "Nome": "TIBERIO DE PAULA PEDROSA MONTEIRO",
+                      "Titulacao": "Mestrado",
+                      "CPF": "02211902448"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "DataEmissaoHistorico": "2023-10-23",
+      "HoraEmissaoHistorico": "10:22:27",
+      "SituacaoAtualDiscente": {
+        "Formado": {
+          "DataConclusaoCurso": "2022-12-27",
+          "DataColacaoGrau": "2023-03-25",
+          "DataExpedicaoDiploma": "2023-05-25"
+        }
+      },
+      "ENADE": {
+        "NaoHabilitado": [
+          {
+            "NaoHabilitado": {
+              "Condicao": "Concluinte",
+              "Edicao": "2022",
+              "Motivo": "Estudante não habilitado ao Enade em razão do calendário do ciclo avaliativo"
+            }
+          },
+          {
+            "NaoHabilitado": {
+              "Condicao": "Concluinte",
+              "Edicao": "2022",
+              "Motivo": "Estudante não habilitado ao Enade em razão do calendário do ciclo avaliativo"
+            }
+          }
+        ]
+      },
+      "CargaHorariaCursoIntegralizada": {
+        "HoraAula": "4172"
+      },
+      "CargaHorariaCurso": {
+        "HoraAula": "4172"
+      },
+      "IngressoCurso": {
+        "Data": "2022-12-27",
+        "FormaAcesso": "Vestibular",
+        "AnoMesProcessoSeletivo":"2022-12"
+      }
+    },
+    "SegurancaHistorico": {
+      "CodigoValidacao": "4700.cbb8ebedf81620bffdb08bbfe202cc4173309f493f731579f773b1d4664cd56a"
+    },
+    "_versao": "1.05",
+    "_ambiente": "Homologação"
+  },
+  "Extras": {
+    "TituloConferido": {
+      "Titulo": "Médica"
+    },
+    "CargaHorariaExigidaAtividadeComplementar": "200",
+    "ResponsavelHistorico": "REBEKA GOMES GUARANA",
+    "CargoResponsavelHistorico": "SECRETARIA ACADEMICA",
+    "Urlhistorico": "https://diplomas.\u003Cinstituição\u003E.br",
+    "Disciplina": [
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "CI0023",
+          "NomeDisciplina": "Contabilidade Introdutória",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "FLAVIO RODRIGO LEAL TUNICO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03731519429"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "CPT001",
+          "NomeDisciplina": "Ciência Política e Teoria do Estado",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DA0004",
+          "NomeDisciplina": "Direito Administrativo I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DA0005",
+          "NomeDisciplina": "Direito Administrativo II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC00001",
+          "NomeDisciplina": "Direito Civil I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.30",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC00002",
+          "NomeDisciplina": "Direito Civil II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.70",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC00003",
+          "NomeDisciplina": "Direito Civil III",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.70",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC00004",
+          "NomeDisciplina": "Direito Civil IV",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.10",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC0002",
+          "NomeDisciplina": "Direito Constitucional I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.40",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC0003",
+          "NomeDisciplina": "Direito Constitucional II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC0004",
+          "NomeDisciplina": "Direito Constitucional III",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Validado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DCA010",
+          "NomeDisciplina": "Direito da Criança e do Adolescente",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "MARTORELLI DANTAS DA SILVA",
+                  "Titulacao": "Doutorado",
+                  "CPF": "34519009472"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DCP007",
+          "NomeDisciplina": "Direito Processual Civil III",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.70",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DCV02",
+          "NomeDisciplina": "Direito Civil V",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DE0003",
+          "NomeDisciplina": "Direito Empresarial I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANTONIO CESAR DA SILVEIRA NETO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "00997816465"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DF0006",
+          "NomeDisciplina": "Direito Financeiro",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DH010",
+          "NomeDisciplina": "Direitos Humanos",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "7.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DIP00042",
+          "NomeDisciplina": "Direito Internacional Privado",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "8.30",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DIP0042",
+          "NomeDisciplina": "Direito Internacional Público",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "8.30",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DP0002",
+          "NomeDisciplina": "Direito Penal I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "5.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DP0003",
+          "NomeDisciplina": "Direito Penal II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.80",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DP0004",
+          "NomeDisciplina": "Direito Penal III",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.70",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DP0005",
+          "NomeDisciplina": "Direito Penal IV",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DPC005",
+          "NomeDisciplina": "Direito Processual Civil I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.30",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DPC006",
+          "NomeDisciplina": "Direito Processual Civil II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.40",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "PATRICIA FREIRE DE PAIVA CARVALHO",
+                  "Titulacao": "Doutorado",
+                  "CPF": "03304055436"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DPC008",
+          "NomeDisciplina": "Direito Processual Civil IV",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DPP005",
+          "NomeDisciplina": "Direito Processual Penal I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DT0006",
+          "NomeDisciplina": "Direito do Trabalho I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DTI0007",
+          "NomeDisciplina": "Direito Tributário I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.80",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DTII0008",
+          "NomeDisciplina": "Direito Tributário II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "FE0002",
+          "NomeDisciplina": "Fundamentos de Economia",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "36"
+              }
+            }
+          ],
+          "Nota": "7.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "FGD001",
+          "NomeDisciplina": "Filosofia Geral e do Direito",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.70",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "IED001",
+          "NomeDisciplina": "Introdução ao Estudo do Direito I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "IED002",
+          "NomeDisciplina": "Introdução ao Estudo do Direito II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "6.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "IP0022",
+          "NomeDisciplina": "Introdução à Psicologia",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "7.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "LPT001",
+          "NomeDisciplina": "Leitura, Produção Textual, Linguagem e Arg. Jurídica",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MPJ0023",
+          "NomeDisciplina": "Metodologia da Pesquisa Jurídica",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "7.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "MARIA CARMEN ARAUJO E CASTRO CHAVES",
+                  "Titulacao": "Mestrado",
+                  "CPF": "00948506407"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OI0009",
+          "NomeDisciplina": "Optativa I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "6.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OII00092",
+          "NomeDisciplina": "Optativa II",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "8.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OPIII010",
+          "NomeDisciplina": "Optativa III",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "7.30",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OPIV010",
+          "NomeDisciplina": "Optativa IV",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OPV010",
+          "NomeDisciplina": "Optativa V",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PC0009",
+          "NomeDisciplina": "Processo Constitucional",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.80",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PJMA06",
+          "NomeDisciplina": "Prática Jurídica Mediação e Arbritagem",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "PATRICIA FREIRE DE PAIVA CARVALHO",
+                  "Titulacao": "Doutorado",
+                  "CPF": "03304055436"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PJSII006",
+          "NomeDisciplina": "Prática Jurídica Cívil I",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.90",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "FABIANA LEITE DOMINGUES DA SILVA",
+                  "Titulacao": "Mestrado",
+                  "CPF": "02265951455"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "SAJ02",
+          "NomeDisciplina": "Socio Antropologia Jurídica",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "TGP004",
+          "NomeDisciplina": "Teoria Geral do Processo",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "5.80",
+          "Aprovado": {
+            "FormaIntegralizacao": "Aproveitado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DFPP004",
+          "NomeDisciplina": "Direitos Fundamentais da Pessoa e da Personalidade",
+          "PeriodoLetivo": "2021/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "SILVIO LATACHE DE ANDRADE LIMA",
+                  "Titulacao": "Especialização",
+                  "CPF": "08603176418"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2021",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DA00092",
+          "NomeDisciplina": "Direito Ambiental",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "9.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANNE CRISTINE SILVA CABRAL",
+                  "Titulacao": "Mestrado",
+                  "CPF": "00769392431"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DCVI02",
+          "NomeDisciplina": "Direito Civil VI",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "BRUNO JOSE XAVIER MARTINS",
+                  "Titulacao": "Especialização",
+                  "CPF": "05340805450"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DPP006",
+          "NomeDisciplina": "Direito Processual Penal II",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANDRE ANTUNES GOUVEIA",
+                  "Titulacao": "Mestrado",
+                  "CPF": "62278908472"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "MTII0008",
+          "NomeDisciplina": "Metodologia II",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "6.75",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "MARIA CARMEN ARAUJO E CASTRO CHAVES",
+                  "Titulacao": "Mestrado",
+                  "CPF": "00948506407"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "OSDP0009",
+          "NomeDisciplina": "Ordem Social e Direito Previdenciário",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03615221427"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PDP0008",
+          "NomeDisciplina": "Prática Direito Público",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "HELDER FELIPE OLIVEIRA CORREIA",
+                  "Titulacao": "Mestrado",
+                  "CPF": "07229243483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PJP008",
+          "NomeDisciplina": "Prática Juridica Penal",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "MARTORELLI DANTAS DA SILVA",
+                  "Titulacao": "Doutorado",
+                  "CPF": "34519009472"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "RC0007",
+          "NomeDisciplina": "Responsabilidade Civil",
+          "PeriodoLetivo": "2022/1",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "36"
+              }
+            }
+          ],
+          "Nota": "8.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "BRUNO JOSE XAVIER MARTINS",
+                  "Titulacao": "Especialização",
+                  "CPF": "05340805450"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "1"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DC0008",
+          "NomeDisciplina": "Direito do Consumidor",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "36"
+              }
+            }
+          ],
+          "Nota": "8.25",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "BRUNO JOSE XAVIER MARTINS",
+                  "Titulacao": "Especialização",
+                  "CPF": "05340805450"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DE00052",
+          "NomeDisciplina": "Direito Empresarial III",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "8.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Validado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ISABELA LESSA DE AZEVEDO PINTO RIBEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03356534483"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DPT0009",
+          "NomeDisciplina": "Direito Processual do Trabalho",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03615221427"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "DT0007",
+          "NomeDisciplina": "Direito do Trabalho II",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03615221427"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "EGO0009",
+          "NomeDisciplina": "Ética Geral e Profissional",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "YANNE KATT TELES RODRIGUES ALVES",
+                  "Titulacao": "Especialização",
+                  "CPF": "04371857450"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PJCII007",
+          "NomeDisciplina": "Prática Jurídica Cível II",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "BRUNO JOSE XAVIER MARTINS",
+                  "Titulacao": "Especialização",
+                  "CPF": "05340805450"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "PJTA09",
+          "NomeDisciplina": "Prática Juridica Trabalhista e Administrativa",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "9.25",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "ANA FLAVIA DANTAS FIGUEIRÊDO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "03615221427"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "TCC0092",
+          "NomeDisciplina": "Trabalho de Conclusão de Curso I",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "10.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "MUSSA HISSA HAZIN",
+                  "Titulacao": "Mestrado",
+                  "CPF": "04303524417"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "TCC0102",
+          "NomeDisciplina": "Trabalho de Conclusão de Curso II",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "40"
+              }
+            }
+          ],
+          "Nota": "9.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "MUSSA HISSA HAZIN",
+                  "Titulacao": "Mestrado",
+                  "CPF": "04303524417"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "TE003",
+          "NomeDisciplina": "Empresarial Internacional",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "8.50",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "TIBERIO DE PAULA PEDROSA MONTEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "02211902448"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      },
+      {
+        "Disciplina": {
+          "CodigoDisciplina": "SCM05",
+          "NomeDisciplina": "Societário e Contratos Mercantis",
+          "PeriodoLetivo": "2022/2",
+          "CargaHoraria": [
+            {
+              "CargaHoraria": {
+                "HoraAula": "72"
+              }
+            }
+          ],
+          "Nota": "7.00",
+          "Aprovado": {
+            "FormaIntegralizacao": "Cursado"
+          },
+          "Docentes": {
+            "Docente": [
+              {
+                "Docente": {
+                  "Nome": "TIBERIO DE PAULA PEDROSA MONTEIRO",
+                  "Titulacao": "Mestrado",
+                  "CPF": "02211902448"
+                }
+              }
+            ]
+          },
+          "AnoLetivo": "2022",
+          "SemestreLetivo": "2"
+        }
+      }
+    ],
+    "CargaHorariaDisciplinasCursadas": 4172
+  }
+}

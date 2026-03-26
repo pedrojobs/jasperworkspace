@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" 
+    name="declaracaoResidencia" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b5f80ae0-46f0-4e90-81e8-5556ff761d7c">
+
+    <field name="Nome" class="java.lang.String"/>
+    <field name="ID" class="java.lang.String"/>
+    <field name="CPF" class="java.lang.String"/>
+    <field name="NomeCurso" class="java.lang.String"/>
+    <field name="IesEmissoraNome" class="java.lang.String"/>
+    <field name="DataConclusao" class="java.util.Date"/>
+    <field name="DataInicio" class="java.util.Date"/>
+    <field name="NomeMunicipio" class="java.lang.String"/>
+
+    <style name="defaultStyle" fontName="Helvetica" fontSize="12" isDefault="true"/>
+
+    <title>
+        <band height="40">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="30"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle">
+                    <font size="16" isBold="true"/>
+                </textElement>
+                <text><![CDATA[DECLARAÇÃO]]></text>
+            </staticText>
+        </band>
+    </title>
+
+    <detail>
+        <band height="200">
+            <textField isStretchWithOverflow="true">
+                <reportElement x="0" y="0" width="555" height="180"/>
+                <textElement>
+                    <font size="12"/>
+                </textElement>
+                <textFieldExpression><![CDATA[
+"Declaro que " + $F{Nome} + " - Registro acadêmico: " + $F{ID} + ", CPF: " + $F{CPF} + 
+" - concluiu a " + $F{NomeCurso} + ", oferecida pelo " + $F{IesEmissoraNome} + 
+" com programa Recredenciado pela Comissão Nacional de Residência Médica-MEC, sob parecer 625/2019, processo 2019-108, aprovado em " + 
+($F{DataConclusao} != null ? 
+ new java.text.SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new java.util.Locale("pt", "BR")).format($F{DataConclusao}) 
+ : "DATA NÃO INFORMADA") + ".\n\n" +
+"Período de realização do programa de estudos: " +
+($F{DataInicio} != null ? 
+ new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataInicio}) : "DATA NÃO INFORMADA") + " a " +
+($F{DataConclusao} != null ? 
+ new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataConclusao}) : "DATA NÃO INFORMADA") + ".\n\n" +
+$F{NomeMunicipio}.toLowerCase() + ", "
+]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+
+    <pageFooter>
+        <band height="80">
+            <staticText>
+                <reportElement x="0" y="40" width="555" height="40"/>
+                <textElement textAlignment="Center">
+                    <font size="12"/>
+                </textElement>
+                <text><![CDATA[
+Nome do responsável
+Secretário(a) Acadêmico(a)
+Nome da instituição responsável
+                ]]></text>
+            </staticText>
+        </band>
+    </pageFooter>
+</jasperReport>

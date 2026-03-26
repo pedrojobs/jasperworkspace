@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Manifesto_Assinatura" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4f582043-a7d1-4ab3-971a-0a4f9919a093">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[signers]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="name"/>
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="identifier"/>
+		<fieldDescription><![CDATA[identifier]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="email"/>
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="signedOn"/>
+		<fieldDescription><![CDATA[signedOn]]></fieldDescription>
+	</field>
+	<field name="type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="type"/>
+		<fieldDescription><![CDATA[type]]></fieldDescription>
+	</field>
+	<field name="signatureType" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="signatureType"/>
+		<fieldDescription><![CDATA[signatureType]]></fieldDescription>
+	</field>
+	<field name="certificate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="certificate"/>
+		<fieldDescription><![CDATA[certificate]]></fieldDescription>
+	</field>
+	<field name="ipAddress" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="ipAddress"/>
+		<fieldDescription><![CDATA[ipAddress]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="status"/>
+		<fieldDescription><![CDATA[status]]></fieldDescription>
+	</field>
+	<sortField name="name" order="Descending"/>
+	<sortField name="identifier" order="Descending"/>
+	<sortField name="email" order="Descending"/>
+	<sortField name="signedOn" order="Descending"/>
+	<sortField name="type" order="Descending"/>
+	<sortField name="signatureType" order="Descending"/>
+	<sortField name="certificate" order="Descending"/>
+	<sortField name="ipAddress" order="Descending"/>
+	<sortField name="status" order="Descending"/>
+	<group name="name">
+		<groupExpression><![CDATA[$F{name}]]></groupExpression>
+	</group>
+	<group name="identifier">
+		<groupExpression><![CDATA[$F{identifier}]]></groupExpression>
+	</group>
+	<group name="email">
+		<groupExpression><![CDATA[$F{email}]]></groupExpression>
+	</group>
+	<group name="signedOn">
+		<groupExpression><![CDATA[$F{signedOn}]]></groupExpression>
+	</group>
+	<group name="type">
+		<groupExpression><![CDATA[$F{type}]]></groupExpression>
+	</group>
+	<group name="signatureType">
+		<groupExpression><![CDATA[$F{signatureType}]]></groupExpression>
+	</group>
+	<group name="certificate">
+		<groupExpression><![CDATA[$F{certificate}]]></groupExpression>
+	</group>
+	<group name="ipAddress">
+		<groupExpression><![CDATA[$F{ipAddress}]]></groupExpression>
+	</group>
+	<group name="status">
+		<groupExpression><![CDATA[$F{status}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<image>
+				<reportElement x="40" y="59" width="118" height="118" uuid="3fce42cc-a556-4a84-8a24-b9c5f2275efe">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["ICP.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="180" y="80" width="250" height="93" uuid="0464affc-d3c2-4982-9ce2-ef85ae74e57d"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="26" isBold="false"/>
+				</textElement>
+				<text><![CDATA[MANIFESTO DE ASSINATURAS]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="440" y="59" width="113" height="113" uuid="94396f41-bc11-4c7e-bc23-2beff5ed301a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/"]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="92" y="199" width="430" height="30" uuid="9393eb74-bbc3-48ee-8040-dd5d9f9fbb07"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Código validação: 5SPCP-S6SYH-SR29T-9C8K5"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="290" width="515" height="49" uuid="b564e6fe-d843-442a-ae24-7ce6721d7ebe"/>
+				<textElement textAlignment="Left">
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Esse documento foi assinado pelos seguintes signatários nas datas indicadas (Fuso
+horário de Brasília):]]></text>
+			</staticText>
+			<image>
+				<reportElement x="23" y="348" width="17" height="23" uuid="485e7d93-7ae7-4410-9992-9f78625ec83e"/>
+				<imageExpression><![CDATA["valido.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="60" y="347" width="495" height="41" uuid="fcb04771-8f31-4c8a-9e9f-ae9edbe15247">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="13"/>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}
++ " (CPF ***."
++ $F{identifier}.substring(3,6)
++ "."
++ $F{identifier}.substring(6,9)
++ "-"
++ $F{identifier}.substring(9,11)
++ ") em "
++ new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(
+      new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX").parse(
+          $F{signedOn}.replace("[","").replace("]","").replace("\"","")
+      )
+  )
++ " - Assinatura realizada por meio do certificado ICP-Brasil"
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="147" y="249" width="320" height="31" uuid="997afafb-65af-41ba-a383-1fda9fa78802"/>
+				<textElement textAlignment="Center">
+					<font size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tipo de assinatura: " +$F{signatureType}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="300" y="409" width="251" height="61" uuid="415ed7ac-e059-4392-ac7d-bc961634e847">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="2.0" lineColor="#808080"/>
+					<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<rightPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+				</box>
+				<textElement>
+					<font size="12"/>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Geolocalização"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="41" y="469" width="510" height="61" uuid="1e422a29-7a07-440e-a574-4e31e0369ddf">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="2.0" lineColor="#808080"/>
+					<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<leftPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<rightPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+				</box>
+				<textElement>
+					<font size="14"/>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Autenticação"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="320" y="424" width="110" height="19" uuid="2917f3fd-9c66-4f47-98a2-aa7b554ecd71"/>
+				<box>
+					<pen lineColor="#808080"/>
+				</box>
+				<textFieldExpression><![CDATA["Lat: "]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="430" y="424" width="121" height="19" uuid="0a82fb81-2623-4603-88cf-e4b7d9a3d78b"/>
+				<box>
+					<pen lineColor="#808080"/>
+				</box>
+				<textFieldExpression><![CDATA["Long: "]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="320" y="443" width="160" height="19" uuid="80377472-18dd-4cb6-b293-93248e075909"/>
+				<box>
+					<pen lineColor="#808080"/>
+				</box>
+				<textFieldExpression><![CDATA["Precisão: "]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="190" y="471" width="291" height="20" uuid="030f86ec-6983-4df8-9dc8-1e4df763bbd4"/>
+				<box>
+					<pen lineColor="#808080"/>
+				</box>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{email}+"(Verificado)"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="ScaleFont">
+				<reportElement mode="Opaque" x="41" y="529" width="510" height="40" forecolor="#FFFFFF" backcolor="#808080" uuid="4eae36b2-3b22-40ca-8579-c76ea07aa451"/>
+				<box>
+					<pen lineWidth="2.0" lineColor="#808080"/>
+					<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<leftPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<rightPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["xsMxalaxmv7jacWB+JXJy37PXHnR7Q4vh2rCLi55fqk="]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="498" y="533" width="51" height="21" forecolor="#FFFFFF" uuid="a94b6254-8024-4e6f-a6a7-c341c2660cde"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[SHA -256]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="409" width="259" height="60" uuid="6369d425-1499-43f4-853c-943d872afa7f">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="2.0" lineColor="#808080"/>
+					<topPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<leftPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<bottomPen lineWidth="2.0" lineStyle="Solid" lineColor="#808080"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#808080"/>
+				</box>
+				<textElement>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<text><![CDATA[Endereço IP]]></text>
+			</staticText>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="93" y="432" width="186" height="30" uuid="c4fd9e01-83c7-47cf-829b-f0cb999e333c"/>
+				<textFieldExpression><![CDATA[$F{ipAddress}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="100" y="500" width="90" height="30" uuid="ebee2864-2800-4ad1-b0a0-61a4420cc7b6"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Login]]></text>
+			</staticText>
+			<image>
+				<reportElement mode="Opaque" x="480" y="105" width="34" height="23" uuid="1d8fb923-b73d-4459-8bba-9493764233ea">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:\\Users\\pedro\\JaspersoftWorkspace\\Curriculo-Uniasselvi\\logo_uniasselvi1.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="41" y="573" width="510" height="20" uuid="585dcd7c-dee9-4c8a-8e03-c2dcba71f35b"/>
+				<textElement>
+					<font size="13"/>
+				</textElement>
+				<text><![CDATA[Para verificar as assinaturas, acesse o link direto de validação deste documento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="41" y="651" width="510" height="36" uuid="6e024106-9336-4972-808a-fb0bc69ead8a"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Ou acesse a consulta de documentos assinados disponível no link abaixo e informe
+o código de validação:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="41" y="614" width="510" height="20" forecolor="#0000FF" uuid="bd8f4b78-815b-415c-be31-2494dbb19f1b">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" markup="html">
+					<font size="12"/>
+					<paragraph firstLineIndent="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/5SPCP-S6SYH-SR29T-9C8K5"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="41" y="708" width="510" height="20" forecolor="#0000FF" uuid="f850e1b8-e05b-43b6-b1b8-dbd4fbbec160">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" markup="html">
+					<font size="9"/>
+					<paragraph firstLineIndent="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["https://diplomadigital.uniasselvi.com.br/validate/"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

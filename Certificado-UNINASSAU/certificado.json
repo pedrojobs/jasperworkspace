@@ -1,0 +1,31 @@
+{
+  "NOME": "João da Silva",
+  "CPF": "123.456.789-00",
+  "disciplina": "Matemática",
+  "TITULO_CONFERIDO": "Bacharel",
+  "CURSO": "Engenharia",
+  "IES": "Universidade Exemplo",
+  "anoCon": "2023",
+  "nomeMunicipCurso": "São Paulo",
+  "tipoAutorizacao": "Portaria",
+  "numeroAutorizacao": "12345",
+  "dataAutorizacao": "10/02/2020",
+  "Urldiploma": "https://universidadeexemplo.edu.br/diplomas/123456",
+  "CodigoValidacao": "ABC123XYZ",
+  "notas": [
+    {
+      "Disciplina": "Matemática",
+      "AV1": "8.5",
+      "AV2": "9.0",
+      "MEDIA": "8.75",
+      "CH": "60h"
+    },
+    {
+      "Disciplina": "Física",
+      "AV1": "7.5",
+      "AV2": "8.0",
+      "MEDIA": "7.75",
+      "CH": "60h"
+    }
+  ]
+}

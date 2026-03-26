@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;unesc_LOGO.jpg&apos; to &apos;diploma-unesc&apos;&#x0D;&#x0A;- Original project: &apos;historico-unesc&apos;&#x0D;&#x0A;- Destination element: &apos;diploma-unesc&apos;&#x0D;&#x0A;- Original element: &apos;unesc_LOGO.jpg&apos;" description="Copy file" element1="unesc_LOGO.jpg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1751465608756" target="/diploma-unesc" units="0" version="1.0"/>
+</session>

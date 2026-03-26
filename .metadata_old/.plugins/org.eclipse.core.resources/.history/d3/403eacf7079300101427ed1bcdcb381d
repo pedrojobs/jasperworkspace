@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>manifesto-local</name>
+  <dataFile type="httpDataLocation">
+    <url>https://certeduc.com:45344/getjasper</url>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Diploma FABRASI-Frente" pageWidth="842" pageHeight="595" orientation="Landscape" whenNoDataType="BlankPage" columnWidth="842" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d9b00497-cb30-4e0c-8872-f48886a43d20">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Json Fabrasi"/>
+	<queryString language="json">
+		<![CDATA[diplomas]]>
+	</queryString>
+	<field name="NOMEDIPLOMADO" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMEDIPLOMADO]]></fieldDescription>
+	</field>
+	<field name="SEXODIPLOMADO" class="java.lang.String">
+		<fieldDescription><![CDATA[SEXODIPLOMADO]]></fieldDescription>
+	</field>
+	<field name="NACIONALIDADEDIPLOMADO" class="java.lang.String">
+		<fieldDescription><![CDATA[NACIONALIDADEDIPLOMADO]]></fieldDescription>
+	</field>
+	<field name="CODIGOMUNICIPIONATURALIDADE" class="java.lang.String">
+		<fieldDescription><![CDATA[CODIGOMUNICIPIONATURALIDADE]]></fieldDescription>
+	</field>
+	<field name="NOMEMUNICIPIONATURALIDADE" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMEMUNICIPIONATURALIDADE]]></fieldDescription>
+	</field>
+	<field name="UFNATURALIDADE" class="java.lang.String">
+		<fieldDescription><![CDATA[UFNATURALIDADE]]></fieldDescription>
+	</field>
+	<field name="CPFNATURALIDADE" class="java.lang.String">
+		<fieldDescription><![CDATA[CPFNATURALIDADE]]></fieldDescription>
+	</field>
+	<field name="NUMERORG" class="java.lang.String">
+		<fieldDescription><![CDATA[NUMERORG]]></fieldDescription>
+	</field>
+	<field name="UFRG" class="java.lang.String">
+		<fieldDescription><![CDATA[UFRG]]></fieldDescription>
+	</field>
+	<field name="ORGAOEXPEDIDORRG" class="java.lang.String">
+		<fieldDescription><![CDATA[ORGAOEXPEDIDORRG]]></fieldDescription>
+	</field>
+	<field name="DATANASCIMENTORG" class="java.lang.String">
+		<fieldDescription><![CDATA[DATANASCIMENTORG]]></fieldDescription>
+	</field>
+	<field name="NOMECURSODADOSCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMECURSODADOSCURSO]]></fieldDescription>
+	</field>
+	<field name="CODIGOCURSOEMECDADOSCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[CODIGOCURSOEMECDADOSCURSO]]></fieldDescription>
+	</field>
+	<field name="MODALIDADEDADOSCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[MODALIDADEDADOSCURSO]]></fieldDescription>
+	</field>
+	<field name="TITULOCONFERIDODADOSCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[TITULOCONFERIDODADOSCURSO]]></fieldDescription>
+	</field>
+	<field name="GRAUCONFERIDODADOSCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[GRAUCONFERIDODADOSCURSO]]></fieldDescription>
+	</field>
+	<field name="NOMEMUNICIPIOENDERECOCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMEMUNICIPIOENDERECOCURSO]]></fieldDescription>
+	</field>
+	<field name="UFENDERECOCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[UFENDERECOCURSO]]></fieldDescription>
+	</field>
+	<field name="NOMEIESEMISSORA" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMEIESEMISSORA]]></fieldDescription>
+	</field>
+	<field name="CODIGOMECIESEMISSORA" class="java.lang.String">
+		<fieldDescription><![CDATA[CODIGOMECIESEMISSORA]]></fieldDescription>
+	</field>
+	<field name="CNPJIESEMISSORA" class="java.lang.String">
+		<fieldDescription><![CDATA[CNPJIESEMISSORA]]></fieldDescription>
+	</field>
+	<field name="LOGRADOUROENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[LOGRADOUROENDERECO]]></fieldDescription>
+	</field>
+	<field name="NUMEROENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[NUMEROENDERECO]]></fieldDescription>
+	</field>
+	<field name="BAIRROENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[BAIRROENDERECO]]></fieldDescription>
+	</field>
+	<field name="CODIGOMUNICIPIOENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[CODIGOMUNICIPIOENDERECO]]></fieldDescription>
+	</field>
+	<field name="NOMEMUNICIPIOENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[NOMEMUNICIPIOENDERECO]]></fieldDescription>
+	</field>
+	<field name="UFENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[UFENDERECO]]></fieldDescription>
+	</field>
+	<field name="CEPENDERECO" class="java.lang.String">
+		<fieldDescription><![CDATA[CEPENDERECO]]></fieldDescription>
+	</field>
+	<field name="DATACONCLUSAOCURSO" class="java.lang.String">
+		<fieldDescription><![CDATA[DATACONCLUSAOCURSO]]></fieldDescription>
+	</field>
+	<field name="DATAREGISTROTERMOCOLACAO" class="java.lang.String">
+		<fieldDescription><![CDATA[DATAREGISTROTERMOCOLACAO]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="593" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+			<image>
+				<reportElement x="0" y="0" width="841" height="591" uuid="d8b58101-f451-4c31-b337-30dd59de4421">
+					<property name="com.jaspersoft.studio.unit.width" value="mm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/Users/pedro/Desktop/SAFEDUC/Design Diplomas/diploma BRASILIANA/diploma FRENTE FABRASI.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="206" y="428" width="390" height="55" uuid="670d44cd-c214-4ec3-8d83-987eb887d1b6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="24" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NOMEDIPLOMADO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="269" y="358" width="250" height="20" uuid="9b1b1c95-1cd7-4243-a119-6e35234462ef"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[ O Diretor da Faculdade BRASILIANA - FABRASI, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="373" width="302" height="22" uuid="36782f9b-2964-4a23-b1e3-044ea9ae3272"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[No uso de suas atribuições, tendo em vista a conclusão em ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="474" y="373" width="160" height="14" uuid="a2feabae-5695-4e58-9afe-4f524a3ebdf0"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DATACONCLUSAOCURSO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="600" y="373" width="20" height="16" uuid="827f1cd3-1b9f-44bf-abed-ef288c338fcd"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[do]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="212" y="389" width="270" height="20" uuid="17acd0d9-8c7b-4dd1-8552-eecae076b91a"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NOMECURSODADOSCURSO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="445" y="389" width="100" height="20" uuid="c90d33f8-9893-4531-b766-1e2adfcb1c9f"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[e a colação de grau]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="547" y="389" width="19" height="19" uuid="da31678d-a7fc-4c47-bb88-76177eca75d1"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[em]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="181" y="403" width="209" height="17" uuid="3f050750-cd16-4566-92f0-24b041d6a51c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DATAREGISTROTERMOCOLACAO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="313" y="403" width="100" height="20" uuid="5f1ee157-8172-4a7c-8b0e-29d4e7027553"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[, confere o título de]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="406" y="403" width="190" height="20" uuid="1654a54b-ba8e-4774-89b1-a15abc1ad6ac"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TITULOCONFERIDODADOSCURSO}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="595">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileResource exportedWithPermissions="true" dataFile="Historico_JSON.data">
+    <folder>/reports/grupo_bom_jesus/historico</folder>
+    <name>Historico_JSON</name>
+    <version>2</version>
+    <label>Historico-JSON</label>
+    <creationDate>2024-12-18T09:06:48.000-03:00</creationDate>
+    <updateDate>2024-12-18T09:03:26.000-03:00</updateDate>
+    <fileType>xml</fileType>
+</fileResource>

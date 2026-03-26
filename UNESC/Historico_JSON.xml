@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileResource exportedWithPermissions="true" dataFile="Historico_JSON.data">
+    <folder>/reports/unesc/historico</folder>
+    <name>Historico_JSON</name>
+    <version>0</version>
+    <label>Historico-JSON</label>
+    <creationDate>2024-06-11T13:35:42.000-03:00</creationDate>
+    <updateDate>2024-06-11T13:35:42.000-03:00</updateDate>
+    <fileType>xml</fileType>
+</fileResource>

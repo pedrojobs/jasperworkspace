@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Rotulos_Criterio_integralizacao" pageWidth="555" pageHeight="842" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ea6dcef6-0b15-4631-becd-1b7c4dcb0868">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Curriculo-JSON(LOCAL)"/>
+	<queryString language="JSON">
+		<![CDATA[CurriculoEscolar.infCurriculoEscolar.infCriteriosIntegralizacao.CriterioIntegralizacaoExpressao]]>
+	</queryString>
+	<field name="Codigo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CriterioIntegralizacaoExpressao.Codigo"/>
+		<fieldDescription><![CDATA[CriterioIntegralizacaoExpressao.Codigo]]></fieldDescription>
+	</field>
+	<field name="Expressao_Soma_Codigo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CriterioIntegralizacaoExpressao.Expressao.Soma.Codigo"/>
+		<fieldDescription><![CDATA[CriterioIntegralizacaoExpressao.Expressao.Soma.Codigo]]></fieldDescription>
+	</field>
+	<field name="CargasHorariasCriterio_Minimo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CriterioIntegralizacaoExpressao.CargasHorariasCriterio.CargaHorariaMinima"/>
+		<fieldDescription><![CDATA[CriterioIntegralizacaoExpressao.CargasHorariasCriterio.CargaHorariaMinima]]></fieldDescription>
+	</field>
+	<field name="CargasHorariasCriterio_Maxima" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CriterioIntegralizacaoExpressao.CargasHorariasCriterio.CargaHorariaMaxima"/>
+		<fieldDescription><![CDATA[CriterioIntegralizacaoExpressao.CargasHorariasCriterio.CargaHorariaMaxima]]></fieldDescription>
+	</field>
+	<field name="CargasHorariasCriterio_ParaTotal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="CriterioIntegralizacaoExpressao.CargasHorariasCriterio.CargaHorariaParaTotal"/>
+		<fieldDescription><![CDATA[CriterioIntegralizacaoExpressao.CargasHorariasCriterio.CargaHorariaParaTotal]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="15">
+			<textField textAdjust="ScaleFont">
+				<reportElement stretchType="ContainerBottom" mode="Opaque" x="0" y="0" width="555" height="15" backcolor="#D1D1D1" uuid="6105df04-92e0-459d-ba9c-a5dad905dc0b"/>
+				<box topPadding="0" leftPadding="5" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Carga Horária Total do Curso: "+ $F{CargasHorariasCriterio_ParaTotal}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

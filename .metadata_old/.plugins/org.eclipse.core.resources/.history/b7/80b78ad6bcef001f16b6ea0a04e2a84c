@@ -1,0 +1,3695 @@
+{
+    "diplomas": [
+        {
+            "email": "VICTORCARRERO19@GMAIL.COM",
+            "celular": "989304120",
+            "SecaoReconhecimentoCurso": "1",
+            "PaginaSecaoReconhecimentoCurso": "16",
+            "Diploma": {
+                "infDiploma": {
+                    "DadosDiploma": {
+                        "Diplomado": {
+                            "ID": "182000905",
+                            "Nome": "VICTOR GABRIEL SANTOS CARREIRO",
+                            "Sexo": "M",
+                            "Nacionalidade": "Brasileiro",
+                            "Naturalidade": {
+                                "CodigoMunicipio": "2105989",
+                                "NomeMunicipio": "LAJEADO NOVO",
+                                "UF": "MA"
+                            },
+                            "CPF": "71133483194",
+                            "RG": {
+                                "Numero": "1522758",
+                                "OrgaoExpedidor": "SSP",
+                                "UF": "TO"
+                            },
+                            "DataNascimento": "1996-10-03"
+                        },
+                        "DataConclusao": "2023-07-08",
+                        "DadosCurso": {
+                            "NomeCurso": "DIREITO",
+                            "CodigoCursoEMEC": "5000994",
+                            "Modalidade": "Presencial",
+                            "TituloConferido": {
+                                "Titulo": "Bacharel"
+                            },
+                            "GrauConferido": "Bacharelado",
+                            "EnderecoCurso": {
+                                "Logradouro": "RUA COMENDADOR CANTINHO",
+                                "Numero": "394",
+                                "Bairro": "PENHA",
+                                "CodigoMunicipio": "3550308",
+                                "NomeMunicipio": "São Paulo",
+                                "UF": "SP",
+                                "CEP": "03603020"
+                            },
+                            "Autorizacao": {
+                                "Tipo": "Portaria",
+                                "Numero": "76",
+                                "Data": "2011-06-01",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2011-06-02",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "49",
+                                "NumeroDOU": "105"
+                            },
+                            "Reconhecimento": {
+                                "Tipo": "Portaria",
+                                "Numero": "766",
+                                "Data": "2017-07-21",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2017-07-24",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "16",
+                                "NumeroDOU": "140"
+                            },
+                            "RenovacaoReconhecimento": {
+                                "Tipo": "Portaria",
+                                "Numero": "379",
+                                "Data": "2024-08-08",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2024-08-09",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "70",
+                                "NumeroDOU": "153"
+                            }
+                        },
+                        "IesEmissora": {
+                            "Nome": "CENTRO SUPERIOR DE ESTUDOS JURÍDICOS CARLOS DRUMMOND DE ANDRADE-CSEJCDA",
+                            "CodigoMEC": "17014",
+                            "CNPJ": "67973602000104",
+                            "Endereco": {
+                                "Logradouro": "RUA COMENDADOR CANTINHO",
+                                "Numero": "394",
+                                "Bairro": "PENHA",
+                                "CodigoMunicipio": "3550308",
+                                "NomeMunicipio": "São Paulo",
+                                "UF": "SP",
+                                "CEP": "03603020"
+                            },
+                            "Credenciamento": {
+                                "Tipo": "Portaria",
+                                "Numero": "534",
+                                "Data": "2011-05-09",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2011-05-10",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "16",
+                                "NumeroDOU": "88"
+                            },
+                            "Recredenciamento": {
+                                "Tipo": "Portaria",
+                                "Numero": "1277",
+                                "Data": "2018-11-29",
+                                "VeiculoPublicacao": "DOU",
+                                "DataPublicacao": "2018-11-30",
+                                "SecaoPublicacao": "1",
+                                "PaginaPublicacao": "49",
+                                "NumeroDOU": "230"
+                            },
+                            "Mantenedora": {
+                                "RazaoSocial": "Escola de Educação Superior São José",
+                                "CNPJ": "67973602000104",
+                                "Endereco": {
+                                    "Logradouro": "Rua Comendador Cantinho",
+                                    "Numero": "394",
+                                    "Bairro": "Penha",
+                                    "CodigoMunicipio": "3550308",
+                                    "NomeMunicipio": "São Paulo",
+                                    "UF": "SP",
+                                    "CEP": "03603020"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "DocumentacaoAcademica": {
+                "DadosPrivadosDiplomado": {
+                    "Filiacao": [
+                        {
+                            "Genitor": {
+                                "Nome": "CRISTINA SANTOS CARREIRO",
+                                "Sexo": "F"
+                            }
+                        }
+                    ],
+                    "HistoricoEscolar": {
+                        "CodigoCurriculo": "T2",
+                        "ElementosHistorico": [
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0071",
+                                    "NomeDisciplina": "CIÊNCIA POLÍTICA E TEORIA GERAL DO ESTADO",
+                                    "PeriodoLetivo": "2019/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "7.7",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ALCEU LOURENCO DE SOUZA JUNIOR",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0100",
+                                    "NomeDisciplina": "ECONOMIA POLÍTICA E COMPORTAMENTAL",
+                                    "PeriodoLetivo": "2019/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.9",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "CIBELE RAPIS",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0104",
+                                    "NomeDisciplina": "FILOSOFIA GERAL E JURÍDICA",
+                                    "PeriodoLetivo": "2019/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.9",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ACACIO VAZ DE LIMA FILHO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0107",
+                                    "NomeDisciplina": "LINGUAGEM E DIREITO",
+                                    "PeriodoLetivo": "2019/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.4",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "BRUNO LIMBERTO BRITO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0122",
+                                    "NomeDisciplina": "PROJETO - ACESSO À JUSTIÇA E A ADVOCACIA",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0125",
+                                    "NomeDisciplina": "TEORIA DA CONSTITUIÇÃO",
+                                    "PeriodoLetivo": "2019/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "7.3",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "DANILO JUNIOR DE OLIVEIRA",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0136",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - ACESSO À JUSTIÇA E A ADVOCACIA",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0078",
+                                    "NomeDisciplina": "DIREITO CIVIL - PARTE GERAL",
+                                    "PeriodoLetivo": "2018/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.5",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "HELDER DE JESUS DIAS",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0105",
+                                    "NomeDisciplina": "HISTÓRIA DO DIREITO",
+                                    "PeriodoLetivo": "2018/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.4",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "RODRIGO ALVES DA SILVA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0106",
+                                    "NomeDisciplina": "INTRODUÇÃO AO ESTUDO DO DIREITO",
+                                    "PeriodoLetivo": "2018/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "110"
+                                        }
+                                    ],
+                                    "Nota": "9.1",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ACACIO VAZ DE LIMA FILHO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0114",
+                                    "NomeDisciplina": "PROJETO - TEORIA GERAL DO DIREITO",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0123",
+                                    "NomeDisciplina": "SOCIOLOGIA GERAL E JURÍDICA",
+                                    "PeriodoLetivo": "2018/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.5",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ALCEU LOURENCO DE SOUZA JUNIOR",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0128",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - TEORIA GERAL DO DIREITO",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0077",
+                                    "NomeDisciplina": "DIREITO CIVIL - OBRIGAÇÕES",
+                                    "PeriodoLetivo": "2019/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.4",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARINA SARTORI GUIMARAES",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0082",
+                                    "NomeDisciplina": "DIREITO CONSTITUCIONAL",
+                                    "PeriodoLetivo": "2019/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "110"
+                                        }
+                                    ],
+                                    "Nota": "7.8",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "PAULO HENRIQUE CAMARGO RINALDI",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0090",
+                                    "NomeDisciplina": "DIREITO PENAL - PARTE GERAL",
+                                    "PeriodoLetivo": "2019/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "110"
+                                        }
+                                    ],
+                                    "Nota": "9.1",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ACACIO VAZ DE LIMA FILHO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0115",
+                                    "NomeDisciplina": "PROJETO - CIDADANIA E INSTITUÇÕES DO DIREITO",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0129",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - CIDADANIA E INSTITUÇÕES DO DIREITO",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0074",
+                                    "NomeDisciplina": "DIREITO CIVIL - CONTRATOS",
+                                    "PeriodoLetivo": "2020/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.8",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "DYLAN GUILHERME TEIXEIRA FREIRE",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0079",
+                                    "NomeDisciplina": "DIREITO CIVIL - RESPONSABILIDADE CIVIL",
+                                    "PeriodoLetivo": "2020/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.1",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0099",
+                                    "NomeDisciplina": "DIREITOS FUNDAMENTAIS",
+                                    "PeriodoLetivo": "2020/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.4",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0116",
+                                    "NomeDisciplina": "PROJETO - TEORIA GERAL DO PROCESSO E CRIMINOLOGIA",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0126",
+                                    "NomeDisciplina": "TEORIA GERAL DO DIREITO TRIBUTÁRIO",
+                                    "PeriodoLetivo": "2020/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.6",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "WAGNER CARILLO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0127",
+                                    "NomeDisciplina": "TEORIA GERAL DO PROCESSO",
+                                    "PeriodoLetivo": "2020/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0130",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - TEORIA GERAL DO PROCESSO E CRIMINOLOGIA",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0076",
+                                    "NomeDisciplina": "DIREITO CIVIL - DIREITOS REAIS",
+                                    "PeriodoLetivo": "2020/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.7",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARIA REGINA DE CASTRO BUSNELLO",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0087",
+                                    "NomeDisciplina": "DIREITO FINANCEIRO E TRIBUTÁRIO",
+                                    "PeriodoLetivo": "2020/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.9",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "FABIO ROCHA DE LIMA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0089",
+                                    "NomeDisciplina": "DIREITO PENAL - PARTE ESPECIAL",
+                                    "PeriodoLetivo": "2020/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "110"
+                                        }
+                                    ],
+                                    "Nota": "8.6",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "LUIZ EDUARDO DE TOLEDO COELHO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0094",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - PROCESSO DE CONHECIMENTO",
+                                    "PeriodoLetivo": "2020/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.7",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0117",
+                                    "NomeDisciplina": "PROJETO - PROTEÇÃO À PROPRIEDADE E POSSE",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0131",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - PROTEÇÃO À PROPRIEDADE E POSSE",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0075",
+                                    "NomeDisciplina": "DIREITO CIVIL - DIREITO DE FAMÍLIA",
+                                    "PeriodoLetivo": "2021/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.5",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARIA REGINA DE CASTRO BUSNELLO",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0081",
+                                    "NomeDisciplina": "DIREITO COMERCIAL E EMPRESARIAL",
+                                    "PeriodoLetivo": "2021/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0086",
+                                    "NomeDisciplina": "DIREITO DO TRABALHO",
+                                    "PeriodoLetivo": "2021/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "110"
+                                        }
+                                    ],
+                                    "Nota": "9.7",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "RODRIGO ALVES DA SILVA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0092",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - EXECUÇÃO",
+                                    "PeriodoLetivo": "2021/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.3",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0118",
+                                    "NomeDisciplina": "PROJETO - DIREITO NOTARIAL E REGISTRAL",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0132",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - DIREITO NOTARIAL E REGISTRAL",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0072",
+                                    "NomeDisciplina": "DIREITO ADMINISTRATIVO",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "RODRIGO ALVES DA SILVA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0080",
+                                    "NomeDisciplina": "DIREITO CIVIL - SUCESSÕES",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.9",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARIA REGINA DE CASTRO BUSNELLO",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0095",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - RECURSOS",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.1",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "BRUNO LIMBERTO BRITO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0098",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL PENAL",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "110"
+                                        }
+                                    ],
+                                    "Nota": "9.6",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0121",
+                                    "NomeDisciplina": "PROJETO - TUTELA DA DIGNIDADE DA PESSOA HUMANA",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0135",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - TUTELA DA DIGNIDADE DA PESSOA HUMANA",
+                                    "PeriodoLetivo": "2021/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0088",
+                                    "NomeDisciplina": "DIREITO INTERNACIONAL",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.3",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "JOSIMILDO JOSE DA SILVA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0093",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - PROCEDIMENTOS ESPECIAIS",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.4",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ELESSANDRA DOS SANTOS MARQUES VALIO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0096",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL CONSTITUCIONAL",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.6",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0097",
+                                    "NomeDisciplina": "DIREITO PROCESSUAL DO TRABALHO",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.8",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "PAULO CESAR MANOEL",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0111",
+                                    "NomeDisciplina": "PRÁTICA CIVIL",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "BRUNO LIMBERTO BRITO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0120",
+                                    "NomeDisciplina": "PROJETO - TEMAS TRANSDISCIPLINARES DE CIVIL, FALIMENTAR E CRIMINAL",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "BENEDITA DE FATIMA DELBONO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0134",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - TEMAS TRANSDISCIPLINARES DE CIVIL, FALIMENTAR E CRIMINAL",
+                                    "PeriodoLetivo": "2022/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "9.6",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "BRUNO LIMBERTO BRITO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0083",
+                                    "NomeDisciplina": "DIREITO DA INFÂNCIA E DA JUVENTUDE",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.9",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "LUIZ EDUARDO DE TOLEDO COELHO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0085",
+                                    "NomeDisciplina": "DIREITO DO CONSUMIDOR",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "BENEDITA DE FATIMA DELBONO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0091",
+                                    "NomeDisciplina": "DIREITO PREVIDENCIÁRIO",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.2",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "WAGNER CARILLO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0103",
+                                    "NomeDisciplina": "ÉTICA GERAL E PROFISSIONAL",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "25"
+                                        }
+                                    ],
+                                    "Nota": "7.1",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "NEIVALDO GONCALVES DA COSTA",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0108",
+                                    "NomeDisciplina": "METODOLOGIA CIENTÍFICA E ORIENTAÇÃO AO TCC",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "30"
+                                        }
+                                    ],
+                                    "Nota": "7.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "NEIVALDO GONCALVES DA COSTA",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0113",
+                                    "NomeDisciplina": "PRÁTICA TRABALHISTA",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "6.5",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "GABRIEL FRANCO DA ROSA LOPES",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0119",
+                                    "NomeDisciplina": "PROJETO - DIREITOS HUMANOS E SOCIAIS",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "8.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "NEIVALDO GONCALVES DA COSTA",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0133",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - DIREITOS HUMANOS E SOCIAIS",
+                                    "PeriodoLetivo": "2022/2",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "8.1",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0073",
+                                    "NomeDisciplina": "DIREITO AMBIENTAL E DIREITOS DIFUSOS E COLETIVOS",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "REGINA MARIA PINNA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0084",
+                                    "NomeDisciplina": "DIREITO DIGITAL",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "REGINA MARIA PINNA",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0109",
+                                    "NomeDisciplina": "MONOGRAFIA",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "25"
+                                        }
+                                    ],
+                                    "Nota": "9.5",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "EMERSON SALINO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0112",
+                                    "NomeDisciplina": "PRÁTICA PENAL",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "10.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ADRIANO CONCEICAO ABILIO",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0124",
+                                    "NomeDisciplina": "TÉCNICAS DE NEGOCIAÇÃO, MEDIAÇÃO E ARBITRAGEM",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "30"
+                                        }
+                                    ],
+                                    "Nota": "8.2",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "EMERSON SALINO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0137",
+                                    "NomeDisciplina": "TÓPICOS ESPECIAIS - ATUALIDADES DE DIREITO E TECNOLOGIA",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "20"
+                                        }
+                                    ],
+                                    "Nota": "9.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ACACIO DE VAZ DE LIMA FILHO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Disciplina": {
+                                    "CodigoDisciplina": "T0140",
+                                    "NomeDisciplina": "PROJETO - ATUALIDADES DE DIREITO E TECNOLOGIA",
+                                    "PeriodoLetivo": "2023/1",
+                                    "CargaHoraria": [
+                                        {
+                                            "HoraAula": "55"
+                                        }
+                                    ],
+                                    "Nota": "9.0",
+                                    "Aprovado": {
+                                        "FormaIntegralizacao": "Cursado"
+                                    },
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "EMERSON SALINO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "AtividadeComplementar": {
+                                    "TipoAtividadeComplementar": "Atividades Complementares",
+                                    "CargaHorariaEmHoraRelogio": [
+                                        {
+                                            "HoraRelogio": "200"
+                                        }
+                                    ],
+                                    "DocentesResponsaveisPelaValidacao": {
+                                        "Docente": [
+                                            {
+                                                "Docente": {
+                                                    "Nome": "ELESSANDRA DOS S. MARQUES VALIO",
+                                                    "Titulacao": "Doutorado"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "CodigoAtividadeComplementar": "T0070",
+                                    "DataInicio": "2023-02-02",
+                                    "DataFim": "2023-07-10"
+                                }
+                            },
+                            {
+                                "Estagio": {
+                                    "DocentesOrientadores": {
+                                        "Docente": [
+                                            {
+                                                "Docente": {
+                                                    "Nome": "ELESSANDRA DOS S. MARQUES VALIO",
+                                                    "Titulacao": "Doutorado"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Descricao": "ESTÁGIO SUPERVISIONADO",
+                                    "CargaHorariaEmHorasRelogio": [
+                                        {
+                                            "HoraRelogio": "300"
+                                        }
+                                    ],
+                                    "Concedente": {
+                                        "RazaoSocial": "Centro Superior de estudos Jurídicos.",
+                                        "NomeFantasia": "Centro Superior de estudos Jurídicos.",
+                                        "CNPJ": "67973602000104"
+                                    },
+                                    "DataInicio": "2020-09-13",
+                                    "CodigoUnidadeCurricular": "T0102",
+                                    "DataFim": "2023-05-26"
+                                }
+                            }
+                        ],
+                        "DataEmissaoHistorico": "2024-11-21",
+                        "HoraEmissaoHistorico": "12:06:09",
+                        "SituacaoAluno": "Aprovado",
+                        "SituacaoDiscente": {
+                            "PeriodoLetivo": "2023/1",
+                            "Formado": {
+                                "DataConclusaoCurso": "2023-07-08",
+                                "DataColacaoGrau": "2023-08-29"
+                            }
+                        },
+                        "SituacaoAtualDiscente": {
+                            "PeriodoLetivo": "2023/1",
+                            "Formado": {
+                                "DataConclusaoCurso": "2023-07-08",
+                                "DataColacaoGrau": "2023-08-29",
+                                "DataExpedicaoDiploma": "2024-11-21"
+                            }
+                        },
+                        "ENADE": [
+                            {
+                                "Habilitado": {
+                                    "Condicao": "Concluinte",
+                                    "Edicao": "2022"
+                                }
+                            }
+                        ],
+                        "CargaHorariaCursoIntegralizada": {
+                            "HoraAula": "3945"
+                        },
+                        "CargaHorariaCurso": {
+                            "HoraAula": "3945"
+                        },
+                        "IngressoCurso": {
+                            "Data": "2018-07-06",
+                            "FormaAcesso": "Vestibular",
+                            "DataConclusao": "2023-07-08"
+                        }
+                    }
+                },
+                "TermoResponsabilidadeEmissora": {
+                    "Nome": "SUZANA TENORIO CAVALCANTE SILVA",
+                    "CPF": "13412295809",
+                    "Cargo": "SECRETARIA ACADEMICA",
+                    "AtoDesignacao": {
+                        "Download": {
+                            "Hash": "4d402ec6fb894aae75ebf7764d0d69b706edd6db0e34412c0faa7d44eb364df1725ba15eea69aa2dbc839cc7028aed7ba95e61956847b94f5a2bfa051bbe6631"
+                        }
+                    }
+                },
+                "DocumentacaoComprobatoria": [
+                    {
+                        "Documento": {
+                            "tipo": "DocumentoIdentidadeDoAluno",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "ba94bb22e7ee97ac7ffa6d763b350076388d787c3c4edcbdf4905b21b42f24b841e095c088ebec9ec70bdd15bfa82c0bbc2cdc2bee594fd82181b974485c9875"
+                            }
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "tipo": "CertidaoNascimento",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "90609d9ce2e95e13553ce387a56379b17de5e78d2dbb26dc0283b5da57c31fe98cbfdccef6a69feac470cc8357aea3b731ab6e99be2fa7286ec74378b3bf17d7"
+                            }
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "tipo": "ProvaConclusaoEnsinoMedio",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "0111c617d2fbe3016d342f4c84a438e60db7997424b5e0638adc89be559e568dcead336e4b25c340e1c827ffee8d2802d869729f2cb7c909cfecf981f6c4d1bb"
+                            }
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "tipo": "Outros",
+                            "observacoes": "Prova de colação",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "75549a633724a8b8c6b1d8ded69dc6580efd0e566b2907b4095f9c372de01ef04eca748a76ed305c0d0ed67681827a358e135911b5fbe1839a59d3f0837b1ec4"
+                            }
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "tipo": "Outros",
+                            "observacoes": "Historico escolar da Graduação",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "e9312bb4a98e36416f50e4072896a2a553aa822990e2bc5338119e62986130676005df762c4f44487d3edf6f56ab34ecb6c05e3962e71ca22ed418967c4bc5f5"
+                            }
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "tipo": "Outros",
+                            "observacoes": "Matriz Curricular",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "6ee9f2b5315cb4aa3b98010f7133a3191802db7048eec47dae27924ea93db6d2497211938c374fed8125fe1672eb8b339074b5378429c37c1b9436846736adb1"
+                            }
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "tipo": "Outros",
+                            "observacoes": "Termo Designação",
+                            "base64": "",
+                            "Download": {
+                                "Hash": "a98a9ed2c9ca2c1804731e06d4c58e24b2345b8c7b47f9b5d8d7ebed660a13626927c672825c401d8cae993774dd49e7823891e429f749befbb1b5b165b24d77"
+                            }
+                        }
+                    }
+                ]
+            },
+            "HistoricoEscolar": {
+                "Aluno": {
+                    "ID": "182000905",
+                    "Nome": "VICTOR GABRIEL SANTOS CARREIRO",
+                    "Sexo": "M",
+                    "Nacionalidade": "Brasileira",
+                    "Naturalidade": {
+                        "CodigoMunicipio": "2105989",
+                        "NomeMunicipio": "LAJEADO NOVO",
+                        "UF": "MA"
+                    },
+                    "CPF": "71133483194",
+                    "RG": {
+                        "Numero": "1522758",
+                        "UF": "TO",
+                        "OrgaoExpedidor": "SSP"
+                    },
+                    "DataNascimento": "1996-10-03"
+                },
+                "DadosCurso": {
+                    "NomeCurso": "DIREITO",
+                    "CodigoCursoEMEC": "5000994",
+                    "Habilitacao": [
+                        {
+                            "Habilitacao": {
+                                "NomeHabilitacao": "DIREITO - PENHA",
+                                "DataHabilitacao": "2023-07-08"
+                            }
+                        }
+                    ],
+                    "TituloConferido": {
+                        "Titulo": "Bacharel"
+                    },
+                    "CargaHorariaExigidaAtividadeComplementar": "200",
+                    "Autorizacao": {
+                        "Tipo": "Portaria",
+                        "Numero": "76",
+                        "Data": "2011-06-01",
+                        "VeiculoPublicacao": "DOU",
+                        "DataPublicacao": "2011-06-02",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "49",
+                        "NumeroDOU": "105"
+                    },
+                    "Reconhecimento": {
+                        "Tipo": "Portaria",
+                        "Numero": "766",
+                        "Data": "2017-07-21",
+                        "VeiculoPublicacao": "DOU",
+                        "DataPublicacao": "2017-07-24",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "16",
+                        "NumeroDOU": "140"
+                    },
+                    "RenovacaoReconhecimento": {
+                        "Tipo": "Portaria",
+                        "Numero": "379",
+                        "Data": "2024-08-08",
+                        "DataPublicacao": "2024-08-09",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "70",
+                        "NumeroDOU": "153"
+                    }
+                },
+                "IesEmissora": {
+                    "Nome": "CENTRO SUPERIOR DE ESTUDOS JURÍDICOS CARLOS DRUMMOND DE ANDRADE-CSEJCDA",
+                    "CodigoMEC": "17014",
+                    "CNPJ": "67973602000104",
+                    "Endereco": {
+                        "Logradouro": "RUA COMENDADOR CANTINHO",
+                        "Numero": "394",
+                        "Bairro": "PENHA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "São Paulo",
+                        "UF": "SP",
+                        "CEP": "03603020"
+                    },
+                    "Credenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "534",
+                        "Data": "2011-05-09",
+                        "VeiculoPublicacao": "DOU",
+                        "DataPublicacao": "2011-05-10",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "16",
+                        "NumeroDOU": "88"
+                    },
+                    "Recredenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "1277",
+                        "Data": "2018-11-29",
+                        "VeiculoPublicacao": "DOU",
+                        "DataPublicacao": "2018-11-30",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "49",
+                        "NumeroDOU": "230"
+                    },
+                    "Mantenedora": {
+                        "RazaoSocial": "Escola de Educação Superior São José",
+                        "CNPJ": "67973602000104",
+                        "Endereco": {
+                            "Logradouro": "Rua Comendador Cantinho",
+                            "Numero": "394",
+                            "Bairro": "Penha",
+                            "CodigoMunicipio": "3550308",
+                            "NomeMunicipio": "São Paulo",
+                            "UF": "SP",
+                            "CEP": "03603020"
+                        }
+                    },
+                    "ResponsavelHistorico": "SUZANA TENORIO CAVALCANTE SILVA",
+                    "CargoResponsavelHistorico": "SECRETARIA ACADEMICA"
+                },
+                "HistoricoEscolar": {
+                    "CodigoCurriculo": "T2",
+                    "ElementosHistorico": [
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0071",
+                                "NomeDisciplina": "CIÊNCIA POLÍTICA E TEORIA GERAL DO ESTADO",
+                                "PeriodoLetivo": "2019/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "7.7",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ALCEU LOURENCO DE SOUZA JUNIOR",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0100",
+                                "NomeDisciplina": "ECONOMIA POLÍTICA E COMPORTAMENTAL",
+                                "PeriodoLetivo": "2019/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.9",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "CIBELE RAPIS",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0104",
+                                "NomeDisciplina": "FILOSOFIA GERAL E JURÍDICA",
+                                "PeriodoLetivo": "2019/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.9",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ACACIO VAZ DE LIMA FILHO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0107",
+                                "NomeDisciplina": "LINGUAGEM E DIREITO",
+                                "PeriodoLetivo": "2019/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.4",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "BRUNO LIMBERTO BRITO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0122",
+                                "NomeDisciplina": "PROJETO - ACESSO À JUSTIÇA E A ADVOCACIA",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0125",
+                                "NomeDisciplina": "TEORIA DA CONSTITUIÇÃO",
+                                "PeriodoLetivo": "2019/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "7.3",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "DANILO JUNIOR DE OLIVEIRA",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0136",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - ACESSO À JUSTIÇA E A ADVOCACIA",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0078",
+                                "NomeDisciplina": "DIREITO CIVIL - PARTE GERAL",
+                                "PeriodoLetivo": "2018/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.5",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "HELDER DE JESUS DIAS",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0105",
+                                "NomeDisciplina": "HISTÓRIA DO DIREITO",
+                                "PeriodoLetivo": "2018/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.4",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "RODRIGO ALVES DA SILVA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0106",
+                                "NomeDisciplina": "INTRODUÇÃO AO ESTUDO DO DIREITO",
+                                "PeriodoLetivo": "2018/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "110"
+                                    }
+                                ],
+                                "Nota": "9.1",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ACACIO VAZ DE LIMA FILHO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0114",
+                                "NomeDisciplina": "PROJETO - TEORIA GERAL DO DIREITO",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0123",
+                                "NomeDisciplina": "SOCIOLOGIA GERAL E JURÍDICA",
+                                "PeriodoLetivo": "2018/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.5",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ALCEU LOURENCO DE SOUZA JUNIOR",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0128",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - TEORIA GERAL DO DIREITO",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0077",
+                                "NomeDisciplina": "DIREITO CIVIL - OBRIGAÇÕES",
+                                "PeriodoLetivo": "2019/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.4",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARINA SARTORI GUIMARAES",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0082",
+                                "NomeDisciplina": "DIREITO CONSTITUCIONAL",
+                                "PeriodoLetivo": "2019/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "110"
+                                    }
+                                ],
+                                "Nota": "7.8",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "PAULO HENRIQUE CAMARGO RINALDI",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0090",
+                                "NomeDisciplina": "DIREITO PENAL - PARTE GERAL",
+                                "PeriodoLetivo": "2019/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "110"
+                                    }
+                                ],
+                                "Nota": "9.1",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ACACIO VAZ DE LIMA FILHO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0115",
+                                "NomeDisciplina": "PROJETO - CIDADANIA E INSTITUÇÕES DO DIREITO",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0129",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - CIDADANIA E INSTITUÇÕES DO DIREITO",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0074",
+                                "NomeDisciplina": "DIREITO CIVIL - CONTRATOS",
+                                "PeriodoLetivo": "2020/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.8",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "DYLAN GUILHERME TEIXEIRA FREIRE",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0079",
+                                "NomeDisciplina": "DIREITO CIVIL - RESPONSABILIDADE CIVIL",
+                                "PeriodoLetivo": "2020/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.1",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0099",
+                                "NomeDisciplina": "DIREITOS FUNDAMENTAIS",
+                                "PeriodoLetivo": "2020/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.4",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0116",
+                                "NomeDisciplina": "PROJETO - TEORIA GERAL DO PROCESSO E CRIMINOLOGIA",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0126",
+                                "NomeDisciplina": "TEORIA GERAL DO DIREITO TRIBUTÁRIO",
+                                "PeriodoLetivo": "2020/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.6",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "WAGNER CARILLO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0127",
+                                "NomeDisciplina": "TEORIA GERAL DO PROCESSO",
+                                "PeriodoLetivo": "2020/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0130",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - TEORIA GERAL DO PROCESSO E CRIMINOLOGIA",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0076",
+                                "NomeDisciplina": "DIREITO CIVIL - DIREITOS REAIS",
+                                "PeriodoLetivo": "2020/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.7",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARIA REGINA DE CASTRO BUSNELLO",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0087",
+                                "NomeDisciplina": "DIREITO FINANCEIRO E TRIBUTÁRIO",
+                                "PeriodoLetivo": "2020/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.9",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "FABIO ROCHA DE LIMA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0089",
+                                "NomeDisciplina": "DIREITO PENAL - PARTE ESPECIAL",
+                                "PeriodoLetivo": "2020/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "110"
+                                    }
+                                ],
+                                "Nota": "8.6",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "LUIZ EDUARDO DE TOLEDO COELHO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0094",
+                                "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - PROCESSO DE CONHECIMENTO",
+                                "PeriodoLetivo": "2020/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.7",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0117",
+                                "NomeDisciplina": "PROJETO - PROTEÇÃO À PROPRIEDADE E POSSE",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0131",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - PROTEÇÃO À PROPRIEDADE E POSSE",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0075",
+                                "NomeDisciplina": "DIREITO CIVIL - DIREITO DE FAMÍLIA",
+                                "PeriodoLetivo": "2021/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.5",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARIA REGINA DE CASTRO BUSNELLO",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0081",
+                                "NomeDisciplina": "DIREITO COMERCIAL E EMPRESARIAL",
+                                "PeriodoLetivo": "2021/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0086",
+                                "NomeDisciplina": "DIREITO DO TRABALHO",
+                                "PeriodoLetivo": "2021/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "110"
+                                    }
+                                ],
+                                "Nota": "9.7",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "RODRIGO ALVES DA SILVA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0092",
+                                "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - EXECUÇÃO",
+                                "PeriodoLetivo": "2021/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.3",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0118",
+                                "NomeDisciplina": "PROJETO - DIREITO NOTARIAL E REGISTRAL",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0132",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - DIREITO NOTARIAL E REGISTRAL",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0072",
+                                "NomeDisciplina": "DIREITO ADMINISTRATIVO",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "RODRIGO ALVES DA SILVA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0080",
+                                "NomeDisciplina": "DIREITO CIVIL - SUCESSÕES",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.9",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARIA REGINA DE CASTRO BUSNELLO",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0095",
+                                "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - RECURSOS",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.1",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "BRUNO LIMBERTO BRITO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0098",
+                                "NomeDisciplina": "DIREITO PROCESSUAL PENAL",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "110"
+                                    }
+                                ],
+                                "Nota": "9.6",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0121",
+                                "NomeDisciplina": "PROJETO - TUTELA DA DIGNIDADE DA PESSOA HUMANA",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0135",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - TUTELA DA DIGNIDADE DA PESSOA HUMANA",
+                                "PeriodoLetivo": "2021/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ANALIA ROMA CARACELLI F. DE OLIVEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0088",
+                                "NomeDisciplina": "DIREITO INTERNACIONAL",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.3",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "JOSIMILDO JOSE DA SILVA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0093",
+                                "NomeDisciplina": "DIREITO PROCESSUAL CIVIL - PROCEDIMENTOS ESPECIAIS",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.4",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ELESSANDRA DOS SANTOS MARQUES VALIO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0096",
+                                "NomeDisciplina": "DIREITO PROCESSUAL CONSTITUCIONAL",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.6",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "JESUS CLAUDIO PEREIRA DE ALMEIDA",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0097",
+                                "NomeDisciplina": "DIREITO PROCESSUAL DO TRABALHO",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.8",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "PAULO CESAR MANOEL",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0111",
+                                "NomeDisciplina": "PRÁTICA CIVIL",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "BRUNO LIMBERTO BRITO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0120",
+                                "NomeDisciplina": "PROJETO - TEMAS TRANSDISCIPLINARES DE CIVIL, FALIMENTAR E CRIMINAL",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "BENEDITA DE FATIMA DELBONO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0134",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - TEMAS TRANSDISCIPLINARES DE CIVIL, FALIMENTAR E CRIMINAL",
+                                "PeriodoLetivo": "2022/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "9.6",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "BRUNO LIMBERTO BRITO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0083",
+                                "NomeDisciplina": "DIREITO DA INFÂNCIA E DA JUVENTUDE",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.9",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "LUIZ EDUARDO DE TOLEDO COELHO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0085",
+                                "NomeDisciplina": "DIREITO DO CONSUMIDOR",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "BENEDITA DE FATIMA DELBONO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0091",
+                                "NomeDisciplina": "DIREITO PREVIDENCIÁRIO",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.2",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "WAGNER CARILLO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0103",
+                                "NomeDisciplina": "ÉTICA GERAL E PROFISSIONAL",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "25"
+                                    }
+                                ],
+                                "Nota": "7.1",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "NEIVALDO GONCALVES DA COSTA",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0108",
+                                "NomeDisciplina": "METODOLOGIA CIENTÍFICA E ORIENTAÇÃO AO TCC",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "30"
+                                    }
+                                ],
+                                "Nota": "7.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "NEIVALDO GONCALVES DA COSTA",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0113",
+                                "NomeDisciplina": "PRÁTICA TRABALHISTA",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "6.5",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "GABRIEL FRANCO DA ROSA LOPES",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0119",
+                                "NomeDisciplina": "PROJETO - DIREITOS HUMANOS E SOCIAIS",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "8.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "NEIVALDO GONCALVES DA COSTA",
+                                            "Titulacao": "Especialização"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0133",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - DIREITOS HUMANOS E SOCIAIS",
+                                "PeriodoLetivo": "2022/2",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "8.1",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "MARCOS TULIO DE SOUZA BANDEIRA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0073",
+                                "NomeDisciplina": "DIREITO AMBIENTAL E DIREITOS DIFUSOS E COLETIVOS",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "REGINA MARIA PINNA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0084",
+                                "NomeDisciplina": "DIREITO DIGITAL",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "REGINA MARIA PINNA",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0109",
+                                "NomeDisciplina": "MONOGRAFIA",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "25"
+                                    }
+                                ],
+                                "Nota": "9.5",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "EMERSON SALINO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0112",
+                                "NomeDisciplina": "PRÁTICA PENAL",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "10.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ADRIANO CONCEICAO ABILIO",
+                                            "Titulacao": "Mestrado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0124",
+                                "NomeDisciplina": "TÉCNICAS DE NEGOCIAÇÃO, MEDIAÇÃO E ARBITRAGEM",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "30"
+                                    }
+                                ],
+                                "Nota": "8.2",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "EMERSON SALINO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0137",
+                                "NomeDisciplina": "TÓPICOS ESPECIAIS - ATUALIDADES DE DIREITO E TECNOLOGIA",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "20"
+                                    }
+                                ],
+                                "Nota": "9.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "ACACIO DE VAZ DE LIMA FILHO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Disciplina": {
+                                "CodigoDisciplina": "T0140",
+                                "NomeDisciplina": "PROJETO - ATUALIDADES DE DIREITO E TECNOLOGIA",
+                                "PeriodoLetivo": "2023/1",
+                                "CargaHoraria": [
+                                    {
+                                        "HoraAula": "55"
+                                    }
+                                ],
+                                "Nota": "9.0",
+                                "Aprovado": {
+                                    "FormaIntegralizacao": "Cursado"
+                                },
+                                "Docentes": [
+                                    {
+                                        "Docente": {
+                                            "Nome": "EMERSON SALINO",
+                                            "Titulacao": "Doutorado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "AtividadeComplementar": {
+                                "TipoAtividadeComplementar": "Atividades Complementares",
+                                "CargaHorariaEmHoraRelogio": [
+                                    {
+                                        "HoraRelogio": "200"
+                                    }
+                                ],
+                                "DocentesResponsaveisPelaValidacao": {
+                                    "Docente": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ELESSANDRA DOS S. MARQUES VALIO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "CodigoAtividadeComplementar": "T0070",
+                                "DataInicio": "2023-02-02",
+                                "DataFim": "2023-07-10"
+                            }
+                        },
+                        {
+                            "Estagio": {
+                                "DocentesOrientadores": {
+                                    "Docente": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "ELESSANDRA DOS S. MARQUES VALIO",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "Descricao": "ESTÁGIO SUPERVISIONADO",
+                                "CargaHorariaEmHorasRelogio": [
+                                    {
+                                        "HoraRelogio": "300"
+                                    }
+                                ],
+                                "Concedente": {
+                                    "RazaoSocial": "Centro Superior de estudos Jurídicos.",
+                                    "NomeFantasia": "Centro Superior de estudos Jurídicos.",
+                                    "CNPJ": "67973602000104"
+                                },
+                                "DataInicio": "2020-09-13",
+                                "CodigoUnidadeCurricular": "T0102",
+                                "DataFim": "2023-05-26"
+                            }
+                        }
+                    ],
+                    "DataEmissaoHistorico": "2024-11-21",
+                    "HoraEmissaoHistorico": "12:06:09",
+                    "SituacaoAluno": "Aprovado",
+                    "SituacaoDiscente": {
+                        "PeriodoLetivo": "2023/1",
+                        "Formado": {
+                            "DataConclusaoCurso": "2023-07-08",
+                            "DataColacaoGrau": "2023-08-29"
+                        }
+                    },
+                    "SituacaoAtualDiscente": {
+                        "PeriodoLetivo": "2023/1",
+                        "Formado": {
+                            "DataConclusaoCurso": "2023-07-08",
+                            "DataColacaoGrau": "2023-08-29",
+                            "DataExpedicaoDiploma": "2024-11-21"
+                        }
+                    },
+                    "ENADE": [
+                        {
+                            "Habilitado": {
+                                "Condicao": "Concluinte",
+                                "Edicao": "2022"
+                            }
+                        }
+                    ],
+                    "CargaHorariaCursoIntegralizada": {
+                        "HoraAula": "3945"
+                    },
+                    "CargaHorariaCurso": {
+                        "HoraAula": "3945"
+                    },
+                    "IngressoCurso": {
+                        "Data": "2018-07-06",
+                        "FormaAcesso": "Vestibular",
+                        "DataConclusao": "2023-07-08"
+                    }
+                },
+                "Urlhistorico": "https://diplomas.drummond.com.br/"
+            },
+            "Design": {
+                "Urldiploma": "https://diplomas.drummond.com.br/",
+                "Logo": "",
+                "2via": false,
+                "3assinantes": true,
+                "3assinatura": "Suzana Tenório Cavalcante Silva<br>Secretária Geral",
+                "SemVerso": false,
+                "Instituicao": "UNIDRUMMOND",
+                "Disciplinas": false,
+                "Frente": {
+                    "Credenciamento": "Centro Superior de Estudos<br>Jurídicos Carlos Drummond de Andrade",
+                    "Tsuperior": "",
+                    "Grau": "",
+                    "Tinferior": "O Diretor do CENTRO SUPERIOR DE ESTUDOS JURÍDICOS CARLOS DRUMMOND DE ANDRADE-CSEJCDA, no uso de suas atribuições e tendo em vista a conclusão do Curso de Direito, em 08 de julho de 2023, e colação de grau em $$$diaCol$$$ de $$$mesCol$$$ de $$$anoCol$$$, confere o título de<div class=\"txt_esp\">Bacharel em Direito a</div><br><div class=\"nome\">Victor Gabriel Santos Carreiro</div>brasileiro, natural do Estado do Maranhão, nascido a 03 de outubro de 1996,<br>RG nº 1522758 SSP/TO,<br>e outorga-lhe o presente Diploma, a fim de que possa gozar de todos os direitos e prerrogativas legais.",
+                    "Responsavel": "Osmar Basilio",
+                    "Funcao": "Diretor"
+                },
+                "Verso": {
+                    "Titulo": "",
+                    "Texto": "OSMAR BASILIO<br>Diretor<br><br>SUZANA TENÓRIO CAVALCANTE SILVA<br>Secretária Geral<br><br>CENTRO SUPERIOR DE ESTUDOS JURÍDICOS<br>CARLOS DRUMMOND DE ANDRADE<br><br>ESCOLA DE EDUCAÇÃO SUPERIOR SÃO JOSÉ<br>CNPJ: 67.973.602/0001-04<br>Credenciado pela Portaria MEC n°. 420 de 04/05/2017<br>Publicada no Diário Oficial da União de 10/05/2017, Seção 1, página 25<br><br>CURSO DE DIREITO<br>Reconhecido pela Portaria SERES n°766 de 21/07/2017<br>Publicada no Diário Oficial da União de 24/07/2017, Seção 1, página 16<br>",
+                    "Credenciamento": "",
+                    "Registro": "DADOS DO ÓRGÃO REGISTRADOR:<br><br>Cartório de Registros Acadêmicos<br><p align=\"justify\">Diploma Registrado sob n°<u>$$$numeroRegi$$$</u>,<br>Processo n° <u>$$$numProc$$$</u>, nos termos do Artigo 48 da Lei n°. 9394/96.<br>$$$localReg$$$, $$$diaReg$$$ de $$$mesReg$$$ de $$$anoReg$$$.</p><br><b>$$$IESReg$$$</b><br>$$$mantenedoraRegNome$$$<br> CNPJ: $$$CNPJManReg$$$<br><br>",
+                    "Box3": {
+                        "Titulo": "",
+                        "Texto": ""
+                    },
+                    "Responsavel": "",
+                    "Funcao": ""
+                }
+            },
+            "Certificates": {
+                "Diploma": [
+                    {
+                        "Nome": "Osmar Basilio",
+                        "CertificateHash": "202204050ff42a96b5a21a4a98df950268b5da26c2da6268adf8518146899e596431f954",
+                        "Funcao": "Reitor"
+                    },
+                    {
+                        "Nome": "Suzana Tenório Cavalcante Silva",
+                        "CertificateHash": "20231207538cd085d8c9798f5a065cb59ffea41c6ec4c867ddf5e3a5cf6c73d27ac88ff4",
+                        "Funcao": "Secretária Geral"
+                    }
+                ],
+                "Registro": [],
+                "Institucional": {
+                    "CertificateHash": "20220711eddc0b98d14591c1ef22ba3e46cf056edf1861eae4cb4c0fd9335ae4e26fff1e"
+                }
+            },
+            "pathAmb": "67973602000104/producao",
+            "documento": "diploma",
+            "modelo": "graduacao",
+            "jasper": false
+        }
+    ],
+    "lote": "VICTOR GABRIEL SANTOS CARREIRO"
+}

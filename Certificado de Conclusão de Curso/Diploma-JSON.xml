@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>Local Diploma - JSON</name>
+  <dataFile type="httpDataLocation">
+    <method>GET</method>
+    <url>https://certeduc.com:45344/getjasper?p_id=4bfab8f092a27c0bc299abcc86d557895294f6bfbafee892f1cd53524390c140</url>
+    <username></username>
+    <password></password>
+    <urlParameter>
+      <name>p_id</name>
+      <value>Value</value>
+    </urlParameter>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

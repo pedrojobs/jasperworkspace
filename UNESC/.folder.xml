@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<folder exportedWithPermissions="true">
+    <parent>/reports/unesc</parent>
+    <name>historico</name>
+    <label>historico</label>
+    <description></description>
+    <creationDate>2024-06-11T13:30:59.000-03:00</creationDate>
+    <updateDate>2024-06-11T13:30:59.000-03:00</updateDate>
+    <resource>Historico_JSON</resource>
+    <resource>modelo_historico</resource>
+</folder>

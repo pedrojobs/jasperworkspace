@@ -1,0 +1,28 @@
+{
+  "Diploma": {
+                    "Diplomado": {
+                    "ID": "456123",
+                    "Nome": "Eros Aurelios Campos",
+                    "Sexo": "M",
+                    "NomeMunicipio": "Belo Horizonte",
+                    "UF": "MG",
+                    "NomeMunicipioEstrangeiro": "Buenos Aires",
+                    "CPF": "01234567890",
+                    "RGNumero": "12345678",
+                    "UFRG": "MG",
+                    "OrgaoExpedidor": "SSP",
+                    "DataNascimento": "1967-12-02", 
+                    "DataInicio": "2023-02-02",
+                    "DataFim": "2025-12-20",
+                    "DataConclusao": "2025-12-23",
+                    "NomeCurso": "Sistemas de Informação",
+                    "Modalidade": "Presencial",
+                    "IesEmissoraNome": "Universidade de Ensino Superior",
+                    "IesEmissoraEndereco": "Rua São Cosme de cima",
+                    "IesEmissoraNomeMunicipio": "Belo Horizonte",
+                    "CargaHorariaCurso": {
+                    "HoraAula": "1.600"
+                    }
+                }
+            } 
+  }

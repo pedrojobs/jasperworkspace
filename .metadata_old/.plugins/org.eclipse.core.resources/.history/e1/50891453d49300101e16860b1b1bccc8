@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="manifesto_assinatura" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="a2906fd2-8d26-4bf9-9802-dbaac976757b">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.97:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_homologacao"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/uniasselvi/manifesto_assinaturas/manifesto_assinatura_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/uniasselvi/manifesto_assinaturas/manifesto_assinatura"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Manifesto-JSON.xml"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Assinante"/>
+	<parameter name="p_id" class="java.lang.String" evaluationTime="Early">
+		<property name="net.sf.jasperreports.http.data.url.parameter" value="p_id"/>
+	</parameter>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="nome"/>
+		<fieldDescription><![CDATA[nome]]></fieldDescription>
+	</field>
+	<field name="cpf" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="cpf"/>
+		<fieldDescription><![CDATA[cpf]]></fieldDescription>
+	</field>
+	<field name="data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="data"/>
+		<fieldDescription><![CDATA[data]]></fieldDescription>
+	</field>
+	<field name="hash" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="documento.hash"/>
+		<fieldDescription><![CDATA[hash]]></fieldDescription>
+	</field>
+	<field name="url" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="documento.url"/>
+		<fieldDescription><![CDATA[url]]></fieldDescription>
+	</field>
+	<background>
+		<band height="842">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<componentElement>
+				<reportElement x="460" y="18" width="103" height="97" isRemoveLineWhenBlank="true" uuid="4195266c-edc5-4684-9c17-826682e56f54">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA[$F{url}+$F{hash}]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<image>
+				<reportElement mode="Opaque" x="494" y="55" width="34" height="23" isRemoveLineWhenBlank="true" uuid="b6138a48-7360-4046-bdba-c4a772f3f660">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:\\Users\\pedro\\JaspersoftWorkspace\\Curriculo-Uniasselvi\\logo_uniasselvi1.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="30" y="18" width="108" height="95" uuid="d3490e2f-64f9-4f3d-b96f-e9770797b02f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["ICP.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="172" y="20" width="250" height="93" uuid="2f96deb9-52c5-4f91-b285-4325b9ab6ee3"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MANIFESTO DE ASSINATURAS]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="140" width="322" height="30" isRemoveLineWhenBlank="true" uuid="899cb298-c2e1-4e54-97eb-456d0c5be5e2"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA["CÓDIGO VALIDAÇÃO: "+$F{hash}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="41" y="797" width="450" height="18" isRemoveLineWhenBlank="true" forecolor="#0000FF" uuid="88f112c9-ec2a-41fe-bd83-5f7e388722f9"/>
+				<textElement textAlignment="Center" markup="html"/>
+				<textFieldExpression><![CDATA[$F{url}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="767" width="529" height="30" uuid="05f5b4ac-6f93-4f9c-8331-eed988984562"/>
+				<textElement textAlignment="Left"/>
+				<text><![CDATA[Ou acesse a consulta de documentos assinados disponível no link abaixo e informe
+o código de validação:]]></text>
+			</staticText>
+			<subreport>
+				<reportElement x="10" y="250" width="570" height="517" uuid="7a12cab4-3203-4a81-bb63-f8334808aa54"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JsonDataSource)$P{REPORT_DATA_SOURCE}).subDataSource("assinantes")]]></dataSourceExpression>
+				<subreportExpression><![CDATA["assinantes.jrxml"]]></subreportExpression>
+			</subreport>
+			<staticText>
+				<reportElement x="30" y="206" width="529" height="49" uuid="b5f0ddeb-29a0-4041-b1e6-e5898aee0040"/>
+				<textElement textAlignment="Left">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Esse documento foi assinado pelos seguintes signatários nas datas indicadas (Fuso
+horário de Brasília):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="170" width="320" height="31" uuid="49cf2637-6f2c-48fa-89c5-22ed17484556"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tipo de assinatura: Avançada"]]></textFieldExpression>
+			</textField>
+		</band>
+	</background>
+</jasperReport>

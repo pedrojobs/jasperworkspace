@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Declaração" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="32349ace-2c78-43d0-9f54-37bb8c206f5d">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Certificao"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.97:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_homologacao"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/Tjh/residencia_medica/declaracao_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/Tjh/residencia_medica/declaracao"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Diploma-Json.xml"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="JSON">
+		<![CDATA[Diploma.Diplomado]]>
+	</queryString>
+	<field name="ID" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.ID"/>
+		<fieldDescription><![CDATA[ID]]></fieldDescription>
+	</field>
+	<field name="Nome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.Nome"/>
+		<fieldDescription><![CDATA[Nome]]></fieldDescription>
+	</field>
+	<field name="Sexo" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Sexo"/>
+		<fieldDescription><![CDATA[Sexo]]></fieldDescription>
+	</field>
+	<field name="NomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NomeMunicipio"/>
+		<fieldDescription><![CDATA[NomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="UF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UF"/>
+		<fieldDescription><![CDATA[UF]]></fieldDescription>
+	</field>
+	<field name="NomeMunicipioEstrangeiro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="NomeMunicipioEstrangeiro"/>
+		<fieldDescription><![CDATA[NomeMunicipioEstrangeiro]]></fieldDescription>
+	</field>
+	<field name="CPF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.CPF"/>
+		<fieldDescription><![CDATA[CPF]]></fieldDescription>
+	</field>
+	<field name="RGNumero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="RGNumero"/>
+		<fieldDescription><![CDATA[RGNumero]]></fieldDescription>
+	</field>
+	<field name="UFRG" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="UFRG"/>
+		<fieldDescription><![CDATA[UFRG]]></fieldDescription>
+	</field>
+	<field name="OrgaoExpedidor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="OrgaoExpedidor"/>
+		<fieldDescription><![CDATA[OrgaoExpedidor]]></fieldDescription>
+	</field>
+	<field name="DataNascimento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="DataNascimento"/>
+		<fieldDescription><![CDATA[DataNascimento]]></fieldDescription>
+	</field>
+	<field name="DataInicio" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.DataInicio"/>
+		<fieldDescription><![CDATA[DataInicio]]></fieldDescription>
+	</field>
+	<field name="DataFim" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.DataFim"/>
+		<fieldDescription><![CDATA[DataFim]]></fieldDescription>
+	</field>
+	<field name="DataConclusao" class="java.sql.Date">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.DataConclusao"/>
+		<fieldDescription><![CDATA[DataConclusao]]></fieldDescription>
+	</field>
+	<field name="NomeCurso" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.NomeCurso"/>
+		<fieldDescription><![CDATA[NomeCurso]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNome" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.IesEmissoraNome"/>
+		<fieldDescription><![CDATA[IesEmissoraNome]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraEndereco" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraEndereco"/>
+		<fieldDescription><![CDATA[IesEmissoraEndereco]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNumero" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNumero"/>
+		<fieldDescription><![CDATA[IesEmissoraNumero]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraBairro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraBairro"/>
+		<fieldDescription><![CDATA[IesEmissoraBairro]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraCodigoMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraCodigoMunicipio"/>
+		<fieldDescription><![CDATA[IesEmissoraCodigoMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNomeMunicipio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.IesEmissoraNomeMunicipio"/>
+		<fieldDescription><![CDATA[IesEmissoraNomeMunicipio]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraUF" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraUF"/>
+		<fieldDescription><![CDATA[IesEmissoraUF]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraCEP" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraCEP"/>
+		<fieldDescription><![CDATA[IesEmissoraCEP]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraTipoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraTipoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraTipoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNumeroCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNumeroCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraNumeroCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraDataCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraDataCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraDataCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraVeiculoPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraVeiculoPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraVeiculoPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraDataPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraDataPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraDataPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraSecaoPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraSecaoPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraSecaoPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="Modalidade" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.Modalidade"/>
+		<fieldDescription><![CDATA[DiplomaDiplomadoModalidade]]></fieldDescription>
+	</field>
+	<field name="HoraAula" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="Diploma.Diplomado.CargaHorariaCurso.HoraAula"/>
+		<fieldDescription><![CDATA[DiplomaDiplomadoCargaHorariaCursoHoraAula]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraPaginaPublicacaoCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraPaginaPublicacaoCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraPaginaPublicacaoCredenciamento]]></fieldDescription>
+	</field>
+	<field name="IesEmissoraNumeroDOUCredenciamento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="IesEmissoraNumeroDOUCredenciamento"/>
+		<fieldDescription><![CDATA[IesEmissoraNumeroDOUCredenciamento]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="842" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="0" y="0" width="595" height="842" uuid="78baa5ee-8d6b-4dd9-832e-a98584ca5bf1">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["moldura_final.png"]]></imageExpression>
+			</image>
+			<image hAlign="Center">
+				<reportElement x="43" y="196" width="505" height="49" uuid="49d804c0-ef0a-4edc-b2c3-5284b1eb59f2"/>
+				<imageExpression><![CDATA["png.png"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="130" y="670" width="149" height="1" uuid="e6d5e14d-8812-4aaa-aa97-18edf708bdc6"/>
+			</line>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="156" y="590" width="367" height="20" uuid="285ffb3f-d9f2-4347-9571-515149df79b8"/>
+				<textElement textAlignment="Left">
+					<font fontName="Arial Rounded MT Bold" size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IesEmissoraNomeMunicipio}+ ", " + 
+new java.text.SimpleDateFormat("dd 'de' MMMM 'de' yyyy", new java.util.Locale("pt", "BR")).format($F{DataConclusao})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="130" y="682" width="150" height="50" uuid="73b9af41-2b15-4845-8e7f-e432a81666d4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Rounded MT Bold" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Nome do responsavél
+Diretor(a)
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="682" width="150" height="50" uuid="b1ae282d-9877-410c-9fcc-1e998d2bf1fa"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Rounded MT Bold" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Nome do responsavél
+Secretario(a) Acadêmico(a)
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="333" y="670" width="149" height="1" uuid="17a50b9e-a9eb-464e-a57a-a0d3abae8a79"/>
+			</line>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="42" y="145" width="506" height="39" uuid="2da2e2ab-4c0d-4fcd-8140-efcb5abef829"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Engravers MT" size="16" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IesEmissoraNome}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="252" y="38" width="97" height="100" uuid="165a54ee-b7ae-4512-8b49-e2da4f97331d"/>
+				<imageExpression><![CDATA["elemento safeduc.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="43" y="185" width="505" height="20" uuid="81e5c59e-cf04-4905-bd36-4492428f3b00"/>
+				<textElement textAlignment="Center">
+					<font isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Credenciada pelo MEC - Portal nº 1234/2018]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="42" y="240" width="506" height="50" uuid="fd760213-bc08-4d1d-b625-82006bcf1c7c"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Engravers MT" size="16" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Certificado de Conclusão de Curso"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="43" y="331" width="505" height="30" uuid="633009fc-46d8-487e-8bf6-6bdd049c634d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Rounded MT Bold" size="15" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["A " +$F{IesEmissoraNome}+" certifica que"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ElementGroupHeight" x="42" y="361" width="506" height="44" uuid="7df43eaa-dbc9-408d-8051-51fd53b217ff"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Engravers MT" size="19" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nome}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="43" y="410" width="505" height="30" uuid="0b106afd-3cbe-4703-b688-0a7f6d93a06d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial Rounded MT Bold" size="14" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Concluiu com aproveitamento o  curso de ]]></text>
+			</staticText>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="43" y="442" width="500" height="30" uuid="48b230fe-15ea-4b84-bf69-567b1a95228c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Engravers MT" size="22" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NomeCurso}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center">
+				<reportElement x="42" y="288" width="505" height="49" uuid="24e1943a-daa9-41ad-80c3-96bc80985433"/>
+				<imageExpression><![CDATA["png.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ElementGroupHeight" x="156" y="490" width="378" height="20" uuid="20a4dd3c-3408-4ad7-95fb-e21223149152"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial Rounded MT Bold" size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Modalidade: "+$F{Modalidade}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ElementGroupHeight" x="156" y="509" width="378" height="20" uuid="6117b906-cd07-4e83-b093-6c18d5fa783e"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial Rounded MT Bold" size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Carga Horária: "+$F{HoraAula}+" horas"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ElementGroupHeight" x="156" y="529" width="378" height="20" uuid="26dc392c-9a29-438e-8677-9c339505aabe"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial Rounded MT Bold" size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Período: "+ 
+new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataInicio}) + 
+" a " + 
+new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataFim})]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement stretchType="ElementGroupHeight" x="156" y="549" width="378" height="20" uuid="a48b80fc-af65-4c79-9fd4-cf40dc808ae4"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial Rounded MT Bold" size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Data de Conclusão: "+ 
+new java.text.SimpleDateFormat("dd/MM/yyyy").format($F{DataConclusao})]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement mode="Transparent" x="450" y="720" width="99" height="77" uuid="5cc20c25-8148-4b1e-92a9-c99127dfa469"/>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<jr:codeExpression><![CDATA["wwww.safeduc.com.br"]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField>
+				<reportElement x="103" y="629" width="201" height="41" uuid="bc02b10c-fc24-4c5e-9f7d-ec564693ea49"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font fontName="imeTahoma" size="10" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Assinatura realizada por meio \nde certificado ICP-Brasil"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="634" width="201" height="35" uuid="3305eb2f-7b69-4ae7-914a-bf60018ed823"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font fontName="imeTahoma" size="10" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Assinatura realizada por meio \nde certificado ICP-Brasil"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

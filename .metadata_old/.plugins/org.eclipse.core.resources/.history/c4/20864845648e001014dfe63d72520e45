@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Manifesto_Assinatura" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4f582043-a7d1-4ab3-971a-0a4f9919a093">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="assinantes"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[assinantes]]>
+	</queryString>
+	<field name="assinante" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante"/>
+		<fieldDescription><![CDATA[assinante]]></fieldDescription>
+	</field>
+	<field name="CPF" class="java.lang.Long">
+		<property name="net.sf.jasperreports.json.field.expression" value="CPF"/>
+		<fieldDescription><![CDATA[CPF]]></fieldDescription>
+	</field>
+	<field name="data" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="data"/>
+		<fieldDescription><![CDATA[data]]></fieldDescription>
+	</field>
+	<group name="name">
+		<groupExpression><![CDATA[$F{name}]]></groupExpression>
+	</group>
+	<group name="identifier">
+		<groupExpression><![CDATA[$F{identifier}]]></groupExpression>
+	</group>
+	<group name="email">
+		<groupExpression><![CDATA[$F{email}]]></groupExpression>
+	</group>
+	<group name="signedOn">
+		<groupExpression><![CDATA[$F{signedOn}]]></groupExpression>
+	</group>
+	<group name="type">
+		<groupExpression><![CDATA[$F{type}]]></groupExpression>
+	</group>
+	<group name="signatureType">
+		<groupExpression><![CDATA[$F{signatureType}]]></groupExpression>
+	</group>
+	<group name="certificate">
+		<groupExpression><![CDATA[$F{certificate}]]></groupExpression>
+	</group>
+	<group name="ipAddress">
+		<groupExpression><![CDATA[$F{ipAddress}]]></groupExpression>
+	</group>
+	<group name="status">
+		<groupExpression><![CDATA[$F{status}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="555" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="30" y="40" width="108" height="103" uuid="ff6732a9-59a4-4f74-a152-12ac408455e4">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["ICP.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="172" y="50" width="250" height="93" uuid="b29bee80-d045-4ea6-aae8-069303f628d8"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MANIFESTO DE ASSINATURAS]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="459" y="40" width="101" height="99" isRemoveLineWhenBlank="true" uuid="26ed2b3c-26a3-479c-9e06-f6d7319ee3f1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" errorCorrectionLevel="H">
+					<jr:codeExpression><![CDATA[$F{url} +$F{hash}]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
+				<reportElement x="84" y="163" width="430" height="30" uuid="9b05543f-e477-48d7-b623-f2f8fdd7138e">
+					<printWhenExpression><![CDATA[$F{hash} != null && !$F{hash}.trim().isEmpty()
+]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" Código validação: " + $F{hash}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="239" width="529" height="49" uuid="23de9f6c-a566-400f-9794-756be76c7c0a"/>
+				<textElement textAlignment="Left">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Esse documento foi assinado pelos seguintes signatários nas datas indicadas (Fuso
+horário de Brasília):]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="203" width="320" height="31" uuid="127807c0-e949-41e8-8a28-8431e3cf3ea2"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tipo de assinatura: Avançada"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement mode="Opaque" x="492" y="80" width="34" height="23" uuid="989e2455-36d1-48c6-a51b-65ef9b31ae19">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:\\Users\\pedro\\JaspersoftWorkspace\\Curriculo-Uniasselvi\\logo_uniasselvi1.png"]]></imageExpression>
+			</image>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="49" y="300" width="510" height="41" uuid="3748ecd7-3310-4182-b4db-3270bbb08799">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="12"/>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{assinante}
++ " (CPF ***."
++ $F{CPF}.substring(3,6)
++ "."
++ $F{CPF}.substring(6,9)
++ "-"
++ $F{CPF}.substring(9,11)
++ ") em "
++ new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(
+      new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX").parse(
+         $F{data}.replace("[","").replace("]","").replace("\"","")
+      )
+  )
++ " - Documento assinado por - Assinatura eletônica"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="31" y="301" width="17" height="23" uuid="35a0b6fd-4655-45c4-b9ca-533360d332a8"/>
+				<imageExpression><![CDATA["valido.png"]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement x="29" y="290" width="530" height="41" uuid="c2257cff-9064-4df6-aaec-743b492b3dac">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

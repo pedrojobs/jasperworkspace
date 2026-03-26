@@ -1,0 +1,220 @@
+{
+ "Diploma": {
+        "infDiploma": {
+          "DadosDiploma": {
+            "Diplomado": {
+              "ID": "25079",
+              "Nome": "Jéssica Fernanda Ferreira de Lima Nascimento de Lourdes",
+              "Sexo": "F",
+              "Nacionalidade": "Brasileira",
+              "Naturalidade": {
+                "CodigoMunicipio": "4204608",
+                "NomeMunicipio": "Criciúma",
+                "UF": "SC"
+              },
+              "CPF": "04454967970",
+              "RG": {
+                "Numero": "4435768",
+                "OrgaoExpedidor": "SESP-SC",
+                "UF": "SC"
+              },
+              "DataNascimento": "1984-05-15"
+            },
+            "DataConclusao": "2007-12-20",
+            "DadosCurso": {
+              "NomeCurso": "Matemática",
+              "CodigoCursoEMEC": "17936",
+              "Modalidade": "Presencial",
+              "TituloConferido": {
+                "Titulo": "licenciado"
+              },
+              "GrauConferido": "Licenciatura",
+                "Enfase": [
+                                {
+                                    "Enfase": "Bacharelado Com Linha de Formação Especifica em Administração de Empresas"
+                                }
+                            ],
+              "EnderecoCurso": {
+                "Logradouro": "AVENIDA UNIVERSITRIA",
+                "Numero": "1105",
+                "Bairro": "UNIVERSITRIO",
+                "CodigoMunicipio": "4204608",
+                "NomeMunicipio": "Cricima",
+                "UF": "SC",
+                "CEP": "88806000"
+              },
+              "Autorizacao": {
+                "Tipo": "Portaria",
+                "Numero": "802",
+                "Data": "1996-08-07",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "1996-08-08",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "14996",
+                "NumeroDOU": "153"
+              },
+              "Reconhecimento": {
+                "Tipo": "Decreto",
+                "Numero": "3418",
+                "Data": "2001-11-20",
+                "VeiculoPublicacao": "DOE/SC",
+                "DataPublicacao": "2001-11-20"
+              },
+              "RenovacaoReconhecimento": {
+                "Tipo": "Portaria",
+                "Numero": "387",
+                "Data": "2024-08-13",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "2024-08-14",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "68",
+                "NumeroDOU": "156"
+              }
+                        },
+                      "IesEmissora": {
+              "Nome": "UNIVERSIDADE DO EXTREMO SUL CATARINENSE",
+              "CodigoMEC": "482",
+              "CNPJ": "83661074000104",
+              "Endereco": {
+                "Logradouro": "AVENIDA UNIVERSITRIA",
+                "Numero": "1105",
+                "Bairro": "UNIVERSITRIO",
+                "CodigoMunicipio": "4204608",
+                "NomeMunicipio": "Cricima",
+                "UF": "SC",
+                "CEP": "88806000"
+              },
+              "Credenciamento": {
+                "Tipo": "Resolução",
+                "Numero": "35",
+                "Data": "1997-10-16",
+                "VeiculoPublicacao": "DOE-SC",
+                "DataPublicacao": "1997-11-04",
+                "PaginaPublicacao": "12"
+              },
+              "Recredenciamento": {
+                "Tipo": "Portaria",
+                "Numero": "723",
+                "Data": "2016-07-20",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "2016-07-21",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "52",
+                "NumeroDOU": "139"
+              },
+              "Mantenedora": {
+                "RazaoSocial": "FUNDAO EDUCACIONAL DE CRICIUMA",
+                "CNPJ": "83661074000104",
+                "Endereco": {
+                  "Logradouro": "AVENIDA UNIVERSITRIA",
+                  "Numero": "1105",
+                  "Bairro": "UNIVERSITRIO",
+                  "CodigoMunicipio": "4204608",
+                  "NomeMunicipio": "Cricima",
+                  "UF": "SC",
+                  "CEP": "88806000"
+                }
+              }
+            }
+                    },
+      "DadosRegistro": {
+            "IesRegistradora": {
+              "Nome": "FUNDAO EDUCACIONAL DE CRICIUMA",
+              "CodigoMEC": "332",
+              "CNPJ": "83661074000104",
+              "Endereco": {
+                "Logradouro": "AVENIDA UNIVERSITRIA",
+                "Numero": "1105",
+                "Bairro": "UNIVERSITRIO",
+                "CodigoMunicipio": "4204608",
+                "NomeMunicipio": "Cricima",
+                "UF": "SC",
+                "CEP": "88806000"
+              },
+              "Credenciamento": {
+                "Tipo": "Resolução",
+                "Numero": "35",
+                "Data": "1997-10-16",
+                "VeiculoPublicacao": "DOE-SC",
+                "DataPublicacao": "1997-11-04",
+                "PaginaPublicacao": "12",
+                "NumeroDOU": "15795"
+              },
+              "Recredenciamento": {
+                "Tipo": "Portaria",
+                "Numero": "723",
+                "Data": "2016-07-20",
+                "VeiculoPublicacao": "DOU",
+                "DataPublicacao": "2016-07-21",
+                "SecaoPublicacao": "1",
+                "PaginaPublicacao": "52",
+                "NumeroDOU": "139"
+              },
+              "Mantenedora": {
+                "RazaoSocial": "FUNDAO EDUCACIONAL DE CRICIUMA",
+                "CNPJ": "83661074000104",
+                "Endereco": {
+                  "Logradouro": "AVENIDA UNIVERSITRIA",
+                  "Numero": "1105",
+                  "Bairro": "UNIVERSITRIO",
+                  "CodigoMunicipio": "4204608",
+                  "NomeMunicipio": "Cricima",
+                  "UF": "SC",
+                  "CEP": "88806000"
+                }
+              }
+            },
+            "LivroRegistro": {
+              "LivroRegistro": "30",
+              "NumeroFolhaDoDiploma": "20445",
+              "NumeroSequenciaDoDiploma": "3306334",
+              "ProcessoDoDiploma": "033063/24-II",
+              "DataColacaoGrau": "2008-03-08",
+              "DataExpedicaoDiploma": "2024-08-26",
+              "DataRegistroDiploma": "2024-08-27",
+              "ResponsavelRegistro": {
+                "Nome": "FERNANDA FERREIRA",
+                "CPF": "05351870924",
+                "IDouNumeroMatricula": "18046"
+              }
+            },
+             "Seguranca": {
+                    "CodigoValidacao": "555.555.2D19F3DFE643F60AA9AC6DAF200F200FCB2A2D19F3DFE643F60AA9AC6DAF200F200FCB"
+                }
+          }
+   
+    }
+
+  },
+    "Extras": {
+                
+        "Obs2via": "Tendo em vista o extravio/perda/dano ou correção de dados da via anterior do Diploma expedido pelo CENTRO UNIVERSITÁRIO FAEL, curso Administração, registrado sob o n° 419634, livro 1,folha 67, em 04/09/2025. Ficando a via anterior sem efeito, para qualquer fim."
+
+      },
+       "Design": {
+    "2via": false,
+    "Logo": "",
+    "Urldiploma": "https://homologmkt.asselvi.net.br/institucional/diploma-digital",
+    "Frente": {
+      "Responsavel": "Valdecir Antonio Simão",
+      "Funcao": "Reitor",
+      "DataConclusao": "2020-05-20",
+      "Credenciamento": "<br>Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119.",
+      "Tsuperior": "O Reitor do Centro Universitário Leonardo Da Vinci, no uso de suas atribuições, tendo em vista a conclusão em 20 de Maio de 2020, do curso de Aperfeiçoamento em NeuropsicoMedicina confere a",
+      "Grau": "de Aperfeiçoamento em NeuropsicoMedicina</b> a",
+      "Tinferior": "brasileira, natural  do Estado do Amazonas,<br>nascida a 11 de abril     de 1976, RG 12599620<br><br>a outorga do presente certificado, a fim de que possa gozar de todos os direitos e prerrogativas legais."
+    },
+    "Verso": {
+     "Titulo": "Mantenedora: Sociedade Educacional Leonardo da Vinci Ltda<br />CNPJ: 01.894.432/0012-09<br />Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119.<br><br><br><br>Aluna: Irismara Pinheiro da Silva<br>Data de nascimento: 11 de abril de 1976.",
+     "Funcao": "<b>HISTORICO ESCOLAR</b><br>Curso de Aperfeiçoamento em <b>NeuropsicoMedicina</b></br><br>Nacionalidade: Brasileira</br> Nivel: Aperfeiçoamento",
+     "Texto": "AV. MANOEL SIMÃO, Nº 260, BAIRRO DAS NAÇÕES</br>Indaial (SC) - CEP: 89130-000<br>(47) 3301-6200<br><br><br><br><br> RG: 12599620 <br>Natural:  do Estado do Amazonas",
+     "Box3": {
+       "Titulo": "",
+       "Texto": ""
+     },
+     "Credenciamento": "Recredenciado pela Portaria nº 763, de 18 de setembro de 2020, publicada no DOU de 21 de setembro de 2020, seção 1, página 119.",
+     "Registro": "Gerência Acadêmica / Registro de Diplomas <br />O presente curso cumpriu as disposições da resolução Nº1, de 6 de abril de 2018. Gerência Acadêmica<br />Seção de Registro de Diploma",
+     "Responsavel": "Érica Rodrigues Carloto Pereira<br>Responsável pelo registro"  
+   }
+  }
+  }

@@ -1,0 +1,199 @@
+{
+    "Diploma": {
+        "infDiploma": {
+            "DadosDiploma": {
+                "Diplomado": {
+                    "ID": "SPGR008526",
+                    "Nome": "Guilherme Nunes Onaga",
+                    "Sexo": "M",
+                    "Nacionalidade": "Brasileira",
+                    "Naturalidade": {
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "S\u00e3o Paulo",
+                        "UF": "SP"
+                    },
+                    "CPF": "49060401875",
+                    "RG": {
+                        "Numero": "526925401",
+                        "OrgaoExpedidor": "SSP",
+                        "UF": "SP"
+                    },
+                    "DataNascimento": "1999-10-24"
+                },
+                "DataConclusao": "2023-11-28",
+                "DadosCurso": {
+                    "NomeCurso": "MEDICINA",
+                    "CodigoCursoEMEC": "100958",
+                    "Habilitacao": [
+                        {
+                            "Habilitacao": {
+                                "NomeHabilitacao": "MEDICINA",
+                                "DataHabilitacao": "2023-11-28"
+                            }
+                        }
+                    ],
+                    "Modalidade": "Presencial",
+                    "TituloConferido": {
+                        "Titulo": "Bacharel"
+                    },
+                    "GrauConferido": "Bacharelado",
+                    "EnderecoCurso": {
+                        "Logradouro": "RAUL POMPEIA",
+                        "Numero": "144",
+                        "Bairro": "POMP\u00c9IA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "S\u00e3o Paulo",
+                        "UF": "SP",
+                        "CEP": "05025010"
+                    },
+                    "Autorizacao": {
+                        "Tipo": "Portaria",
+                        "Numero": "154",
+                        "Data": "2007-02-02"
+                    },
+                    "Reconhecimento": {
+                        "Tipo": "Portaria",
+                        "Numero": "68",
+                        "Data": "2013-02-15",
+                        "VeiculoPublicacao": "Di\u00e1rio Oficial da Uni\u00e3o",
+                        "DataPublicacao": "2013-02-19",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "56",
+                        "NumeroDOU": "33"
+                    },
+                    "RenovacaoReconhecimento": {
+                        "Tipo": "Portaria",
+                        "Numero": "657",
+                        "Data": "2018-09-28",
+                        "VeiculoPublicacao": "Di\u00e1rio Oficial da Uni\u00e3o",
+                        "DataPublicacao": "2018-10-01",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "17",
+                        "NumeroDOU": "189"
+                    }
+                },
+                "IesEmissora": {
+                    "Nome": "CENTRO UNIVERSIT\u00c1RIO S\u00c3O CAMILO - SP",
+                    "CodigoMEC": "737",
+                    "CNPJ": "58250689001245",
+                    "Endereco": {
+                        "Logradouro": "AV. NAZAR\u00c9",
+                        "Numero": "1501",
+                        "Bairro": "IPIRANGA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "S\u00c3O PAULO",
+                        "UF": "SP",
+                        "CEP": "04263200"
+                    },
+                    "Credenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "1109",
+                        "Data": "2015-11-27",
+                        "VeiculoPublicacao": "DI\u00c1RIO OFICIAL DA UNI\u00c3O",
+                        "DataPublicacao": "2015-11-30",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "20",
+                        "NumeroDOU": "1109"
+                    },
+                    "Recredenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "545",
+                        "Data": "2015-06-03",
+                        "VeiculoPublicacao": "Di\u00e1rio Oficial da Uni\u00e3o",
+                        "DataPublicacao": "2015-06-05",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "16",
+                        "NumeroDOU": "545"
+                    },
+                    "Mantenedora": {
+                        "RazaoSocial": "UNIAO SOCIAL CAMILIANA",
+                        "CNPJ": "58250689000192",
+                        "Endereco": {
+                            "Logradouro": "AVENIDA POMPEIA",
+                            "Numero": "888",
+                            "Bairro": "POMPEIA",
+                            "CodigoMunicipio": "3550308",
+                            "NomeMunicipio": "SAO PAULO",
+                            "UF": "SP",
+                            "CEP": "05022000"
+                        }
+                    }
+                },
+                "_id": "Dip79378546525244023573178981267433567788755960"
+            },
+            "DadosRegistro": {
+                "IesRegistradora": {
+                    "Nome": "CENTRO UNIVERSIT\u00c1RIO S\u00c3O CAMILO - SP",
+                    "CodigoMEC": "737",
+                    "CNPJ": "58250689001245",
+                    "Endereco": {
+                        "Logradouro": "AV. NAZAR\u00c9",
+                        "Numero": "1501",
+                        "Bairro": "IPIRANGA",
+                        "CodigoMunicipio": "3550308",
+                        "NomeMunicipio": "S\u00c3O PAULO",
+                        "UF": "SP",
+                        "CEP": "04263200"
+                    },
+                    "Credenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "1109",
+                        "Data": "2015-11-27",
+                        "VeiculoPublicacao": "DI\u00c1RIO OFICIAL DA UNI\u00c3O",
+                        "DataPublicacao": "2015-11-30",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "20",
+                        "NumeroDOU": "1109"
+                    },
+                    "Recredenciamento": {
+                        "Tipo": "Portaria",
+                        "Numero": "545",
+                        "Data": "2015-06-03",
+                        "VeiculoPublicacao": "Di\u00e1rio Oficial da Uni\u00e3o",
+                        "DataPublicacao": "2015-06-05",
+                        "SecaoPublicacao": "1",
+                        "PaginaPublicacao": "16",
+                        "NumeroDOU": "545"
+                    },
+                    "Mantenedora": {
+                        "RazaoSocial": "UNIAO SOCIAL CAMILIANA",
+                        "CNPJ": "58250689000192",
+                        "Endereco": {
+                            "Logradouro": "AVENIDA POMPEIA",
+                            "Numero": "888",
+                            "Bairro": "POMPEIA",
+                            "CodigoMunicipio": "3550308",
+                            "NomeMunicipio": "SAO PAULO",
+                            "UF": "SP",
+                            "CEP": "05022000"
+                        }
+                    }
+                },
+                "LivroRegistro": {
+                    "LivroRegistro": "SPLRD00001",
+                    "NumeroFolhaDoDiploma": "2789",
+                    "NumeroSequenciaDoDiploma": "25120",
+                    "ProcessoDoDiploma": "2024.1.008526.1",
+                    "DataColacaoGrau": "2023-12-07",
+                    "DataExpedicaoDiploma": "2024-02-05",
+                    "DataRegistroDiploma": "2024-03-25",
+                    "ResponsavelRegistro": {
+                        "Nome": "ELAINE DE FREITAS CARRION",
+                        "CPF": "15395541802",
+                        "IDouNumeroMatricula": "sp-ecarrion"
+                    }
+                },
+                "IdDocumentacaoAcademica": "ReqDip79378546525244023573178981267433567788755960",
+                "Seguranca": {
+                    "CodigoValidacao": "737.737.525ef2ceca7a515b41ee144c9a6e45f56d100adaa472c6c8e39f12f713966df0"
+                },
+                "_id": "RDip79378546525244023573178981267433567788755960"
+            },
+            "_id": "VDip79378546525244023573178981267433567788755960",
+            "_versao": "1.05",
+            "_ambiente": "Homologa\u00e7\u00e3o"
+        },
+        "_xmlns": "http://portal.mec.gov.br/diplomadigital/arquivos-em-xsd",
+        "_xmlns:ds": "http://www.w3.org/2000/09/xmldsig#"
+    }
+}

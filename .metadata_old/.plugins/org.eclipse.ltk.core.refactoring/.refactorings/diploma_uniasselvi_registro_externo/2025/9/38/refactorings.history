@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;diploma_uniasselvi_registro_externo&apos;&#x0D;&#x0A;- Original project: &apos;diploma_uniasselvi_registro_externo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     disciplinas.jasper&#x0D;&#x0A;     disciplinas.jrxml" description="Delete elements" element1="disciplinas.jasper" element2="disciplinas.jrxml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1757975389092" subPackages="false" version="1.0"/>
+</session>

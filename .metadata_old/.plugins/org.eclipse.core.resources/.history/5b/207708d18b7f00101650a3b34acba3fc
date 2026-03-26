@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Assinantes" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cf129693-253f-4c20-9a26-6acc5da9b92b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Manifesto"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="net.sf.jasperreports.data.adapter" value="Dados-JSON.xml"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.0.53:8080/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="safeduc_dev"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/uniasselvi/manifesto_assinaturas/Assinantes_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/uniasselvi/manifesto_assinaturas/Assinantes"/>
+	<parameter name="SON_DATA_INPUT" class="java.lang.String"/>
+	<queryString language="JSON">
+		<![CDATA[assinante.precisao]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.name"/>
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="identifier" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.identifier"/>
+		<fieldDescription><![CDATA[identifier]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.email"/>
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="signedOn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signedOn"/>
+		<fieldDescription><![CDATA[signedOn]]></fieldDescription>
+	</field>
+	<field name="type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.type"/>
+		<fieldDescription><![CDATA[type]]></fieldDescription>
+	</field>
+	<field name="signatureType" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.signatureType"/>
+		<fieldDescription><![CDATA[signatureType]]></fieldDescription>
+	</field>
+	<field name="certificate" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.certificate"/>
+		<fieldDescription><![CDATA[certificate]]></fieldDescription>
+	</field>
+	<field name="ipAddress" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.ipAddress"/>
+		<fieldDescription><![CDATA[ipAddress]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.status"/>
+		<fieldDescription><![CDATA[status]]></fieldDescription>
+	</field>
+	<field name="assinantelatitude" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.latitude"/>
+		<fieldDescription><![CDATA[assinante.latitude]]></fieldDescription>
+	</field>
+	<field name="assinantelongitude" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.longitude"/>
+		<fieldDescription><![CDATA[assinante.longitude]]></fieldDescription>
+	</field>
+	<field name="assinante1name" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.name"/>
+		<fieldDescription><![CDATA[assinante1.name]]></fieldDescription>
+	</field>
+	<field name="assinante1identifier" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.identifier"/>
+		<fieldDescription><![CDATA[assinante1.identifier]]></fieldDescription>
+	</field>
+	<field name="assinante1email" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.email"/>
+		<fieldDescription><![CDATA[assinante1.email]]></fieldDescription>
+	</field>
+	<field name="assinante1signedOn" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.signedOn"/>
+		<fieldDescription><![CDATA[assinante1.signedOn]]></fieldDescription>
+	</field>
+	<field name="assinante1signatureType" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.signatureType"/>
+		<fieldDescription><![CDATA[assinante1.signatureType]]></fieldDescription>
+	</field>
+	<field name="assinante1type" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.type"/>
+		<fieldDescription><![CDATA[assinante1.type]]></fieldDescription>
+	</field>
+	<field name="assinante1certificatevalidityEnd" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.certificate.validityEnd"/>
+		<fieldDescription><![CDATA[assinante1.certificate.validityEnd]]></fieldDescription>
+	</field>
+	<field name="assinante1.ipAddress" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.ipAddress"/>
+		<fieldDescription><![CDATA[assinante1.ipAddress]]></fieldDescription>
+	</field>
+	<field name="assinante1latitude" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.latitude"/>
+		<fieldDescription><![CDATA[assinante1.latitude]]></fieldDescription>
+	</field>
+	<field name="assinante1longitude" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.longitude"/>
+		<fieldDescription><![CDATA[assinante1.longitude]]></fieldDescription>
+	</field>
+	<field name="assinanteprecisao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante.precisao"/>
+		<fieldDescription><![CDATA[assinante.precisao]]></fieldDescription>
+	</field>
+	<field name="assinante1precisao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="assinante1.precisao"/>
+		<fieldDescription><![CDATA[assinante1.precisao]]></fieldDescription>
+	</field>
+	<sortField name="name" order="Descending"/>
+	<sortField name="identifier" order="Descending"/>
+	<sortField name="email" order="Descending"/>
+	<sortField name="signedOn" order="Descending"/>
+	<sortField name="type" order="Descending"/>
+	<sortField name="signatureType" order="Descending"/>
+	<sortField name="certificate" order="Descending"/>
+	<sortField name="ipAddress" order="Descending"/>
+	<sortField name="status" order="Descending"/>
+	<group name="name">
+		<groupExpression><![CDATA[$F{name}]]></groupExpression>
+	</group>
+	<group name="identifier">
+		<groupExpression><![CDATA[$F{identifier}]]></groupExpression>
+	</group>
+	<group name="email">
+		<groupExpression><![CDATA[$F{email}]]></groupExpression>
+	</group>
+	<group name="signedOn">
+		<groupExpression><![CDATA[$F{signedOn}]]></groupExpression>
+	</group>
+	<group name="type">
+		<groupExpression><![CDATA[$F{type}]]></groupExpression>
+	</group>
+	<group name="signatureType">
+		<groupExpression><![CDATA[$F{signatureType}]]></groupExpression>
+	</group>
+	<group name="certificate">
+		<groupExpression><![CDATA[$F{certificate}]]></groupExpression>
+	</group>
+	<group name="ipAddress">
+		<groupExpression><![CDATA[$F{ipAddress}]]></groupExpression>
+	</group>
+	<group name="status">
+		<groupExpression><![CDATA[$F{status}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="80" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="ScaleFont">
+				<reportElement x="60" y="10" width="467" height="41" uuid="b5827038-b6d6-4e1a-978d-5cd812207f91">
+					<property name="com.jaspersoft.studio.unit.firstLineIndent" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="13"/>
+					<paragraph firstLineIndent="5"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}
++ " (CPF ***."
++ $F{identifier}.substring(3,6)
++ "."
++ $F{identifier}.substring(6,9)
++ "-"
++ $F{identifier}.substring(9,11)
++ ") em "
++ new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm").format(
+      new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX").parse(
+          $F{signedOn}.replace("[","").replace("]","").replace("\"","")
+      )
+  )
++ " - Assinatura realizada por meio do certificado ICP-Brasil"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="41" y="10" width="17" height="23" uuid="4d65936d-be51-4bec-99ba-0bf4e9b8bfb9"/>
+				<imageExpression><![CDATA["valido.png"]]></imageExpression>
+			</image>
+			<frame>
+				<reportElement x="41" y="10" width="486" height="41" uuid="ad066755-2dd2-4a8f-9c55-ebbae3948804"/>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

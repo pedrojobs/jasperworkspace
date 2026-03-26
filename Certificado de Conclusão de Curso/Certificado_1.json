@@ -1,0 +1,35 @@
+{
+  "Diploma": {
+    "Diplomado": {
+      "Tipo_doc": "Vinculo",
+      "ID": "456125",
+      "Nome": "Marcos Aurelios Campos",
+      "Sexo": "M",
+      "NomeMunicipio": "Belo Horizonte",
+      "UF": "MG",
+      "NomeMunicipioEstrangeiro": "Buenos Aires",
+      "CPF": "01234567890",
+      "RGNumero": "12345678",
+      "UFRG": "MG",
+      "OrgaoExpedidor": "SSP",
+      "DataNascimento": "1967-12-02", 
+      "DataInicio": "2023-02-02",
+      "DataFim": "2025-12-20",
+      "DataConclusao": "",
+      "NomeCurso": "Sistemas de Informação",
+      "Modalidade": "Presencial",
+      "IesEmissoraNome": "Universidade de Ensino Superior",
+      "IesEmissoraEndereco": "Rua São Cosme de cima",
+      "IesEmissoraNomeMunicipio": "Belo Horizonte",
+      "TextoCredenciamento": "Credenciada pelo MEC - Portaria nº 1234/2018",
+      "UrlValidacao": "https://sistema.com/validar/456125",
+      "Responsavel1Nome": "Nome Responsavel",
+      "Responsavel1Cargo": "Diretor Acadêmico",
+      "Responsavel2Nome": "Nome Responsavel",
+      "Responsavel2Cargo": "Secretária Acadêmica",
+      "CargaHorariaCurso": {
+        "HoraAula": "1600"
+      }
+    }
+  }
+}

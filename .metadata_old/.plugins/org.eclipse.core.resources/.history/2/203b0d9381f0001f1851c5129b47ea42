@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>API_JASPER_JSON</name>
+  <dataFile type="repositoryDataLocation">
+    <location>C:\Users\Pedro Delasalle\Desktop\JASPER-Raposotory\Dados\IMMES.xml</location>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>pt_BR</locale>
+  <timeZone>America/Sao_Paulo</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

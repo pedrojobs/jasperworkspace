@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;National_Seal_of_Brazil.svg&apos; to &apos;diploma-fmm&apos;&#x0D;&#x0A;- Original project: &apos;Diploma-IMMES&apos;&#x0D;&#x0A;- Destination element: &apos;diploma-fmm&apos;&#x0D;&#x0A;- Original element: &apos;National_Seal_of_Brazil.svg&apos;" description="Copy file" element1="National_Seal_of_Brazil.svg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1755088992983" target="/diploma-fmm" units="0" version="1.0"/>
+</session>

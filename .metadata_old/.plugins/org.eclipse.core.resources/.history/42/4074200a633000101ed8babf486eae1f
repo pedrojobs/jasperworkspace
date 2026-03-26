@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RelatorioPesquisaProfessores" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d0194c79-df4b-468a-a2a0-bb560d30b6e0">
+	<property name="com.jaspersoft.studio.report.description" value="Relatório de Pesquisa com Professores"/>
+	<property name="net.sf.jasperreports.print.pagewidth" value="595"/>
+	<property name="net.sf.jasperreports.print.pageheight" value="842"/>
+	<parameter name="totalProfessores" class="java.lang.Integer"/>
+	<parameter name="professoresRespondentes" class="java.lang.Integer"/>
+	<parameter name="percentualParticipacao" class="java.lang.Double"/>
+	<parameter name="totalEntrevistas" class="java.lang.Integer"/>
+	<parameter name="totalDesistentes" class="java.lang.Integer"/>
+	<parameter name="totalRecusaram" class="java.lang.Integer"/>
+	<title>
+		<band height="60">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="40" uuid="51d20c7b-585e-4cc3-b0f3-34d1ea0422be"/>
+				<textFieldExpression><![CDATA["Relatório de Pesquisa com Professores - Resumo"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="190">
+			<textField>
+				<reportElement x="0" y="10" width="555" height="20" uuid="c1473ce3-87f9-4706-991c-c51aff15eb6f"/>
+				<textFieldExpression><![CDATA["Total de Professores: " + $P{totalProfessores}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="40" width="555" height="20" uuid="5aec5f79-b451-4c17-8b2e-33bc899957ca"/>
+				<textFieldExpression><![CDATA["Professores que Responderam: " + $P{professoresRespondentes}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="70" width="555" height="20" uuid="30c0e188-5712-45e3-9b7d-5e27b6768793"/>
+				<textFieldExpression><![CDATA["Percentual de Participação: " + $P{percentualParticipacao} + "%"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="100" width="555" height="20" uuid="040da9d9-ee99-4550-a680-d1f638ea3f99"/>
+				<textFieldExpression><![CDATA["Total de Entrevistas Realizadas: " + $P{totalEntrevistas}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="130" width="555" height="30" uuid="a1206dff-4845-45a6-8044-3baa9399a3fb"/>
+				<textFieldExpression><![CDATA["Total de Desistentes: " + $P{totalDesistentes}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="160" width="555" height="30" uuid="85c2f963-eb20-4305-9885-126553a99db7"/>
+				<textFieldExpression><![CDATA["Total que Recusaram Responder: " + $P{totalRecusaram}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="50">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="20" uuid="c74513bd-1bbb-4a23-86ce-2ddbaae027f5"/>
+				<textFieldExpression><![CDATA["Gerado em: " + new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

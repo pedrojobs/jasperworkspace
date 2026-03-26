@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Diploma-Unicesumar-Pós&apos;&#x0D;&#x0A;- Original project: &apos;Diploma-Uniasselvi-Pós&apos;&#x0D;&#x0A;- Destination element: &apos;Diploma-Unicesumar-Pós&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     disciplinas.jrxml&#x0D;&#x0A;     disciplinas.jasper" description="Copy files" element1="disciplinas.jrxml" element2="disciplinas.jasper" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1746531701205" target="/Diploma-Unicesumar-Pós" units="0" version="1.0"/>
+</session>
