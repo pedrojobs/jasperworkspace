@@ -1,5 +1,4 @@
 # ===== JASPER =====
-.jasper
 .class
 .log
 
