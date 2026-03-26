@@ -1,0 +1,21 @@
+# ===== JASPER =====
+.class
+.log
+
+# ===== Jaspersoft  Eclipse =====
+.metadata
+.settings
+bin
+target
+
+# ===== Windows =====
+Thumbs.db
+Desktop.ini
+
+# ===== Temp =====
+.tmp
+.bak
+
+# ===== IDE =====
+.project
+.classpath
